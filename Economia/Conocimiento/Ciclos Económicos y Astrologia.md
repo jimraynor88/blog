@@ -229,17 +229,3 @@ Modelo científico aceptado que los vincule causalmente.
 
 Periodicidad exacta que permita predecir crisis por alineación planetaria de forma determinista.
 
-
-
----
-
-Si deseas, puedo:
-
-Construir una tabla comparando las grandes crisis desde 1800 con aspectos Saturno-Plutón.
-
-Analizar estadísticamente ventanas temporales.
-
-O integrar esto con tu interés previo en ciclos de 33 años (Saturno) y proyecciones a largo plazo.
-
-
-Indica el nivel de profundidad que quieres (histórico, estadístico o simbólico).
