@@ -1,9 +1,12 @@
-site_name: Jim Raynor blog
+site_name: Jim Raynor Blog
 
 theme:
-  name: material
+  name: leap-day   # tu tema elegido
+  palette:
+    scheme: slate  # modo oscuro (si tu tema lo soporta)
+  custom_dir: theme   # carpeta donde pondremos CSS personalizado
 
 plugins:
   - search
-  - section-index
   - awesome-pages
+  - section-index
