@@ -1,8 +1,8 @@
-site_name: Jim88 site
-
-nav:
-  - Inicio: index.md
-  - Blog: blog.md
+site_name: Jim Raynor blog
 
 theme:
-  name: mkdocs
+  name: material
+
+plugins:
+  - search
+  - section-index
