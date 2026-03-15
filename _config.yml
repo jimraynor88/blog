@@ -1,1 +1,3 @@
 theme: jekyll-theme-leap-day
+extra_css:
+  - assets/css/custom.css
