@@ -1,12 +1,15 @@
 site_name: Jim Raynor Blog
 
 theme:
-  name: leap-day   # tu tema elegido
+  name: leap-day        # tema MkDocs Leap Day
   palette:
-    scheme: slate  # modo oscuro (si tu tema lo soporta)
-  custom_dir: theme   # carpeta donde pondremos CSS personalizado
+    scheme: slate       # modo oscuro
+  custom_dir: theme     # carpeta donde pondremos CSS personalizado
 
 plugins:
   - search
   - awesome-pages
   - section-index
+
+extra_css:
+  - theme/assets/css/style.scss
