@@ -1,0 +1,8 @@
+site_name: Jim88 site
+
+nav:
+  - Inicio: index.md
+  - Blog: blog.md
+
+theme:
+  name: mkdocs
