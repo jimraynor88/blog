@@ -1,4 +1,4 @@
-name: deploy mkdocs
+name: Deploy MkDocs
 
 on:
   push:
@@ -19,10 +19,13 @@ jobs:
         with:
           python-version: 3.x
 
-      - run: pip install mkdocs
+      # Instalar MkDocs y plugins necesarios
+      - run: pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-section-index
 
+      # Construir sitio
       - run: mkdocs build
 
+      # Publicar en GitHub Pages
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
