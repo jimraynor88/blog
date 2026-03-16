@@ -1,8 +1,10 @@
 site_name: Jim Raynor's site
 site_url: https://jim88.pp.ua
-repo_url: https://github.com/jimraynor88/jimraynor88.github.io
-repo_name: GitHub
+#repo_url: https://github.com/jimraynor88/jimraynor88.github.io
+#repo_name: GitHub
 edit_uri: ""
+repo_url: https://ko-fi.com/invito
+repo_name: Ko-Fi
 
 theme:
   name: material
