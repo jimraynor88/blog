@@ -1,5 +1,6 @@
 site_name: Jim Raynor Blog
 site_url: https://jim88.pp.ua
+use_directory_urls: true
 
 theme:
   name: mkdocs
