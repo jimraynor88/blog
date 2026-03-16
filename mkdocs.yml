@@ -14,7 +14,11 @@ theme:
 
 #extra_css:
  # - theme/assets/css/style.scss  # Tu CSS personalizado para dark mode
-
+- extra:
+        social:
+        - icon: fontawesome/solid/mug-hot
+            link: https://ko-fi.com/invito
+            name: Invítame al Ko-Fi
 plugins:
   - search
   - awesome-pages          # Navegación automática
@@ -51,11 +55,7 @@ plugins:
       draft_if_future_date: true
       
   - rss:                   # Plugin RSS
-  - extra:
-        social:
-        - icon: fontawesome/solid/mug-hot
-            link: https://ko-fi.com/invito
-             name: Invítame al Ko-Fi
+  
              
 markdown_extensions:
   - toc:
