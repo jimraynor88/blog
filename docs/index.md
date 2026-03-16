@@ -10,8 +10,6 @@ Aquí podrás explorar artículos y reflexiones organizadas por secciones.
 Siéntete libre de navegar por los menús de la izquierda para acceder a cada tema.
 
 ---
-# Invítame al Ko-Fi
-
 <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
 <script>
   kofiWidgetOverlay.draw('invito', {
