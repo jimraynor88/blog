@@ -9,6 +9,12 @@ theme:
 plugins:
   - search
   - awesome-pages
+  - rss:
+      site_url: https://jim88.pp.ua
+      author: Jim Raynor
+      feed_title: "Jim Raynor Blog"
+      description: "Blog con múltiples temáticas"
+      max_items: 20
 
 extra_css:
   - assets/css/style.css
