@@ -9,12 +9,6 @@ repo_name: Ko-Fi
 theme:
   name: material
   custom_dir: overrides
-   # desactiva el GitHub corner
-  features:
-    - navigation.instant
-    # no incluir 'navigation.top' u otras opciones que muestren repo
-  # o explícitamente
-  repo_url: null
   palette:
     scheme: slate
   highlightjs: true
