@@ -49,12 +49,14 @@ plugins:
       pagination_url_format: "pag./{page}"
       draft: true
       draft_if_future_date: true
+      
   - rss:                   # Plugin RSS
-  extra:
-    social:
-    - icon: fontawesome/solid/mug-hot
-      link: https://ko-fi.com/invito
-      name: Invítame al Ko-Fi
+  - extra:
+        social:
+        - icon: fontawesome/solid/mug-hot
+            link: https://ko-fi.com/invito
+             name: Invítame al Ko-Fi
+             
 markdown_extensions:
   - toc:
       permalink: true
