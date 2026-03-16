@@ -19,7 +19,7 @@ jobs:
           python-version: 3.x
 
       # Instalar MkDocs y plugins
-      - run: pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-rss-plugin
+      - run: pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-rss-plugin mkdocs-material
 
       # Construir sitio
       - run: mkdocs build
