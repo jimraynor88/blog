@@ -21,6 +21,8 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-rss-plugin
       - run: mkdocs build
+      - name: Add CNAME
+        run: echo "jim88.pp.ua" > ./site/CNAME
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
