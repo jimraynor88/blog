@@ -5,28 +5,21 @@ repo_name: GitHub
 edit_uri: ""
 
 theme:
-  name: material        # Tema material
+  name: material
   custom_dir: overrides
   palette:
-    scheme: slate       # Modo oscuro
-#  custom_dir: theme     # Carpeta con CSS personalizado
+    scheme: slate
   highlightjs: true
 
-#extra_css:
- # - theme/assets/css/style.scss  # Tu CSS personalizado para dark mode
-- extra:
-        social:
-        - icon: fontawesome/solid/mug-hot
-            link: https://ko-fi.com/invito
-            name: Invítame al Ko-Fi
 plugins:
   - search
-  - awesome-pages          # Navegación automática
-  - section-index          # Índices de secciones
+  - awesome-pages
+  - section-index
+  
   - blog:
       blog_dir: blog
       blog_toc: true
-      post_dir: "{blog}/articles"
+      post_dir: "{blog}"
       post_date_format: full
       post_url_format: "{categories}/{date}"
       post_readtime_words_per_minute: 218
@@ -53,10 +46,15 @@ plugins:
       pagination_url_format: "pag./{page}"
       draft: true
       draft_if_future_date: true
-      
-  - rss:                   # Plugin RSS
-  
-             
+
+  - rss
+
+extra:
+  social:
+    - icon: fontawesome/solid/mug-hot
+      link: https://ko-fi.com/invito
+      name: Invítame al Ko-Fi
+
 markdown_extensions:
   - toc:
       permalink: true
