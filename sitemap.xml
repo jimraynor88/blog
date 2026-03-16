@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://jim88.pp.ua/Seguridad/PGP/</loc>
+         <lastmod>2026-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jim88.pp.ua/Seguridad/PGP/Conceptos-B%C3%A1sicos/</loc>
          <lastmod>2026-03-16</lastmod>
          <changefreq>daily</changefreq>
@@ -17,11 +22,6 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/Seguridad/PGP/Para-que-usar-PGP/</loc>
-         <lastmod>2026-03-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jim88.pp.ua/Seguridad/PGP/a1Readme/</loc>
          <lastmod>2026-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
