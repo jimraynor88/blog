@@ -1,20 +1,35 @@
 site_name: Jim Raynor Blog
 site_url: https://jim88.pp.ua
-use_directory_urls: true
+repo_url: https://github.com/jimraynor88/jimraynor88.github.io
+repo_name: GitHub
+edit_uri: ""
 
 theme:
-  name: mkdocs
-  custom_dir: theme
+  name: leap-day        # Tema Leap Day
+  palette:
+    scheme: slate       # Modo oscuro
+  custom_dir: theme     # Carpeta con CSS personalizado
+  highlightjs: true
+
+extra_css:
+  - theme/assets/css/style.scss  # Tu CSS personalizado para dark mode
 
 plugins:
   - search
-  - awesome-pages
-  - rss:
+  - awesome-pages          # Navegación automática
+  - section-index          # Índices de secciones
+  - rss:                   # Plugin RSS
       site_url: https://jim88.pp.ua
-      author: Jim Raynor
-      feed_title: "Jim Raynor Blog"
-      description: "Blog con múltiples temáticas"
-      max_items: 20
+      feed_title: "Jim Raynor Blog RSS"
+      description: "Actualizaciones del blog de Jim Raynor"
 
-extra_css:
-  - assets/css/style.css
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - pymdownx.superfences
+  - tables
+  - attr_list
