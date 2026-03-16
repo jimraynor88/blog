@@ -49,14 +49,6 @@ plugins:
       pagination_url_format: "pag./{page}"
       draft: true
       draft_if_future_date: true
-
-
-
-
-
-
-
-
   - rss:                   # Plugin RSS
       site_url: https://jim88.pp.ua
       feed_title: "Jim Raynor Blog RSS"
