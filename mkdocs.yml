@@ -36,3 +36,6 @@ markdown_extensions:
   - pymdownx.superfences
   - tables
   - attr_list
+
+  extra_javascript:
+  - js/kofi_button.js
