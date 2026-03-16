@@ -21,7 +21,9 @@ jobs:
           python-version: 3.x
 
       - run: pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-section-index
-
+      
+      - run: pip install mkdocs-rss-plugin
+      
       - run: mkdocs build
 
       - uses: peaceiris/actions-gh-pages@v4
