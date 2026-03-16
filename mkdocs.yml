@@ -5,7 +5,7 @@ repo_name: GitHub
 edit_uri: ""
 
 theme:
-  name: leap-day        # Tema Leap Day
+  name: mkdocs-material        # Tema Leap Day
   palette:
     scheme: slate       # Modo oscuro
   custom_dir: theme     # Carpeta con CSS personalizado
