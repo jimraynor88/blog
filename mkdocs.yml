@@ -37,5 +37,6 @@ markdown_extensions:
   - tables
   - attr_list
 
-  extra_javascript:
+extra_javascript:
+  - https://storage.ko-fi.com/cdn/widget/Widget_2.js
   - js/kofi_button.js
