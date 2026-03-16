@@ -11,21 +11,20 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
 
-      - run: pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-section-index
-      
-      - run: pip install mkdocs-rss-plugin
-      
+      # Instalar MkDocs y todos los plugins juntos
+      - run: pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-rss-plugin
+
+      # Construir sitio
       - run: mkdocs build
 
+      # Publicar en GitHub Pages
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
