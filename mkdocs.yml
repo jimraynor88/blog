@@ -19,6 +19,8 @@ plugins:
   - search
   - awesome-pages          # Navegación automática
   - section-index          # Índices de secciones
+  - blog:
+      blog_dir: blog
   - rss:                   # Plugin RSS
       site_url: https://jim88.pp.ua
       feed_title: "Jim Raynor Blog RSS"
