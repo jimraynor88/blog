@@ -1,3 +1,3 @@
-
 # Economía
-Bienvenido a la sección de Economía.
+
+También hay temática económica.
