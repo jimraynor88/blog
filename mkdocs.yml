@@ -5,14 +5,14 @@ repo_name: GitHub
 edit_uri: ""
 
 theme:
-  name: mkdocs-material        # Tema Leap Day
+  name: material        # Tema material
   palette:
     scheme: slate       # Modo oscuro
-  custom_dir: theme     # Carpeta con CSS personalizado
+#  custom_dir: theme     # Carpeta con CSS personalizado
   highlightjs: true
 
-extra_css:
-  - theme/assets/css/style.scss  # Tu CSS personalizado para dark mode
+#extra_css:
+ # - theme/assets/css/style.scss  # Tu CSS personalizado para dark mode
 
 plugins:
   - search
