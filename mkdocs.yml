@@ -37,7 +37,7 @@ plugins:
         kwds:
           case: lower
       categories_slugify_separator: _
-      categories_sort_by: !!python/name:material.plugins.blog.view_post_count
+      categories_sort_by: name
       categories_pagination: true
       categories_pagination_per_page: 6
       categories_toc: true
