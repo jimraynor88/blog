@@ -15,7 +15,7 @@ plugins:
   - search
   - awesome-pages
   - section-index
-  
+
   - blog:
       blog_dir: blog
       blog_toc: true
@@ -27,8 +27,6 @@ plugins:
       archive_name: Histórico
       archive_date_format: yyyy
       archive_url_format: "archive/{date}"
-      archive_pagination: true
-      archive_pagination_per_page: 6
       archive_toc: true
       categories: true
       categories_name: Temas
@@ -37,9 +35,6 @@ plugins:
         kwds:
           case: lower
       categories_slugify_separator: _
-      categories_sort_by: name
-      categories_pagination: true
-      categories_pagination_per_page: 6
       categories_toc: true
       pagination: true
       pagination_per_page: 6
