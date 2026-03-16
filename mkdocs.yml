@@ -6,6 +6,7 @@ edit_uri: ""
 
 theme:
   name: material        # Tema material
+  custom_dir: overrides
   palette:
     scheme: slate       # Modo oscuro
 #  custom_dir: theme     # Carpeta con CSS personalizado
