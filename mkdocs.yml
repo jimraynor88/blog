@@ -54,7 +54,7 @@ plugins:
     social:
     - icon: fontawesome/solid/mug-hot
       link: https://ko-fi.com/invito
-      name: Invitas al Ko-Fi?
+      name: 'Invitas al Ko-Fi?'
 markdown_extensions:
   - toc:
       permalink: true
