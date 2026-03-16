@@ -3,17 +3,21 @@
     <url>
          <loc>https://jim88.pp.ua/</loc>
          <lastmod>2026-03-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/blog/hola/</loc>
+         <loc>https://jim88.pp.ua/blog/</loc>
          <lastmod>2026-03-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/economia/ciclos-economicos-y-astrologia/</loc>
+         <loc>https://jim88.pp.ua/blog/2026/economia/ciclos-economicos-y-astrologia/</loc>
          <lastmod>2026-03-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/filosofia/hombre-libre/</loc>
+         <loc>https://jim88.pp.ua/blog/2026/filosofia/hombre-libre/</loc>
          <lastmod>2026-03-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
 </urlset>
