@@ -15,11 +15,7 @@ plugins:
   - search
   - awesome-pages
   - section-index
-  - rss:
-      feed_title: "Jim Raynor Blog RSS"
-      feed_link: "https://jim88.pp.ua/feed_rss.xml"
-      feed_description: "Últimos posts del blog"
-      max_entries: 20
+  - rss
 
 extra:
   social:
