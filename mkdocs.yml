@@ -11,6 +11,9 @@ theme:
     scheme: slate
   highlightjs: true
 
+extra_css:
+  - assets/stylesheets/kofi.css
+
 plugins:
   - search
   - awesome-pages
