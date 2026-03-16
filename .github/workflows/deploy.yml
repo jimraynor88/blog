@@ -19,8 +19,8 @@ jobs:
           python-version: 3.x
 
       # Instalar MkDocs y todos los plugins juntos
-      - run: pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-rss-plugin
-
+      - run: pip install mkdocs mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-rss-plugin mkdocs-leap-day
+      
       # Construir sitio
       - run: mkdocs build
 
