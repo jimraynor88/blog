@@ -15,34 +15,11 @@ plugins:
   - search
   - awesome-pages
   - section-index
-
-  - blog:
-      blog_dir: blog
-      blog_toc: true
-      post_dir: "{blog}"
-      post_date_format: full
-      post_url_format: "{categories}/{date}"
-      post_readtime_words_per_minute: 218
-      archive: true
-      archive_name: Histórico
-      archive_date_format: yyyy
-      archive_url_format: "archive/{date}"
-      archive_toc: true
-      categories: true
-      categories_name: Temas
-      categories_url_format: "category/{slug}"
-      categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
-      categories_slugify_separator: _
-      categories_toc: true
-      pagination: true
-      pagination_per_page: 6
-      pagination_url_format: "pag./{page}"
-      draft: true
-      draft_if_future_date: true
-
-  - rss
+  - rss:
+      feed_title: "Jim Raynor Blog RSS"
+      feed_link: "https://jim88.pp.ua/feed_rss.xml"
+      feed_description: "Últimos posts del blog"
+      max_entries: 20
 
 extra:
   social:
