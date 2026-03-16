@@ -8,7 +8,6 @@ theme:
 plugins:
   - search
   - awesome-pages
-  - section-index
 
 extra_css:
   - assets/css/style.css
