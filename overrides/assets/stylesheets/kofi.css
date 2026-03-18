@@ -2,3 +2,6 @@
 #iframe {
     background-color: var(--md-default-bg-color);
 }
+.md-footer .md-footer-meta {
+  text-align: center;
+}
