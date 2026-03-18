@@ -1,6 +1,6 @@
 # Mi clave pública PGP
 
-```text
+```code
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
