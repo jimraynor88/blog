@@ -13,3 +13,23 @@ Mailvelope / FlowCrypt (Navegador Web PC) 🌐 │ Kleopatra (Linux) / GPG4win (
 ## ▶ [Crea tus claves](https://pgpkeygenerator.com), guardalas en lugar seguro e importa SOLO tu Private Key 🔐 
 
 ## ▶ Cifra un mensaje, destinatario mi clave, añade tu Public Key (archivo o texto) y envíamelo. 🔐💬 Te guío si quieres 💪
+
+# Mi clave pública PGP
+
+```code
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEaTiwuBYJKwYBBAHaRw8BAQdAULW0hAnmT7uuWp0MLjPApWrPwB2byApD
+cP61TkcrjQPNCkppbSBSYXlub3LCjAQQFgoAPgWCaTiwuAQLCQcICZAlsWQ4
+ylh93gMVCAoEFgACAQIZAQKbAwIeARYhBEVAQ/IYfZwLbxKeyiWxZDjKWH3e
+AAAhHAEA2TNPqXn072RNX5qJ2E1BdkKmGZ2zVHIy8GIitHqH0kMBAP57IEpK
+NQlcvw5F7hxHuRmnfkly2MuadVJK6F7iUO8DzjgEaTiwuBIKKwYBBAGXVQEF
+AQEHQH92bSqmHqW2yJ1PiZRdXSPOc7ImN0dKB7kPIZyVNH4aAwEIB8J4BBgW
+CgAqBYJpOLC4CZAlsWQ4ylh93gKbDBYhBEVAQ/IYfZwLbxKeyiWxZDjKWH3e
+AADTIgEAtl3w5Dv5yUviNqFRe6S4siobVbGw4NbiMaEZ+Xzu1vEBANKaL8ED
+DiaBt6uhKqPZCWkBHanc5yMXA3BSjuGb8vgD
+=4/cH
+-----END PGP PUBLIC KEY BLOCK-----
+
+```
