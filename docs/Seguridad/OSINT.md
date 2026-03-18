@@ -18,7 +18,7 @@ Aun así, hay métodos legales y prácticos según el tipo de dato:
 
 ---
 
-1. Con el DNI
+## 1. Con el DNI
 
 El DNI no es consultable públicamente en España.
 
@@ -45,11 +45,9 @@ Si la persona es administrador de empresa
 Se busca por nombre (no directamente por DNI)
 
 
-
-
 ---
 
-2. Con nombre y apellidos
+## 2. Con nombre y apellidos
 
 Es la vía más útil.
 
@@ -78,10 +76,9 @@ LinkedIn
 Facebook
 
 
-
 ---
 
-3. Con el número de teléfono
+## 3. Con el número de teléfono
 
 Truecaller
 
@@ -102,10 +99,9 @@ empresas
 spam reports
 
 
-
 ---
 
-4. Con el email
+## 4. Con el email
 
 Buscar en:
 
@@ -121,11 +117,9 @@ foros
 webs profesionales
 
 
-
-
 ---
 
-5. Bases de datos profesionales / empresas
+## 5. Bases de datos profesionales / empresas
 
 Axesor
 
@@ -143,10 +137,9 @@ cargos
 historial mercantil
 
 
-
 ---
 
-6. Cosas que NO se pueden hacer legalmente
+## 6. Cosas que NO se pueden hacer legalmente
 
 Acceder a:
 
@@ -165,7 +158,7 @@ Comprar bases de datos personales sin consentimiento
 
 ---
 
-7. Método práctico (orden recomendado)
+## 7. Método práctico (orden recomendado)
 
 1. Buscar nombre completo en Google
 
@@ -189,7 +182,7 @@ Comprar bases de datos personales sin consentimiento
 
 ---
 
-8. Nota importante
+## 8. Nota importante
 
 Si el objetivo es:
 
