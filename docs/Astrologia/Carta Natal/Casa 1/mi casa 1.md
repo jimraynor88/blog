@@ -1,127 +1,108 @@
-titulo: "🜂 JÚPITER + URANO EN SAGITARIO (CASA 1)"
+## CONFIGURACIÓN CLAVE
+- Júpiter: 7°48' Sagitario – Casa 1
+- Urano: 8°38' Sagitario – Casa 1
+→ Conjunción muy estrecha (≈1°) → uno de los núcleos más potentes de la carta
 
-tabla_de_contenidos:
-  - configuracion_clave
-  - significado_general
-  - arquetipo_resultante
-  - habilidades_y_dones
-  - impacto_en_la_identidad
-  - aspectos_relevantes
-  - puntos_fuertes
-  - sombra
-  - riesgo_principal
-  - clave_de_integracion
-  - lectura_final
-  - resumen
+## SIGNIFICADO GENERAL (JÚPITER + URANO EN CASA 1)
+- Expansión (Júpiter) + ruptura/innovación (Urano) en identidad (Casa 1)
+- Personalidad orientada a:
+  • libertad radical
+  • pensamiento no convencional
+  • crecimiento a través de cambios bruscos
+- Energía de “despertador” para otros: catalizas cambios
 
-configuracion_clave:
-  jupiter: "7°48' Sagitario — Casa 1"
-  urano: "8°38' Sagitario — Casa 1"
-  aspecto: "Conjunción (~1°)"
-  interpretacion: "Expansión + disrupción aplicadas directamente a la identidad"
+## ARQUETIPO RESULTANTE
+- “Explorador disruptivo”
+- “Filósofo rebelde”
+- “Visionario autodidacta”
 
-significado_general:
-  descripcion: >
-    Combinación de expansión (Júpiter) y ruptura (Urano) en la Casa 1.
-    Genera una personalidad orientada a la libertad, el pensamiento independiente
-    y la evolución a través del cambio.
-  dinamicas:
-    - libertad_radical
-    - pensamiento_no_convencional
-    - cambio_constante
-    - crecimiento_por_disrupcion
+## HABILIDADES Y DONES
+- Intuición rápida y no lineal (insight inmediato)
+- Capacidad para anticipar tendencias o futuros escenarios
+- Facilidad para romper límites mentales propios y ajenos
+- Carisma poco convencional (atraes por diferencia, no por norma)
+- Aprendizaje acelerado, especialmente en:
+  • filosofía
+  • sistemas complejos
+  • tecnología / conocimiento abstracto
+- Talento para reinventarte varias veces en vida
+- Independencia mental extrema (difícil de influenciar)
 
-arquetipo_resultante:
-  etiquetas:
-    - explorador_disruptivo
-    - filosofo_rebelde
-    - visionario_autodidacta
+## EFECTO EN LA CASA 1 (IDENTIDAD)
+- Te defines por:
+  • tu libertad
+  • tu visión propia
+  • tu rechazo a estructuras impuestas
+- Imagen externa:
+  • impredecible
+  • original
+  • difícil de encasillar
+- Fuerte necesidad de vivir a tu manera (no negociable)
 
-habilidades_y_dones:
-  cognitivas:
-    - intuicion_no_lineal
-    - vision_de_futuro
-    - comprension_de_sistemas
-  personales:
-    - reinvencion_constante
-    - independencia_mental
-    - carisma_por_diferencia
-  afinidades:
-    - filosofia
-    - tecnologia
-    - psicologia
-    - sistemas_complejos
+## ASPECTOS RELEVANTES
 
-impacto_en_la_identidad:
-  identidad: "Basada en libertad"
-  imagen_externa: "Original, impredecible"
-  motivacion: "Autonomia total"
-  reaccion: "Rechazo a estructuras impuestas"
+### 1) RELACIÓN CON PARTE DE LA FORTUNA (13° Libra Casa 2)
+- Indica que tu suerte aumenta cuando:
+  • equilibras independencia (Sagitario) con cooperación (Libra)
+  • usas tu originalidad para generar valor práctico
+- Don:
+  • monetizar ideas únicas
+- Riesgo:
+  • inestabilidad económica por impulsividad
 
-aspectos_relevantes:
-  parte_de_la_fortuna:
-    posicion: "13° Libra — Casa 2"
-    clave: "Equilibrio entre independencia y cooperación"
-    dones:
-      - monetizacion_de_ideas_originales
-      - generacion_de_valor_diferencial
-    riesgos:
-      - inestabilidad_economica
-      - impulsividad_financiera
+### 2) RELACIÓN CON VENUS (14° Piscis Casa 4)
+- Tensión entre:
+  • libertad personal (Júpiter-Urano)
+  • necesidad emocional de fusión/amor (Venus Piscis)
+- Dones:
+  • sensibilidad profunda
+  • capacidad de amar sin límites
+- Conflicto:
+  • huir cuando algo te ata emocionalmente
+  • alternancia entre entrega total y desconexión
 
-  venus:
-    posicion: "14° Piscis — Casa 4"
-    dinamica: "Tension entre libertad y fusion emocional"
-    dones:
-      - amor_profundo
-      - sensibilidad_emocional
-    conflictos:
-      - apego_vs_escape
-      - intensidad_vs_retirada
+### 3) RELACIÓN CON EJE 7–8 (Géminis)
+- Impacto en relaciones:
+  • atraes vínculos mentales intensos
+  • relaciones cambiantes, poco estables
+- Dinámica:
+  • necesidad de estímulo intelectual constante
+  • dificultad para sostener rutinas relacionales
+- Posible patrón:
+  • conexiones rápidas → ruptura → reinicio
 
-  eje_7_8:
-    signo: "Géminis"
-    efecto:
-      - relaciones_mentales_intensas
-      - variabilidad_relacional
-    patron: "conexion → estimulacion → saturacion → ruptura → reinicio"
+## PUNTOS FUERTES (CUANDO ESTÁ INTEGRADO)
+- Genialidad práctica (no solo teórica)
+- Libertad interior real (no dependes del sistema)
+- Capacidad de reinventar tu destino
+- Magnetismo personal por autenticidad
+- Evolución acelerada en ciclos de vida
 
-puntos_fuertes:
-  - genialidad_aplicada
-  - libertad_interna
-  - capacidad_de_reinvencion
-  - magnetismo_autentico
-  - evolucion_acelerada
+## SOMBRA / ASPECTOS NEGATIVOS
+- Inestabilidad crónica (vida, relaciones, proyectos)
+- Rebeldía automática (rechazo incluso de lo útil)
+- Impulsividad ideológica (“esto es así porque lo veo”)
+- Dificultad para sostener procesos largos
+- Ego inflado por sensación de “visión superior”
+- Aislamiento por no encajar o no querer encajar
 
-sombra:
-  - inestabilidad_cronica
-  - rebeldia_automatica
-  - impulsividad_ideologica
-  - falta_de_constancia
-  - aislamiento
-  - sensacion_de_superioridad
+## RIESGO PRINCIPAL
+- Convertir la libertad en dispersión
+- Convertir la visión en desconexión de la realidad
 
-riesgo_principal:
-  - libertad_convertida_en_dispersion
-  - vision_convertida_en_desconexion
+## CLAVE DE INTEGRACIÓN
+- Canalizar:
+  • Júpiter → propósito / sentido
+  • Urano → innovación aplicada
+- Estructurar sin perder libertad:
+  • crear sistemas propios, no seguir los ajenos
+- Usar la mente (Géminis) como puente:
+  • comunicar, enseñar, traducir ideas
 
-clave_de_integracion:
-  ecuacion:
-    jupiter: "proposito"
-    urano: "innovacion_aplicada"
-  estrategia:
-    - crear_sistemas_propios
-    - estructurar_sin_perder_libertad
-    - comunicar_y_enseñar_ideas
-
-lectura_final:
-  descripcion: "Configuración de alto voltaje evolutivo"
-  estados:
-    integrado: "Creador de paradigmas"
-    no_integrado: "Caos repetitivo"
-
-resumen:
-  tipo: "Perfil no convencional"
-  motor: "Libertad + cambio"
-  riesgo: "Dispersion"
-  potencial: "Innovacion disruptiva aplicada"
+## LECTURA FINAL
+- Esta conjunción es de alto voltaje evolutivo
+- No está hecha para una vida convencional
+- Si se integra:
+  → perfil de creador de paradigmas
+- Si no:
+  → caos repetitivo con sensación de destino fragmentado
