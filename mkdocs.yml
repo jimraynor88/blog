@@ -11,6 +11,9 @@ theme:
   custom_dir: overrides
   palette:
     scheme: slate
+  icon:
+    repo: fontawesome/solid/mug-hot
+  
   highlightjs: true
 
 extra_css:
