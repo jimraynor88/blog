@@ -11,11 +11,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/Astrologia/Carta_Natal/mi_casa_9/</loc>
-         <lastmod>2026-03-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://jim88.pp.ua/Astrologia/Carta_Natal/Casa_1/mi_casa_1/</loc>
          <lastmod>2026-03-19</lastmod>
          <changefreq>daily</changefreq>
@@ -67,6 +62,11 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/Astrologia/Carta_Natal/Casa_8/mi_casa_8/</loc>
+         <lastmod>2026-03-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/Astrologia/Carta_Natal/Casa_9/mi_casa_9/</loc>
          <lastmod>2026-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
