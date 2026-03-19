@@ -7,7 +7,8 @@ repo_url: https://ko-fi.com/invito
 repo_name: Invítame al Ko-Fi
 
 theme:
-  name: mkdocs-curriculum-vitae
+  name: curriculum-vitae
+  mkcv_layout: default
   custom_dir: overrides
   palette:
     scheme: slate
