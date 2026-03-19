@@ -7,7 +7,7 @@ repo_url: https://ko-fi.com/invito
 repo_name: Invítame al Ko-Fi
 
 theme:
-  name: material
+  name: curriculum
   custom_dir: overrides
   palette:
     scheme: slate
