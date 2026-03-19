@@ -1,20 +1,19 @@
 ---
 layout: post
-tags: []
-categories: []
+tags: [Currículum]
+categories: [Currículum]
 #date: 2019-06-25 13:14:15
 #excerpt: ''
 #image: 'BASEURL/assets/blog/img/.png'
 #description:
 #permalink:
-title: 'Curriculum Vitae Astrológico'
+title: 'Curriculum Vitae Capacitivo'
 ---
 
 
 
 
 ----
-# 📁 /content/_index.md
 # PERFIL
 
 ## Nombre
@@ -31,7 +30,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 
 ---
 
-# 📁 /content/experience.md
 # EXPERIENCIA (ENFOQUE FUNCIONAL)
 
 ## Estrategia y Análisis
@@ -56,7 +54,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 
 ---
 
-# 📁 /content/education.md
 # FORMACIÓN (CAPACIDADES DE APRENDIZAJE)
 
 ## Aprendizaje Autónomo
@@ -76,7 +73,7 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 
 ---
 
-# 📁 /content/skills.md
+
 # HABILIDADES
 
 ## Técnicas
@@ -99,7 +96,7 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 
 ---
 
-# 📁 /content/leadership.md
+
 # LIDERAZGO
 
 ## Estilo
@@ -119,7 +116,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 
 ---
 
-# 📁 /content/strengths.md
 # FORTALEZAS
 
 - Alta capacidad de análisis profundo
@@ -133,26 +129,25 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 
 ---
 
-# 📁 /content/weaknesses.md
-# ÁREAS DE MEJORA
+# ÁREAS DE POSIBLE INADAPTABILIDAD
 
-- Tendencia a la dispersión
-- Dificultad para sostener rutinas rígidas
-- Impulsividad en decisiones
+- Tendencia a la búsqueda incansable de posibles variables no tomadas en cuenta
+- Dificultad para sostener rutinas rígidas, estancadas, no dinámicas
+- Determinación en decisiones
 - Baja tolerancia a estructuras ineficientes
 - Intensidad en entornos relacionales
-- Necesidad de mayor estructuración en procesos
+- Necesidad de estructurar y ordenar los procesos 
 
 ---
 
-# 📁 /content/objective.md
 # OBJETIVO PROFESIONAL
 
-Desarrollar soluciones innovadoras en entornos complejos, aportando visión estratégica, análisis profundo y capacidad de transformación. Participar en proyectos donde se requiera cambio, mejora estructural o desarrollo de nuevos sistemas.
+Desarrollar soluciones innovadoras en entornos complejos, aportando visión estratégica, análisis profundo y capacidad de transformación.
+
+Participar en proyectos donde se requiera cambio, eficiencia, dinamismo, mejora estructural o desarrollo de nuevos sistemas.
 
 ---
 
-# 📁 /content/value.md
 # VALOR DIFERENCIAL
 
 - Capacidad de ver lo que otros no detectan
@@ -163,7 +158,6 @@ Desarrollar soluciones innovadoras en entornos complejos, aportando visión estr
 
 ---
 
-# 📁 /content/projects.md
 # PROYECTOS (ENFOQUE CONCEPTUAL)
 
 ## Reestructuración de Sistemas
