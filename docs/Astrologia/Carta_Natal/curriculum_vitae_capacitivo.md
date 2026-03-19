@@ -10,8 +10,6 @@ categories: [Currículum]
 title: 'Curriculum Vitae Capacitivo'
 ---
 
-
-----
 # PERFIL
 
 ## Nombre
@@ -25,8 +23,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 - Alta capacidad de adaptación
 - Resolución de problemas complejos
 - Innovación aplicada a sistemas reales
-
----
 
 # EXPERIENCIA (ENFOQUE FUNCIONAL)
 
@@ -50,8 +46,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 - Gestión de conflictos
 - Capacidad de influencia y persuasión
 
----
-
 # FORMACIÓN (CAPACIDADES DE APRENDIZAJE)
 
 ## Aprendizaje Autónomo
@@ -68,8 +62,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 - Visión global y conceptual
 - Capacidad de conectar ideas no evidentes
 - Desarrollo de modelos propios
-
----
 
 # HABILIDADES
 
@@ -91,8 +83,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 - Empatía estratégica
 - Lectura emocional
 
----
-
 # LIDERAZGO
 
 ## Estilo
@@ -110,8 +100,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 - Introduce mejoras estructurales
 - Cuestiona lo ineficiente
 
----
-
 # FORTALEZAS
 
 - Alta capacidad de análisis profundo
@@ -123,8 +111,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 - Creatividad aplicada
 - Autonomía
 
----
-
 # ÁREAS DE POSIBLE INADAPTABILIDAD
 
 - Tendencia a la búsqueda incansable de posibles variables no tomadas en cuenta
@@ -132,17 +118,13 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 - Determinación en decisiones
 - Baja tolerancia a estructuras ineficientes
 - Intensidad en entornos relacionales
-- Necesidad de estructurar y ordenar los procesos 
-
----
+- Necesidad de estructurar y ordenar los procesos
 
 # OBJETIVO PROFESIONAL
 
 Desarrollar soluciones innovadoras en entornos complejos, aportando visión estratégica, análisis profundo y capacidad de transformación.
 
 Participar en proyectos donde se requiera cambio, eficiencia, dinamismo, mejora estructural o desarrollo de nuevos sistemas.
-
----
 
 # VALOR DIFERENCIAL
 
@@ -151,8 +133,6 @@ Participar en proyectos donde se requiera cambio, eficiencia, dinamismo, mejora 
 - Funcionamiento óptimo en incertidumbre
 - Independencia de pensamiento
 - Adaptación a contextos cambiantes
-
----
 
 # PROYECTOS (ENFOQUE CONCEPTUAL)
 
@@ -167,8 +147,6 @@ Participar en proyectos donde se requiera cambio, eficiencia, dinamismo, mejora 
 ## Optimización de Procesos
 - Mejora de rendimiento
 - Simplificación de sistemas complejos
-
----
 
 # RESUMEN
 
