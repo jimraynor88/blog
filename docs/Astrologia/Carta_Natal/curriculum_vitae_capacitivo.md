@@ -11,8 +11,6 @@ title: 'Curriculum Vitae Capacitivo'
 ---
 
 
-
-
 ----
 # PERFIL
 
@@ -73,7 +71,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 
 ---
 
-
 # HABILIDADES
 
 ## Técnicas
@@ -95,7 +92,6 @@ Profesional con perfil altamente analítico, innovador y orientado a transformac
 - Lectura emocional
 
 ---
-
 
 # LIDERAZGO
 
@@ -174,7 +170,6 @@ Participar en proyectos donde se requiera cambio, eficiencia, dinamismo, mejora 
 
 ---
 
-# 📁 /content/summary.md
 # RESUMEN
 
 Perfil profesional orientado a análisis, innovación y transformación. Alta capacidad para operar en contextos complejos, detectar patrones ocultos y generar soluciones efectivas. No enfocado a ejecución repetitiva, sino a creación, mejora y evolución de sistemas.
