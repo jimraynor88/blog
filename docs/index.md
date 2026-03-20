@@ -18,7 +18,7 @@ tags:
 
 Esta página fue escrita por {{ config.extra.author }} el {{ now() }}.
 
-!video https://www.youtube.com/watch?v=Sqjc4KQBZS0 width=500 height=300
+!!video https://www.youtube.com/watch?v=Sqjc4KQBZS0 width=500 height=300
 
 ![Imagen de prueba](https://img.youtube.com/vi/Sqjc4KQBZS0/maxresdefault.jpg)
 
