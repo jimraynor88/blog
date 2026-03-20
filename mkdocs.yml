@@ -44,7 +44,7 @@ plugins:
   - glightbox
   - minify
   - macros
-  - video
+  - mkdocs-video
   - git-committers:
       repository: jimraynor88/jimraynor88.github.io
       token: !ENV GIT_COMMITTERS_TOKEN
