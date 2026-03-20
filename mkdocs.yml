@@ -42,6 +42,9 @@ extra:
     - icon: fontawesome/brands/telegram
       link: https://t.me/jimraynorbot
       name: Telegram
+    - icon: fontawesome/solid/sitemap
+      link: /sitemap.xml
+      name: Mapa del sitio
     - icon: fontawesome/solid/mug-hot
       link: https://ko-fi.com/invito
       name: Invítame al Ko-Fi
