@@ -45,9 +45,9 @@ plugins:
   - minify
   - macros
   - mkdocs-video
-  - git-committers:
-      repository: jimraynor88/jimraynor88.github.io
-      token: !ENV GITHUB_TOKEN   # Usa el token automático de GitHub Actions
+  #- git-committers:
+  #    repository: jimraynor88/jimraynor88.github.io
+  #    token: !ENV GITHUB_TOKEN   # Usa el token automático de GitHub Actions
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
 extra:
