@@ -9,9 +9,17 @@ Bienvenido a mi blog, donde comparto contenido sobre varias temáticas:
 Aquí podrás explorar artículos y reflexiones organizadas por secciones.  
 Siéntete libre de navegar por los menús de la izquierda para acceder a cada tema.
 
-# Prueba de imagen
+---
+tags:
+  - prueba
+  - markdown
+---
+# Página de prueba integral
 
-![Logo de prueba](https://via.placeholder.com/400x200)
+Esta página fue escrita por {{ config.extra.author }} el {{ now() }}.
 
+!!video https://www.youtube.com/watch?v=dQw4w9WgXcQ width=500 height=300
 
-!!video https://www.youtube.com/watch?v=wrLiJwCWLjg width=800 height=450
+![Imagen de prueba](https://via.placeholder.com/400x200)
+
+**Fecha de última modificación:** (debería aparecer automáticamente)
