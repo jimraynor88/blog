@@ -37,7 +37,7 @@ extra_css:
 plugins:
   - search
   - blog:                      # 👈 antes que awesome-pages
-      post_dir: "{blog}/posts" # directorio donde están los artículos
+     # post_dir: "{blog}/posts" # directorio donde están los artículos
       post_url_format: "{slug}" # opcional, formato de URL
       archive: true
       categories: true
