@@ -40,8 +40,7 @@ nav:
       - Astrologia/Carta_Natal/curriculum_vitae_capacitivo/ # El resto de tu navegación
 
 plugins:
-  - blog:
-      blog # Carpeta donde estarán los archivos .md de tus artículos
+  - blog:  blog # Carpeta donde estarán los archivos .md de tus artículos
       post_dir: "{blog}/posts"
   - search
   - awesome-pages
