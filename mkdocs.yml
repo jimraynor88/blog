@@ -48,9 +48,6 @@ plugins:
      # post_url_format: "{slug}" # opcional, formato de URL
       archive: true
       categories: true
-      exclude:
-        - blog/archive/*
-        - blog/categories/*
   - section-index
   - rss
   - bettertags
