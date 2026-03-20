@@ -41,8 +41,8 @@ plugins:
   - bettertags
   - git-revision-date-localized:
       type: date
-      fallback_to_build_date: true
       enable_creation_date: true   # muestra también la fecha de creación
+      fallback_to_build_date: true
   - glightbox
   - minify
   - macros
