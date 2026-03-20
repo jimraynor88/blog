@@ -45,7 +45,9 @@ plugins:
   - minify
   - macros
   - video
-  - git-committers
+  - git-committers:
+      repository: jimraynor88/jimraynor88.github.io
+      token: !ENV GIT_COMMITTERS_TOKEN
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
 extra:
