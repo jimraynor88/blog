@@ -52,6 +52,9 @@ plugins:
       type: date
       enable_creation_date: true   # muestra también la fecha de creación
       fallback_to_build_date: true
+      exclude:
+        - blog/archive/*   # Excluye los archivos de archivo generados por el blog
+        - blog/categories/*
   - glightbox
   - minify
   - macros
