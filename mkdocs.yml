@@ -65,7 +65,7 @@ extra:
   author: Jim Raynor
   year: 2026
   generator: false               # sigue siendo necesario
-  revision: true   # no es una opción estándar, mejor usar el plugin directamente
+ # revision: true   # no es una opción estándar, mejor usar el plugin directamente
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jimraynor88
