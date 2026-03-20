@@ -7,7 +7,6 @@ mkdocs-minify-plugin==0.7.2
 bettertags
 mkdocs-git-revision-date-localized-plugin
 mkdocs-glightbox
-mkdocs-minify-plugin
 mkdocs-macros-plugin
 mkdocs-video
 mkdocs-git-committers-plugin
