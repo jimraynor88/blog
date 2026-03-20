@@ -31,6 +31,8 @@ jobs:
 
       - name: Build site
         run: mkdocs build --strict
+        env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Add CNAME
         run: echo "jim88.pp.ua" > ./site/CNAME
       - name: Deploy to GitHub Pages
