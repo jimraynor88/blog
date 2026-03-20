@@ -39,6 +39,12 @@ plugins:
   - section-index
   - rss
   - bettertags
+  - git-revision-date-localized
+  - glightbox
+  - minify-plugin
+  - macros-plugin
+  - video
+  - git-committers-plugin
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
 extra:
