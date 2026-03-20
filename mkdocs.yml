@@ -9,8 +9,21 @@ repo_name: Invítame al Ko-Fi
 theme:
   name: material
   custom_dir: overrides
-  palette:
-    scheme: slate
+ palette:
+    # Modo claro
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7      # Icono de sol
+        name: Cambiar a modo oscuro      # Texto al pasar el ratón
+    # Modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4      # Icono de luna
+        name: Cambiar a modo claro
   icon:
     repo: fontawesome/solid/mug-hot
   favicon: assets/favicon.ico   # <--- añade esto
