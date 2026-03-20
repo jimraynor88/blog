@@ -51,6 +51,8 @@ plugins:
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
 extra:
+  author: Jim Raynor
+  year: 2026
   generator: false               # sigue siendo necesario
   social:
     - icon: fontawesome/brands/github
