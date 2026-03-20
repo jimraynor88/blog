@@ -1,11 +1,13 @@
 <div class="md-copyright">
   <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-  <a href="https://ko-fi.com/invito"
-     id="kofi-button"
+  <a href="#" 
+     id="kofi-button" 
      style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: inherit;"
      onclick="kofiWidgetOverlay.draw('invito'); return false;">
-    {% set icon = "fontawesome/solid/mug-hot" %}
-   <!-- {% include ".icons/" ~ icon ~ ".svg" %}-->
+    <span style="width: 1.2rem; height: 1.2rem; display: inline-block;">
+      {% set icon = "fontawesome/solid/mug-hot" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </span>
     Invítame al Ko-Fi
   </a>
 </div>
