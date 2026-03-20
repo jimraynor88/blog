@@ -9,7 +9,7 @@ repo_name: Invítame al Ko-Fi
 theme:
   name: material
   custom_dir: overrides
- palette:
+  palette:
   # Modo claro
   - scheme: default
     primary: indigo
