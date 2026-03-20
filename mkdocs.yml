@@ -39,7 +39,8 @@ plugins:
   - section-index
   - rss
   - bettertags
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      fallback_to_build_date: true   # Si no hay fecha Git, usa la fecha de compilación
   - glightbox
   - minify-plugin
   - macros-plugin
