@@ -18,8 +18,8 @@ tags:
 
 Esta página fue escrita por {{ config.extra.author }} el {{ now() }}.
 
-!!video https://www.youtube.com/watch?v=dQw4w9WgXcQ width=500 height=300
+!video https://www.youtube.com/watch?v=Sqjc4KQBZS0 width=500 height=300
 
-![Imagen de prueba](https://via.placeholder.com/400x200)
+![Imagen de prueba](https://img.youtube.com/vi/Sqjc4KQBZS0/maxresdefault.jpg)
 
 **Fecha de última modificación:** (debería aparecer automáticamente)
