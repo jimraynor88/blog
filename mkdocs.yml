@@ -14,6 +14,7 @@ theme:
   icon:
     repo: fontawesome/solid/mug-hot
   favicon: assets/favicon.ico   # <--- añade esto
+  logo: assets/logo.jpg
   highlightjs: true
 
 #extra_css:
