@@ -60,7 +60,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -1527,7 +1536,7 @@
 
   <h1>Conceptos Básicos</h1>
 
-<h2 id="conceptos-basicos-para-todos">🔐 Conceptos básicos (para todos)<a class="headerlink" href="#conceptos-basicos-para-todos" title="Permanent link">&para;</a></h2>
+<div><h2 id="conceptos-basicos-para-todos">🔐 Conceptos básicos (para todos)<a class="headerlink" href="#conceptos-basicos-para-todos" title="Permanent link">¶</a></h2>
 <ol>
 <li>
 <p><strong>¿Qué es OpenPGP?</strong>
@@ -1570,8 +1579,8 @@
     Los certificados oficiales dependen de una autoridad central. OpenPGP es descentralizado y tú controlas completamente tus claves.</p>
 </li>
 </ol>
-<hr />
-<h2 id="uso-cotidiano-y-personal">📱 Uso cotidiano y personal<a class="headerlink" href="#uso-cotidiano-y-personal" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="uso-cotidiano-y-personal">📱 Uso cotidiano y personal<a class="headerlink" href="#uso-cotidiano-y-personal" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Proteger fotos privadas:</strong> cifras fotos antes de enviarlas o subirlas a la nube; nadie podrá verlas sin tu clave privada.</li>
 <li><strong>Proteger tu diario personal digital:</strong> guarda tus notas cifradas con OpenPGP para que solo tú las leas.</li>
@@ -1584,8 +1593,8 @@
 <li><strong>Firmar tus posts de blog:</strong> demuestra autoría y que no fueron modificados.</li>
 <li><strong>Compartir mensajes privados en redes sociales:</strong> cifrando textos o archivos antes de enviarlos.</li>
 </ol>
-<hr />
-<h2 id="uso-familiar">👨‍👩‍👧‍👦 Uso familiar<a class="headerlink" href="#uso-familiar" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="uso-familiar">👨‍👩‍👧‍👦 Uso familiar<a class="headerlink" href="#uso-familiar" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Compartir fotos o vídeos familiares de forma segura.</strong></li>
 <li><strong>Intercambiar historiales médicos entre familiares</strong> con privacidad total.</li>
@@ -1593,8 +1602,8 @@
 <li><strong>Mantener seguros documentos de la casa</strong> como contratos de alquiler o hipotecas.</li>
 <li><strong>Compartir recetas médicas digitalizadas</strong> entre familiares o cuidadores.</li>
 </ol>
-<hr />
-<h2 id="uso-en-trabajo-y-empresa">💼 Uso en trabajo y empresa<a class="headerlink" href="#uso-en-trabajo-y-empresa" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="uso-en-trabajo-y-empresa">💼 Uso en trabajo y empresa<a class="headerlink" href="#uso-en-trabajo-y-empresa" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Proteger contratos laborales o de alquiler</strong> mediante firma digital y cifrado.</li>
 <li><strong>Firmar facturas electrónicas</strong> para garantizar autenticidad ante clientes.</li>
@@ -1607,8 +1616,8 @@
 <li><strong>Firmar documentos académicos o papers de investigación</strong> antes de publicarlos.</li>
 <li><strong>Proteger backups de la empresa</strong> cifrando la información sensible.</li>
 </ol>
-<hr />
-<h2 id="periodismo-activismo-y-sociedad">📰 Periodismo, activismo y sociedad<a class="headerlink" href="#periodismo-activismo-y-sociedad" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="periodismo-activismo-y-sociedad">📰 Periodismo, activismo y sociedad<a class="headerlink" href="#periodismo-activismo-y-sociedad" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Proteger fuentes periodísticas</strong> mediante envío de archivos cifrados.</li>
 <li><strong>Intercambiar documentos políticos o sociales sin riesgo</strong> de espionaje o filtración.</li>
@@ -1616,8 +1625,8 @@
 <li><strong>Activistas que viajan a países con censura</strong> pueden comunicarse de forma segura.</li>
 <li><strong>Proteger la identidad de denunciantes</strong> o informantes sensibles.</li>
 </ol>
-<hr />
-<h2 id="comunicacion-y-mensajeria">💬 Comunicación y mensajería<a class="headerlink" href="#comunicacion-y-mensajeria" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="comunicacion-y-mensajeria">💬 Comunicación y mensajería<a class="headerlink" href="#comunicacion-y-mensajeria" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Usar en correos electrónicos</strong> (el clásico uso de PGP).</li>
 <li><strong>Cifrar mensajes en Telegram</strong> enviándolos como archivo cifrado.</li>
@@ -1626,16 +1635,16 @@
 <li><strong>Enviar mensajes firmados</strong> para evitar suplantaciones de identidad.</li>
 <li><strong>Detectar mensajes manipulados</strong> si la firma ya no coincide.</li>
 </ol>
-<hr />
-<h2 id="archivos-y-nube">☁️ Archivos y nube<a class="headerlink" href="#archivos-y-nube" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="archivos-y-nube">☁️ Archivos y nube<a class="headerlink" href="#archivos-y-nube" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Diferencia entre permisos en Drive y cifrado real.</strong></li>
 <li><strong>Subir documentos a iCloud o Dropbox cifrados.</strong></li>
 <li><strong>Proteger copias de seguridad</strong> cifrando discos o archivos.</li>
 <li><strong>Enviar archivos grandes cifrados</strong> por USB o nube sin perder seguridad.</li>
 </ol>
-<hr />
-<h2 id="juegos-ocio-y-creatividad">🎮 Juegos, ocio y creatividad<a class="headerlink" href="#juegos-ocio-y-creatividad" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="juegos-ocio-y-creatividad">🎮 Juegos, ocio y creatividad<a class="headerlink" href="#juegos-ocio-y-creatividad" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Firmar mods o archivos de videojuegos</strong> para evitar manipulación.</li>
 <li><strong>Guardar partidas cifradas</strong> y mantenerlas privadas.</li>
@@ -1643,8 +1652,8 @@
 <li><strong>Firmar tus obras creativas</strong> (música, libros, arte digital).</li>
 <li><strong>Proteger guiones o proyectos de cine</strong> antes de publicarlos o compartirlos.</li>
 </ol>
-<hr />
-<h2 id="legalidad-y-contexto">🌍 Legalidad y contexto<a class="headerlink" href="#legalidad-y-contexto" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="legalidad-y-contexto">🌍 Legalidad y contexto<a class="headerlink" href="#legalidad-y-contexto" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>¿Es legal usarlo en todos los países?</strong> Depende, algunos limitan el cifrado fuerte.</li>
 <li><strong>Riesgos de viajar con claves en dispositivos</strong> si te las pueden confiscar.</li>
@@ -1652,8 +1661,8 @@
 <li><strong>Seguridad frente a ataques de fuerza bruta</strong>: claves modernas tardarían miles de años en romperse.</li>
 <li><strong>Limitaciones legales en países con censura.</strong></li>
 </ol>
-<hr />
-<h2 id="casos-tecnicos-pero-sin-comandos">🧑‍💻 Casos técnicos (pero sin comandos)<a class="headerlink" href="#casos-tecnicos-pero-sin-comandos" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="casos-tecnicos-pero-sin-comandos">🧑‍💻 Casos técnicos (pero sin comandos)<a class="headerlink" href="#casos-tecnicos-pero-sin-comandos" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>¿Qué pasa si alguien envía un archivo corrupto?</strong> La app lo detectará.</li>
 <li><strong>¿Se puede usar offline?</strong> Sí, todo cifrado y descifrado funciona sin internet.</li>
@@ -1666,8 +1675,8 @@
 <li><strong>Diferencia con cifrado simétrico</strong>: OpenPGP no requiere compartir contraseñas.</li>
 <li><strong>Cifrar para varios destinatarios</strong>: puedes añadir varias claves públicas al mismo archivo.</li>
 </ol>
-<hr />
-<h2 id="usos-avanzados-e-innovadores">🚀 Usos avanzados e innovadores<a class="headerlink" href="#usos-avanzados-e-innovadores" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="usos-avanzados-e-innovadores">🚀 Usos avanzados e innovadores<a class="headerlink" href="#usos-avanzados-e-innovadores" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Usar en transacciones de criptomonedas</strong> para firmar mensajes de propiedad.</li>
 <li><strong>Proteger identidad digital en foros</strong> con firmas que validen tu seudónimo.</li>
@@ -1680,8 +1689,8 @@
 <li><strong>Mantener chats privados fuera de apps comerciales</strong> cifrando archivos.</li>
 <li><strong>Verificar identidad en entrevistas online</strong> firmando mensajes de verificación.</li>
 </ol>
-<hr />
-<h2 id="comparaciones-y-preguntas-frecuentes">🧩 Comparaciones y preguntas frecuentes<a class="headerlink" href="#comparaciones-y-preguntas-frecuentes" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="comparaciones-y-preguntas-frecuentes">🧩 Comparaciones y preguntas frecuentes<a class="headerlink" href="#comparaciones-y-preguntas-frecuentes" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Diferencia entre OpenPGP y Signal/WhatsApp</strong>: OpenPGP te da control absoluto sobre la clave.</li>
 <li><strong>Diferencia entre PGP y OpenPGP</strong>: OpenPGP es estándar abierto, PGP fue el software original.</li>
@@ -1694,8 +1703,8 @@
 <li><strong>¿Por qué no lo usan más personas si es tan seguro?</strong> La complejidad inicial y falta de apps amigables.</li>
 <li><strong>¿Qué pasa si Google o Apple fallan, pero cifro con OpenPGP?</strong> Tus datos siguen seguros porque tú controlas la clave.</li>
 </ol>
-<hr />
-<h2 id="futuro-y-reflexion">🧭 Futuro y reflexión<a class="headerlink" href="#futuro-y-reflexion" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="futuro-y-reflexion">🧭 Futuro y reflexión<a class="headerlink" href="#futuro-y-reflexion" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>¿Será útil en la era de la computación cuántica?</strong> Algunas claves modernas son resistentes; habrá que adaptarlas.</li>
 <li><strong>¿Es práctico para todo el mundo?</strong> Sí, si las apps móviles lo hacen fácil.</li>
@@ -1708,7 +1717,7 @@
 <li><strong>¿Cómo cambia la mentalidad al aprenderlo?</strong> Te hace más consciente de la privacidad y el control de tu información.</li>
 <li><strong>¿Por qué debería empezar hoy mismo?</strong> Para proteger tus datos antes de que sea demasiado tarde o demasiado caro.</li>
 <li><strong>¿Qué futuro tendrá si lo adaptan a apps móviles sencillas?</strong> Podría ser tan natural como usar WhatsApp, pero seguro y privado.</li>
-</ol>
+</ol></div>
 
 
 
@@ -1716,6 +1725,27 @@
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 16, 2026 13:18:18 UTC">March 16, 2026</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
 
@@ -1812,5 +1842,5 @@
       <script src="../../../assets/javascripts/bundle.3220b9d7.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
