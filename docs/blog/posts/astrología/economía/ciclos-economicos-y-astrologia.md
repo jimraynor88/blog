@@ -1,3 +1,13 @@
+---
+title: La relación entre ciclos económicos y ciclos planetarios
+author: Jim Raynor
+tags:
+  - Economía
+  - Astrología
+date: {{date}}    # Markor tiene un comando para insertar fecha automática
+---
+
+
 La relación entre ciclos económicos y ciclos planetarios pertenece al campo de la astrología financiera o astroeconomía.
 Es un enfoque no aceptado por la economía académica, pero históricamente ha intentado correlacionar grandes crisis y expansiones con ciclos planetarios largos.
 
