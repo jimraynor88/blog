@@ -32,10 +32,7 @@ theme:
 
 extra_css:
   - assets/stylesheets/kofi.css
-nav:
-  - Inicio: index.md
- # - Blog:
- #   - blog/
+
 
 plugins:
   - search
