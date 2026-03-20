@@ -29,6 +29,15 @@ plugins:
 extra:
   generator: false
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jimraynor88
+      name: GitHub
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/jimraynor1488
+      name: X
+    - icon: fontawesome/solid/envelope
+      link: mailto:jimraynor@duck.com
+      name: Email
     - icon: fontawesome/solid/mug-hot
       link: https://ko-fi.com/invito
       name: Invítame al Ko-Fi
