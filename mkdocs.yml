@@ -27,7 +27,7 @@ plugins:
   - bettertags
 
 extra:
-  generator: false
+  #generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jimraynor88
