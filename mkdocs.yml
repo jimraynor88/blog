@@ -34,6 +34,9 @@ extra_css:
   - assets/stylesheets/kofi.css
 
 plugins:
+  - blog:
+      # Carpeta donde estarán los archivos .md de tus artículos
+      post_dir: "{blog}/posts"
   - search
   - awesome-pages
   - section-index
