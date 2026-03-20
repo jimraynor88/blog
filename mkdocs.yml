@@ -26,8 +26,9 @@ plugins:
   - rss
   - bettertags
 
+copyright: "Invítame al Ko-Fi"   # texto que aparecerá en el footer
 extra:
-  generator: true
+  generator: false               # sigue siendo necesario
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jimraynor88
