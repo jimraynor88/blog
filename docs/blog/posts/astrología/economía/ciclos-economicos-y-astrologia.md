@@ -4,7 +4,7 @@ author: Jim Raynor
 tags:
   - Economía
   - Astrología
-date: {{date}}    # Markor tiene un comando para insertar fecha automática
+date: 2026-03-21    # Markor tiene un comando para insertar fecha automática
 ---
 
 
