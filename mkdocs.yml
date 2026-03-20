@@ -38,6 +38,9 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:jimraynor@duck.com
       name: Email
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/jimraynorbot
+      name: Telegram
     - icon: fontawesome/solid/mug-hot
       link: https://ko-fi.com/invito
       name: Invítame al Ko-Fi
