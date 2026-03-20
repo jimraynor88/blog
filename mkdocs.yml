@@ -13,7 +13,7 @@ theme:
     scheme: slate
   icon:
     repo: fontawesome/solid/mug-hot
-  
+  favicon: assets/favicon.ico   # <--- añade esto
   highlightjs: true
 
 #extra_css:
