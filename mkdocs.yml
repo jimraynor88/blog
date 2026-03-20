@@ -26,7 +26,7 @@ plugins:
   - rss
   - bettertags
 
-#copyright: "Invítame al Ko-Fi"   # texto que aparecerá en el footer
+copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
 extra:
   generator: false               # sigue siendo necesario
   social:
