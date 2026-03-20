@@ -32,6 +32,12 @@ theme:
 
 extra_css:
   - assets/stylesheets/kofi.css
+nav:
+  - Inicio: index.md
+  - Blog:          # 👈 Esto crea un desplegable o entrada en el menú
+      - blog/index.md
+  - Capacitado:
+      - Astrologia/Carta_Natal/curriculum_vitae_capacitivo/ # El resto de tu navegación
 
 plugins:
   - blog:
