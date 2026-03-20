@@ -40,7 +40,9 @@ plugins:
   - rss
   - bettertags
   - git-revision-date-localized:
-      fallback_to_build_date: true   # Si no hay fecha Git, usa la fecha de compilación
+      type: date
+      fallback_to_build_date: true
+      enable_creation_date: true   # muestra también la fecha de creación
   - glightbox
   - minify
   - macros
