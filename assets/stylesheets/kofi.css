@@ -1,7 +1,5 @@
-/* overrides/assets/stylesheets/kofi.css */
-#iframe {
-    background-color: var(--md-default-bg-color);
-}
-.md-footer .md-footer-meta {
-  text-align: center;
+/* Reducir el tamaño del icono del repositorio (Ko-Fi) */
+.md-source__icon svg {
+  width: 1rem;
+  height: 1rem;
 }
