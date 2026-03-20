@@ -1,0 +1,16 @@
+<!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+  Modified to customize Ko-Fi link tooltip
+-->
+
+{% if config.repo_url %}
+  <a href="{{ config.repo_url }}" title="{{ config.repo_name }}" class="md-source" rel="noopener" target="_blank">
+    {% if config.theme.icon.repo %}
+      {% set icon = config.theme.icon.repo %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    {% endif %}
+    <span class="md-source__repository">
+      {{ config.repo_name }}
+    </span>
+  </a>
+{% endif %}
