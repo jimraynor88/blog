@@ -42,10 +42,10 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true   # Si no hay fecha Git, usa la fecha de compilación
   - glightbox
-  - minify-plugin
-  - macros-plugin
+  - minify
+  - macros
   - video
-  - git-committers-plugin
+  - git-committers
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
 extra:
