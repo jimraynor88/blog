@@ -3,7 +3,7 @@
     <!-- Copyright -->
     <p style="margin-bottom:1rem;">© 2026 Jim Raynor</p>
 
-    <!-- Ko-fi widget (overlay) -->
+    <!-- Contenedor para el widget -->
     <div id="kofi-container" style="margin:1rem 0;"></div>
 
     <!-- Redes sociales con iconos FontAwesome -->
@@ -24,14 +24,15 @@
   </div>
 </footer>
 
-<!-- Script de Ko-Fi para el overlay -->
 <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
 <script>
-  kofiWidgetOverlay.draw('invito', {
-    type: 'standard',
-    container: 'kofi-container',
-    'donateButton.text': 'Invíta al Ko-Fi',
-    'donateButton.background-color': '#ffffff',
-    'donateButton.text-color': '#323842'
+  document.addEventListener('DOMContentLoaded', function() {
+    kofiWidgetOverlay.draw('invito', {
+      type: 'standard',
+      container: 'kofi-container',
+      'donateButton.text': 'Invíta al Ko-Fi',
+      'donateButton.background-color': '#ffffff',
+      'donateButton.text-color': '#323842'
+    });
   });
 </script>
