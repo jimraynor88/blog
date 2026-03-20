@@ -42,12 +42,15 @@ plugins:
       # URL de las páginas de archivo (año, mes)
       archive_url_format: "{date}"
       # Formato de fecha en las páginas de archivo
-      archive_date_format: "yyyy 'de' MMMM"   # Ejemplo: "2026 de marzo"
+      archive_date_format: "MMMM 'de' yyyy"   # Ejemplo: "2026 de marzo"
       # Formato de fecha que aparece en cada artículo
       post_date_format: long   # También puede ser 'short', 'full' o "dd/MM/yyyy"
      # post_url_format: "{slug}" # opcional, formato de URL
       archive: true
       categories: true
+      exclude:
+        - blog/archive/*
+        - blog/categories/*
   - section-index
   - rss
   - bettertags
@@ -103,6 +106,6 @@ markdown_extensions:
   - tables
   - attr_list
 
-#extra_javascript:
-#  - https://storage.ko-fi.com/cdn/widget/Widget_2.js
-#  - js/kofi_button.js
+extra_javascript:
+  - https://storage.ko-fi.com/cdn/widget/Widget_2.js
+  - js/kofi_button.js
