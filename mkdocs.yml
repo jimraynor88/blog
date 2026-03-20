@@ -16,8 +16,8 @@ theme:
   
   highlightjs: true
 
-extra_css:
-  - assets/stylesheets/kofi.css
+#extra_css:
+ # - assets/stylesheets/kofi.css
 
 plugins:
   - search
