@@ -27,6 +27,7 @@ plugins:
   - bettertags
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/solid/mug-hot
       link: https://ko-fi.com/invito
