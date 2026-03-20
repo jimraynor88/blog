@@ -34,8 +34,8 @@ extra_css:
   - assets/stylesheets/kofi.css
 nav:
   - Inicio: index.md
-  - Blog:
-    - blog/
+ # - Blog:
+ #   - blog/
 
 plugins:
   - search
