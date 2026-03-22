@@ -2,8 +2,8 @@
 # =========================
 # 📌 BÁSICO
 # =========================
-title: "(in)Seguridad-Total"
-description: "Índice de la sección"
+title: "Título"
+description: "Descripción"
 date: 2026-03-18
 #updated: 2026-03-18
 
