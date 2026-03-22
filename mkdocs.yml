@@ -29,6 +29,10 @@ theme:
   favicon: assets/favicon.ico   # <--- añade esto
   logo: assets/logo.jpg
   highlightjs: true
+  features:
+    - navigation.footer   # 👈 Esto activa los enlaces de página siguiente/anterior
+    - navigation.tabs        # pestañas en el header
+    - navigation.sections    # secciones expandibles en la barra lateral
 
 extra_css:
   - assets/stylesheets/kofi.css
@@ -36,6 +40,20 @@ extra_css:
 
 plugins:
   - search
+  - i18n:
+      default_language: es
+      languages:
+        es: español
+        en: english
+      nav_translations:
+        es:
+          "Inicio": "Inicio"
+          "Blog": "Blog"
+        en:
+          "Inicio": "Home"
+          "Blog": "Blog"
+  # ... resto de plugins
+
   - blog:
       post_dir: "{blog}/posts"
       # URL de las páginas de archivo (año, mes)
