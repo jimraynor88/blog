@@ -36,31 +36,8 @@ theme:
 
 extra_css:
   - assets/stylesheets/kofi.css
-
 plugins:
   - search
-  - i18n:
-      default_language: es
-      languages:
-        - locale: es
-          name: Español
-          default: true
-          build: true
-        - locale: en
-          name: English
-          build: true
-      nav_translations:
-        es:
-          Inicio: Inicio
-          Blog: Blog
-          Astrologia: Astrología
-          Seguridad: Seguridad
-        en:
-          Inicio: Home
-          Blog: Blog
-          Astrologia: Astrology
-          Seguridad: Security
-      reconfigure_material: true
   - blog:
       post_dir: "{blog}/posts"
       archive_url_format: "{date}"
