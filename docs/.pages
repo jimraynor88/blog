@@ -1,6 +1,6 @@
 nav:
   - Inicio: index.md
-  - Blog: blog/posts/
+  - Blog: blog/               # apunta a la carpeta, no a un archivo específico
+  - Mis CV: Mis_CV.md
   - Seguridad: Seguridad/
-  - Mis CV: /Mis_CV.md
-  - Ko-fi: https://ko-fi.com/invito
+  - Invítame al Ko-Fi: https://ko-fi.com/invito
