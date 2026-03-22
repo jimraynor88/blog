@@ -39,8 +39,8 @@ extra_css:
 plugins:
   - search
   - awesome-pages
-  - blog:
-      post_dir: "{blog}/posts"
+  #- blog:
+      #post_dir: "{blog}/posts"
       #archive_url_format: "{date}"
       #archive_date_format: "yyyy 'de' MMMM"
       #post_date_format: long
