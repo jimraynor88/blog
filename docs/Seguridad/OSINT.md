@@ -1,15 +1,3 @@
----
-layout: post
-tags: [Seguridad,OSINT]
-categories: [Seguridad/OSINT]
-#date: 2019-06-25 13:14:15
-#excerpt: ''
-#image: 'BASEURL/assets/blog/img/.png'
-description: Buscar información sobre una persona usando DNI, nombre, teléfono o email
-#permalink:
-title: 'OSINT'
----
-
 
 Buscar información sobre una persona usando DNI, nombre, teléfono o email tiene límites legales claros en España (y la UE bajo Reglamento General de Protección de Datos). No existe una base pública única que permita consultar todo eso de forma libre, y acceder o cruzar ciertos datos sin autorización puede ser ilegal.
 
