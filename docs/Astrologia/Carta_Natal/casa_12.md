@@ -1,15 +1,3 @@
----
-layout: post
-tags: [Astrología, Carta Natal]
-categories: [Astrología/Carta Natal]
-#date: 2019-06-25 13:14:15
-#excerpt: ''
-#image: 'BASEURL/assets/blog/img/.png'
-#description:
-#permalink:
-title: 'Casa 12'
----
-
 
 ## CONFIGURACIÓN CLAVE (CASA 12)
 - Casa 12 en Escorpio
