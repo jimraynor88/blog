@@ -2,9 +2,11 @@
 ## CONFIGURACIÓN CLAVE (CASA 12)
 - Casa 12 en Escorpio
 - Planeta:
+
   • Saturno: ≈23° Escorpio – Casa 12
 
 - Regentes:
+
   • Marte (tradicional): en Piscis – Casa 4 (≈18°)  
   • Plutón (moderno): en Libra – Casa 11 (≈26°)
 
@@ -14,16 +16,19 @@
 
 ## SIGNIFICADO GENERAL (CASA 12 EN ESCORPIO)
 - Inconsciente, procesos internos y karma ligados a:
+
   • intensidad  
   • control  
   • transformación  
 
 - Dinámica:
+
   • vida interior profunda  
   • procesos ocultos  
   • confrontación con sombras internas  
 
 - Tendencia:
+
   • guardar  
   • contener  
   • procesar en silencio  
@@ -53,15 +58,18 @@ Con Escorpio:
 
 ## EFECTO EN EL MUNDO INTERNO
 - Procesamiento:
+
   • profundo  
   • lento  
   • silencioso  
 
 - Emociones:
+
   • intensas  
   • contenidas  
 
 - Dinámica:
+
   • acumulación interna → liberación posterior  
 
 ---
@@ -72,21 +80,25 @@ Con Escorpio:
 - Estructura en lo inconsciente
 
 Temas:
+
 - control interno  
 - miedo profundo  
 - responsabilidad emocional  
 
 Manifestaciones:
+
 - sensación de carga interna  
 - autoexigencia psicológica  
 - dificultad para soltar  
 
 Dones:
+
 - gran fortaleza interna  
 - capacidad de sostener procesos difíciles  
 - disciplina emocional profunda  
 
 Sombras:
+
 - bloqueo emocional  
 - represión  
 - miedo a perder control  
@@ -97,6 +109,7 @@ Sombras:
 - Acción influida por lo emocional e inconsciente
 
 Efecto:
+
 - energía interna no siempre visible  
 - acción desde estados emocionales  
 
@@ -106,6 +119,7 @@ Efecto:
 - Transformación a través de relaciones y grupos
 
 Efecto:
+
 - procesos internos activados por el entorno social  
 - cambios profundos a través de vínculos  
 
@@ -117,7 +131,9 @@ Efecto:
 - Eje 6–12 (acción vs inconsciente)
 
 Efecto:
+
 - tensión entre:
+
   • hacer  
   • procesar  
 
@@ -127,6 +143,7 @@ Efecto:
 - Profundidad emocional
 
 Efecto:
+
 - procesos internos conectados con transformación emocional  
 - intensidad en evolución interna  
 
@@ -134,10 +151,12 @@ Efecto:
 
 ### CON JÚPITER–URANO (CASA 1)
 - Contraste:
+
   • exterior libre  
   • interior contenido  
 
 Efecto:
+
 - diferencia entre lo que muestras y lo que procesas  
 
 ---
@@ -170,14 +189,17 @@ Efecto:
 
 ## CLAVE DE INTEGRACIÓN
 - Escorpio:
+
   • transformar en lugar de controlar  
   • soltar lo acumulado  
 
 - Saturno:
+
   • estructurar sin bloquear  
   • aceptar procesos internos  
 
 - Estrategia:
+
   • trabajar lo interno conscientemente  
   • expresar progresivamente  
   • no acumular sin liberar  
@@ -189,9 +211,11 @@ Efecto:
 - Gran potencial de transformación interna
 
 - Si se integra:
+
   → poder interno y control consciente  
 
 - Si no:
+
   → carga psicológica y bloqueo  
 
 → Tu mayor poder no es visible: se construye en lo interno 
