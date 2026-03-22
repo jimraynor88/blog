@@ -40,7 +40,11 @@ plugins:
   - search
   - awesome-pages
   - section-index
-  - rss
+  - rss:
+      match:
+        - "blog/posts/**/*.md"
+      date_from_meta:
+        - date
   - bettertags
   - git-revision-date-localized:
       type: date
