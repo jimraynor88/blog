@@ -1,20 +1,19 @@
-<!-- overrides/partials/footer.html -->
 {% if config.theme.features and "navigation.footer" in config.theme.features %}
   <div class="md-footer-meta md-typeset">
     {% if page and (page.prev_page or page.next_page) %}
-      {# Obtener la carpeta actual (directorio del archivo) #}
-      {% set current_dir = page.file.src_uri|dirname %}
+      {# Obtener la carpeta de la página actual (sin el nombre del archivo) #}
+      {% set current_dir = page.file.src_uri|replace("\\", "/")|split("/")[:-1]|join("/") %}
       {# Recopilar todas las páginas dentro de esa misma carpeta #}
       {% set pages_in_dir = [] %}
       {% for p in pages %}
-        {% if p.file.src_uri|dirname == current_dir %}
+        {% set p_dir = p.file.src_uri|replace("\\", "/")|split("/")[:-1]|join("/") %}
+        {% if p_dir == current_dir %}
           {% set _ = pages_in_dir.append(p) %}
         {% endif %}
       {% endfor %}
       {# Solo mostrar el footer si hay más de una página en la carpeta #}
       {% if pages_in_dir|length > 1 %}
         <nav class="md-footer__inner md-grid" aria-label="{{ lang.t('footer.title') }}">
-          {# ... código original de la plantilla para prev/next ... #}
           {% if page.prev_page %}
             {% set direction = lang.t("footer.previous") %}
             <a href="{{ page.prev_page.url|url }}" class="md-footer__link md-footer__link--prev" rel="prev">
