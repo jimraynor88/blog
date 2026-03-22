@@ -41,16 +41,12 @@ plugins:
   - awesome-pages
   - section-index
   - rss:
-      match:
-        - "blog/posts/**/*.md"
+      match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
       date_from_meta:
-        pubDate: date      # 'pubDate' es el campo en el feed, 'date' es tu campo YAML
-      title_from_meta:
-        title: title
-      # description_from_meta:   # opcional
-      #   description: description
-      # feed_title: "Jim Raynor's Blog"
-      # feed_description: "Artículos sobre filosofía, economía y astrología"
+        as_creation: date           # ← usa el campo 'date' del frontmatter
+        as_update: false            # ← no usa fecha de actualización
+      length: 20                    # número de posts en el feed
+      abstract_chars_count: 160     # longitud del resumen
   - bettertags
   - git-revision-date-localized:
       type: date
