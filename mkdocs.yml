@@ -41,8 +41,20 @@ theme:
     - search.highlight # resalta los términos de búsqueda en los resultados.
     - search.suggest # activa autocompletado en la barra de búsqueda.
     - search.share # permite compartir enlaces de búsqueda.
+    - search.term.highlight   # Resalta los términos de búsqueda dentro del contenido de la página
     - content.code.copy # añade un botón para copiar fragmentos de código.
+    - content.code.select     # Permite seleccionar y copiar solo partes de bloques de código
+    - content.code.scroll     # Hace que los bloques de código largos tengan scroll horizontal
+    - content.code.line-numbers # Muestra números de línea en los bloques de código
     - content.code.annotate # permite anotar líneas de código (con iconos, etc.).
+    - content.tabs.link       # Vincula pestañas de contenido entre sí para que persistan al cambiar de página
+    - content.tooltips        # Muestra tooltips al pasar el cursor sobre enlaces de cabecera
+    - content.footnote.tooltips # Muestra tooltips para notas al pie
+    - navigation.instant       # Hace que la navegación entre páginas sea instantánea (carga con AJAX)
+    - navigation.path         # Muestra la ruta de navegación (breadcrumbs) en la parte superior
+    - navigation.tracking     # Actualiza la URL con el título de la página al navegar (para instant)
+    
+
 
 extra_css:
   - assets/stylesheets/kofi.css
