@@ -104,8 +104,3 @@ markdown_extensions:
 extra_javascript:
   - https://storage.ko-fi.com/cdn/widget/Widget_2.js
   - js/kofi_button.js
-
-nav:
-  - Inicio: index.md
-  - Blog: blog/index.html   # El plugin genera automáticamente esta página
-  # ... otras secciones fijas
