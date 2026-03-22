@@ -3,3 +3,9 @@
   width: 1rem;
   height: 1rem;
 }
+/* Muestra un icono de flecha al lado de enlaces externos */
+.md-content a[href^="http"]:not([href*="jim88.pp.ua"])::after {
+  content: " ↗";
+  font-size: 0.8em;
+  display: inline-block;
+}
