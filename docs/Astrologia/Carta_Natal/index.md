@@ -1,17 +1,5 @@
----
-layout: post
-tags: [Astrología, Carta Natal]
-categories: [Astrología/Carta Natal]
-#date: 2019-06-25 13:14:15
-#excerpt: ''
-#image: 'BASEURL/assets/blog/img/.png'
-#description:
-#permalink:
-title: 'Visión Global'
----
 
-
-## VISIÓN GLOBAL 360° DE LA CARTA
+## Perfil General del indivíduo
 
 ---
 
