@@ -45,9 +45,9 @@ slug: "(in)Seguridad-Total"
 # =========================
 #template: "post.html"
 #layout: "post"
-#hide:
-#  - navigation
-#  - toc
+hide:
+  - navigation
+  - toc
 
 # =========================
 # 📊 SEO / META
@@ -65,16 +65,16 @@ slug: "(in)Seguridad-Total"
 # =========================
 # 📅 CONTROL DE FECHAS
 # =========================
-#date_created: 2026-03-18
+date_created: 2026-03-18
 #date_published: 2026-03-18
 #date_modified: 2026-03-18
 
 # =========================
 # ⚙️ FUNCIONALIDAD
 # =========================
-#comments: true
-#share: true
-#reading_time: true
+comments: true
+share: true
+reading_time: true
 
 # =========================
 # 🔐 AVANZADO
