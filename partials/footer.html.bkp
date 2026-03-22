@@ -1,62 +1,55 @@
-<footer class="md-footer" style="background-color:#1f1f23; color:#fff; padding:2rem 1rem; text-align:center;">
-  <div class="md-footer-meta md-typeset" style="max-width:800px; margin:0 auto;">
-    <!-- Copyright -->
-    <p style="margin-bottom:1rem;">© 2026 Jim Raynor</p>
-
-    <!-- Ko-fi widget (overlay) -->
-    <div id="kofi-container" style="margin:1rem 0;"></div>
-
-    <!-- Redes sociales con iconos FontAwesome -->
-    <ul style="list-style:none; padding:0; display:flex; justify-content:center; gap:1rem; margin-top:1rem;">
-      <li>
-        <a href="https://github.com/jimraynor88" target="_blank" rel="noopener" aria-label="GitHub">
-          {% set icon = "fontawesome/brands/github" %}
-          {% include ".icons/" ~ icon ~ ".svg" %}
-        </a>
-      </li>
-      <li>
-        <a href="https://x.com/jimraynor1488" target="_blank" rel="noopener" aria-label="X (Twitter)">
-          {% set icon = "fontawesome/brands/x-twitter" %}
-          {% include ".icons/" ~ icon ~ ".svg" %}
-        </a>
-      </li>
-      <li>
-        <a href="mailto:jimraynor@duck.com" aria-label="Email">
-          {% set icon = "fontawesome/solid/envelope" %}
-          {% include ".icons/" ~ icon ~ ".svg" %}
-        </a>
-      </li>
-      <li>
-        <a href="https://t.me/jimraynorbot" target="_blank" rel="noopener" aria-label="Telegram">
-          {% set icon = "fontawesome/brands/telegram" %}
-          {% include ".icons/" ~ icon ~ ".svg" %}
-        </a>
-      </li>
-      <li>
-        <a href="https://ko-fi.com/invito" target="_blank" rel="noopener" aria-label="Ko-Fi">
-          {% set icon = "fontawesome/solid/mug-hot" %}
-          {% include ".icons/" ~ icon ~ ".svg" %}
-        </a>
-      </li>
-    </ul>
+{% if config.theme.features and "navigation.footer" in config.theme.features %}
+  <div class="md-footer-meta md-typeset">
+    {% if page and (page.prev_page or page.next_page) %}
+      {# Obtener la carpeta de la página actual (sin el nombre del archivo) #}
+      {% set current_dir = page.file.src_uri|replace("\\", "/")|split("/")[:-1]|join("/") %}
+      {# Recopilar todas las páginas dentro de esa misma carpeta #}
+      {% set pages_in_dir = [] %}
+      {% for p in pages %}
+        {% set p_dir = p.file.src_uri|replace("\\", "/")|split("/")[:-1]|join("/") %}
+        {% if p_dir == current_dir %}
+          {% set _ = pages_in_dir.append(p) %}
+        {% endif %}
+      {% endfor %}
+      {# Solo mostrar el footer si hay más de una página en la carpeta #}
+      {% if pages_in_dir|length > 1 %}
+        <nav class="md-footer__inner md-grid" aria-label="{{ lang.t('footer.title') }}">
+          {% if page.prev_page %}
+            {% set direction = lang.t("footer.previous") %}
+            <a href="{{ page.prev_page.url|url }}" class="md-footer__link md-footer__link--prev" rel="prev">
+              <div class="md-footer__button md-icon">
+                {% set icon = config.theme.icon.previous or "material/arrow-left" %}
+                {% include ".icons/" ~ icon ~ ".svg" %}
+              </div>
+              <div class="md-footer__title">
+                <div class="md-ellipsis">
+                  <span class="md-footer__direction">
+                    {{ direction }}
+                  </span>
+                  {{ page.prev_page.title }}
+                </div>
+              </div>
+            </a>
+          {% endif %}
+          {% if page.next_page %}
+            {% set direction = lang.t("footer.next") %}
+            <a href="{{ page.next_page.url|url }}" class="md-footer__link md-footer__link--next" rel="next">
+              <div class="md-footer__title">
+                <div class="md-ellipsis">
+                  <span class="md-footer__direction">
+                    {{ direction }}
+                  </span>
+                  {{ page.next_page.title }}
+                </div>
+              </div>
+              <div class="md-footer__button md-icon">
+                {% set icon = config.theme.icon.next or "material/arrow-right" %}
+                {% include ".icons/" ~ icon ~ ".svg" %}
+              </div>
+            </a>
+          {% endif %}
+        </nav>
+      {% endif %}
+    {% endif %}
   </div>
-</footer>
-
-<!-- Script de Ko-Fi para el overlay -->
-<script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-<script>
-  function initKoFi() {
-    if (document.getElementById('kofi-container')) {
-      kofiWidgetOverlay.draw('invito', {
-        type: 'standard',
-        container: 'kofi-container',
-        'donateButton.text': 'Invíta al Ko-Fi',
-        'donateButton.background-color': '#ffffff',
-        'donateButton.text-color': '#323842'
-      });
-    } else {
-      setTimeout(initKoFi, 100);
-    }
-  }
-  document.addEventListener('DOMContentLoaded', initKoFi);
-</script>
+{% endif %}
