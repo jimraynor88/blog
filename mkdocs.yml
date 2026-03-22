@@ -8,6 +8,8 @@ repo_name: Invítame al Ko-Fi
 
 theme:
   name: material
+  language: es
+  
   custom_dir: overrides
   palette:
   # Modo claro
