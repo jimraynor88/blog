@@ -36,19 +36,13 @@ theme:
 
 extra_css:
   - assets/stylesheets/kofi.css
-
 plugins:
   - search
   - i18n:
       default_language: es
       languages:
-        - locale: es
-          name: español
-          default: true
-          build: true
-        - locale: en
-          name: english
-          build: true
+        es: Español
+        en: English
       nav_translations:
         es:
           Inicio: Inicio
