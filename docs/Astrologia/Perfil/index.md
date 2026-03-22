@@ -8,11 +8,13 @@
 → Eje dominante de toda la carta
 
 Define:
+
 - identidad
 - dirección vital
 - impacto en el entorno
 
 Resultado:
+
 - personalidad no convencional
 - orientada a cambio, verdad y libertad
 - catalizador de procesos en otros
@@ -22,10 +24,12 @@ Resultado:
 ## 🧠 ESTRUCTURA GENERAL DE LA CARTA
 
 ### Eje dominante: 1 – 7
+
 - Casa 1: intensidad, cambio, independencia
 - Casa 7: relaciones como campo de prueba
 
 → Vida marcada por interacción constante:
+
   • yo vs el otro  
   • libertad vs vínculo  
 
@@ -33,25 +37,32 @@ Resultado:
 
 ### Eje evolutivo: 2 – 8
 - Casa 2 (Sagitario + Neptuno + Centro Galáctico):
+- 
   • valor interno  
   • visión económica no convencional  
 
 - Casa 8 (Nodo Norte en Cáncer):
+- 
   • transformación emocional  
   • apertura y vulnerabilidad  
 
 → Evolución:
+
   de control/seguridad → a apertura emocional profunda  
 
 ---
 
 ### Eje mental: 3 – 9
 - Casa 3 (Capricornio + Saturno regente):
-  • mente estructurada  
+  
+  • mente estructurada
+  
 - Casa 9 (Leo + Sol en Acuario):
+  
   • visión propia  
 
 → Integración:
+
   • estructura + creatividad  
   • lógica + visión  
 
@@ -59,24 +70,34 @@ Resultado:
 
 ### Eje emocional: 4 – 10
 - Casa 4 (Piscis + Venus):
-  • mundo interno sensible  
+  
+  • mundo interno sensible
+  
 - Casa 10 (Tauro):
+  
   • construcción externa estable  
 
 → Conflicto:
+
   • emoción vs estabilidad  
+  
 → Clave:
+
   • materializar lo sensible  
 
 ---
 
 ### Eje acción–inconsciente: 6 – 12
 - Casa 6 (Aries):
-  • acción impulsiva  
+  
+  • acción impulsiva
+  
 - Casa 12 (Escorpio + Saturno):
+  
   • procesamiento profundo  
 
 → Dinámica:
+
   • actuar ↔ contener  
   • impulso ↔ control  
 
@@ -142,6 +163,7 @@ Resultado:
 
 ## 🔥 PATRONES CLAVE DE VIDA
 - Ciclos de:
+  
   • inicio → intensidad → crisis → transformación → reinicio  
 
 - Relaciones como catalizador
@@ -161,15 +183,18 @@ Resultado:
 
 ## 🧭 CLAVE MAESTRA DE INTEGRACIÓN
 - Canalizar:
+  
   • Júpiter → propósito  
   • Urano → innovación  
   • Antares → autocontrol  
 
 - Integrar:
+  
   • emoción (Piscis/Cáncer)  
   • estructura (Capricornio/Tauro)  
 
 - Estrategia:
+  
   • estructurar sin rigidizar  
   • sentir sin perderse  
   • actuar sin dispersarse  
@@ -179,11 +204,13 @@ Resultado:
 ## 🧩 PERFIL FINAL
 
 Tipo de individuo:
+
 - no convencional
 - intenso
 - transformador
 
 Camino de vida:
+
 - evolución a través de crisis
 - desarrollo de conciencia emocional
 - construcción de una verdad propia
@@ -195,12 +222,13 @@ Camino de vida:
 - No diseñada para estabilidad lineal
 
 - Si se integra:
+  
   → creador de cambio  
   → transformador consciente  
   → individuo con impacto real  
 
 - Si no:
+  
   → ciclos repetitivos de conflicto e inestabilidad  
 
-→ Esta carta no permite una vida superficial:
-   exige profundidad, conciencia y dirección
+→ Esta carta no permite una vida superficial, exige profundidad, conciencia y dirección
