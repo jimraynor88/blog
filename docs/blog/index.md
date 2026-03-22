@@ -1,3 +1,5 @@
+# Blog
+
 {% set posts = [] %}
 {% for file in pages %}
   {% if file.src_path.startswith('blog/posts/') %}
