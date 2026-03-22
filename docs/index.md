@@ -1,7 +1,3 @@
----
-title: Inicio
----
-
 Bienvenido a mi blog, donde comparto contenido sobre varias temáticas:
 
 - Filosofía
