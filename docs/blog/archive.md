@@ -1,24 +1,24 @@
 # Archivo por años
 
-{% set years = {} %}
-{% for file in pages %}
-  {% if file.src_path.startswith('blog/posts/') %}
-    {% set page = file.page %}
-    {% if page.meta.date %}
-      {% set year = page.meta.date[:4] %}
-      {% if year not in years %}
-        {% set _ = years.update({year: []}) %}
+{% set posts_by_year = {} %}
+{% for f in files %}
+  {% if f.src_path.startswith('blog/posts/') %}
+    {% set post = f.page %}
+    {% if post.meta.date %}
+      {% set year = post.meta.date[:4] %}
+      {% if year not in posts_by_year %}
+        {% set _ = posts_by_year.update({year: []}) %}
       {% endif %}
-      {% set _ = years[year].append(page) %}
+      {% set _ = posts_by_year[year].append(post) %}
     {% endif %}
   {% endif %}
 {% endfor %}
 
-{% for year, posts in years|sort(reverse=true) %}
+{% for year in posts_by_year|sort(reverse=true) %}
 ## {{ year }}
 
-{% for post in posts|sort(attribute='meta.date', reverse=true) %}
-- [{{ post.title }}]({{ post.canonical_url }}) ({{ post.meta.date }})
+{% for post in posts_by_year[year]|sort(attribute='meta.date', reverse=true) %}
+- [{{ post.title }}]({{ post.url }}) ({{ post.meta.date }})
 {% endfor %}
 
 {% endfor %}
