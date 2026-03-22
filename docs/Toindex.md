@@ -1,8 +1,8 @@
 ---
-title: índice
+title: Hola
 author: Jim Raynor
 tags:
-  - índice
+  - Hola
 date: 2026-03-21
 draft: false
 ---
