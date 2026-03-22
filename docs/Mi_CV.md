@@ -4,9 +4,6 @@ title: Mis CV
 
 # Mis Capacitaciones Vitales (innatas)
 
-### Nombre
-Perfil Estratégico No Convencional
-
 ### Descripción
 Profesional con perfil altamente analítico, innovador y orientado a transformación. Capacidad para detectar patrones complejos, anticipar escenarios y generar soluciones fuera de lo convencional. Especialmente eficaz en contextos de cambio, incertidumbre o reestructuración.
 
