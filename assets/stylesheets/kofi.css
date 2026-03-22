@@ -11,14 +11,10 @@
 }
 .md-top {
   top: auto;
-  bottom: 1.5rem;
+  bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
   right: auto;
-  background-color: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
-  border-radius: 2rem;
-  padding: 0.5rem 0.8rem;
 }
 .prev-next-nav {
     display: flex;
