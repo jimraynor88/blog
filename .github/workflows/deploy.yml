@@ -33,6 +33,9 @@ jobs:
         run: mkdocs build --strict
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate blog index pages
+        run: python generate_blog_index.py
          
       - name: Add prev/next links
         run: python add_prev_next.py site   # pasa el directorio de salida
