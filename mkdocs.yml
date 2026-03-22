@@ -38,6 +38,7 @@ extra_css:
   - assets/stylesheets/kofi.css
 plugins:
   - search
+  - awesome-pages
   - blog:
       post_dir: "{blog}/posts"
       archive_url_format: "{date}"
@@ -45,7 +46,6 @@ plugins:
       post_date_format: long
       archive: true
       categories: true
-  - awesome-pages
   - section-index
   - rss
   - bettertags
