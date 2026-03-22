@@ -1,8 +1,10 @@
 ---
-date: 2026-03-20
-title: Mi primer post
+title: 
+author: Jim Raynor
 tags:
-  - prueba
-image:
+  - 
+date: {{date}}
+draft: false
+image: /assets/images/portada.jpg
+description: Breve resumen para el listado
 ---
-# 
