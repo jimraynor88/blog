@@ -33,6 +33,10 @@ jobs:
         run: mkdocs build --strict
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         
+      - name: Add prev/next links
+        run: python add_prev_next.py site   # pasa el directorio de salida
+               
       - name: Add CNAME
         run: echo "jim88.pp.ua" > ./site/CNAME
       - name: Deploy to GitHub Pages
