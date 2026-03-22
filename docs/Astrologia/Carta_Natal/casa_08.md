@@ -1,19 +1,4 @@
----
-layout: post
-tags: [Astrología, Carta Natal]
-categories: [Astrología/Carta Natal]
-#date: 2019-06-25 13:14:15
-#excerpt: ''
-#image: 'BASEURL/assets/blog/img/.png'
-#description:
-#permalink:
-title: 'Casa 8'
----
 
-
-
-
-----
 ## CONFIGURACIÓN CLAVE (CASA 8)
 - Casa 8 en Cáncer (cúspide ≈ 9°52' Cáncer)
 - Nodo Norte (Nodo real): 3°29' Cáncer – Casa 8
