@@ -11,3 +11,4 @@ mkdocs-macros-plugin
 mkdocs-video==1.5.0
 mkdocs-git-committers-plugin-2
 beautifulsoup4
+python-frontmatter
