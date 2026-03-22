@@ -31,7 +31,7 @@ theme:
   highlightjs: true
   features:
     - navigation.footer   # 👈 Esto activa los enlaces de página siguiente/anterior
-    - navigation.tabs        # pestañas en el header
+    #- navigation.tabs        # pestañas en el header
     - navigation.sections    # secciones expandibles en la barra lateral
 
 extra_css:
