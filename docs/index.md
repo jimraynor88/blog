@@ -1,5 +1,5 @@
 ---
-title: Hola
+title: Inicio
 author: Jim Raynor
 tags:
   - Hola
