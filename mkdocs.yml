@@ -44,7 +44,13 @@ plugins:
       match:
         - "blog/posts/**/*.md"
       date_from_meta:
-        - date
+        pubDate: date      # 'pubDate' es el campo en el feed, 'date' es tu campo YAML
+      title_from_meta:
+        title: title
+      # description_from_meta:   # opcional
+      #   description: description
+      # feed_title: "Jim Raynor's Blog"
+      # feed_description: "Artículos sobre filosofía, economía y astrología"
   - bettertags
   - git-revision-date-localized:
       type: date
