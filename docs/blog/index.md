@@ -1,32 +1,45 @@
 # Blog
 
-## Depuración
-
-- Número total de archivos: {{ files|length }}
-
-Archivos en blog/posts/:
+## Depuración (quitar después)
+Número de archivos en blog/posts: 
+{% set posts_files = [] %}
 {% for f in files %}
   {% if f.src_path.startswith('blog/posts/') %}
-    - {{ f.src_path }}
+    {% set _ = posts_files.append(f) %}
   {% endif %}
 {% endfor %}
+{{ posts_files|length }}
+
+### Metadatos del primer archivo (si existe):
+{% if posts_files|length > 0 %}
+  {% set sample = posts_files[0] %}
+  - Ruta: {{ sample.src_path }}
+  - Page meta: {{ sample.page.meta }}
+  - Page title: {{ sample.page.title }}
+  - Page meta.title: {{ sample.page.meta.title }}
+  - Page meta.date: {{ sample.page.meta.date }}
+{% else %}
+No se encontraron archivos en blog/posts.
+{% endif %}
+
 ---
 
-# Blog
+# Lista de posts
 
 {% set posts = [] %}
 {% for f in files %}
-  {% if f.src_path.startswith('blog/posts/') %}
-    {% if f.page and f.page.meta and f.page.meta.date %}
-      {% set _ = posts.append((f.page.meta.date, f)) %}
+  {% if f.src_path.startswith('blog/posts/') and f.page %}
+    {% set meta = f.page.meta %}
+    {% if meta and meta.date %}
+      {% set _ = posts.append((meta.date, f)) %}
     {% endif %}
   {% endif %}
 {% endfor %}
 
 {% if posts|length == 0 %}
-No hay posts aún.
+No hay posts con fecha válida. Asegúrate de que cada post tenga una línea `date: YYYY-MM-DD` en su frontmatter.
 {% else %}
 {% for date, f in posts|sort(reverse=true) %}
-- **{{ date }}** – [{{ f.page.title or f.name }}]({{ f.url }})
+- **{{ date }}** – [{{ f.page.meta.title or f.page.title or f.name }}]({{ f.url }})
 {% endfor %}
 {% endif %}
