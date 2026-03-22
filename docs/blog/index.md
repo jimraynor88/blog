@@ -56,6 +56,12 @@ No hay posts con fecha válida. Asegúrate de que cada post tenga una línea `da
 {% endfor %}
 
 {% if posts|length == 0 %}
+
+{% for p in pages %}
+  {% if p.file.src_path.startswith('blog/posts/') %}
+    {{ p.file.src_path }} -> {{ p.meta.date }}<br>
+  {% endif %}
+{% endfor %}
 No hay posts aún. Asegúrate de que cada archivo en `blog/posts/` tenga una línea `date:` en su frontmatter.
 {% else %}
 {% for date, p in posts|sort(reverse=true) %}
