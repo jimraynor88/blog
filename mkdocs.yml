@@ -38,7 +38,7 @@ extra_css:
   - assets/stylesheets/kofi.css
 plugins:
   - search
-  - awesome-pages
+  #- awesome-pages
   - section-index
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
@@ -100,3 +100,9 @@ markdown_extensions:
 extra_javascript:
   - https://storage.ko-fi.com/cdn/widget/Widget_2.js
   - js/kofi_button.js
+nav:
+  - Inicio: index.md
+  - Blog: blog/               # apunta a la carpeta, no a un archivo específico
+  - Mis CV: Mis_CV.md
+  - Seguridad: Seguridad/
+  - Invítame al Ko-Fi: https://ko-fi.com/invito
