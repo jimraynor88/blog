@@ -1,19 +1,4 @@
----
-layout: post
-tags: [Astrología, Carta Natal]
-categories: [Astrología/Carta Natal]
-#date: 2019-06-25 13:14:15
-#excerpt: ''
-#image: 'BASEURL/assets/blog/img/.png'
-#description:
-#permalink:
-title: 'Casa 7'
----
 
-
-
-
-----
 ## CONFIGURACIÓN CLAVE (CASA 7)
 - Descendente: 10°46' Tauro
 - Casa 7 abarca Tauro → Géminis
