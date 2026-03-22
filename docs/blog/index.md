@@ -17,10 +17,8 @@ Archivos en blog/posts/:
 {% set posts = [] %}
 {% for f in files %}
   {% if f.src_path.startswith('blog/posts/') %}
-    {# Obtenemos los metadatos directamente del archivo #}
-    {% set meta = f.page.meta if f.page.meta else {} %}
-    {% if meta.date %}
-      {% set _ = posts.append((meta.date, f)) %}
+    {% if f.page and f.page.meta and f.page.meta.date %}
+      {% set _ = posts.append((f.page.meta.date, f)) %}
     {% endif %}
   {% endif %}
 {% endfor %}
@@ -29,6 +27,6 @@ Archivos en blog/posts/:
 No hay posts aún.
 {% else %}
 {% for date, f in posts|sort(reverse=true) %}
-- **{{ date }}** – [{{ f.page.title or f.page.name }}]({{ f.url }})
+- **{{ date }}** – [{{ f.page.title or f.name }}]({{ f.url }})
 {% endfor %}
 {% endif %}
