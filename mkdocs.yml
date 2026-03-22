@@ -42,7 +42,7 @@ plugins:
   - blog:
       post_dir: "{blog}/posts"
       archive_url_format: "{date}"
-      archive_date_format: "MMMM 'de' yyyy"
+      archive_date_format: "yyyy 'de' MMMM"
       post_date_format: long
       archive: true
       categories: true
