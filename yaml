@@ -6,4 +6,5 @@ tags:
 date: {{date}}
 draft: false
 image: /assets/images/portada.jpg
+description: Breve resumen para el listado
 ---
