@@ -39,13 +39,19 @@ extra_css:
 plugins:
   - search
   - awesome-pages
-  #- blog:
-      #post_dir: "{blog}/posts"
-      #archive_url_format: "{date}"
-      #archive_date_format: "yyyy 'de' MMMM"
-      #post_date_format: long
-      #archive: true
-      #categories: true
+  - blogging:
+      # Directorio donde están tus posts
+      posts_dir: "blog/posts"
+      # URL base del blog
+      blog_dir: "blog"
+      # Formato de fecha en las URLs
+      archive_url_format: "archive/{date:%Y}/{date:%m}"
+      # Fecha en el listado de posts
+      date_format: "dd/MM/yyyy"
+      # Número de posts por página
+      posts_per_page: 10
+      # Habilitar tags
+      tags: true
   - section-index
   - rss
   - bettertags
@@ -53,9 +59,6 @@ plugins:
       type: date
       enable_creation_date: true
       fallback_to_build_date: true
-      exclude:
-        - blog/archive/*
-        - blog/categories/*
   - glightbox
   - minify
   - macros
