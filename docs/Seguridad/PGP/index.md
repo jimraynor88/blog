@@ -1,10 +1,10 @@
 ## 🔑 IMPORTANTE 🔐
 Tus mensajes viajan como una postal abierta. Cualquiera puede leerlos y el Chat Control de la UE en especial.
 
-## 🎯 
+## 🎯 Motivos
 No se trata de «no tener nada que ocultar», tienes el derecho y la obligación de proteger tu privacidad, seguridad y libertad. El mundo está lleno de gente malvada que sabe mucho y quiere aprovecharse. Para ellos no eres especial, solo alguien más a quien arruinar la vida.
 
-## ✅ Solución:
+## ✅ Solución
 Usa un "sobre opaco digital" (PGP). Solo tu destinatario podrá leer tu mensaje. Haz esto:
 
 ## ▶ Paso 1 
