@@ -1,19 +1,4 @@
----
-layout: post
-tags: [Astrología, Carta Natal]
-categories: [Astrología/Carta Natal]
-#date: 2019-06-25 13:14:15
-#excerpt: ''
-#image: 'BASEURL/assets/blog/img/.png'
-#description:
-#permalink:
-title: 'Casa 6'
----
 
-
-
-
-----
 ## CONFIGURACIÓN CLAVE (CASA 6)
 - Casa 6 en Aries (cúspide ≈ 18° Aries)
 - Sin planetas tradicionales dentro de la casa
