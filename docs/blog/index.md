@@ -43,3 +43,22 @@ No hay posts con fecha válida. Asegúrate de que cada post tenga una línea `da
 - **{{ date }}** – [{{ f.page.meta.title or f.page.title or f.name }}]({{ f.url }})
 {% endfor %}
 {% endif %}
+
+# Blog
+
+{% set posts = [] %}
+{% for p in pages %}
+  {% if p.file.src_path.startswith('blog/posts/') %}
+    {% if p.meta and p.meta.date %}
+      {% set _ = posts.append((p.meta.date, p)) %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if posts|length == 0 %}
+No hay posts aún. Asegúrate de que cada archivo en `blog/posts/` tenga una línea `date:` en su frontmatter.
+{% else %}
+{% for date, p in posts|sort(reverse=true) %}
+- **{{ date }}** – [{{ p.meta.title or p.title or p.name }}]({{ p.url }})
+{% endfor %}
+{% endif %}
