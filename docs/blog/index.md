@@ -1,15 +1,15 @@
 # Blog
 
 {% set posts = [] %}
-{% for file in pages %}
-  {% if file.src_path.startswith('blog/posts/') %}
-    {% set page = file.page %}
-    {% if page.meta.date %}
-      {% set _ = posts.append((page.meta.date, page)) %}
+{% for f in files %}
+  {% if f.src_path.startswith('blog/posts/') %}
+    {% set post = f.page %}
+    {% if post.meta.date %}
+      {% set _ = posts.append((post.meta.date, post)) %}
     {% endif %}
   {% endif %}
 {% endfor %}
 
 {% for date, post in posts|sort(reverse=true) %}
-- **{{ date }}** – [{{ post.title }}]({{ post.canonical_url }})
+- **{{ date }}** – [{{ post.title }}]({{ post.url }})
 {% endfor %}
