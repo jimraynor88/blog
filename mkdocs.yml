@@ -41,11 +41,11 @@ plugins:
   - awesome-pages
   - blog:
       post_dir: "{blog}/posts"
-      archive_url_format: "{date}"
-      archive_date_format: "yyyy 'de' MMMM"
-      post_date_format: long
-      archive: true
-      categories: true
+      #archive_url_format: "{date}"
+      #archive_date_format: "yyyy 'de' MMMM"
+      #post_date_format: long
+      #archive: true
+      #categories: true
   - section-index
   - rss
   - bettertags
