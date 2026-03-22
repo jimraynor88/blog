@@ -1,19 +1,4 @@
----
-layout: post
-tags: [Astrología, Carta Natal]
-categories: [Astrología/Carta_Natal]
-#date: 2019-06-25 13:14:15
-#excerpt: ''
-#image: 'BASEURL/assets/blog/img/.png'
-#description:
-#permalink:
-title: 'Casa 5'
----
 
-
-
-
-----
 ## CONFIGURACIÓN CLAVE (CASA 5)
 - Casa 5 en Aries (cúspide ≈ 21° Aries)
 - Regente: Marte en Piscis – Casa 4 (≈18°)
