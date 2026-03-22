@@ -1,13 +1,3 @@
----
-title: Inicio
-author: Jim Raynor
-tags:
-  - Hola
-date: 2026-03-21
-draft: false
----
-
-
 Bienvenido a mi blog, donde comparto contenido sobre varias temáticas:
 
 - Filosofía
