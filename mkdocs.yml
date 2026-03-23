@@ -55,7 +55,7 @@ theme:
     - navigation.instant       # Hace que la navegación entre páginas sea instantánea (carga con AJAX)
     - navigation.path         # Muestra la ruta de navegación (breadcrumbs) en la parte superior
     - navigation.tracking     # Actualiza la URL con el título de la página al navegar (para instant)
-    
+    - navigation.expand
 
 
 extra_css:
