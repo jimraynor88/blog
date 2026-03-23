@@ -18,7 +18,7 @@ Explora mi Casa 5 (amor romántico), mi Casa 7 (pareja) y mi Casa 8 (intimidad).
 *Quién soy, cómo me presento, y cómo crezco en libertad.*  
 Mi Casa 1 (identidad), mi Casa 5 (autoexpresión) y mi Casa 9 (filosofía) se unen aquí. La conjunción Júpiter‑Urano en mi Ascendente, los trígonos con mi Sol, Luna y Mercurio, y las estrellas que me han guiado. Un retrato de mi autenticidad radical.
 
-### [Salud, Bienestar y Rutinas](Salud_Bienestar_y_Rutinas.md 
+### [Salud, Bienestar y Rutinas](Salud_Bienestar_y_Rutinas.md)
 *Cómo cuido mi cuerpo, mi mente y mi energía.*  
 Mi Casa 6 (salud), mi Casa 12 (psique), mi Casa 8 (transformación) y mi Luna (emociones) se entrelazan. Sedna, Pholus, Eris, y estrellas como Spica y Rigel me han enseñado que la salud es un equilibrio entre entrega y límites.
 
