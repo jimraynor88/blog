@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/Mis_CV/</loc>
-         <lastmod>2026-03-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://jim88.pp.ua/Seguridad/</loc>
          <lastmod>2026-03-23</lastmod>
          <changefreq>daily</changefreq>
@@ -37,6 +32,21 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/Seguridad/PGP/Para-que-usar-PGP/</loc>
+         <lastmod>2026-03-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/Sobre_Mi/Astrologia/</loc>
+         <lastmod>2026-03-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/Sobre_Mi/Astrologia/Carta_Natal/</loc>
+         <lastmod>2026-03-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/Sobre_Mi/Astrologia/Carta_Natal/Casas/</loc>
          <lastmod>2026-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
