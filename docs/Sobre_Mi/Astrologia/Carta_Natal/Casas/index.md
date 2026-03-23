@@ -21,4 +21,7 @@ Esta es mi carta, interpretada desde dentro. Cada casa es un escenario de mi vid
 | **Casa 11** | Mis amistades, mis grupos, mis ideales | [Casa 11 – Virgo](Casa_11.md) |
 | **Casa 12** | Mi inconsciente, mi espiritualidad, mi soledad | [Casa 12 – Libra](Casa_12.md) |
 
+## 🔗 La red que me conecta: aspectos y estrellas
+
+Más allá de las casas y los perfiles, los aspectos entre planetas y estrellas fijas tejen una red que sostiene mi experiencia. Para una visión completa, consulta **[Aspectos Natales](../Aspectos_Natales.md)**.
 ---
