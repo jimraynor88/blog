@@ -29,13 +29,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+        
+      - name: Generate blog index pages
+        run: python generate_blog_index.py
+
       - name: Build site
         run: mkdocs build --strict
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate blog index pages
-        run: python generate_blog_index.py
          
       - name: Add prev/next links
         run: python add_prev_next.py site   # pasa el directorio de salida
