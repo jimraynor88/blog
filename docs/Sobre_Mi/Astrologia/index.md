@@ -37,12 +37,13 @@ Si prefieres una lectura más transversal, aquí he reunido los aspectos de mi c
 
 ---
 
-## 📄 Mi currículum de capacidades vitales (CV)
+## 📄 Mis currículums vitales
 
-Y más allá de la astrología, he querido plasmar quién soy en un documento más directo, pensado para quien quiera conocer mis dones, mi experiencia y lo que puedo aportar. No es un CV al uso, sino una presentación de mis capacidades innatas y de lo que he forjado en el camino.
+Y más allá de la astrología, he querido plasmar quién soy en documentos más directos, pensados para quien quiera conocer mis dones, mi experiencia y lo que puedo aportar. No son CV al uso, sino una presentación de mis capacidades innatas y de lo que he forjado en el camino.
 
-- **[Mi CV: capacidades, dones y experiencia](/mis_cv/)**
+- **[Currículum de capacidades vitales](cv/mis_cv.md)** – Lo que sé hacer, cómo puedo aportar valor, y qué busco en un proyecto o equipo.
+- **[Relaciones: cómo soy y qué puedo ofrecer](cv/Relaciones_Como_Soy.md)** – Una presentación sincera de mi forma de vincularme.
 
----
+*También puedes ver el [índice completo de CV](cv/).*
 
 *Toda esta interpretación ha sido construida desde mis datos natales (ASTRODIENST, 10 feb. 1983, Valencia) y desde mi propia experiencia. Si quieres profundizar en algún aspecto, aquí están las puertas.*
