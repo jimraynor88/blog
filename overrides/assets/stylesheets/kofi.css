@@ -27,3 +27,26 @@
 .prev-next-nav a:hover {
     background-color: var(--md-accent-fg-color);
 }
+/* Control de la barra de scroll del menú lateral */
+.md-sidebar__scrollwrap {
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+/* Ocultar la barra de scroll hasta que se haga hover */
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb {
+  background: var(--md-default-fg-color--lighter);
+}
+
+.md-sidebar__scrollwrap:hover {
+  scrollbar-color: var(--md-default-fg-color--lighter) transparent;
+}
