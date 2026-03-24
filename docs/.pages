@@ -1,0 +1,7 @@
+nav:
+  - title: Jim Raynor
+    nav:
+      - index.md
+      - Sobre_Mi/
+  - Blog: blog/        # sección Blog (enlace directo)
+  - ...                # el resto (Seguridad, assets, etc.) va después
