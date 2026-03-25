@@ -92,5 +92,3 @@ Todo esto conforma un entramado donde mi éxito no es fruto del azar, sino la ma
 ## 🧭 En resumen
 
 Mi perfil vocacional es el de un **líder innovador** que construye desde la autenticidad, transforma las crisis en oportunidades y necesita dar sentido a lo que hace. Mi éxito no es lineal, pero cuando confío en mi visión y la estructuro con disciplina, consigo logros que otros consideran imposibles. Reconocimiento, autoridad y capacidad de influencia me esperan en el camino, siempre que mantenga mi integridad y canalice mi intensidad con consciencia.
-
-*Si quiero profundizar en algún aspecto concreto, puedo explorarlo.*
