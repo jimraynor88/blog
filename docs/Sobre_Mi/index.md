@@ -20,7 +20,7 @@ En un mundo donde la vigilancia es la norma, proteger la privacidad no es un luj
 - **Blog:** artículos sobre filosofía, economía, vida y todo lo que me mueve.
 - **Seguridad:** guías sobre PGP, OSINT y cómo proteger tu información.
 
-Si buscas conocerme mejor, explora los perfiles y casas astrológicas. Si lo que te interesa es mi experiencia profesional, mira mi [currículum de capacidades vitales](/Astrologia/cv/).
+Si buscas conocerme mejor, explora los perfiles y casas astrológicas. Si lo que te interesa es mi experiencia profesional, mira mi [currículum de capacidades vitales](/Sobre_Mi/Astrologia/cv/).
 
 ---
 
