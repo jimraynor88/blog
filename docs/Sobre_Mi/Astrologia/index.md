@@ -50,4 +50,4 @@ Y más allá de la astrología, he querido plasmar quién soy en documentos más
 
 *También puedes ver el [índice completo de CV](cv/).*
 
-*Toda esta interpretación ha sido construida desde mis datos natales (ASTRODIENST, 10 feb. 1983, Valencia) y desde mi propia experiencia. Si quieres profundizar en algún aspecto, aquí están las puertas.*
+*Toda esta interpretación ha sido construida desde mis datos natales y desde mi propia experiencia.*
