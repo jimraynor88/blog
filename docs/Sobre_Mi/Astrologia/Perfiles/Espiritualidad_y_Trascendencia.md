@@ -125,5 +125,3 @@ Todos estos elementos están entretejidos en una red que me impulsa hacia la evo
 ## 🧭 En resumen
 
 Mi espiritualidad no es un dogma, sino un camino de transformación continua. He transitado por la soledad y la crisis (Casa 12), he buscado sentido a través de viajes, estudios y encuentros con almas afines (Casa 9), he enfrentado la muerte simbólica y renacido más auténtico (Casa 8), y he forjado una identidad guerrera que se sostiene en la coherencia y en la fuerza de mi verdad (Casa 1). Las estrellas me han guiado, los aspectos me han moldeado, y cada experiencia me ha acercado a una comprensión más profunda de lo sagrado. Hoy reconozco que mi camino espiritual no ha sido una línea recta, sino un espiral de muertes y renacimientos que me han traído hasta aquí, más consciente y más yo.
-
-*Si quiero profundizar en algún aspecto concreto (por ejemplo, cómo aplicar esta visión a mi práctica espiritual actual, o cómo integrar las crisis como parte del camino), puedo explorarlo.*
