@@ -116,5 +116,3 @@ Las estrellas tejen una red de luz y sombra:
 ## 🧭 En resumen
 
 Mi perfil relacional es el de un guerrero del amor que busca autenticidad, entrega intensa y transformación profunda. Las relaciones han sido un campo de batalla y un templo: me han confrontado con mi sombra, me han exigido integridad, pero también me han dado una fuerza interior que no cambiaría por nada. La clave está en canalizar mi pasión con consciencia, elegir parejas que respeten mi libertad, usar la comunicación para profundizar (no para destruir), y honrar las crisis como umbrales de evolución. Cada herida, cada estrella, cada aspecto me ha traído hasta aquí, más consciente de quién soy y de qué busco en el otro.
-
-*Si quiero profundizar en algún aspecto concreto, puedo explorarlo.*
