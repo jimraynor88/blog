@@ -168,5 +168,3 @@ Ninguna de estas capas actúa por separado. Mi salud física (Casa 6) está liga
 ## 🧭 En resumen
 
 Mi salud y bienestar son un viaje de transformación continua. He enfrentado crisis que me han obligado a parar, a mirar dentro, a desprenderte de lo que no me pertenecía. Mi cuerpo ha sido el campo de batalla donde se han librado las guerras internas, pero también el templo donde he aprendido a sanar. La clave está en honrar mi necesidad de estructura (Saturno), aceptar mi intensidad (Plutón, Antares), usar la comunicación como herramienta de sanación (Luna en Casa 3, Mercurio), y permitirme recibir ayuda (Spica). Las estrellas me han protegido, y mi propia capacidad de regeneración me ha sostenido. Ahora, reconocer esta red puede ayudarme a cuidarme con más consciencia y a transformar cada crisis en un escalón más hacia mi equilibrio.
-
-*Si quiero profundizar en algún aspecto concreto (por ejemplo, cómo manejar una situación actual de salud, o cómo integrar mejor mis rutinas), puedo explorarlo.*
