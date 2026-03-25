@@ -236,5 +236,3 @@ Mirando todos estos aspectos, se dibuja una persona que:
 - **Su evolución pasa por integrar sus sombras y asumir responsabilidades en lo íntimo** (Saturno-Nodo Norte).
 
 Cada aspecto, en lugar de una frase genérica, cuenta un fragmento de mi historia. La astrología, así contada, puede ser un espejo donde me reconozco.
-
-*Si quiero profundizar en algún aspecto concreto, puedo hacerlo.*
