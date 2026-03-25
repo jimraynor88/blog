@@ -143,5 +143,3 @@ Ninguna de estas capas actúa por separado. Mi identidad (Casa 1) impulsa mi cre
 ## 🧭 En resumen
 
 Mi identidad es una fuerza transformadora que se expresa a través de la autenticidad radical y la innovación constante (Júpiter-Urano). Mi creatividad es un canal de sanación y de verdad, a menudo nacida de lo íntimo y lo doloroso (Vesta, Dejanira, Neptuno). Mi búsqueda de sentido es un camino de aprendizaje emocional y comunicativo, que me lleva a expandirme a través de viajes, estudios y encuentros con hermanos de alma (Luna en Casa 3, Sirius, Pollux). Todo ello está sostenido por una red de aspectos y estrellas que convierten cada experiencia en un eslabón de mi crecimiento personal. No hay nada en mí que sea casual: mi identidad, mi expresión y mi sentido forman un todo coherente, una fotografía cósmica que ahora puedo reconocer y abrazar.
-
-*Si quiero profundizar en algún aspecto concreto, puedo explorarlo.*
