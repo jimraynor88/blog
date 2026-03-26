@@ -5,7 +5,7 @@ description: Envíame un mensaje seguro con PGP
 
 # Contacto cifrado con PGP
 
-Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mensaje se cifrará con mi clave pública y podrás incluir tu propia clave para que yo pueda responderte de forma cifrada. Si no tienes clave, puedes [generar una aquí](generar-clave/).
+Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mensaje se cifrará con mi clave pública y podrás dejar tu contacto para que pueda responderte. Si no tienes clave PGP, puedes [generar una aquí](generar-clave/) e incluirla en el mensaje para que yo pueda responderte cifrado.
 
 ---
 
@@ -19,8 +19,30 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 </div>
 
 <div class="form-group">
-  <label for="recipientPubKey">Mi clave pública (no la modifiques):</label>
-  <textarea id="recipientPubKey" rows="8" readonly style="background-color:#f5f5f5; font-family: monospace;">-----BEGIN PGP PUBLIC KEY BLOCK-----
+  <label for="contact">Tu contacto (email, Telegram, etc.):</label>
+  <input type="text" id="contact" placeholder="ejemplo@dominio.com o @usuario" value="">
+  <small>Obligatorio para que pueda responderte.</small>
+</div>
+
+<div class="form-group">
+  <label for="senderPubKey">Tu clave pública (opcional):</label>
+  <textarea id="senderPubKey" rows="4" placeholder="Pega aquí tu clave pública si quieres que te responda cifrado..."></textarea>
+  <small>Si la incluyes, podré responderte de forma cifrada. Si no tienes, puedes <a href="generar-clave/">generar una aquí</a>.</small>
+</div>
+
+<div class="form-group">
+  <label for="status">Estado:</label>
+  <div id="status" style="margin-top: 0.5rem;"></div>
+</div>
+
+<button id="sendBtn">Cifrar y enviar mensaje</button>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/openpgp@5.11.0/dist/openpgp.min.js"></script>
+<script>
+// Tu clave pública (oculta)
+const myPublicKeyArmored = `-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 xjMEaTiwuBYJKwYBBAHaRw8BAQdAULW0hAnmT7uuWp0MLjPApWrPwB2byApD
 cP61TkcrjQPNCkppbSBSYXlub3LCjAQQFgoAPgWCaTiwuAQLCQcICZAlsWQ4
@@ -32,36 +54,9 @@ CgAqBYJpOLC4CZAlsWQ4ylh93gKbDBYhBEVAQ/IYfZwLbxKeyiWxZDjKWH3e
 AADTIgEAtl3w5Dv5yUviNqFRe6S4siobVbGw4NbiMaEZ+Xzu1vEBANKaL8ED
 DiaBt6uhKqPZCWkBHanc5yMXA3BSjuGb8vgD
 =4/cH
------END PGP PUBLIC KEY BLOCK-----</textarea>
-  <small>No modifiques este campo.</small>
-</div>
+-----END PGP PUBLIC KEY BLOCK-----`;
 
-<div class="form-group">
-  <label for="senderPubKey">Tu clave pública (opcional):</label>
-  <textarea id="senderPubKey" rows="4" placeholder="Pega aquí tu clave pública si quieres que te la incluya..."></textarea>
-  <small>Si la incluyes, podré responderte de forma cifrada. Si no tienes, puedes <a href="generar-clave/">generar una aquí</a>.</small>
-</div>
-
-<div class="form-group">
-  <label for="encryptedResult">Mensaje cifrado (resultado):</label>
-  <textarea id="encryptedResult" rows="8" readonly></textarea>
-</div>
-
-<button id="encryptBtn">Cifrar mensaje</button>
-
-<div class="form-group" style="margin-top: 1rem;">
-  <button id="sendViaCloudflareBtn">Enviar mensaje cifrado</button>
-  <small>El mensaje se enviará a mi correo de forma segura.</small>
-</div>
-
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/openpgp@5.11.0/dist/openpgp.min.js"></script>
-<script>
-// Tu clave pública (la misma que está en el textarea)
-const myPublicKeyArmored = document.getElementById('recipientPubKey').value.trim();
-
-// Función para cifrar el mensaje (con opción de incluir clave del remitente)
+// Función para cifrar el mensaje (opcionalmente con clave del remitente)
 async function encryptMessage(publicKeyArmored, plaintext, signKeyArmored = null) {
   const publicKey = await openpgp.readKey({ armoredKey: publicKeyArmored });
   const options = {
@@ -76,56 +71,69 @@ async function encryptMessage(publicKeyArmored, plaintext, signKeyArmored = null
   return encrypted;
 }
 
-// Cifrar al hacer clic
-document.getElementById('encryptBtn').addEventListener('click', async () => {
-  const plaintext = document.getElementById('message').value;
-  if (!plaintext.trim()) {
-    alert('Escribe un mensaje primero.');
+// Elementos DOM
+const messageEl = document.getElementById('message');
+const contactEl = document.getElementById('contact');
+const senderKeyEl = document.getElementById('senderPubKey');
+const statusEl = document.getElementById('status');
+const sendBtn = document.getElementById('sendBtn');
+
+sendBtn.addEventListener('click', async () => {
+  const plaintext = messageEl.value.trim();
+  const contact = contactEl.value.trim();
+  if (!plaintext) {
+    statusEl.innerHTML = '<span style="color: red;">❌ Escribe un mensaje.</span>';
     return;
   }
-  const senderKey = document.getElementById('senderPubKey').value;
-  try {
-    const encrypted = await encryptMessage(myPublicKeyArmored, plaintext, senderKey);
-    document.getElementById('encryptedResult').value = encrypted;
-  } catch (err) {
-    console.error(err);
-    alert('Error al cifrar: ' + err.message);
-  }
-});
-
-// Enviar al Worker de Cloudflare (Mailchannels)
-document.getElementById('sendViaCloudflareBtn').addEventListener('click', async () => {
-  const encryptedMsg = document.getElementById('encryptedResult').value;
-  if (!encryptedMsg.trim()) {
-    alert('Primero cifra el mensaje.');
+  if (!contact) {
+    statusEl.innerHTML = '<span style="color: red;">❌ Indica un contacto (email, Telegram, etc.).</span>';
     return;
   }
 
-  const workerUrl = 'https://mimail.jimraynor.workers.dev';
+  statusEl.innerHTML = '<span>🔐 Cifrando mensaje...</span>';
+  sendBtn.disabled = true;
+
   try {
+    // Construir el texto que se cifrará: incluir el contacto y la clave pública del remitente si se proporciona
+    let fullMessage = `Mensaje de: ${contact}\n\n${plaintext}`;
+    if (senderKeyEl.value.trim()) {
+      fullMessage += `\n\n--- Clave pública del remitente ---\n${senderKeyEl.value.trim()}`;
+    }
+
+    // Cifrar el mensaje con mi clave pública
+    const encrypted = await encryptMessage(myPublicKeyArmored, fullMessage);
+
+    // Enviar al Worker
+    statusEl.innerHTML = '<span>📡 Enviando mensaje cifrado...</span>';
+    const workerUrl = 'https://mimail.jimraynor.workers.dev';
     const response = await fetch(workerUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text: encryptedMsg })
+      body: JSON.stringify({ text: encrypted })
     });
+
     if (response.ok) {
-      alert('Mensaje enviado correctamente. Recibiré tu mensaje cifrado por correo.');
-      // Opcional: limpiar el formulario
-      document.getElementById('message').value = '';
-      document.getElementById('senderPubKey').value = '';
-      document.getElementById('encryptedResult').value = '';
+      statusEl.innerHTML = '<span style="color: green;">✅ Mensaje enviado correctamente. Recibiré tu mensaje cifrado.</span>';
+      // Limpiar campos
+      messageEl.value = '';
+      contactEl.value = '';
+      senderKeyEl.value = '';
     } else {
-      alert('Error al enviar. Inténtalo de nuevo más tarde.');
+      const errorText = await response.text();
+      console.error('Worker error:', errorText);
+      statusEl.innerHTML = `<span style="color: red;">❌ Error al enviar: ${errorText}</span>`;
     }
   } catch (err) {
     console.error(err);
-    alert('Error de red: ' + err.message);
+    statusEl.innerHTML = `<span style="color: red;">❌ Error de red o cifrado: ${err.message}</span>`;
+  } finally {
+    sendBtn.disabled = false;
   }
 });
 </script>
 
 <style>
-.pgp-contact textarea {
+.pgp-contact textarea, .pgp-contact input {
   width: 100%;
   box-sizing: border-box;
   margin: 0.5rem 0;
