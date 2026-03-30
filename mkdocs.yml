@@ -15,14 +15,14 @@ theme:
   # Modo claro
   - scheme: default
     primary: indigo
-    accent: deep orange
+    accent: blue
     toggle:
       icon: material/brightness-7      # Icono de sol
       name: Cambiar a modo oscuro      # Texto al pasar el ratón
   # Modo oscuro
   - scheme: slate
     primary: indigo
-    accent: deep orange
+    accent: blue
     toggle:
       icon: material/brightness-4      # Icono de luna
       name: Cambiar a modo claro
@@ -37,7 +37,7 @@ theme:
     - navigation.sections    # secciones expandibles en la barra lateral
     - navigation.tabs.sticky   # mantiene las pestañas visibles al hacer scroll.
     #- navigation.indexes # usa los index.md como índices de sección (en lugar de enlazar a la primera subpágina).
-    - navigation.prune # elimina las secciones vacías del menú lateral.
+    #- navigation.prune # elimina las secciones vacías del menú lateral.
     - navigation.top #  añade un botón para volver arriba.
     # - header.autohide # oculta el encabezado al hacer scroll hacia abajo y lo muestra al subir.
     - search.highlight # resalta los términos de búsqueda en los resultados.
@@ -80,9 +80,6 @@ plugins:
   - minify
   - macros
   - mkdocs-video
-  #- git-committers:
-  #    repository: jimraynor88/jimraynor88.github.io
-  #    token: !ENV GITHUB_TOKEN   # Usa el token automático de GitHub Actions
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
 extra:
@@ -91,9 +88,9 @@ extra:
   generator: false               # sigue siendo necesario
  # revision: true   # no es una opción estándar, mejor usar el plugin directamente
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/jimraynor88
-      name: GitHub
+    #- icon: fontawesome/brands/github
+     # link: https://github.com/jimraynor88
+      #name: GitHub
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/jimraynor1488
       name: X
