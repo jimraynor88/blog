@@ -14,14 +14,14 @@ theme:
   palette:
   # Modo claro
   - scheme: default
-    primary: blue grey
+    primary: deep purple
     accent: blue
     toggle:
       icon: material/brightness-7      # Icono de sol
       name: Cambiar a modo oscuro      # Texto al pasar el ratón
   # Modo oscuro
   - scheme: slate
-    primary: blue grey
+    primary: deep purple
     accent: blue
     toggle:
       icon: material/brightness-4      # Icono de luna
@@ -39,7 +39,7 @@ theme:
     - navigation.indexes # usa los index.md como índices de sección (en lugar de enlazar a la primera subpágina).
     - navigation.prune # elimina las secciones vacías del menú lateral.
     - navigation.top #  añade un botón para volver arriba.
-    - header.autohide # oculta el encabezado al hacer scroll hacia abajo y lo muestra al subir.
+    #- header.autohide # oculta el encabezado al hacer scroll hacia abajo y lo muestra al subir.
     - search.highlight # resalta los términos de búsqueda en los resultados.
     - search.suggest # activa autocompletado en la barra de búsqueda.
     - search.share # permite compartir enlaces de búsqueda.
