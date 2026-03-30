@@ -14,14 +14,14 @@ theme:
   palette:
   # Modo claro
   - scheme: default
-    primary: blue
+    primary: teal
     accent: indigo
     toggle:
       icon: material/brightness-7      # Icono de sol
       name: Cambiar a modo oscuro      # Texto al pasar el ratón
   # Modo oscuro
   - scheme: slate
-    primary: blue
+    primary: teal
     accent: indigo
     toggle:
       icon: material/brightness-4      # Icono de luna
