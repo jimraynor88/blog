@@ -15,14 +15,14 @@ theme:
   # Modo claro
   - scheme: default
     primary: indigo
-    accent: cyan
+    accent: blue
     toggle:
       icon: material/brightness-7      # Icono de sol
       name: Cambiar a modo oscuro      # Texto al pasar el ratón
   # Modo oscuro
   - scheme: slate
     primary: indigo
-    accent: cyan
+    accent: blue
     toggle:
       icon: material/brightness-4      # Icono de luna
       name: Cambiar a modo claro
