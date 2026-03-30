@@ -41,13 +41,11 @@ Si prefieres una lectura más transversal, aquí he reunido los aspectos de mi c
 
 ---
 
-## 📄 Mis currículums vitales
+## 📄 Mis Conditio Vitae
 
 Y más allá de la astrología, he querido plasmar quién soy en documentos más directos, pensados para quien quiera conocer mis dones, mi experiencia y lo que puedo aportar. No son CV al uso, sino una presentación de mis capacidades innatas y de lo que he forjado en el camino.
 
-- **[Currículum de capacidades vitales](cv/mis_cv.md)** – Lo que sé hacer, cómo puedo aportar valor, y qué busco en un proyecto o equipo.
-- **[Relaciones: cómo soy y qué puedo ofrecer](cv/Relaciones_Como_Soy.md)** – Una presentación sincera de mi forma de vincularme.
-
-*También puedes ver el [índice completo de CV](cv/).*
+- **[Conditio Vitae Laboral](Conditio_Vitae/mis_cv.md)** – Lo que sé hacer, cómo puedo aportar valor, y qué busco en un proyecto o equipo.
+- **[Conditio Vitae Relaciones](Conditio_Vitae/Relaciones_Como_Soy.md)** – Una presentación sincera de mi forma de vincularme.
 
 *Toda esta interpretación ha sido construida desde mis datos natales y desde mi propia experiencia.*
