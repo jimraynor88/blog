@@ -1,4 +1,4 @@
-# Currículum de capacidades vitales
+# Conditio Vitae Laboral
 
 *Un resumen de quién soy, qué sé hacer y cómo puedo aportar valor, construido desde mis experiencias, mis dones innatos y mi forma de ser.*
 
