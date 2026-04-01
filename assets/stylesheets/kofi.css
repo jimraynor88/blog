@@ -1,3 +1,9 @@
+:root {
+  --md-primary-fg-color: #123f9a;
+  --md-primary-fg-color--light: #3a66c7;
+  --md-primary-fg-color--dark: #0b2c6f;
+}
+
 /* Reducir el tamaño del icono del repositorio (Ko-Fi) */
 .md-source__icon svg {
   width: 1rem;
