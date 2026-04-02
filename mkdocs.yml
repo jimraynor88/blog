@@ -36,7 +36,7 @@ theme:
     - navigation.tabs        # pestañas en el header
     - navigation.sections    # secciones expandibles en la barra lateral
     - navigation.tabs.sticky   # mantiene las pestañas visibles al hacer scroll.
-    - navigation.indexes # usa los index.md como índices de sección (en lugar de enlazar a la primera subpágina).
+    #- navigation.indexes # usa los index.md como índices de sección (en lugar de enlazar a la primera subpágina).
     - navigation.prune # elimina las secciones vacías del menú lateral.
     - navigation.top #  añade un botón para volver arriba.
     #- header.autohide # oculta el encabezado al hacer scroll hacia abajo y lo muestra al subir.
