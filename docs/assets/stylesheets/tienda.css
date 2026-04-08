@@ -9,8 +9,8 @@
     background: var(--md-default-bg-color);
 }
 .producto-imagen {
-    max-width: 88px;
-    max-height: 88px;
+    max-width: 101px;
+    max-height: 101px;
     object-fit: cover;     /* La imagen se recorta para llenar el espacio sin deformarse */
     border-radius: 8px;
 }
