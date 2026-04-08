@@ -1,6 +1,6 @@
 ---
 title: Casa 3 – Mi comunicación, mis hermanos, mi entorno cercano
-alias: cn-casa3
+alias: Casa 3
 tags: Carta Natal
 ---
 
