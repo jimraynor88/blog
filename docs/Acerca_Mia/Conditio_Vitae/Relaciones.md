@@ -1,7 +1,7 @@
 ---
 title: Relaciones
-alias: relaciones
-tags: Conditio_Vitae
+alias: Relaciones
+tags: Conditio Vitae
 ---
 
 # Conditio Vitae Relaciones
