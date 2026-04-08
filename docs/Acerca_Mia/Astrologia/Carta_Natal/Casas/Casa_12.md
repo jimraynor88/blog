@@ -1,3 +1,9 @@
+---
+title: Casa 12 – Mi inconsciente, mi espiritualidad, mis procesos de soledad y sanación
+alias: Casa 12
+tags: Carta Natal
+---
+
 # Casa 12 – Mi inconsciente, mi espiritualidad, mis procesos de soledad y sanación
 
 ## 📐 Datos técnicos
