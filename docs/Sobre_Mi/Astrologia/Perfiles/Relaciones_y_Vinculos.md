@@ -1,5 +1,6 @@
 ---
 title: Relaciones y Vínculos
+alias: perfil-relaciones
 tags: Perfiles
 ---
 
