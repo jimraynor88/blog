@@ -81,11 +81,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/Acerca_Mia/Astrologia/Conditio_Vitae/</loc>
-         <lastmod>2026-04-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://jim88.pp.ua/Acerca_Mia/Astrologia/Perfiles/</loc>
          <lastmod>2026-04-08</lastmod>
          <changefreq>daily</changefreq>
@@ -112,6 +107,11 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/Acerca_Mia/Astrologia/Perfiles/Vocacion_y_Logro/</loc>
+         <lastmod>2026-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/Acerca_Mia/Conditio_Vitae/</loc>
          <lastmod>2026-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
