@@ -62,8 +62,8 @@ extra_css:
   - assets/stylesheets/kofi.css
 plugins:
   - search
+  - wikilinks
   - awesome-pages
-  #- awesome-autolinks
   - section-index
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
