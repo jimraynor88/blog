@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="producto-descripcion">${product.description}</div>
                 <p class="producto-precio">${product.price} ${product.currency}</p>
                 <!-- El botón "Comprar" usa el enlace de Ko-fi, que es externo y seguro -->
-                <a href="${product.kofi_link}" class="producto-boton" target="_blank" rel="noopener noreferrer">Comprar en Ko-fi</a>
+                <a href="${product.kofi_link}" class="producto-boton" target="_blank" rel="noopener noreferrer">Comprar</a>
             </div>
         `;
         return div;
