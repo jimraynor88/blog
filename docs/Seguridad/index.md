@@ -1,6 +1,7 @@
 ---
-alias:Seguridad
+alias: Seguridad
 ---
+
 # (in)Seguridad Total
 
 En ésta sección encontrarás información que te ayudará y motivará a reaccionar contra la sensación real de inseguridad total que sufrimos.
