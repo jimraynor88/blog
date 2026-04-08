@@ -1,6 +1,6 @@
 ---
 title: Salud, Bienestar y Rutinas
-alias: Salud
+alias: perfil-salud
 tags: Perfiles
 ---
 
