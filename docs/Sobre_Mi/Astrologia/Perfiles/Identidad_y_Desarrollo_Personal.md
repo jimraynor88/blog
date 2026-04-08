@@ -1,3 +1,9 @@
+---
+title: Identidad y Desarollo Personal
+alias: identidad-personal
+tags: Perfiles
+---
+
 # Identidad y Desarrollo Personal
 
 Este perfil aborda el núcleo de mi ser: cómo me presento al mundo (Casa 1), cómo me expreso creativamente y encuentro placer (Casa 5), y cómo busco sentido, conocimiento y expansión (Casa 9). Aquí se entrelazan los planetas, asteroides, estrellas fijas y puntos matemáticos que configuran mi “yo”, mi libertad, mi originalidad y mi camino de crecimiento.
