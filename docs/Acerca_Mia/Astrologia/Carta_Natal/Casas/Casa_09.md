@@ -1,3 +1,10 @@
+---
+title: Casa 9 – Mi filosofía, mis viajes, mi educación superior, mi propósito
+alias: Casa 9
+tags: Carta Natal
+---
+
+
 # Casa 9 – Mi filosofía, mis viajes, mi educación superior, mi propósito
 
 ## 📐 Datos técnicos
