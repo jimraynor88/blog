@@ -62,7 +62,7 @@ extra_css:
   - assets/stylesheets/kofi.css
 plugins:
   - search
-  - wikilinks
+  - ezlinks
   - awesome-pages
   - section-index
   - rss:
