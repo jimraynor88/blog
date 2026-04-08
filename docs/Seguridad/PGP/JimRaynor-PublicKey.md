@@ -1,4 +1,10 @@
-# Mi clave pública PGP
+---
+title: PGP - Mi clave pública
+alias: PGP-pub-key
+tags:
+  - Seguridad
+  - PGP
+---
 
 ```code
 
