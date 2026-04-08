@@ -5,7 +5,6 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Todos mis productos y servicios" name="description"/>
 <link href="https://jim88.pp.ua/tienda/index-tarjetas/" rel="canonical"/>
 <link href="../index-tabla/" rel="prev"/>
 <link href="../../feed_rss_created.xml" rel="alternate" title="Fuente RSS" type="application/rss+xml"/>
@@ -35,9 +34,6 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#tienda">
-          Saltar a contenido
-        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -254,7 +250,7 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../index-tabla/">
 <span class="md-ellipsis">
-    Tienda (Tabla)
+    Tienda (Lista)
   </span>
 </a>
 </li>
@@ -284,54 +280,59 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<div><h1 id="tienda">Tienda<a class="headerlink" href="#tienda" title="Permanent link">¶</a></h1>
-<div class="productos-grid">
-<a class="producto-card" href="/tienda/asesoria-personalizada/">
-</a><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/assets/images/tlf.jpeg"><img alt="Asesoría Personalizada" class="producto-imagen" src="/assets/images/tlf.jpeg"/></a>
-<div class="producto-card-info">
-<h3 class="producto-card-titulo">Asesoría Personalizada</h3>
-<p class="producto-card-desc">Agendar una reunión privada conmigo de 1 hora (llamada de Telegram) para escucharte, analizar tus hábitos, necesidades, ...</p>
+<h1>Tienda (Tarjetas)</h1>
+<div><div id="tienda-tarjetas">
+<a class="tarjeta-item" href="/tienda/asesoria-personalizada/">
+<div class="tarjeta-imagen"><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/assets/images/tlf.jpeg"><img alt="Asesoría Personalizada" src="/assets/images/tlf.jpeg"/></a></div>
+<div class="tarjeta-info">
+<h3>Asesoría Personalizada</h3>
+<p>Agendar una reunión privada conmigo de 1 hora (llamada de Telegram) para escucharte, analizar tus hábitos, necesidades, ...</p>
 </div>
+</a>
 </div>
 <style>
-.productos-grid {
+#tienda-tarjetas {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 1.5rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
-.producto-card {
-    display: block;
-    text-decoration: none;
-    color: inherit;
+#tienda-tarjetas .tarjeta-item {
+    display: block !important;
+    text-decoration: none !important;
     border: 1px solid var(--md-default-fg-color--lighter);
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
-    transition: transform 0.2s, box-shadow 0.2s;
     background: var(--md-default-bg-color);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
-.producto-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+#tienda-tarjetas .tarjeta-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
-.producto-imagen {
+#tienda-tarjetas .tarjeta-imagen {
     width: 100%;
     height: 160px;
+    overflow: hidden;
+}
+#tienda-tarjetas .tarjeta-imagen img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    background-color: #f0f0f0;
+    display: block;
 }
-.producto-card-info {
-    padding: 1rem;
+#tienda-tarjetas .tarjeta-info {
+    padding: 0.8rem;
 }
-.producto-card-titulo {
+#tienda-tarjetas .tarjeta-info h3 {
     margin: 0 0 0.5rem 0;
     font-size: 1.2rem;
     font-weight: 500;
 }
-.producto-card-desc {
-    font-size: 0.9rem;
-    color: var(--md-default-fg-color--light);
+#tienda-tarjetas .tarjeta-info p {
     margin: 0;
+    font-size: 0.85rem;
+    color: var(--md-default-fg-color--light);
 }
 </style></div>
 <aside class="md-source-file">
@@ -339,13 +340,13 @@
 <span class="md-icon" title="Última actualización">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="8 de abril de 2026 04:21:06 UTC">8 de abril de 2026</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="8 de abril de 2026 04:21:23 UTC">8 de abril de 2026</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Creado">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="8 de abril de 2026 04:21:06 UTC">8 de abril de 2026</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="8 de abril de 2026 04:21:23 UTC">8 de abril de 2026</span>
 </span>
 </aside>
 </article>

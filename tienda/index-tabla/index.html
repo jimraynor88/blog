@@ -5,7 +5,6 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Todos mis productos y servicios" name="description"/>
 <link href="https://jim88.pp.ua/tienda/index-tabla/" rel="canonical"/>
 <link href="../asesoria-personalizada/" rel="prev"/>
 <link href="../index-tarjetas/" rel="next"/>
@@ -13,7 +12,7 @@
 <link href="../../feed_rss_updated.xml" rel="alternate" title="Fuente RSS de contenido actualizado" type="application/rss+xml"/>
 <link href="../../assets/favicon.ico" rel="icon"/>
 <meta content="mkdocs-1.5.3, mkdocs-material-9.5.18" name="generator"/>
-<title>Tienda (Tabla) - Jim Raynor's site</title>
+<title>Tienda (Lista) - Jim Raynor's site</title>
 <link href="../../assets/stylesheets/main.66ac8b77.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -36,9 +35,6 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#tienda">
-          Saltar a contenido
-        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -60,7 +56,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Tienda (Tabla)
+              Tienda (Lista)
             
           </span>
 </div>
@@ -256,7 +252,7 @@
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
-    Tienda (Tabla)
+    Tienda (Lista)
   </span>
 </a>
 </li>
@@ -285,59 +281,60 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<div><h1 id="tienda">Tienda<a class="headerlink" href="#tienda" title="Permanent link">¶</a></h1>
-<div class="productos-tabla">
-<a class="producto-tabla-fila" href="/tienda/asesoria-personalizada/">
-<div class="producto-tabla-celda-imagen"><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/assets/images/tlf.jpeg"><img alt="Asesoría Personalizada" class="producto-tabla-imagen" src="/assets/images/tlf.jpeg"/></a></div>
-<div class="producto-tabla-celda-info">
-<h3 class="producto-tabla-titulo">Asesoría Personalizada</h3>
-<p class="producto-tabla-desc">Agendar una reunión privada conmigo de 1 hora (llamada de Telegram) para escucharte, analizar tus há...</p>
+<h1>Tienda (Lista)</h1>
+<div><div id="tienda-lista">
+<a class="lista-item" href="/tienda/asesoria-personalizada/">
+<div class="lista-imagen"><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="auto" href="/assets/images/tlf.jpeg"><img alt="Asesoría Personalizada" src="/assets/images/tlf.jpeg"/></a></div>
+<div class="lista-info">
+<h3>Asesoría Personalizada</h3>
+<p>Agendar una reunión privada conmigo de 1 hora (llamada de Telegram) para escucharte, analizar tus há...</p>
 </div>
 </a>
 </div>
 <style>
-.productos-tabla {
+#tienda-lista {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
-.producto-tabla-fila {
-    display: flex;
+#tienda-lista .lista-item {
+    display: flex !important;
     align-items: center;
     gap: 1rem;
-    text-decoration: none;
-    color: inherit;
-    padding: 0.75rem;
+    text-decoration: none !important;
     border: 1px solid var(--md-default-fg-color--lighter);
     border-radius: 8px;
+    padding: 0.5rem;
+    background: var(--md-default-bg-color);
     transition: background 0.2s;
 }
-.producto-tabla-fila:hover {
+#tienda-lista .lista-item:hover {
     background: var(--md-default-fg-color--lightest);
 }
-.producto-tabla-celda-imagen {
+#tienda-lista .lista-imagen {
     flex-shrink: 0;
     width: 60px;
     height: 60px;
 }
-.producto-tabla-imagen {
+#tienda-lista .lista-imagen img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 4px;
+    display: block;
 }
-.producto-tabla-celda-info {
+#tienda-lista .lista-info {
     flex: 1;
 }
-.producto-tabla-titulo {
-    margin: 0 0 0.25rem 0;
-    font-size: 1.1rem;
+#tienda-lista .lista-info h3 {
+    margin: 0 0 0.2rem 0;
+    font-size: 1rem;
     font-weight: 500;
 }
-.producto-tabla-desc {
+#tienda-lista .lista-info p {
     margin: 0;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--md-default-fg-color--light);
 }
 </style></div>
