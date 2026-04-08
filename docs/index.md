@@ -8,9 +8,9 @@ Bienvenido a mi rincón digital. Aquí comparto reflexiones sobre filosofía, ec
 
 En un mundo donde la vigilancia es la norma, proteger la privacidad no es un lujo, es un acto de soberanía.<br><br>Por eso, si quieres contactarme de forma segura, utiliza mi **clave pública PGP**.
 
-- **Clave pública:** [Descargar (key)](../Seguridad/PGP/JimRaynor88_Public.key)
+- **Clave pública:** [Descargar (key)](/Seguridad/PGP/JimRaynor88_Public.key)
 
-- **Guía básica:** [Por qué y para qué usar PGP](../Seguridad/PGP/)
+- **Guía básica:** [Por qué y para qué usar PGP](/Seguridad/PGP/)
 
 ---
 
