@@ -1,3 +1,9 @@
+---
+title: Casa 4 – Mi hogar, mis raíces, mi familia, mi mundo interior
+alias: Casa 4
+tags: Carta Natal
+---
+
 # Casa 4 – Mi hogar, mis raíces, mi familia, mi mundo interior
 
 ## 📐 Datos técnicos
