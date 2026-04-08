@@ -8,8 +8,7 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-glightbox
 mkdocs-macros-plugin
 mkdocs-video==1.5.0
-mkdocs-git-committers-plugin-2
 beautifulsoup4
 python-frontmatter
 bettertags
-mkdocs-awesome-autolinks
+mkdocs-wikilinks-plugin
