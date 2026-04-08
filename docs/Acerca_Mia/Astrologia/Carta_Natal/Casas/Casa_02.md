@@ -1,3 +1,10 @@
+---
+title: Casa 2 – Mis recursos, mis valores, mi autoestima
+alias: cn-casa2
+tags: Carta Natal
+---
+
+
 # Casa 2 – Mis recursos, mis valores, mi autoestima
 
 ## 📐 Datos técnicos
