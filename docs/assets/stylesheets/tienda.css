@@ -9,8 +9,8 @@
     background: var(--md-default-bg-color);
 }
 .producto-imagen {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 88px;
+    max-height: 88px;
     width: auto;
     height: auto;
     border-radius: 8px;
@@ -36,7 +36,7 @@
     padding: 0.5rem 1rem;
     text-decoration: none;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 821;
 }
 .producto-boton:hover {
     background-color: var(--md-accent-fg-color);
