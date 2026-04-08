@@ -1,3 +1,9 @@
+---
+title: Casa 7 – Mis relaciones de pareja, mis asociaciones, mis enemigos declarados
+alias: Casa 7
+tags: Carta Natal
+---
+
 # Casa 7 – Mis relaciones de pareja, mis asociaciones, mis enemigos declarados
 
 ## 📐 Datos técnicos
