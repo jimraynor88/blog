@@ -1,6 +1,6 @@
 ---
 title: Mi Carta Natal - Índice
-alias: cn-indice
+alias: Carta Natal
 tags: Carta Natal
 ---
 
