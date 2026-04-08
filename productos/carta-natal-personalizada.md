@@ -1,7 +1,7 @@
 ---
 title: "Carta Natal Personalizada"
-price: "182 o +"
-currency: "EUR"
+price: "182 €"
+currency: "O más"
 image: "/assets/images/carta-natal.jpg"
 kofi_link: "https://ko-fi.com/s/b9d32fc3b2" # <-- Este es el enlace único de tu producto en Ko-fi
 status: "active"
