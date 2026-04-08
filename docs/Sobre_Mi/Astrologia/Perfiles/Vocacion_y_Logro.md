@@ -1,3 +1,9 @@
+---
+Title: Vocación y Logro
+alias: perfil-vocacion
+tags: Perfiles
+---
+
 # Vocación y Logro
 
 Este perfil recorre los tres ámbitos que sostienen mi expresión profesional: los recursos y valores (Casa 2), el trabajo diario y la salud (Casa 6), y la carrera, el reconocimiento y el liderazgo (Casa 10). Aquí se entrelazan los planetas, asteroides, puntos matemáticos y estrellas fijas que, desde distintos niveles, configuran mi manera de generar valor, esforzarme y alcanzar metas. Cada sección combina la precisión técnica con una interpretación que busca resonar con mi historia personal.
