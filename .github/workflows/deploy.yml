@@ -40,6 +40,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Pasa el token al script
         run: python scripts/fetch_products.py
 
+      # NUEVO PASO: Generar la tienda
+      - name: Generate shop data
+        run: python scripts/generar_tienda.py
+
+
       - name: Build site
         run: mkdocs build --strict
         env:
