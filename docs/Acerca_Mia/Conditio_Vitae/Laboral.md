@@ -1,6 +1,7 @@
 ---
 title: Conditio Vitae Laboral
-alias: laboral
+alias: Laboral
+tags: Conditio Vitae
 ---
 
 # Conditio Vitae Laboral
