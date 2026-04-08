@@ -1,3 +1,10 @@
+---
+title: Carta Natal - Aspectos
+alias: cn-aspectos
+tags: Carta Natal
+---
+
+
 # Mis aspectos natales – la trama que me conecta
 
 Esta página recoge las relaciones angulares entre los planetas, asteroides y puntos de mi carta natal. Cada aspecto se presenta primero en su forma técnica (longitudes, orbe, casas) y luego en una interpretación más cercana, basada en mi experiencia vital.
