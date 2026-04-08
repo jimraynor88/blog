@@ -24,5 +24,5 @@ Esta es mi carta, interpretada desde dentro. Cada casa es un escenario de mi vid
 ---
 ## 🔗 La red que me conecta: aspectos y estrellas
 
-Más allá de las casas y los perfiles, los aspectos entre planetas y estrellas fijas tejen una red que sostiene mi experiencia. Para una visión completa, consulta **[Aspectos Natales](../Aspectos_Natales.md)**.
+Más allá de las casas y los perfiles, los aspectos entre planetas y estrellas fijas tejen una red que sostiene mi experiencia. Para una visión completa, consulta **[Aspectos Natales](../Aspectos_Natales/index.md)**.
 
