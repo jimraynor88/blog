@@ -1,5 +1,5 @@
 ---
-title: Conditio Vitae Laboral
+title: Conditio Vitae - Laboral
 alias: cv-laboral
 tags: Conditio Vitae
 ---
