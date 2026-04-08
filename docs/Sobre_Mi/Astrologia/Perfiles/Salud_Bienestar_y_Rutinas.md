@@ -1,3 +1,9 @@
+---
+title: Salud, Bienestar y Rutinas
+alias: Salud
+tags: Perfiles
+---
+
 # Salud, Bienestar y Rutinas
 
 Este perfil aborda mi salud física y mental (Casa 6), mi psique y mis procesos de sanación (Casa 12), la transformación y las crisis (Casa 8), así como mi vitalidad (Casa 1) y mi equilibrio emocional (Luna). Aquí se entrelazan los planetas, asteroides, estrellas fijas y puntos matemáticos que configuran mi manera de cuidarme, enfrentar los límites, sanar heridas y renovarme.
