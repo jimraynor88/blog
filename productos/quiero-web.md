@@ -6,6 +6,7 @@ image: "/assets/images/web.jpg"
 kofi_link: "https://ko-fi.com/s/58db1a4bfc" # <-- Este es el enlace único de tu producto en Ko-fi
 status: "active"
 tags: "Web Master"
+alias: "quiero-web"
 ---
 
 ¿Te gusta mi web? ¿te gustaría tener una parecida? ¿distintos colores? ¿quieres un espacio íntimo y personal donde escribir, subir tus fotos, y sentir 100% tuyo?<br><br>
