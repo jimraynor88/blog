@@ -1,3 +1,9 @@
+---
+title: Espiritualidad y Trascendencia
+alias: perfil-espiritual
+tags: Perfiles
+---
+
 # Espiritualidad y Trascendencia
 
 Este perfil explora mi conexión con lo sagrado, el sentido profundo de la vida, los procesos de transformación y la evolución de mi alma. Integra la Casa 12 (inconsciente, soledad, espiritualidad), la Casa 9 (filosofía, viajes, propósito), la Casa 8 (crisis, muerte y renacimiento), así como los planetas, asteroides, estrellas fijas y aspectos que me guían hacia la trascendencia.
