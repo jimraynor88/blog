@@ -1,6 +1,6 @@
 ---
 title: Carta Natal - Aspectos
-alias: cn-aspectos
+alias: Aspectos Natales
 tags: Carta Natal
 ---
 
