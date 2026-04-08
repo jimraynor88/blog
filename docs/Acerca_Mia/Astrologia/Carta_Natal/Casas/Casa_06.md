@@ -1,3 +1,9 @@
+---
+title: Casa 6 – Mi salud, mi trabajo diario, mis rutinas, mi servicio
+alias: Casa 6
+tags: Carta Natal
+---
+
 # Casa 6 – Mi salud, mi trabajo diario, mis rutinas, mi servicio
 
 ## 📐 Datos técnicos
