@@ -2,8 +2,8 @@
 title: "Carta Natal Personalizada"
 price: "182 o +"
 currency: "EUR"
-image: "/assets/images/cafe.jpg"
-kofi_link: "https://ko-fi.com/s/02eb4293ee" # <-- Este es el enlace único de tu producto en Ko-fi
+image: "/assets/images/carta-natal.jpg"
+kofi_link: "https://ko-fi.com/s/b9d32fc3b2" # <-- Este es el enlace único de tu producto en Ko-fi
 status: "active"
 tags: "Astrologia"
 ---
