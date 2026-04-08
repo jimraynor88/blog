@@ -1,3 +1,12 @@
+---
+title: PGP - ¿Para qué usarlo?
+alias: PGP-para-que
+tags:
+  - Seguridad
+  - PGP
+---
+
+
 ## ¿Para qué debería usar OpenPGP?
 
 Es común pensar que si has llegado "sano y salvo" hasta ahora, estando en internet, ¿por qué deberías cambiar tu actuar?
