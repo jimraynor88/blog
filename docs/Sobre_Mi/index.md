@@ -10,7 +10,7 @@ En un mundo donde la vigilancia es la norma, proteger la privacidad no es un luj
 
 - **Clave pública:** [Descargar (key)](../Seguridad/PGP/JimRaynor88_Public.key)
 
-- **Guía básica:** [Para qué usar PGP](../Seguridad/PGP/)
+- **Guía básica:** [Por qué y para qué usar PGP](../Seguridad/PGP/)
 
 ---
 
@@ -19,8 +19,10 @@ En un mundo donde la vigilancia es la norma, proteger la privacidad no es un luj
 - **Astrología:** un mapa profundo de mi carta natal, con interpretaciones personales y técnicas.
 - **Blog:** artículos sobre filosofía, economía, vida y todo lo que me mueve.
 - **Seguridad:** guías sobre PGP, OSINT y cómo proteger tu información.
+- **Tienda:** un espacio donde poder adquirir y/o agradecerme con algún que otro café.
+---
 
-Si buscas conocerme mejor, explora los perfiles y casas astrológicas. Si lo que te interesa es mi experiencia profesional, mira mi [currículum de capacidades vitales](/Sobre_Mi/Astrologia/cv/).
+Si buscas conocerme mejor, explora [mis perfiles](/Sobre_Mi/Astrologia/Perfiles/index.html) y [casas astrológicas](/Sobre_Mi/Astrologia/Carta_Natal/Casas/index.html). Si lo que te interesa es mi experiencia profesional, mira mi [currículum de capacidades vitales](/Sobre_Mi/Astrologia/Conditio_Vitae/index.html/).
 
 ---
 
