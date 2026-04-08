@@ -1,6 +1,6 @@
 ---
 Title: Mis Conditio Vitae
-alias: cv-index
+alias: Conditio Vitae
 tags: Conditio Vitae
 ---
 
