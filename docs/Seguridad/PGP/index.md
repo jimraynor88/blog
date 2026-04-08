@@ -1,3 +1,11 @@
+---
+title: PGP - Por qué es importante
+alias: PGP
+tags:
+  - Seguridad
+  - PGP
+---
+
 ## 🔑 IMPORTANTE 🔐
 Tus mensajes viajan como una postal abierta. Cualquiera puede leerlos y el Chat Control de la UE en especial.
 
