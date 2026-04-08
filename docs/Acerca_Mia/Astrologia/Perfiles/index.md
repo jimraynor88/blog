@@ -1,6 +1,6 @@
 ---
 title: Perfiles Astrológicos
-alias: perfil-index
+alias: Perfiles Astrológicos
 tags: Perfiles
 ---
 
