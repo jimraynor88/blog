@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://jim88.pp.ua/tienda/</loc>
-         <lastmod>2026-04-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://jim88.pp.ua/Mis_Servicios/</loc>
          <lastmod>2026-04-08</lastmod>
          <changefreq>daily</changefreq>
@@ -197,6 +192,11 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/tienda/</loc>
+         <lastmod>2026-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/tienda/tienda/</loc>
          <lastmod>2026-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
