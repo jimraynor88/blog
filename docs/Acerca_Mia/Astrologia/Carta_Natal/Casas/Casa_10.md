@@ -1,3 +1,9 @@
+---
+title: Casa 10 – Mi carrera, mi reputación, mis logros, mi contribución al mundo
+alias: Casa 10
+tags: Carta Natal
+---
+
 # Casa 10 – Mi carrera, mi reputación, mis logros, mi contribución al mundo
 
 ## 📐 Datos técnicos
