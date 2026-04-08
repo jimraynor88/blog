@@ -1,6 +1,6 @@
 ---
-title: Relaciones
-alias: Relaciones
+title: Conditio Vitae - Relaciones
+alias: cv-relaciones
 tags: Conditio Vitae
 ---
 
