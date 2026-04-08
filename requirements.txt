@@ -11,4 +11,4 @@ mkdocs-video==1.5.0
 beautifulsoup4
 python-frontmatter
 bettertags
-mkdocs-wikilinks-plugin
+mkdocs-ezlinks-plugin
