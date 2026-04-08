@@ -1,0 +1,10 @@
+---
+title: "Carta Natal Personalizada"
+price: "50"
+currency: "EUR"
+image: "/assets/images/carta-natal.jpg"
+kofi_link: "https://ko-fi.com/s/123456789" # <-- Este es el enlace único de tu producto en Ko-fi
+status: "active"
+---
+
+Esta es la descripción detallada de este servicio. Incluye toda la información que quieras compartir con tus clientes.
