@@ -1,3 +1,9 @@
+---
+title: Casa 11 – Mis amistades, mis grupos, mis ideales, mis proyectos colectivos
+alias: Casa 11
+tags: Carta Natal
+---
+
 # Casa 11 – Mis amistades, mis grupos, mis ideales, mis proyectos colectivos
 
 ## 📐 Datos técnicos
