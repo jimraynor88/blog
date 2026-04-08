@@ -12,3 +12,4 @@ mkdocs-git-committers-plugin-2
 beautifulsoup4
 python-frontmatter
 bettertags
+mkdocs-awesome-autolinks
