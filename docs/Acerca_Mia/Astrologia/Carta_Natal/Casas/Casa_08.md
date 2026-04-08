@@ -1,3 +1,9 @@
+---
+title: Casa 8 – Mi sexualidad, mi transformación, mis recursos compartidos, mis crisis
+alias: Casa 8
+tags: Carta Natal
+---
+
 # Casa 8 – Mi sexualidad, mi transformación, mis recursos compartidos, mis crisis
 
 ## 📐 Datos técnicos
