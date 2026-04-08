@@ -1,4 +1,10 @@
-
+---
+title: OSINT
+alias: osint
+tags:
+  - Seguridad
+  - OSINT
+---
 Buscar información sobre una persona usando DNI, nombre, teléfono o email tiene límites legales claros en España (y la UE bajo Reglamento General de Protección de Datos). No existe una base pública única que permita consultar todo eso de forma libre, y acceder o cruzar ciertos datos sin autorización puede ser ilegal.
 
 Aun así, hay métodos legales y prácticos según el tipo de dato:
