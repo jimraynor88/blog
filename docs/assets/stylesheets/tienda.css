@@ -11,8 +11,7 @@
 .producto-imagen {
     max-width: 88px;
     max-height: 88px;
-    width: auto;
-    height: auto;
+    object-fit: cover;     /* La imagen se recorta para llenar el espacio sin deformarse */
     border-radius: 8px;
 }
 .producto-info {
