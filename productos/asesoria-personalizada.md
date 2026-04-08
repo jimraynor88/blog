@@ -1,7 +1,7 @@
 ---
 title: "Asesoría Personalizada"
-price: "28.10 o +"
-currency: "EUR"
+price: "28,10 €"
+currency: "O más"
 image: "/assets/images/tlf.jpeg"
 kofi_link: "https://ko-fi.com/s/2f998ea3b5" # <-- Este es el enlace único de tu producto en Ko-fi
 status: "active"
