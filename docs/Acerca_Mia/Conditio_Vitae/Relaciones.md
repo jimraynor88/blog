@@ -1,3 +1,9 @@
+---
+title: Relaciones
+alias: relaciones
+tags: Conditio_Vitae
+---
+
 # Conditio Vitae Relaciones
 
 *Una presentación sincera de mi forma de vincularme, para quien busque conocer quién soy cuando elijo compartir mi tiempo, mi intimidad y mi vida.*
