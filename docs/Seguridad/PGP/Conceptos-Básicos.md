@@ -1,3 +1,10 @@
+---
+title: PGP - Conceptos Básicos
+alias: PGP-conceptos
+tags:
+  - Seguridad
+  - PGP
+---
 
 ## 🔐 Conceptos básicos (para todos)
 
