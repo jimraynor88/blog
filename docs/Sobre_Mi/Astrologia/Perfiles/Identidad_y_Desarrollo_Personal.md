@@ -1,6 +1,6 @@
 ---
 title: Identidad y Desarollo Personal
-alias: identidad-personal
+alias: perfil-identidad
 tags: Perfiles
 ---
 
