@@ -37,6 +37,9 @@ jobs:
       - name: Generate shop data
         run: python scripts/generar_tienda.py
 
+      - name: Check links and aliases
+        run: python scripts/check_links.py
+
       - name: Build site
         run: mkdocs build --strict
         env:
