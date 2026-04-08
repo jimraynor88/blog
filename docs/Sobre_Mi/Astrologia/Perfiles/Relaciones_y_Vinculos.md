@@ -1,3 +1,8 @@
+---
+title: Relaciones y Vínculos
+tags: Perfiles
+---
+
 # Relaciones y Vínculos
 
 Este perfil recorre los tres ámbitos que definen mi forma de relacionarme: el amor romántico y la creatividad compartida (Casa 5), la pareja y las alianzas (Casa 7), y la intimidad profunda, la sexualidad y la transformación a través del otro (Casa 8). Aquí se entrelazan los planetas, asteroides, estrellas fijas y aspectos que, desde distintos niveles, configuran mi manera de amar, confrontar, vincularme y evolucionar en relación con los demás.
