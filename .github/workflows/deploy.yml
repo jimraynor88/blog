@@ -33,12 +33,6 @@ jobs:
       - name: Generate blog index pages
         run: python generate_blog_index.py
 
-      # Aquí es donde se ejecuta el nuevo script
-      - name: Generate products JSON
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Pasa el token al script
-        run: python scripts/fetch_products.py
-
       # NUEVO PASO: Generar la tienda
       - name: Generate shop data
         run: python scripts/generar_tienda.py
