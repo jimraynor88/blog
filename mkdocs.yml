@@ -78,6 +78,7 @@ plugins:
       type: date
       enable_creation_date: true
       fallback_to_build_date: true
+      enable_git_follow: false   # añade esta línea
   - glightbox
   - minify
   - macros
