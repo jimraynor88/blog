@@ -1,6 +1,6 @@
 ---
-title: PGP - Conceptos Básicos
-alias: PGP-conceptos
+title: "PGP - Conceptos Básicos"
+alias: "PGP-conceptos"
 tags:
   - Seguridad
   - PGP
