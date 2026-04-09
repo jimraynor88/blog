@@ -1,6 +1,6 @@
 ---
 title: "PGP - Por qué es importante"
-tags:
+categories:
   - Seguridad
   - PGP
 description: "Todas las comunicaciones son espiadas y analizadas, solo la encriptación permite evadir ese control"
