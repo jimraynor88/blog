@@ -1,7 +1,7 @@
 ---
-title: Carta Natal - Aspectos
-alias: Aspectos Natales
-tags: Carta Natal
+title: "Carta Natal - Aspectos"
+alias: "Aspectos-Natales"
+tags: "Carta Natal"
 ---
 
 
