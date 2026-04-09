@@ -1,7 +1,7 @@
 ---
-title: Perfiles Astrológicos
-alias: Perfiles Astrológicos
-tags: Perfiles
+title: "Perfiles Astrológicos"
+alias: "perfil-index"
+tags: "Perfiles"
 ---
 
 # Perfiles astrológicos: mi mapa interior
