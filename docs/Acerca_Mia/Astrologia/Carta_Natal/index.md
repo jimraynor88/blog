@@ -14,8 +14,8 @@ Esta es mi carta, interpretada desde dentro. Cada casa es un escenario de mi vid
 ## 🏠 Las casas: mi territorio interior
 
 | Casa | Ámbito | Enlace |
-|------|--------|--------|
-| [[**01|Casa 1**]] | Mi identidad, mi presencia, mi forma de iniciar | Casa 1 – Escorpio / Sagitario |
+|------ | -------- | -------- |
+| **[[01|Casa 1]]** | Mi identidad, mi presencia, mi forma de iniciar | Casa 1 – Escorpio / Sagitario |
 | **[[02|Casa 2]]** | Mis recursos, mis valores, mi autoestima | Casa 2 – Sagitario |
 | **[[03|Casa 3]]** | Mi comunicación, mis hermanos, mi entorno cercano | Casa 3 – Capricornio |
 | **[[04|Casa 4]]** | Mi hogar, mis raíces, mi familia, mi mundo interior | Casa 4 – Acuario |
