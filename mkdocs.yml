@@ -17,14 +17,14 @@ theme:
     primary: indigo
     accent: blue
     toggle:
-      icon: material/brightness-7      # Icono de sol
+      icon: material/brightness-4      # Icono de sol
       name: Cambiar a modo oscuro      # Texto al pasar el ratón
   # Modo oscuro
   - scheme: slate
-    primary: indigo
-    accent: blue
+    primary: blue
+    accent: indigo
     toggle:
-      icon: material/brightness-4      # Icono de luna
+      icon: material/brightness-7     # Icono de luna
       name: Cambiar a modo claro
   icon:
     repo: fontawesome/solid/mug-hot
