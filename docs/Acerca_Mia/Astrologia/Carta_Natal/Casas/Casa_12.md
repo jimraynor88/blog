@@ -1,7 +1,7 @@
 ---
-title: Casa 12 – Mi inconsciente, mi espiritualidad, mis procesos de soledad y sanación
-alias: Casa 12
-tags: Carta Natal
+title: "Casa 12 – Mi inconsciente, mi espiritualidad, mis procesos de soledad y sanación"
+alias: "12"
+tags: "Carta Natal"
 ---
 
 # Casa 12 – Mi inconsciente, mi espiritualidad, mis procesos de soledad y sanación
@@ -42,4 +42,4 @@ El **sextil de Saturno con el Nodo Norte** (Casa 8) me ha mostrado que mi evoluc
 
 Mi espiritualidad y mi sanación se forjan en la soledad y en la crisis. Aceptar mis sombras, confiar en que las bendiciones ocultas llegan cuando más las necesito, y permitir que el silencio sea mi maestro, son los pilares de mi camino interior. He aprendido que la verdadera fortaleza no está en no caer, sino en saber levantarme cada vez con más conciencia. Mi casa 12 no es un lugar de castigo, sino un templo donde me transformo.
 
-*Para profundizar, consulta mis perfiles de **Espiritualidad y Trascendencia** y **Salud, Bienestar y Rutinas**.*
+*Para profundizar, consulta mis perfiles de **[[perfil-espiritual|Espiritualidad y Trascendencia]]** y **[[perfil-salud|Salud, Bienestar y Rutinas]]**.*
