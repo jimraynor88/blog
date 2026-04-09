@@ -1,7 +1,7 @@
 ---
-title: Casa 7 – Mis relaciones de pareja, mis asociaciones, mis enemigos declarados
-alias: Casa 7
-tags: Carta Natal
+title: "Casa 7 – Mis relaciones de pareja, mis asociaciones, mis enemigos declarados"
+alias: "07"
+tags: "Carta Natal"
 ---
 
 # Casa 7 – Mis relaciones de pareja, mis asociaciones, mis enemigos declarados
@@ -42,4 +42,4 @@ El **eje Aldebarán–Antares** (Antares en mi Casa 1) es central. Mi intensidad
 
 Mis relaciones son un espejo de mi integridad. Para construir vínculos sólidos, necesito ser yo mismo, con mis luces y mis sombras. Las crisis no son el fin, sino oportunidades para profundizar o para liberarme de lo que no me nutre. Aprender a confiar sin aferrarme, a dar sin perderme, es mi gran camino en esta casa.
 
-*Para profundizar, consulta mi perfil de **Relaciones y Vínculos**.*
+*Para profundizar, consulta mi perfil de **[[perfil-relaciones|Relaciones y Vínculos]]**.*
