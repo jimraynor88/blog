@@ -1,7 +1,7 @@
 ---
-title: Casa 4 – Mi hogar, mis raíces, mi familia, mi mundo interior
-alias: Casa 4
-tags: Carta Natal
+title: "Casa 4 – Mi hogar, mis raíces, mi familia, mi mundo interior"
+alias: "04"
+tags: "Carta Natal"
 ---
 
 # Casa 4 – Mi hogar, mis raíces, mi familia, mi mundo interior
@@ -40,4 +40,4 @@ Los **sextiles de Marte con Júpiter y Urano** me dan una energía que convierte
 
 Mi hogar es mi laboratorio de transformación. Aquí he aprendido a equilibrar la pasión con la estructura, la entrega con la autonomía. Cuando mi mundo interior está en paz, mi vida fluye; cuando hay conflictos, son espejos de lo que debo sanar. Aceptar mi necesidad de libertad sin abandonar el compromiso afectivo es uno de mis grandes aprendizajes.
 
-*Para profundizar, consulta mis perfiles de **Identidad y Desarrollo Personal** y **Relaciones y Vínculos**.*
+*Para profundizar, consulta mis perfiles de **[[perfil-identidad|Identidad y Desarrollo Personal]]** y **[[perfil-relaciones|Relaciones y Vínculos]]**.*
