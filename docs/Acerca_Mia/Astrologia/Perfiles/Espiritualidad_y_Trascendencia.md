@@ -1,7 +1,7 @@
 ---
-title: Espiritualidad y Trascendencia
-alias: perfil-espiritual
-tags: Perfiles
+title: "Espiritualidad y Trascendencia"
+alias: "perfil-espiritual"
+tags: "Perfiles"
 ---
 
 # Espiritualidad y Trascendencia
