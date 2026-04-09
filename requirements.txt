@@ -12,3 +12,4 @@ python-frontmatter
 bettertags
 mkdocs-roamlinks-plugin-extra
 mkdocs-categories-plugin
+mkdocs-encryptcontent-plugin
