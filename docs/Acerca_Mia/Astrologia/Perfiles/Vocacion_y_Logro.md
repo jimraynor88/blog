@@ -1,7 +1,7 @@
 ---
-Title: Vocación y Logro
-alias: perfil-vocacion
-tags: Perfiles
+Title: "Vocación y Logro"
+alias: "perfil-vocacion"
+tags: "Perfiles"
 ---
 
 # Vocación y Logro
