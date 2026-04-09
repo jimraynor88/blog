@@ -11,3 +11,4 @@ beautifulsoup4
 python-frontmatter
 bettertags
 mkdocs-roamlinks-plugin-extra
+mkdocs-categories-plugin
