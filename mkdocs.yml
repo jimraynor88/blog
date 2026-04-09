@@ -63,10 +63,6 @@ extra_css:
 plugins:
   - search
   - roamlinks_extra
-  # docs/mkdocs.yml
-
-plugins:
-  - search
   - encryptcontent:                  # 1. Activa el plugin
       # === Configuración General ===
       # Si quieres proteger todo el sitio por defecto, usa global_password
