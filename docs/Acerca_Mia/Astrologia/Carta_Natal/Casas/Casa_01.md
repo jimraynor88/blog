@@ -1,6 +1,6 @@
 ---
 title: Casa 1 – Mi identidad, mi presencia, mi forma de iniciar
-alias: Casa 1
+alias: casa-1
 tags: Carta Natal
 ---
 
