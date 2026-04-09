@@ -1,7 +1,7 @@
 ---
-title: Casa 2 – Mis recursos, mis valores, mi autoestima
-alias: casa-2
-tags: Carta Natal
+title: "Casa 2 – Mis recursos, mis valores, mi autoestima"
+alias: "02"
+tags: "Carta Natal"
 ---
 
 
@@ -35,4 +35,4 @@ El regente de esta casa, **Júpiter**, está en mi Casa 1, unido a **Urano**. Es
 
 Mi valor económico y mi autoestima son consecuencia de mi autenticidad. Cuando actúo desde mi verdad, los recursos fluyen; cuando me desvío, la inestabilidad me recuerda que debo volver a mi centro. Aprender a estructurar mi inspiración (poner límites a Neptuno) y a concretar mis ideas es el camino para que mi visión se materialice sin perderse en la dispersión.
 
-*Para profundizar, consulta mi perfil de **Vocación y Logro**.*
+*Para profundizar, consulta mi perfil de **[[perfil-vocacion|Vocación y Logro]]**.*
