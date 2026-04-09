@@ -1,10 +1,11 @@
 ---
-title: La relación entre ciclos económicos y ciclos planetarios
-author: Jim Raynor
+title: "La relación entre ciclos económicos y ciclos planetarios"
+author: "Jim Raynor"
 tags:
   - Economía
   - Astrología
-date: 2026-03-21
+date: "2026-03-21"
+summary: "La relación entre ciclos económicos y ciclos planetarios pertenece al campo de la astrología financiera"
 ---
 
 
