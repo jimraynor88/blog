@@ -1,7 +1,7 @@
 ---
-title: Casa 8 – Mi sexualidad, mi transformación, mis recursos compartidos, mis crisis
-alias: Casa 8
-tags: Carta Natal
+title: "Casa 8 – Mi sexualidad, mi transformación, mis recursos compartidos, mis crisis"
+alias: "08"
+tags: "Carta Natal"
 ---
 
 # Casa 8 – Mi sexualidad, mi transformación, mis recursos compartidos, mis crisis
@@ -40,4 +40,4 @@ El **sextil de Saturno (C12) con el Nodo Norte** (C8) me ha enseñado que la evo
 
 Mi intimidad es un territorio de evolución. Aceptar la intensidad, pero también aprender a poner límites, es mi equilibrio. Las crisis no me destruyen; me reconfiguran. Compartir mis recursos, mis secretos, mi vulnerabilidad, es un acto de poder cuando elijo con conciencia a quién se los confío. La comunicación honesta es la llave para que la transformación sea profunda y no destructiva.
 
-*Para profundizar, consulta mis perfiles de **Relaciones y Vínculos** y **Espiritualidad y Trascendencia**.*
+*Para profundizar, consulta mis perfiles de **[[perfil-relaciones|Relaciones y Vínculos]]** y **[[perfil-espiritual|Espiritualidad y Trascendencia]]**.*
