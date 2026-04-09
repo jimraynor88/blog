@@ -63,8 +63,7 @@ extra_css:
 plugins:
   - search
   - ezlinks
-  - alias
-  - live-edit
+ # - alias
   - awesome-pages
   - section-index
   - rss:
