@@ -67,6 +67,7 @@ plugins:
  # - alias
   - awesome-pages
   - section-index
+  - categories
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
       date_from_meta:
