@@ -1,7 +1,4 @@
----
-title: "Blog"
-alias: "Blog"
----
+
 # Blog
 
 {% set posts = [] %}
