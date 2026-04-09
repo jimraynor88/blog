@@ -15,18 +15,18 @@ Esta es mi carta, interpretada desde dentro. Cada casa es un escenario de mi vid
 
 | Casa | Ámbito | Enlace |
 |------ | -------- | -------- |
-| **[[01|Casa 1]]** | Mi identidad, mi presencia, mi forma de iniciar | Casa 1 – Escorpio / Sagitario |
-| **[[02|Casa 2]]** | Mis recursos, mis valores, mi autoestima | Casa 2 – Sagitario |
-| **[[03|Casa 3]]** | Mi comunicación, mis hermanos, mi entorno cercano | Casa 3 – Capricornio |
-| **[[04|Casa 4]]** | Mi hogar, mis raíces, mi familia, mi mundo interior | Casa 4 – Acuario |
-| **[[05|Casa 5]]** | Mi creatividad, mi amor romántico, mi placer | Casa 5 – Piscis |
-| **[[06|Casa 6]]** | Mi salud, mi trabajo diario, mis rutinas | Casa 6 – Aries |
-| **[[07|Casa 7]]** | Mis relaciones de pareja, mis asociaciones | Casa 7 – Tauro |
-| **[[08|Casa 8]]** | Mi sexualidad, mi transformación, mis crisis | Casa 8 – Géminis |
-| **[[09|Casa 9]]** | Mi filosofía, mis viajes, mi propósito | Casa 9 – Cáncer |
-| **[[10|Casa 10]]** | Mi carrera, mi reputación, mis logros | Casa 10 – Leo |
-| **[[11|Casa 11]]** | Mis amistades, mis grupos, mis ideales | Casa 11 – Virgo |
-| **[[12|Casa 12]]** | Mi inconsciente, mi espiritualidad, mi soledad | Casa 12 – Libra |
+| **[[01&#124;Casa 1]]** | Mi identidad, mi presencia, mi forma de iniciar | Casa 1 – Escorpio / Sagitario |
+| **[[02&#124;Casa 2]]** | Mis recursos, mis valores, mi autoestima | Casa 2 – Sagitario |
+| **[[03&#124;Casa 3]]** | Mi comunicación, mis hermanos, mi entorno cercano | Casa 3 – Capricornio |
+| **[[04&#124;Casa 4]]** | Mi hogar, mis raíces, mi familia, mi mundo interior | Casa 4 – Acuario |
+| **[[05&#124;Casa 5]]** | Mi creatividad, mi amor romántico, mi placer | Casa 5 – Piscis |
+| **[[06&#124;Casa 6]]** | Mi salud, mi trabajo diario, mis rutinas | Casa 6 – Aries |
+| **[[07&#124;Casa 7]]** | Mis relaciones de pareja, mis asociaciones | Casa 7 – Tauro |
+| **[[08&#124;Casa 8]]** | Mi sexualidad, mi transformación, mis crisis | Casa 8 – Géminis |
+| **[[09&#124;Casa 9]]** | Mi filosofía, mis viajes, mi propósito | Casa 9 – Cáncer |
+| **[[10&#124;Casa 10]]** | Mi carrera, mi reputación, mis logros | Casa 10 – Leo |
+| **[[11&#124;Casa 11]]** | Mis amistades, mis grupos, mis ideales | Casa 11 – Virgo |
+| **[[12&#124;Casa 12]]** | Mi inconsciente, mi espiritualidad, mi soledad | Casa 12 – Libra |
 
 ---
 ## 🔗 La red que me conecta: aspectos y estrellas
@@ -40,11 +40,11 @@ Si prefieres una lectura más transversal, aquí he reunido los aspectos de mi c
 
 | Perfil | Enlace |
 |--------|--------|
-| **[[perfil-vocacion|Vocación y Logro]]** – Cómo genero valor, me esfuerzo y alcanzo reconocimiento |
-| **[[perfil-relaciones|Relaciones y Vínculos]]** – Cómo amo, me asocio y me transformo a través de los demás |
-| **[[perfil-identidad|Identidad y Desarrollo Personal]]** – Quién soy, cómo crezco y me expreso |
-| **[[perfil-salud|Salud, Bienestar y Rutinas]]** – Cómo cuido mi cuerpo, mi mente y mi energía |
-| **[[perfil-espiritual|Espiritualidad y Trascendencia]]** – Mi conexión con lo sagrado y el sentido de la vida |
+| **[[perfil-vocacion&#124;Vocación y Logro]]** – Cómo genero valor, me esfuerzo y alcanzo reconocimiento |
+| **[[perfil-relaciones&#124;Relaciones y Vínculos]]** – Cómo amo, me asocio y me transformo a través de los demás |
+| **[[perfil-identidad&#124;Identidad y Desarrollo Personal]]** – Quién soy, cómo crezco y me expreso |
+| **[[perfil-salud&#124;Salud, Bienestar y Rutinas]]** – Cómo cuido mi cuerpo, mi mente y mi energía |
+| **[[perfil-espiritual&#124;Espiritualidad y Trascendencia]]** – Mi conexión con lo sagrado y el sentido de la vida |
 
 ---
 
