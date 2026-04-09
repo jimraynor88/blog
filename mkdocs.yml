@@ -64,6 +64,7 @@ plugins:
   - search
   - ezlinks
   - alias
+  - live-edit
   - awesome-pages
   - section-index
   - rss:
