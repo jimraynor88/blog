@@ -1,7 +1,7 @@
 ---
-title: Casa 1 – Mi identidad, mi presencia, mi forma de iniciar
-alias: casa-1
-tags: Carta Natal
+title: "Casa 1 – Mi identidad, mi presencia, mi forma de iniciar"
+alias: "01"
+tags: "Carta Natal"
 ---
 
 
@@ -39,4 +39,4 @@ El **eje Antares–Aldebarán** (Aldebarán en mi Casa 7) es central en mi ident
 
 Mi identidad es una fuerza transformadora que se expresa a través de la autenticidad radical y la innovación constante. No encajo en moldes, y eso es mi mayor fortaleza. Cuando confío en mi verdad y la vivo sin concesiones, genero impacto. Cuando me desvío, la vida me devuelve al centro a través de crisis o confrontaciones. Mi camino es el de aceptar mi intensidad, usar mi libertad con conciencia y permitir que mi identidad sea, ante todo, un reflejo de mi coherencia interna.
 
-*Para profundizar, consulta mi perfil de **Identidad y Desarrollo Personal**.*
+*Para profundizar, consulta mi perfil de **[[perfil-identidad|Identidad y Desarrollo Personal]]**.*
