@@ -1,7 +1,7 @@
 ---
-title: Casa 3 – Mi comunicación, mis hermanos, mi entorno cercano
-alias: Casa 3
-tags: Carta Natal
+title: "Casa 3 – Mi comunicación, mis hermanos, mi entorno cercano"
+alias: "03"
+tags: "Carta Natal"
 ---
 
 # Casa 3 – Mi comunicación, mis hermanos, mi entorno cercano
@@ -36,4 +36,4 @@ El regente de esta casa, **Saturno** (Casa 12), añade una capa de responsabilid
 
 Mi palabra tiene poder. Cuando hablo desde mi verdad, no solo comunico, sino que transformo mi entorno y a mí mismo. He aprendido que la comunicación honesta, aunque a veces incómoda, es la base de relaciones sólidas y de mi propio crecimiento. Usar mi mente con conciencia, sin dispersión, es uno de mis grandes recursos.
 
-*Para profundizar, consulta mi perfil de **Identidad y Desarrollo Personal**.*
+*Para profundizar, consulta mi perfil de **[perfil-identidad|Identidad y Desarrollo Personal]]**.*
