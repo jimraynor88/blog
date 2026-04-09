@@ -1,7 +1,7 @@
 ---
-title: Relaciones y Vínculos
-alias: perfil-relaciones
-tags: Perfiles
+title: "Relaciones y Vínculos"
+alias: "perfil-relaciones"
+tags: "Perfiles"
 ---
 
 # Relaciones y Vínculos
