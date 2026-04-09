@@ -1,7 +1,7 @@
 ---
-title: Salud, Bienestar y Rutinas
-alias: perfil-salud
-tags: Perfiles
+title: "Salud, Bienestar y Rutinas"
+alias: "perfil-salud"
+tags: "Perfiles"
 ---
 
 # Salud, Bienestar y Rutinas
