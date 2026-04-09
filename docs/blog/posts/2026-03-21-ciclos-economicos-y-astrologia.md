@@ -1,6 +1,5 @@
 ---
 title: "La relación entre ciclos económicos y ciclos planetarios"
-author: "Jim Raynor"
 tags:
   - Economía
   - Astrología
