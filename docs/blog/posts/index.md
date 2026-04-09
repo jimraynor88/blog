@@ -9,7 +9,6 @@ Bienvenido a mi blog. Aquí comparto reflexiones y artículos sobre diversos tem
 
 ## 📝 Lista de artículos
 
-- [[2026-03-20-post-de-prueba|Post de prueba]]
 - [[2026-03-21-ciclos-economicos-y-astrologia|Ciclos económicos y astrología]]
 - ... (añadiré más entradas con el tiempo)
 
