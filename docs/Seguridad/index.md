@@ -1,6 +1,3 @@
----
-alias: "Seguridad"
----
 
 # (in)Seguridad Total
 
