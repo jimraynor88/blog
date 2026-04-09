@@ -1,6 +1,6 @@
 ---
-title: OSINT
-alias: osint
+title: "OSINT"
+alias: "osint"
 tags:
   - Seguridad
   - OSINT
