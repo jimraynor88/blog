@@ -1,5 +1,5 @@
 ---
-alias: Seguridad
+alias: "Seguridad"
 ---
 
 # (in)Seguridad Total
