@@ -62,9 +62,7 @@ extra_css:
   - assets/stylesheets/kofi.css
 plugins:
   - search
-  - roamlinks_extra
-  - encryptcontent:
-  # 1. Activa el plugin
+  - encryptcontent:  # 1. Activa el plugin
       # === Configuración General ===
       # Si quieres proteger todo el sitio por defecto, usa global_password
       # global_password: 'mi-clave-secreta' 
@@ -104,7 +102,7 @@ plugins:
       # Si usas el tema "material", a menudo necesitas esto para evitar conflictos visuales
       encrypted_something:
         md-content: [div, class]      # Asegura que solo el contenido principal se cifre
-  
+  - roamlinks_extra
   - awesome-pages
   - section-index
   - categories
