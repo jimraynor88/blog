@@ -1,17 +1,17 @@
 ---
-title: Carta Natal General
-alias: cn-general
-tags: Carta Natal
+title: "Carta Natal General"
+alias: "cn-general"
+tags: "Carta Natal"
 ---
 
 
 # Mis doce casas – visión general
 
-Un resumen de cada ámbito de mi vida, con los datos técnicos esenciales y una breve interpretación en primera persona. Para el desarrollo completo, consulta cada archivo individual de la carpeta `Casas`.
+Un resumen de cada ámbito de mi vida, con los datos técnicos esenciales y una breve interpretación en primera persona. Para el desarrollo completo, consulta cada archivo individual de la carpeta [[cn-index|`Casas`]].
 
 ---
 
-## [[Casa 1]] – Mi identidad, mi presencia, mi forma de iniciar
+## [[01|Casa 1]] – Mi identidad, mi presencia, mi forma de iniciar
 
 ### 📐 Datos técnicos
 - **Cúspide (Ascendente):** 10°46'11" **Escorpio**
@@ -28,7 +28,7 @@ Soy un guerrero visionario cuya identidad se define por la autenticidad radical.
 
 ---
 
-## [[Casa 2]] – Mis recursos, mis valores, mi autoestima
+## [[02|Casa 2]] – Mis recursos, mis valores, mi autoestima
 
 ### 📐 Datos técnicos
 - **Cúspide:** 9°52'55" **Sagitario**
@@ -45,7 +45,7 @@ Mi valor económico es consecuencia de mi autenticidad. Estructuro mi inspiraci�
 
 ---
 
-## [[Casa 3]] – Mi comunicación, mis hermanos, mi entorno cercano
+## [[03|Casa 3]] – Mi comunicación, mis hermanos, mi entorno cercano
 
 ### 📐 Datos técnicos
 - **Cúspide:** 13°15'21" **Capricornio**
@@ -62,7 +62,7 @@ Mi palabra tiene poder. La uso con conciencia, porque cuando hablo desde mi verd
 
 ---
 
-## [[Casa 4]] – Mi hogar, mis raíces, mi familia, mi mundo interior
+## [[04|Casa 4]] – Mi hogar, mis raíces, mi familia, mi mundo interior
 
 ### 📐 Datos técnicos
 - **Cúspide (IC):** 18°42'49" **Acuario**
@@ -79,7 +79,7 @@ Mi hogar es mi laboratorio de transformación. Equilibrar la pasión con la estr
 
 ---
 
-## [[Casa 5]] – Mi creatividad, mi amor romántico, mi placer
+## [[05|Casa 5]] – Mi creatividad, mi amor romántico, mi placer
 
 ### 📐 Datos técnicos
 - **Cúspide:** 21°22'54" **Piscis**
@@ -96,7 +96,7 @@ Amo y creo desde mi verdad, pero no me pierdo en la entrega. Uso mi intensidad p
 
 ---
 
-## [[Casa 6]] – Mi salud, mi trabajo diario, mis rutinas
+## [[06|Casa 6]] – Mi salud, mi trabajo diario, mis rutinas
 
 ### 📐 Datos técnicos
 - **Cúspide:** 18°33'38" **Aries**
@@ -113,7 +113,7 @@ Cuido mi cuerpo como un templo, pero también como un campo de batalla donde se 
 
 ---
 
-## [[Casa 7]] – Mis relaciones de pareja, mis asociaciones
+## [[07|Casa 7]] – Mis relaciones de pareja, mis asociaciones
 
 ### 📐 Datos técnicos
 - **Cúspide (Descendente):** 10°46'11" **Tauro**
@@ -130,7 +130,7 @@ Mi pareja es un espejo de mi integridad. Relaciones sólidas se construyen sobre
 
 ---
 
-## [[Casa 8]] – Mi sexualidad, mi transformación, mis recursos compartidos
+## [[08|Casa 8]] – Mi sexualidad, mi transformación, mis recursos compartidos
 
 ### 📐 Datos técnicos
 - **Cúspide:** 9°52'55" **Géminis**
@@ -147,7 +147,7 @@ Mi intimidad es un territorio de evolución. Acepto la intensidad, pero también
 
 ---
 
-## [[Casa 9]] – Mi filosofía, mis viajes, mi propósito
+## [[09|Casa 9]] – Mi filosofía, mis viajes, mi propósito
 
 ### 📐 Datos técnicos
 - **Cúspide:** 13°15'21" **Cáncer**
@@ -164,7 +164,7 @@ Mi filosofía se construye en el diálogo y la experiencia vivida. Viajo, estudi
 
 ---
 
-## [[Casa 10]] – Mi carrera, mi reputación, mis logros
+## [[10|Casa 10]] – Mi carrera, mi reputación, mis logros
 
 ### 📐 Datos técnicos
 - **Cúspide (MC):** 18°42'49" **Leo**
@@ -181,7 +181,7 @@ Mi profesión es una extensión de mi identidad. Confío en mi originalidad, est
 
 ---
 
-## [[Casa 11]] – Mis amistades, mis grupos, mis ideales
+## [[11|Casa 11]] – Mis amistades, mis grupos, mis ideales
 
 ### 📐 Datos técnicos
 - **Cúspide:** 21°22'54" **Virgo**
@@ -197,7 +197,7 @@ Mi tribu la elijo con criterio. Busco grupos donde pueda ser auténtico, compart
 
 ---
 
-## [[Casa 12]] – Mi inconsciente, mi espiritualidad, mi soledad
+## [[12|Casa 12]] – Mi inconsciente, mi espiritualidad, mi soledad
 
 ### 📐 Datos técnicos
 - **Cúspide:** 18°33'38" **Libra**
