@@ -1,6 +1,7 @@
 ---
-title: "OSINT"
-alias: "osint"
+title: "OSINT - Open Source Intelligence"
+description: "Info acerca de cómo intentar localizar a alguien"
+summary: "Buscar información sobre una persona usando DNI, nombre, teléfono o email tiene límites"
 ---
 Buscar información sobre una persona usando DNI, nombre, teléfono o email tiene límites legales claros en España (y la UE bajo Reglamento General de Protección de Datos). No existe una base pública única que permita consultar todo eso de forma libre, y acceder o cruzar ciertos datos sin autorización puede ser ilegal.
 
