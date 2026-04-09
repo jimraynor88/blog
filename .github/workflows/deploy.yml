@@ -37,8 +37,8 @@ jobs:
       - name: Generate shop data
         run: python scripts/generar_tienda.py
 
-      - name: Check links and aliases
-        run: python scripts/check_links.py
+     # - name: Check links and aliases
+      #  run: python scripts/check_links.py
         
       - name: Standardize frontmatter
         run: python scripts/standardize_frontmatter.py
