@@ -63,7 +63,8 @@ extra_css:
 plugins:
   - search
   - roamlinks_extra
-  - encryptcontent:                  # 1. Activa el plugin
+  - encryptcontent:
+  # 1. Activa el plugin
       # === Configuración General ===
       # Si quieres proteger todo el sitio por defecto, usa global_password
       # global_password: 'mi-clave-secreta' 
@@ -71,10 +72,17 @@ plugins:
       # === Gestión de Inventario de Contraseñas ===
       # Define niveles de acceso. Ideal si quieres gestionar varias contraseñas
       password_inventory:
-        _global: 'password-maestra'   # Este nivel aplica a TODO el sitio
+       # _global: 'password-maestra'   # Este nivel aplica a TODO el sitio
         basico: 'clave-basica'
         vip: 'clave-vip'
         astro: 'logia'
+        classified: 'password1'
+          confidential:
+            - 'password2'
+            - 'password3'
+          secret:
+            user4: 'password4'
+            user5: 'password5'
       # === Personalización de Mensajes ===
       # Personaliza los textos que verán tus visitantes
       title_prefix: '[PROTEGIDO]'
