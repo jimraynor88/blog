@@ -1,6 +1,6 @@
 ---
 Title: Mis Conditio Vitae
-alias: Conditio Vitae
+alias: "Conditio_Vitae"
 tags: Conditio Vitae
 ---
 
