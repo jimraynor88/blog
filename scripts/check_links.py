@@ -6,39 +6,30 @@ Genera un reporte con:
 - Páginas sin alias definido en el frontmatter
 - Índice de todos los alias y su ruta destino
 
-Excluye archivos listados en EXCLUDE_FILES (por defecto, el propio reporte y otros generados).
+El reporte se guarda en la raíz del repositorio (alias_report.txt) para que MkDocs no lo procese.
 """
 
 import os
 import re
-import sys
-from pathlib import Path
 import frontmatter
 from collections import defaultdict
 
 # Configuración
 DOCS_DIR = "docs"
-REPORT_FILE = "alias_report.txt"   # se genera en la raíz de docs
-EXCLUDE_FILES = [
-    "alias_report.txt",            # el propio reporte
-    "blog/tags.md",               # generado automáticamente
-    "tienda/index.md",          # si también es generado y quieres excluirlo, descomenta
-]
+REPORT_FILE = "alias_report.txt"   # Se guardará en la raíz del proyecto
 IGNORE_PATTERNS = [r"\.git", r"\.github", r"node_modules", r"site"]
 
 WIKILINK_PATTERN = re.compile(r'\[\[([^\]|]+)(?:\|([^\]]+))?\]\]')
 
 def get_all_md_files(base_dir):
-    """Recorre recursivamente el directorio base y devuelve lista de rutas relativas de archivos .md,
-       excluyendo los que están en EXCLUDE_FILES."""
+    """Recorre recursivamente el directorio base y devuelve lista de rutas relativas de archivos .md"""
     md_files = []
     for root, dirs, files in os.walk(base_dir):
+        # Ignorar directorios no deseados
         dirs[:] = [d for d in dirs if not any(re.search(p, d) for p in IGNORE_PATTERNS)]
         for file in files:
             if file.endswith('.md'):
                 rel_path = os.path.relpath(os.path.join(root, file), base_dir)
-                if rel_path in EXCLUDE_FILES or os.path.basename(rel_path) in EXCLUDE_FILES:
-                    continue
                 md_files.append(rel_path)
     return md_files
 
@@ -129,14 +120,15 @@ def main():
     missing_aliases = find_missing_aliases(DOCS_DIR)
     
     report = generate_report(alias_map, all_broken, missing_aliases)
-    report_path = os.path.join(DOCS_DIR, REPORT_FILE)
-    with open(report_path, 'w', encoding='utf-8') as f:
+    # Guardar el reporte en la raíz del repositorio (no dentro de docs/)
+    with open(REPORT_FILE, 'w', encoding='utf-8') as f:
         f.write(report)
-    print(f"✅ Reporte generado en {report_path}")
+    print(f"✅ Reporte generado en {REPORT_FILE}")
     
     if all_broken:
         print(f"⚠️ Se encontraron {len(all_broken)} enlaces rotos. Revisa el reporte.")
-        # sys.exit(1)   # opcional: fallar el build
+        # Si quieres que el workflow falle, descomenta la siguiente línea:
+        # sys.exit(1)
     else:
         print("✅ No se detectaron enlaces rotos.")
 
