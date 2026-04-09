@@ -13,3 +13,4 @@ python-frontmatter
 bettertags
 mkdocs-ezlinks-plugin
 mkdocs-alias-plugin
+mkdocs-live-edit-plugin
