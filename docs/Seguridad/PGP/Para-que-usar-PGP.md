@@ -4,7 +4,7 @@ tags:
   - Seguridad
   - PGP
 description: "Guía básica para conocer para qué deberías usar PGP"
-summary: "Es común pensar que si has llegado "sano y salvo" hasta ahora, estando en internet, ¿por qué deberías cambiar tu actuar?"
+summary: "Es común pensar que si has llegado sano y salvo hasta ahora, estando en internet, ¿por qué deberías cambiar tu actuar?"
 ---
 
 
