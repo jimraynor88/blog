@@ -1,7 +1,7 @@
 ---
 title: "Conditio Vitae - Relaciones"
-alias: "cv-relaciones"
-tags: "Conditio Vitae"
+description: "Una presentación sincera de mi forma de vincularme"
+summary: "Una presentación sincera de mi forma de vincularme, para quien busque conocer quién soy cuando elijo compartir mi tiempo, mi intimidad y mi vida."
 ---
 
 # Conditio Vitae Relaciones
