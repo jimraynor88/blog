@@ -1,68 +1,27 @@
 
-<!doctype html>
-<html lang="es" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-        <meta name="description" content="Conceptos básicos para conocer y entender PGP">
-      
-      
-      
-        <link rel="canonical" href="https://jim88.pp.ua/Seguridad/PGP/Conceptos-B%C3%A1sicos/">
-      
-      
-        <link rel="prev" href="../">
-      
-      
-        <link rel="next" href="../JimRaynor-PublicKey/">
-      
-      
-        <link rel="alternate" type="application/rss+xml" title="Fuente RSS" href="../../../feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="Fuente RSS de contenido actualizado" href="../../../feed_rss_updated.xml">
-      
-      <link rel="icon" href="../../../assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
-    
-    
-      
-        <title>PGP - Conceptos Básicos - Jim Raynor's site</title>
-      
-    
-    
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.66ac8b77.min.css">
-      
-        
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
-      
-      
+<!DOCTYPE html>
 
-
-    
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-      <link rel="stylesheet" href="../../../assets/stylesheets/kofi.css">
-    
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
-
-    
-    
-    
-   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<html class="no-js" lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Conceptos básicos para conocer y entender PGP" name="description"/>
+<link href="https://jim88.pp.ua/Seguridad/PGP/Conceptos-B%C3%A1sicos/" rel="canonical"/>
+<link href="../" rel="prev"/>
+<link href="../JimRaynor-PublicKey/" rel="next"/>
+<link href="../../../feed_rss_created.xml" rel="alternate" title="Fuente RSS" type="application/rss+xml"/>
+<link href="../../../feed_rss_updated.xml" rel="alternate" title="Fuente RSS de contenido actualizado" type="application/rss+xml"/>
+<link href="../../../assets/favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.5.18" name="generator"/>
+<title>PGP - Conceptos Básicos - Jim Raynor's site</title>
+<link href="../../../assets/stylesheets/main.66ac8b77.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../../assets/stylesheets/kofi.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+ <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -72,208 +31,122 @@
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
     body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
-  
-  
-    
-    
-      
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#pgp-conceptos-basicos" class="md-skip">
+<body data-md-color-accent="blue" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#pgp-conceptos-basicos">
           Saltar a contenido
         </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
-
-  
-
+</div>
+<div data-md-component="announce">
+</div>
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href="../../.." title="Jim Raynor&#39;s site" class="md-header__button md-logo" aria-label="Jim Raynor's site" data-md-component="logo">
-      
-  <img src="../../../assets/logo.jpg" alt="logo">
-
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
+<nav aria-label="Cabecera" class="md-header__inner md-grid">
+<a aria-label="Jim Raynor's site" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Jim Raynor's site">
+<img alt="logo" src="../../../assets/logo.jpg"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
             Jim Raynor's site
           </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
             
               PGP - Conceptos Básicos
             
           </span>
-        </div>
-      </div>
-    </div>
-    
-      
-        <form class="md-header__option" data-md-component="palette">
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
-    
-      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
-    
-      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
-      </label>
-    
-  
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Cambiar a modo oscuro" class="md-option" data-md-color-accent="blue" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Cambiar a modo oscuro">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+<input aria-label="Cambiar a modo claro" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="blue" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Cambiar a modo claro">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
 </form>
-      
-    
-    
-      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-    
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Buscar">
-        
-          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartir" aria-label="Compartir" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
-          </a>
-        
-        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
-        </button>
-      </nav>
-      
-        <div class="md-search__suggest" data-md-component="search-suggest"></div>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
+<script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Búsqueda" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Búsqueda" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Buscar" class="md-search__options">
+<a aria-label="Compartir" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Compartir">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Limpiar" class="md-search__icon md-icon" tabindex="-1" title="Limpiar" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
             Inicializando búsqueda
           </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
+<ol class="md-search-result__list" role="presentation"></ol>
 </div>
-    
-    
-      <div class="md-header__source">
-        
-  <a href="https://ko-fi.com/summary/0fb45a0d-39eb-4147-bf83-c3e87b4085d7" title="Invítame al Ko-Fi" class="md-source" rel="noopener" target="_blank">
-    
-      
-      <span class="md-source__icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48h-16v-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
-      </span>
-    
-    <span class="md-source__repository">
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" href="https://ko-fi.com/summary/0fb45a0d-39eb-4147-bf83-c3e87b4085d7" rel="noopener" target="_blank" title="Invítame al Ko-Fi">
+<span class="md-source__icon">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48h-16v-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"></path></svg>
+</span>
+<span class="md-source__repository">
       Invítame al Ko-Fi
     </span>
-  </a>
-
-      </div>
-    
-  </nav>
-  
-    
-      
-<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
-  <div class="md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../../Acerca_Mia/" class="md-tabs__link">
+</a>
+</div>
+</nav>
+<nav aria-label="Pestañas" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Acerca_Mia/">
         
   
     
   
-  Acerca Mia
+  [PROTEGIDO]Acerca Mia
 
       </a>
-    </li>
-  
-
-      
-        
-  
-  
-    
-  
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="../../" class="md-tabs__link">
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../">
         
   
     
   
-  Seguridad
+  [PROTEGIDO]Seguridad
 
       </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../../blog/" class="md-tabs__link">
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../blog/">
         
   
     
@@ -281,16 +154,9 @@
   Blog
 
       </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../../tienda/" class="md-tabs__link">
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../tienda/">
         
   
     
@@ -298,16 +164,9 @@
   Tienda
 
       </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../../categories/seguridad/" class="md-tabs__link">
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../categories/seguridad/">
         
   
     
@@ -315,1195 +174,418 @@
   Categories
 
       </a>
-    </li>
-  
-
-      
-    </ul>
-  </div>
+</li>
+</ul>
+</div>
 </nav>
-    
-  
 </header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-
-  
-
-
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Jim Raynor&#39;s site" class="md-nav__button md-logo" aria-label="Jim Raynor's site" data-md-component="logo">
-      
-  <img src="../../../assets/logo.jpg" alt="logo">
-
-    </a>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navegación" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Jim Raynor's site" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Jim Raynor's site">
+<img alt="logo" src="../../../assets/logo.jpg"/>
+</a>
     Jim Raynor's site
   </label>
-  
-    <div class="md-nav__source">
-      
-  <a href="https://ko-fi.com/summary/0fb45a0d-39eb-4147-bf83-c3e87b4085d7" title="Invítame al Ko-Fi" class="md-source" rel="noopener" target="_blank">
-    
-      
-      <span class="md-source__icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48h-16v-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
-      </span>
-    
-    <span class="md-source__repository">
+<div class="md-nav__source">
+<a class="md-source" href="https://ko-fi.com/summary/0fb45a0d-39eb-4147-bf83-c3e87b4085d7" rel="noopener" target="_blank" title="Invítame al Ko-Fi">
+<span class="md-source__icon">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48h-16v-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"></path></svg>
+</span>
+<span class="md-source__repository">
       Invítame al Ko-Fi
     </span>
-  </a>
-
-    </div>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-          
-        
-      
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    
-  
-  
-    
-  
-  
-    <a href="../../../Acerca_Mia/Astrologia/Carta_Natal/Aspectos_Natales/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    Acerca Mia
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../../Acerca_Mia/Astrologia/Carta_Natal/Aspectos_Natales/">
+<span class="md-ellipsis">
+    [PROTEGIDO]Acerca Mia
   </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-  
-
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-          
-        
-      
-    
-    
-      
-        
-        
-      
-      
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
-              
-  
-  <span class="md-ellipsis">
-    Seguridad
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../">
+<span class="md-ellipsis">
+    [PROTEGIDO]Seguridad
   </span>
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            Seguridad
+</a>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            [PROTEGIDO]Seguridad
           </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../OSINT/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    OSINT - Open Source Intelligence
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../OSINT/">
+<span class="md-ellipsis">
+    [PROTEGIDO]OSINT - Open Source Intelligence
   </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../encriptada/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Mi página secreta
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../encriptada/">
+<span class="md-ellipsis">
+    [PROTEGIDO]Mi página secreta
   </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
-              
-  
-  <span class="md-ellipsis">
-    PGP
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../">
+<span class="md-ellipsis">
+    [PROTEGIDO]PGP
   </span>
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2_3">
-            <span class="md-nav__icon md-icon"></span>
-            PGP
+</a>
+<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+            [PROTEGIDO]PGP
           </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    PGP - Conceptos Básicos
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    [PROTEGIDO]PGP - Conceptos Básicos
   </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    PGP - Conceptos Básicos
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    [PROTEGIDO]PGP - Conceptos Básicos
   </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
+</a>
+<nav aria-label="Tabla de contenidos" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
       Tabla de contenidos
     </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#conceptos-basicos-para-todos" class="md-nav__link">
-    <span class="md-ellipsis">
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#conceptos-basicos-para-todos">
+<span class="md-ellipsis">
       🔐 Conceptos básicos (para todos)
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#uso-cotidiano-y-personal" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uso-cotidiano-y-personal">
+<span class="md-ellipsis">
       📱 Uso cotidiano y personal
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#uso-familiar" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uso-familiar">
+<span class="md-ellipsis">
       👨‍👩‍👧‍👦 Uso familiar
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#uso-en-trabajo-y-empresa" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uso-en-trabajo-y-empresa">
+<span class="md-ellipsis">
       💼 Uso en trabajo y empresa
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#periodismo-activismo-y-sociedad" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#periodismo-activismo-y-sociedad">
+<span class="md-ellipsis">
       📰 Periodismo, activismo y sociedad
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#comunicacion-y-mensajeria" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#comunicacion-y-mensajeria">
+<span class="md-ellipsis">
       💬 Comunicación y mensajería
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#archivos-y-nube" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#archivos-y-nube">
+<span class="md-ellipsis">
       ☁️ Archivos y nube
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#juegos-ocio-y-creatividad" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#juegos-ocio-y-creatividad">
+<span class="md-ellipsis">
       🎮 Juegos, ocio y creatividad
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#legalidad-y-contexto" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#legalidad-y-contexto">
+<span class="md-ellipsis">
       🌍 Legalidad y contexto
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#casos-tecnicos-pero-sin-comandos" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#casos-tecnicos-pero-sin-comandos">
+<span class="md-ellipsis">
       🧑‍💻 Casos técnicos (pero sin comandos)
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#usos-avanzados-e-innovadores" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usos-avanzados-e-innovadores">
+<span class="md-ellipsis">
       🚀 Usos avanzados e innovadores
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#comparaciones-y-preguntas-frecuentes" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#comparaciones-y-preguntas-frecuentes">
+<span class="md-ellipsis">
       🧩 Comparaciones y preguntas frecuentes
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#futuro-y-reflexion" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#futuro-y-reflexion">
+<span class="md-ellipsis">
       🧭 Futuro y reflexión
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#categories" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#categories">
+<span class="md-ellipsis">
       Categories
     </span>
-  </a>
-  
+</a>
 </li>
-      
-    </ul>
-  
+</ul>
 </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../JimRaynor-PublicKey/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../JimRaynor-PublicKey/">
+<span class="md-ellipsis">
     PGP - Mi clave pública
   </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Para-que-usar-PGP/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Para-que-usar-PGP/">
+<span class="md-ellipsis">
     PGP - ¿Para qué usarlo?
   </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-          
-        
-      
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../../blog/archive/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../../blog/archive/">
+<span class="md-ellipsis">
     Blog
   </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../../tienda/asesoria-personalizada/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../../tienda/asesoria-personalizada/">
+<span class="md-ellipsis">
     Tienda
   </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-          
-        
-      
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../../categories/pgp/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+<a class="md-nav__link" href="../../../categories/pgp/">
+<span class="md-ellipsis">
     Categories
   </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-  </ul>
+<span class="md-nav__icon md-icon"></span>
+</a>
+</li>
+</ul>
 </nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Tabla de contenidos" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
       Tabla de contenidos
     </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#conceptos-basicos-para-todos" class="md-nav__link">
-    <span class="md-ellipsis">
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#conceptos-basicos-para-todos">
+<span class="md-ellipsis">
       🔐 Conceptos básicos (para todos)
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#uso-cotidiano-y-personal" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uso-cotidiano-y-personal">
+<span class="md-ellipsis">
       📱 Uso cotidiano y personal
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#uso-familiar" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uso-familiar">
+<span class="md-ellipsis">
       👨‍👩‍👧‍👦 Uso familiar
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#uso-en-trabajo-y-empresa" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#uso-en-trabajo-y-empresa">
+<span class="md-ellipsis">
       💼 Uso en trabajo y empresa
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#periodismo-activismo-y-sociedad" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#periodismo-activismo-y-sociedad">
+<span class="md-ellipsis">
       📰 Periodismo, activismo y sociedad
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#comunicacion-y-mensajeria" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#comunicacion-y-mensajeria">
+<span class="md-ellipsis">
       💬 Comunicación y mensajería
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#archivos-y-nube" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#archivos-y-nube">
+<span class="md-ellipsis">
       ☁️ Archivos y nube
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#juegos-ocio-y-creatividad" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#juegos-ocio-y-creatividad">
+<span class="md-ellipsis">
       🎮 Juegos, ocio y creatividad
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#legalidad-y-contexto" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#legalidad-y-contexto">
+<span class="md-ellipsis">
       🌍 Legalidad y contexto
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#casos-tecnicos-pero-sin-comandos" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#casos-tecnicos-pero-sin-comandos">
+<span class="md-ellipsis">
       🧑‍💻 Casos técnicos (pero sin comandos)
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#usos-avanzados-e-innovadores" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#usos-avanzados-e-innovadores">
+<span class="md-ellipsis">
       🚀 Usos avanzados e innovadores
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#comparaciones-y-preguntas-frecuentes" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#comparaciones-y-preguntas-frecuentes">
+<span class="md-ellipsis">
       🧩 Comparaciones y preguntas frecuentes
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#futuro-y-reflexion" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#futuro-y-reflexion">
+<span class="md-ellipsis">
       🧭 Futuro y reflexión
     </span>
-  </a>
-  
+</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#categories" class="md-nav__link">
-    <span class="md-ellipsis">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#categories">
+<span class="md-ellipsis">
       Categories
     </span>
-  </a>
-  
+</a>
 </li>
-      
-    </ul>
-  
+</ul>
 </nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
-<div><h1 id="pgp-conceptos-basicos">PGP - Conceptos Básicos<a class="headerlink" href="#pgp-conceptos-basicos" title="Permanent link">¶</a></h1>
-<h2 id="conceptos-basicos-para-todos">🔐 Conceptos básicos (para todos)<a class="headerlink" href="#conceptos-basicos-para-todos" title="Permanent link">¶</a></h2>
-<ol>
-<li>
-<p><strong>¿Qué es OpenPGP?</strong>
-   Es un estándar de cifrado que permite proteger tus mensajes y archivos con un sistema de claves pública y privada, garantizando confidencialidad y autenticidad.</p>
-</li>
-<li>
-<p><strong>¿Qué diferencia hay con PGP?</strong>
-   PGP fue el software original, privado y de los 90. OpenPGP es el estándar abierto y compatible, que todos pueden implementar.</p>
-</li>
-<li>
-<p><strong>¿Qué es una clave pública y una privada?</strong>
-   La pública se comparte con otros para que te envíen mensajes cifrados. La privada la guardas en secreto para descifrarlos y firmar tus propios mensajes.</p>
-</li>
-<li>
-<p><strong>¿Qué es un fingerprint?</strong>
-   Es una “huella digital” única de tu clave pública. Sirve para verificar que una clave realmente pertenece a la persona que dice ser.</p>
-</li>
-<li>
-<p><strong>¿Qué diferencia hay entre cifrar y firmar?</strong>
-   Cifrar protege la confidencialidad (solo el destinatario puede leerlo). Firmar garantiza autenticidad (demuestra que tú lo escribiste y no fue modificado).</p>
-</li>
-<li>
-<p><strong>¿Qué pasa si olvido mi contraseña?</strong>
-   No podrás descifrar nada. Por eso es vital hacer copias de seguridad y guardar tu contraseña en un lugar seguro.</p>
-</li>
-<li>
-<p><strong>¿Qué es una clave de revocación?</strong>
-   Es un “botón de emergencia” que invalida tu clave si la pierdes o te la roban, evitando que alguien se haga pasar por ti.</p>
-</li>
-<li>
-<p><strong>¿Qué tamaño de clave debo elegir?</strong>
-   Hoy se recomienda al menos 3072 bits en RSA o usar curvas elípticas modernas (ECC) para equilibrar seguridad y rapidez.</p>
-</li>
-<li>
-<p><strong>¿Qué es la “web of trust”?</strong>
-   Es un sistema donde los usuarios validan las claves de otros. Cuantas más personas confíen en tu clave, más difícil es que alguien suplante tu identidad.</p>
-</li>
-<li>
-<p><strong>¿Qué diferencia hay entre OpenPGP y un certificado digital oficial?</strong>
-    Los certificados oficiales dependen de una autoridad central. OpenPGP es descentralizado y tú controlas completamente tus claves.</p>
-</li>
-</ol>
-<hr>
-<h2 id="uso-cotidiano-y-personal">📱 Uso cotidiano y personal<a class="headerlink" href="#uso-cotidiano-y-personal" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Proteger fotos privadas:</strong> cifras fotos antes de enviarlas o subirlas a la nube; nadie podrá verlas sin tu clave privada.</li>
-<li><strong>Proteger tu diario personal digital:</strong> guarda tus notas cifradas con OpenPGP para que solo tú las leas.</li>
-<li><strong>Cifrar contraseñas en un archivo:</strong> puedes almacenar tus contraseñas en un texto cifrado, controlando tú el acceso.</li>
-<li><strong>Compartir claves WiFi seguras:</strong> cifra tu contraseña WiFi y solo quien tenga tu clave privada podrá usarla.</li>
-<li><strong>Guardar documentos en la nube de forma privada:</strong> sube archivos a Drive, Dropbox o iCloud cifrados, evitando que la plataforma los lea.</li>
-<li><strong>Proteger facturas digitales:</strong> cifra o firma tus facturas para garantizar privacidad y autenticidad.</li>
-<li><strong>Cifrar un vídeo personal:</strong> incluso archivos grandes como vídeos pueden cifrarse antes de enviarlos.</li>
-<li><strong>Cifrar un archivo de calendario:</strong> protege tus citas y planes privados compartidos.</li>
-<li><strong>Firmar tus posts de blog:</strong> demuestra autoría y que no fueron modificados.</li>
-<li><strong>Compartir mensajes privados en redes sociales:</strong> cifrando textos o archivos antes de enviarlos.</li>
-</ol>
-<hr>
-<h2 id="uso-familiar">👨‍👩‍👧‍👦 Uso familiar<a class="headerlink" href="#uso-familiar" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Compartir fotos o vídeos familiares de forma segura.</strong></li>
-<li><strong>Intercambiar historiales médicos entre familiares</strong> con privacidad total.</li>
-<li><strong>Enseñar a los hijos a usar cifrado básico</strong> para que aprendan seguridad digital.</li>
-<li><strong>Mantener seguros documentos de la casa</strong> como contratos de alquiler o hipotecas.</li>
-<li><strong>Compartir recetas médicas digitalizadas</strong> entre familiares o cuidadores.</li>
-</ol>
-<hr>
-<h2 id="uso-en-trabajo-y-empresa">💼 Uso en trabajo y empresa<a class="headerlink" href="#uso-en-trabajo-y-empresa" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Proteger contratos laborales o de alquiler</strong> mediante firma digital y cifrado.</li>
-<li><strong>Firmar facturas electrónicas</strong> para garantizar autenticidad ante clientes.</li>
-<li><strong>Enviar presupuestos confidenciales</strong> cifrados para que solo el destinatario los lea.</li>
-<li><strong>Usarlo en pymes para intercambiar archivos internos</strong> sin depender de plataformas externas.</li>
-<li><strong>Verificar actualizaciones de software</strong> para evitar instalar malware.</li>
-<li><strong>Firmar código de programación</strong> y paquetes para garantizar origen y autenticidad.</li>
-<li><strong>Firmar paquetes o distribuciones de software</strong> para su seguridad.</li>
-<li><strong>Integrarlo en negocios online</strong> (pedidos, facturas, datos de clientes) para proteger información.</li>
-<li><strong>Firmar documentos académicos o papers de investigación</strong> antes de publicarlos.</li>
-<li><strong>Proteger backups de la empresa</strong> cifrando la información sensible.</li>
-</ol>
-<hr>
-<h2 id="periodismo-activismo-y-sociedad">📰 Periodismo, activismo y sociedad<a class="headerlink" href="#periodismo-activismo-y-sociedad" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Proteger fuentes periodísticas</strong> mediante envío de archivos cifrados.</li>
-<li><strong>Intercambiar documentos políticos o sociales sin riesgo</strong> de espionaje o filtración.</li>
-<li><strong>Firmar comunicados colectivos</strong> para verificar autenticidad de la información.</li>
-<li><strong>Activistas que viajan a países con censura</strong> pueden comunicarse de forma segura.</li>
-<li><strong>Proteger la identidad de denunciantes</strong> o informantes sensibles.</li>
-</ol>
-<hr>
-<h2 id="comunicacion-y-mensajeria">💬 Comunicación y mensajería<a class="headerlink" href="#comunicacion-y-mensajeria" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Usar en correos electrónicos</strong> (el clásico uso de PGP).</li>
-<li><strong>Cifrar mensajes en Telegram</strong> enviándolos como archivo cifrado.</li>
-<li><strong>Usar en WhatsApp</strong> para enviar archivos cifrados dentro de la app.</li>
-<li><strong>Cifrar chats completos en apps compatibles</strong> como DeltaChat o Proton Mail.</li>
-<li><strong>Enviar mensajes firmados</strong> para evitar suplantaciones de identidad.</li>
-<li><strong>Detectar mensajes manipulados</strong> si la firma ya no coincide.</li>
-</ol>
-<hr>
-<h2 id="archivos-y-nube">☁️ Archivos y nube<a class="headerlink" href="#archivos-y-nube" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Diferencia entre permisos en Drive y cifrado real.</strong></li>
-<li><strong>Subir documentos a iCloud o Dropbox cifrados.</strong></li>
-<li><strong>Proteger copias de seguridad</strong> cifrando discos o archivos.</li>
-<li><strong>Enviar archivos grandes cifrados</strong> por USB o nube sin perder seguridad.</li>
-</ol>
-<hr>
-<h2 id="juegos-ocio-y-creatividad">🎮 Juegos, ocio y creatividad<a class="headerlink" href="#juegos-ocio-y-creatividad" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Firmar mods o archivos de videojuegos</strong> para evitar manipulación.</li>
-<li><strong>Guardar partidas cifradas</strong> y mantenerlas privadas.</li>
-<li><strong>Usar en comunidades de gamers privadas</strong> para garantizar identidad.</li>
-<li><strong>Firmar tus obras creativas</strong> (música, libros, arte digital).</li>
-<li><strong>Proteger guiones o proyectos de cine</strong> antes de publicarlos o compartirlos.</li>
-</ol>
-<hr>
-<h2 id="legalidad-y-contexto">🌍 Legalidad y contexto<a class="headerlink" href="#legalidad-y-contexto" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>¿Es legal usarlo en todos los países?</strong> Depende, algunos limitan el cifrado fuerte.</li>
-<li><strong>Riesgos de viajar con claves en dispositivos</strong> si te las pueden confiscar.</li>
-<li><strong>Diferencia con ZIP/PDF con contraseña</strong>: PGP es mucho más seguro.</li>
-<li><strong>Seguridad frente a ataques de fuerza bruta</strong>: claves modernas tardarían miles de años en romperse.</li>
-<li><strong>Limitaciones legales en países con censura.</strong></li>
-</ol>
-<hr>
-<h2 id="casos-tecnicos-pero-sin-comandos">🧑‍💻 Casos técnicos (pero sin comandos)<a class="headerlink" href="#casos-tecnicos-pero-sin-comandos" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>¿Qué pasa si alguien envía un archivo corrupto?</strong> La app lo detectará.</li>
-<li><strong>¿Se puede usar offline?</strong> Sí, todo cifrado y descifrado funciona sin internet.</li>
-<li><strong>¿Qué pasa si cambio de móvil o PC?</strong> Solo importa exportar/importar tus claves.</li>
-<li><strong>¿Qué ocurre si dos personas tienen la misma clave pública?</strong> Las claves deben ser únicas; si no, lo detectas con fingerprints.</li>
-<li><strong>¿Qué tamaño ocupan los archivos cifrados?</strong> Un poco más que el original, pero manejable.</li>
-<li><strong>¿Se puede usar para autenticación en servicios web?</strong> Sí, reemplaza usuario/contraseña firmando retos.</li>
-<li><strong>¿Sirve para validar actualizaciones?</strong> Sí, garantiza que provienen del desarrollador original.</li>
-<li><strong>¿Qué ocurre si alguien intenta descifrar mis mensajes?</strong> Con claves modernas, no podrá.</li>
-<li><strong>Diferencia con cifrado simétrico</strong>: OpenPGP no requiere compartir contraseñas.</li>
-<li><strong>Cifrar para varios destinatarios</strong>: puedes añadir varias claves públicas al mismo archivo.</li>
-</ol>
-<hr>
-<h2 id="usos-avanzados-e-innovadores">🚀 Usos avanzados e innovadores<a class="headerlink" href="#usos-avanzados-e-innovadores" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Usar en transacciones de criptomonedas</strong> para firmar mensajes de propiedad.</li>
-<li><strong>Proteger identidad digital en foros</strong> con firmas que validen tu seudónimo.</li>
-<li><strong>Publicar tu clave pública en internet</strong> es seguro; solo permite cifrar mensajes para ti.</li>
-<li><strong>Crear una red privada de amigos/familiares</strong> usando claves PGP para compartir información.</li>
-<li><strong>Usarlo en cooperativas o comunidades pequeñas</strong> para intercambiar archivos seguros.</li>
-<li><strong>Firmar entradas de calendario compartidas</strong> con otros miembros.</li>
-<li><strong>Integrarlo en un blog o web personal</strong> para verificar autoría de posts.</li>
-<li><strong>Proteger datos de smart home (IoT)</strong> cifrando actualizaciones o información sensible.</li>
-<li><strong>Mantener chats privados fuera de apps comerciales</strong> cifrando archivos.</li>
-<li><strong>Verificar identidad en entrevistas online</strong> firmando mensajes de verificación.</li>
-</ol>
-<hr>
-<h2 id="comparaciones-y-preguntas-frecuentes">🧩 Comparaciones y preguntas frecuentes<a class="headerlink" href="#comparaciones-y-preguntas-frecuentes" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>Diferencia entre OpenPGP y Signal/WhatsApp</strong>: OpenPGP te da control absoluto sobre la clave.</li>
-<li><strong>Diferencia entre PGP y OpenPGP</strong>: OpenPGP es estándar abierto, PGP fue el software original.</li>
-<li><strong>Ventaja sobre contraseñas ZIP o PDF</strong>: más seguro, con firma digital y control de identidad.</li>
-<li><strong>¿Vale la pena aprenderlo si no soy técnico?</strong> Sí, protege tu privacidad digital.</li>
-<li><strong>¿Por qué usarlo si ya tengo SSL/HTTPS en webs?</strong> SSL protege canales, PGP protege contenido.</li>
-<li><strong>¿Qué ventajas da frente a gestores de contraseñas?</strong> Control total y almacenamiento offline posible.</li>
-<li><strong>¿Cómo se compara con firmas electrónicas oficiales?</strong> Es independiente, no necesita autoridad central.</li>
-<li><strong>¿Qué diferencia hay con blockchain?</strong> Blockchain registra transacciones; PGP cifra y firma mensajes.</li>
-<li><strong>¿Por qué no lo usan más personas si es tan seguro?</strong> La complejidad inicial y falta de apps amigables.</li>
-<li><strong>¿Qué pasa si Google o Apple fallan, pero cifro con OpenPGP?</strong> Tus datos siguen seguros porque tú controlas la clave.</li>
-</ol>
-<hr>
-<h2 id="futuro-y-reflexion">🧭 Futuro y reflexión<a class="headerlink" href="#futuro-y-reflexion" title="Permanent link">¶</a></h2>
-<ol>
-<li><strong>¿Será útil en la era de la computación cuántica?</strong> Algunas claves modernas son resistentes; habrá que adaptarlas.</li>
-<li><strong>¿Es práctico para todo el mundo?</strong> Sí, si las apps móviles lo hacen fácil.</li>
-<li><strong>¿Puede combinarse con biometría (huella, cara)?</strong> Sí, como capa adicional de seguridad para abrir la clave privada.</li>
-<li><strong>¿Puede servir en la educación digital?</strong> Sí, para enseñar seguridad y privacidad desde jóvenes.</li>
-<li><strong>¿Ayuda a la privacidad de los menores?</strong> Sí, protege comunicación y documentos.</li>
-<li><strong>¿Tiene sentido en un mundo donde casi todo se guarda en la nube?</strong> Sí, porque evita que terceros vean tus datos.</li>
-<li><strong>¿Es una herramienta política además de técnica?</strong> Sí, refuerza la soberanía digital y privacidad frente a terceros.</li>
-<li><strong>¿Puede convertirse en un estándar masivo?</strong> Potencialmente, si las apps lo hacen amigable.</li>
-<li><strong>¿Cómo cambia la mentalidad al aprenderlo?</strong> Te hace más consciente de la privacidad y el control de tu información.</li>
-<li><strong>¿Por qué debería empezar hoy mismo?</strong> Para proteger tus datos antes de que sea demasiado tarde o demasiado caro.</li>
-<li><strong>¿Qué futuro tendrá si lo adaptan a apps móviles sencillas?</strong> Podría ser tan natural como usar WhatsApp, pero seguro y privado.</li>
-</ol>
-<h2 id="categories">Categories<a class="headerlink" href="#categories" title="Permanent link">¶</a></h2>
-<ul>
-<li><a href="../../../categories/pgp/">PGP</a></li>
-<li><a href="../../../categories/seguridad/">Seguridad</a></li>
-</ul></div>
-
-
-
-
-
-
-
-  
-    
-  
-  
-    
-  
-
-
-  <aside class="md-source-file">
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Última actualización">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="9 de abril de 2026 21:59:43 UTC">9 de abril de 2026</span>
-  </span>
-
-    
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Creado">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="16 de marzo de 2026 13:18:18 UTC">16 de marzo de 2026</span>
-  </span>
-
-    
-    
-    
-  </aside>
-
-
-
-
-
-                
-              </article>
-            </div>
-          
-          
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content" style="display:none !important">NCBMCbV98P506EEl2jKMWg==;giFslDKdFyM7AZbqETYYK7rWd5hdAfTvMBJSnfWCRDHDQGZqnDmpSXLGOofIyjszniwFUj1fX7gthvSXAEwbJPjagrVchw56VcdxeD627NU6ilC6tXygbovXDblmfj2BYLD8E5wdwGwZhIOiIa4oq0X0pBmlcwpjyyQn38kP4YZeMbFxvcbUBKes0xUy9YsF8WxgC/pDk0QBNgGwhMdPCLO3Ctc4/HIVe6Zp8eJBWuNa1HfNy/AX9YMIhTir8ZeiH2M74PUxBgeBkH4mx5hWuKkNLNyhy8FBMZe0pD6BK9B9AfXhXvXWfTZXvf0AD4bcs812U6gT88Wv1kLyWx2S5pyRyqKFcV9tFyQXUVGRGrHXQB1gXZ1b2IhRmGAaVr6LDrHIcdIFs8YDAA3iWNnVgeaoGFwmmDQhXZEFxxEtHf5h/KmlJ7JjaswXnCuiMyPUSdpTRhALFavsX7At/PL2knCE9bpL/LfNYNmkbFHqrifqnjodEBKbVqaFBfpi/nDeeGRLsNSa8ZK6iSOMBbt7V5uZNhhaD3Mg5a69o5GdSaLVJFNjfXHzCGHK9OLm5EBR7Z5Y+nRd998fv8mAjkoMx5KJ6sLzm0Ud4wNbPcgli2AFMT3nvSZawV9ML1Iy3fxqHjFvDjtXHG7NVP13l5K9SFnZg2XsN3ilTPZ+L1c6XUwHX/wJ3Z6Hl/5HKRLNevpmutXTLY4rEhJXQRPGZrYtQjAV11+Jr9J7KwKxmaoVYmwqpOLfUGqnDwaJlBpFDEJpbwY5dtErbI4qmHyx09JF77AU1zva84LXr4elSVatQJIeTiv9md3oUMp6869AN7cosYvlrIMiEuQxZnbNNO1eUOki4z4tic9Y4TWXD7n8u9AVJPdgyhItYVdkzZ/POiLzeES1u+Cfgv5OMaIjk1OL0ltjzttqPjhRKdk/+dxLztJYP0m7N3zn5CvltCIYv4uHgueACiKD+7xOFsf2feSjEWT0XfjUbIbDqLYxsZNeTbrvG+F3EOY+VohnD8CpsEKopAp0AbD925agV8nDOZM/TJYP/++1BkTSe/wkET8EQTjFD0elO9KTa/gxpIH+UmdSqFEhuDKPv2a2+5OyAiZr6zlNInhgx2W5k3uu5X8APOHsnAc+BnUdkv/83dWjOfuI+D2OCHkUF8P6lCrCcBh0XJsRHqIG0eeZ9uTmt51uadJeyh60InbH7+nNlJWEXw1MFR4jdSD/3SUJvxOFNsXeK92aUzkYOZY0K7oZDt4GzU1oidP5Xs1QuuIl6sDG1JBtLWH7x3KR2EFTHW8HfJjQwZReZph55miaTEL780ThPraopS4WyZ2YPaFb15qPvOgprZM1AX8dIfB/XOD0afBEtn8uaHsm6MDHkE9ehYlzdtNPrBKJl3voa1Y1SlEbhD5szQYCOFGMWHqPiDKJye6ADGhpS9CkUrTywpqi8rPk8z6sFF5q7c8p1a+vYqhHEnACQKERYorpGfOuCsD973+10r4eMxbzIGsanwUZvLq4DQYR4WWmLRou9C1afCLn3JSDoMjqfYcI+tyjm2cYK1QndpPi1//RSBYr6yrbSp6SdMfguP8963UqEH0dn4FGqmqeSlX8E55rWLDt+QBdZZVn3461lPddMzuzKKAEIh7mY46E8HqQlYw8sZxZaqF7B3xIQWgeSKs0ON0KTTdLVq+prlOlhnoE/YvVSLD5Ujluw95NcbxSuoeSnl/wsjv5MC6Ihl6tcWz3UHS3WmV8+kYP+MLbIZe6NnfnT0styDa66WKTZYCu6joFWNrPqHAF3Pl+NERda1I/VEW1vIqRu9QkGNYyRwQFMMmDuLK20tkfx7tKFN8c40BqiBmS+GVkw/MZCNLDKPE1rDdSrJIet9ndN7qUbB+wv1zIb+GZ9j/gibS2kw9wRChoqI8U3HPD8Rbc6OVNXgZ1OxaG71TSBVTlrZyjfxuFQiew6vg9S6V+v5q7aUs4sb2TBy15t44aPKW+8dNJGTwS78IAz6Ma2DJPiaWRUhAArq4hG4bgGxxag7E4zdQANAaqgQ1llXlKMn06XPAaGdG+9AY8wu5GdvYZhRJLw1xUxSjEoaL5qCydStmTcmWVeKMiX7KFdaIhwQIuU0Uniq43jndwmplv3nNEsizsDb7YlnaiNyojIAlBiI0mU8NIEYRgWXB6Y6cyPlw7DMm9M3vjacMbvAidAXXLjWY63m7IG582Jfq6+vyRrpyhdBJ29Cdnwp6gg2sZ8YxWbRBLazp2By0ObSHwCJHg5DT6ldA41VfPtabqHspXMYvK1x9ggV+6j4NGq3AJ8CyOKrXlCg1WQHFSzhie/OspVJVHFry+bk/AQbc00PY/OaYVyuwo+w8OJvN0wqFm/chz3rotTQ1xavm/iKuwuEB0Zcx7WXKww3vLW6Au1QfwVAoJem8x9Ks2DgBnX0k8nffxUYdUwuHWGlovkvyvZPnbE+JQo1AAhzhxAfJl6SLnFGOfbtSAFfADceBX0hG+9e/CyDUfERCwiaQqA29CDXYSGcHWlbczvvRoBc/In05jqW09BdfKC/FY8tdS+BdSncMczU1ZBlBV1/vIpkofO5EtIqt/00IlRSd8cKd3Irf96MqKRWRSGwyg5rsH6RawtOMY3SP7Jhk1taC3KcBan8LCMDmtjIaHA4ml+/uGX8ZRfhq0OUvJ6aVEHxhLBTr9LDPxYIJH3VBx03YFKJu9lQarB/7+b4r7HY3XJhsi2uOKUbgN+GR5lg6NA1LXO3h0s/bq5NYyI5fv6DmtSg00yhR7RVrxIU9QvtkQnGjNeDWPt9zg3EoyaM+afr/tEFc8OTwAgMjAVgEPDHsZv2qoxRbvU8CeKJAZVaEbuT1B+FWGvZUE4LkqEKn0xNmx1c4KtTLg1zkT6kh10WJfaI+Ibwp+lvDdT3ihrOcUXby+UDD0yfKJ/yWbL5ve6XTR4ZiGtBj2HTx09bt2C4CIrwRttGmr/z8jEqrwLvZEUScTfEDIr2XHOxTDeJagQOOq/RPCPRD2HOwcVqyU/fcmA/PSBH3uJ5KRo0R5Ox6W9JXS5Z6K52FO+WPvh8ij9N+Vp2a8LEtSKt5P2rhkdyyNYpNefe+ZR73b0KUHRKv9m40v7mUpQY9iFmCV0TdsmKq6+ilNzeiTaRd7DPhQgBBp732g1lZ+Uo0YGM90/BAmDrxWsDH4Emlx2bVt1d16FCwi0vDOQBQlua3U5/3CuUn6tSKSDciw1j7HMJP82ZHcnACOl0oukfcwiME/pPnAV+8ztNV1OMIF0z4mS2ECyvRr3Vqi3y7efTNr0J4UIMsVxbl8G4sJqBBNrayfRjCzWf+H5hY8RGiZ5t6SXPPCUHHQsTny5Z1AWmL4d3RKGoeRS/jh9v58KYDeTgYvlFHN9Mff1tEQCJ/SxrDjgh3BQ3r6xUQSCQwevXMpJmDwidIbdYtsNaAmgSi7Q6cJMRIfTfuYh1guDpVQpA3GfGgqLFD+AcyxRKmiQ46S1o1XrR796gzzJ7ghLx/qTgQZiPJwP/2Yf+MAhsbOTV4jocWK445md9Qz1BujTAgA1xSkUk95vdE4liJG7hKTllweMmxZRXFG4OIOIHUeQvN8k5+84DuC9LUp560HLsLLnEuI+ZRuw5ecEYHClQW77hwQyY1rBquUGisP5cpxhPVJWzTTj01d3xidQukj5K/mCnUS196CmMms9Vtj4YSsBSsI+cyTTawtFgWvtEkPjjISclPwP2oHwzwdGyAvpsRcBLcwexLTdUD268kFbMxRQ80S1Q4DLQBSZXShC0MBMAh6cAtWqmI1LL8Ybf1DArr0cNMadZKFMHxWDTp3HX7xqwEIcuuglrPRPArNY/onY6oitYdnhyCsUWvSZZSl56TTDR7cCB03Grl3VQaFzyIov8gSiW9TUpgBG0aFMwPZuWKuBxMZdAz5miM4eVbFEKbg7PE+msVmZbs7eTcpdCtbWzGYbJ9hli45sigEsx2mIdhuzExkrVIm5OnOK0O3IeIcX15o2uGKMXtJro5YGBOhSjxcYBaLDAjzZRSWvUS2uhAaLozvtVgHKV2pJcIGhgRyaEkJsOxaQ8pQC87k88nXP7Xtz8LmsO3n8F5MLjiCBXny3CDSrUYh3PF9qGYmUcHUHChlElfnSEb6MXfVmGS/hrrXWS3zNlRWvT0raz+5c43kCdD4QKdilj1q/vvnTfsufgU0u91PXMT9Gs0G4HcL0ZuVpAYW+bwxJ869v9U3r2mN14tgbCZxriHJRpz4kypYLoyakxQ/rxsE4H0Xq2jrjAlULYZkPr7oOR4VS/mBHOU1hIJSk39VXOZH1qq8CfBePpGc2Ci/J9bOTPuxVkUGAXFUAqc6K4TeLU/gXPckNL66F6SO1bl/uOXkAnvx3CJHbri/KRLwhFSZLfcJtjGWrUhIJ2L4+7coJUbQngLhJ11rvGpyceDh6FlWroMiz3ddDIQgUdt0b4jThoOttoP1Xh1wvAq736GVesnqKll4EzyJO0FOW3DMidZnziYF5Dh3Jf9356WnwVxadcdmxNre+7EHPm2wgbWN7nZKAUD+Wdoo4KohBgUDusOYPKndpZAUswdpG8gjcXesibgTUeCn69KFQujHnseQFNPW08O5UEMKxvZMSvtj1mE6mxnVsu9v4C3IsLnho+KiiSV4GHgVqBvBmY0BQWSwKotJIj+CcgNq+Nc9Snu2UiW/KfWYvtVTXUNk+Q3TzJxz53l7/j80HRkKvqEO56bzBrnYjOW0eYAsvCWq8s0xFuY21muwk7Qb0TLh6dJ2YSGLWmeUsQAvsXaOLqxGw7Ro/VwkKCMcD9uHC9PhC3YpfYj7ltENGVdNzQVZ++P8FjR0Z0iO/9y1xCfHbrtXxEwHGcVJBHAPHAUIBc0Pn9QLjtvCBb9BdLPvm/4IHBLWxdAhjWuZGG/SUXuHRcADtKd0bZGDrCuA1Oxk1yOGAjxG+w1UpnugC6iIWsqXsAY28g6XM0SsUX4KoW76SHePYbcT1tDpxUF0v0Xbi4z15h7ybP6wvyYvNBjvHBmHLsgFyxjTYmWQuPXiS42W1L0ZUHkLVg7iRp3MpW5sQOJUGBcyQRhaa/e3a1d6raAZbdfDgIbOakXFu61JTGY/Ba51k8ND23R45DiE1Xv374XsBXfiUTB1k+IBGx/EH4G7LrwZn06z8ETgPnBU5q4fwdQWIG2Hq8otsS8TfGqlwYVq91m5QaiAZk3uYH/j/xuiECeM9KcWEms1MkhWPyZoDANvecK4k3NCERras2CII2rqDj7tX2fWPq2bSebh7rQb/pvx4cU/3ug/UrWslT0FcjZdK8dV9gZTAIfMgP0ug7NIPZjqqOxTiH4nSoRhWqN4fCi1g4BArhy6DHPY6T24iYP9NOQQgNK3QHHhDPfCc1MpWEVO70mtBaCCzXWAJ/AAkXKoqJPGXMaNZKEetAOTL+P9PbJxbUn/7x2wuQWqjynXZ/1x7N0/gEixgvlOexOTyINuhUXU9/lIcUFP9hwvzOOMdAvBvND84Kwj4mhj0M1nVMqvUCcMNVfIufHYKlpMfEhETxxfBxI0U6ueBbnfiRFSTRvvIlHU5iYoeXKtStiabNFS7iytfRdUGbbn/RhjNAoy083iV7MtI6JuWmEHWmsThw/oQX62SziPKk166Ahth/z5R+dotZhUaiHGlM6mApouX4QJX64uh5HNMah3rv2Hzj46xsTMEkKrS/0pIW8Kqx8Z56b0Dy2OB9OtjFGzAKcryQDabJV7oSPq6P1zvKY3IKVcJ8yaoKA3OfXM1piJ3QaUgBlq5oMA29FsTcKvX2LIaCUR/wM8lm0haAC8VOw1ZrYgI+QF/zAk6rKR5Qp7nZlVDwf5TxpRt4B6H5D0onccpDPgkmartqWjELjUxGloWF87OSoaWZrtAx8E22DB+4343ciJ/Aa1mX4Nf4/k1LxjRfa2NeTgUxML4QN8z/0rPT70sBNFM55F4clKNxnlDzsqMnsAMhadUouAzp5lSNstDNH6x9j4Vw7XA/Mpzz5Y0LhkSSA+AVyz3Jifvadr7Z6zSjzgCjPoJSKdWL+gK4hmjRvUOoV3HrOibtfA8S0SPXnneteKKxGoo7gfpuJ6+WoXz+cB6yRS3F77aUHELTbdqZZXqjZVnreOe270FnGCREKAp4Cv5Y6ySKvNmjqAnamYZVm2VBryS6Fwjqr2AKNfTSYaNi0Il5NpQwU+oI03FhJ8mgPmidQIZwNIuBwNfeCV3Px+g4o/IY9H9xlJ9S/T3ABk3e3cVoZ0YAXCUs0AIn5FI5fSePTh3n+Td1AQdLO2HuqfvtiVfFgOinAFZvp9Wfn74C3KeJoNUUgDo2f8OW2XMkP/9L9v3Kalq6l7J4siVGuSkY4gHHgUR/PBkY8u1a/UWZGN7JwDHJyBFc2GM89On1+RTl5bWX3NCrTi25mjdKUvgFZTxZRm3OR6khUKeBZEGLPWFI+HmBjOaTYKZssDgYtqR3rXzxdpWkC3O9qScVK0WYCNBV2P8D8HbShRZKmtbuYkzu8UckfW8IHYeN8M1QxWbxXCifXficYtZK1rut34bvKmiJV/OqtGsZWVJbvmwJUpZqnNNLRmJdALvcBgu4gO3SqS7SP9Bbypk88zFXpOHK7N35cTOnGHu1V8JkrpqoCDwBzrQ3fLVlFw5fGQp09ffE69QMTAYGQM6LbdG1ceR4Tl7kWPzptK2knMCHuwBvtBOQTroLnZQ/INC9CEjMric6GzxqNgndKPWEcTG6Ex9hWjjPgOQVyXQUkPJ3KKpKeyhDd7CWhZNz1mk0Fl3sTEkfYh5/KPFZE1ZFEOnfec1Oi4DgKHbkdim8mvtd/x701HfyHEJ519lTNHyRlmTB6khcAfAQihEUPGyE6MsdPGriVBb/z9sQzGiEAjkhtT6nfaeDY7FnfO1bQ1Vh1vR2Q+pAEWErH0usV3fZCsjylZh9jsxb/M/YOaLHhYnEqAN0c51gn5UmwNLyAK6v2k3VzR5u67CB6xIkfkrWjl2l7N/hZuAHurvZt+LTYJwVD9WqGNMGWQBuiurozEo/OeUwKm6Scg4vXuW+iPg8CI1VF6mw8wHfNhSLT0pRJJpQGF/dZ9BgW8KyELcrP7SKP2cwklzRVtd3uW1MErmdPbhn2Xq9TRj97Vw7Tn/0937fnch5J8f0Zm9O5XOcCmxa534wgdu/OhTj2wO4nONyk2boZ5o/CgzTan8sUEX8UhLy9KW6Pt6S5dV4FMBYd2lLlX2Kyi0Z7u/GUDZyRhYs376OQFsHjdDYTYnpnnEuN08B/rDX2dfzEMOKLecKWAniwUD+zvSla3kQoQ2CdaDvWhnX0CwAdI1LRbXQCJ2xEgEwWRQVjLPqVxDFCfCj2pXbUuiVUEXQ3cOsg5ztFB8Pq5ZAcWrSoQZtJW8YNoNzKCtq82DG1QtmuwoxXbdVEM8jKr77tUYtm1OCACOI/Qpq8ELpE6VSt0QhexT9UXaAPRTkjnMuPf8u/PoE7cicgekMUePBmWSaD51V+Ky7r+uAM2X5iEUFk9FZ16SRsKoZTglEQ5jCcnZoDVZ/9S+JpdeJDIeN00Xr/2qFlht03QxybnPE8ModlnawU5ON/vK2mYvw1/rsZ5tkvMfU1ZZCf40A8+daczpDbXGiZrSy0RCu+5XybenzqMBIFJuPSgLt5f9sIr9sTN6pA3umSelkQyIMrpvxGBllQMRbe0NN9NCu0NJUUSfAwYIR8svd1i/CeUsBmS4t73essikGlD8R7VJHdkuWtglICdWKgzKhS3MJdmrwGJrHel1lsa2Qx+RBrf2364+RbXpEyvgzltwJISOVn1N3tTzas9q+NjyndBCnBur8MuZrAfFVR00fXdxO0hbA1KahcVmkZAie5M01ZigOpIGtc8dlnm7BRvKbg7GnsUkosIFz4UDURJcZapiq2Scdej4WZcJb++HwwiP8ISb3OhlMhGnOaMwYT+EArGZCI05AgeHlHfs1UXwR3MlUpnSBV8AjlrsP0iJdX6yHDkGOy8D+WLNxCDZXO20E3MfQGnOxo7qJD2x/loM3VW35tnCtQm+0K9bjVF+vquoIOpNsbCLTLG/1HlAIqQntXZZwFrLb+TkFqXgzEIIQgIP+D8O6RSSikCpgFk4zL2NM6Hte3cuXn+jVvYIXMb3nOGsxYXYRwqTymYn4gI19eMHxTE/2AkIvM+fdeZ9AN7VEo0lM7cwhdifHo4Fg3u6NCkILKb56LIfjsqaEgVvSq7SmTAFPXkAWOBqh0U95TxufmNiB19wYJerSi8rPmVBxoxh+t5GTG8yOf6nsIkJkaszVK5MAtNAgGSPC7JmioIXLAb+G9d/tPyhxkck/pD9mRBQAlTPF7Ahqre1JTdjRPCYbX9WnsvNt4sUaOnEc0bPiDQVGg/ZWzjMUppWEDGN411iHPrFXGZkLng9BA/dnzJGTLxlxiHYG7PRvk8xysykZYgqgGXMqxOEBSxKQ7O2WAKpvIoEbIolGVL9HHwBqSVbWsRcEYTMh9VOgL9bAY/k5EvAORZY4Q9XslQizYuqYfvThXINwahc4MWQIkfDxoEj71nvdApf1AxiXLztmlFlMUU4tr8qkpCOY9+0w9SmBerjmYOUor4gWsIYXt05LrE9WQeF+tZ8Hu3SgectcoFXbB6QMha4KhA0LLsGU8bo8NatrnNUffG8SQguiHwnrSMCfc9Vsd3B23rWij3oHnHCvnh3EcF1L7uyotTl+1ISl81mcxYUTkMtZ/kxA9OZF9UoqayYV1eHr4SD91xmQM/NiwJDRAbIleckorDthBsz6yR17viLxKlyzDyYmIGqms/s6a+/ZPHh83JgG2JoVoxGxgNy/q844AHJA/9i1NieB6gjOCZLXLte9RDHVbEBEZFd2mzOJJu6XMcQiDbnw5PHp1tOP5XZgcMvARvlQeVeVOwL0TDyY8Xp2VWcgPyCLh6DfGZlsSaLeFktbUDCpZOpbSDnBaRyrta8vkODpqHaT+pTM0mBAd1hUC34mVwrfGGRHL86M5mCRyw8SmkSeSXzLy6g6Rm6OHZCQeVIpzkJKNvcVWgsfaCG0VgyCO7lVXpZQojc4gSX67FWIRf2icocbUM1gNvWGRrYmWB1r+Q3ga3WLE9lTs/WUOqtDs6U2HFynV1IQuD/2e5MYk89DQ7eZaAPvvzsdZ8H4WQKiYsUZHoHuj4StAOzp7ulErWLDB47Rnfhu70qY7QX4FEIQ2oosuemUcdcFeVt26DKuBUqDGMx2X+kgc2uieL6GXTTKiIXR5+fwRsrectUKYSkgiNHE8VJjEviIHAbs91+5UYkjVPMOgM/A9b9LdhjHpvk0s0Rl95at5bilsYdSE8bwVlJkqwTk2OEYnqxE615OHAdH/LilKFWZRnK9TPeP0+mb8YMDnoo04MQiDMt1B0AIEt2FtBbbzjV1bLfWl7qlbHrovfy4brIt0qIWLbXqhojrotxGeB3MlRuPGljCZOa9UAUPQzgg7wNh4xAhA7HTKrwjX98j50ayCYDILMob3PUbbntYf7DMmPwXF7NqtzBJzBIViHslfeYoYD9W9S+mv2j9xiI+2iVqzzrpHY1zc7Z6I83AAcdLzxcpFcDzpFZZqEKGNQ8OKiRQNugPFumcWmJz5LscCUAmpUaVyFqqFIgUJEu4ol6aNr1LkP2hsPE1p0rA6Svfuu3scoKgQpn0UxfaHlZhB5o/aGXhDsf++MelOSC1LFabV7FtL11XmpqN3yu/l0C1oXwk/K377SoX2U8c5TaDkw70d5hpClmx9TOb3ZM/FuHqV2CuMvXqoArvqtYT5lOIJnrjheTkxaJ4QbgfBe/U447dioINJm89d2Y8+wssEMODzUYqkqF3RYiqOfYKzrdTVE+r7JGbnbAuITr85vZtT0dEmGEG0k6fUHRB/d28PvRvVCstcIRVmXLMKMb269hTlznXMIyYpALlsHGNWBaWlNd1xZbDB+crTuGi9XHnFAczUO2Zc7CbF9y7akJX/WKBVVxIjjXZ+wk/iSzCZEkvQFvLvYWbfr13sWi8KSG+2n7XdnqJWiO6rzTaPynYF5iVE6bquXx8G4p/vaLSaVhuhpIVudOVUVwwfYzYkhaGtd+/5+EVqI9N8X6JTSdk7q6SQPeXuzC/W9l1e6YGIy2lOlTLSRI+a2PC+/9XZQLY+PiZYemhE9OICbnKNpKFvV3Hv517fSMnDh97fd07r0KTaaKXnvu150udxzgOlnM7Tw+IX9l1hWZeaWqgRKoFVCrSxFnbWvd6P8bK5CLRaCgK7J8CgqtabgGy0mOfoj5TTxqUHlKbwPf7wU7tqAChJaWmLzniIItxMncO45jaWyjBNvNLjuvRAHMvDy+aTX7J2f4BV7N+LwUCPpJjLslEIV2dC/1/sUrQGh6RpSDFzdFxopur+yzdCCmZS2rIT+tfcxqI0mvP9zoOCG28SetO6my535LGs6NrvAowmLVOOl6HWQHVt5nk5mLMCn6UjvoB78S0FEzUtlCi0rFA1MOFAuzGBVkApOR1hrVR9aoF86QbaP2OKSbj3bCFLJFFegR5MWbMyCVhRG/Tvslk6nR/PPJmgnAS57Iwha3/SefdW7pwtCzi96TbPOkKUTYcRU5PgrgKAcZj9qOXQJtUoaoZVzJ2CbzegPboxgBQwqnCsQ3WHMWvwGC0kQUslcmkgEyREJKki5D/A15yJFZU21EL9UZBAtpQV1DNA+xBJic5wI0cQPVzXkbQ5yb3izvHAf/mnvcQgllL5cPOrSHLPOpmKleLuxCG0mmCVmWjAORgtVW8aQq/b00A89dE7pNadLkMrGnYkTVBmqTR9xxFbHrkhlbIlRFCjg22AY8X7o8/GXysE6EaQ2XJ+tKF5AIKy1ClHLkCCRP49FP2KnkwuPQIUll8/khfPackJNJG0iUwJ6xBjOlFGJZIBF9Gg0r0KMfhL15c7kQRcOsKcQ2t1un7h2oeMm9iosu881BxtLqjUhhBy+t241ZsVc0E8cGcmc8ZzTcHjLTxkwJI5SZDajc9VarbO11Haqpx0zL8wwIt1CMgOazY3yaMY1fFV4m7HtmxM59/tLdtvEQpEabgftRpl4RwAtWHj4y7ucn7ylG8aV7r1QzYlpdNxUZs6X7rpOjzpW57oCHzq5oQ6OmqOYQzKDejGP0Ad0Nr3tBnosLtVeet9W75bH3KJYqWgZRFkFlJI9L+2xNyCQSMeNR2hn0MN+gjP4xFfT5vg7Z/hG0UE3GBMCq/ayC1bTmozlner/ZcEVJjU5N9HbT3j+cpfwxiJ7Mq87yRKEGQVn/RfYWRqSj6pS/GFiledduq0+smBJfGcDFJJ+bf3OzVUCVFsaqQ9SUDm4ClNk8YM4LDNfG+EazxOy/ZwDLsBTrAw1oJz7VLRSjcavcnK92R6S4lJQUqCgJ8y9XSWFewSDTk5TDqo4uKa75jwy5WkeZZ6xDuc+v5hgQvC7lgPHqr+jbUtW2cpHMdTQSMKwuMHNsyGhtHHmzyuXRTOBDfXUJNVjg5+0ppXNCNiO26ioNEuc7ffGVFRXo/odikwz8qb2eHWlc9Bs1LGdyZTSRT7SYTYUOHaVAmYt1CbKWNTCcukGxu6ZynaQa+suJkIn+PaehNnEmWYWNX/igG387d+pdX/Q9EGa8UhzjmVUdrUpBSbm6OI9+G40AEPUaWAXsYpnxYhfUkJe2hkwQS53CF2CbprRjuLFECuoIrxDZ1Tg2KkDjWo8omuXJnEJUCPWgob+1t0oLM2FtpuMZ5F1kg4rjqPIUR7/7iOzndK1qUL+CEmFO069NwhvdMKRlo5VQcixmMJg48/bU9HahPrEEGBF9aJdXGQehvnBzeiNpzyWBewUYwFG/geJ81LX4ctIHa3L5+ZNhcTanhdigsNk2ITIQ0NvdPOX3ItAcCAhZRDfLggdQ00YXEIxpp8zCClTBoGFfaf7w5EshHB3/pXbr7qXQLABPoURJChR6yqFgkbbW7Dk6KKMN6PKpbVWbXWLC5OGomPvyeftkvPbkarte57TII9FRYzjS2jfoAWWcNKMntJSOVX+fwbf1hLEgmWaGIAxofWIgwqPcxod9gzTFOPqYWhOKPyVMn/CSemBBTaE41oFUskwsDY/uOoR2H5xk1vfRbf8Q9gAqVWApCtm7QrlMv9IUJuw7a0fLr+I5wvJ+qIqk+pSfCPGru2i9asIBTOMYIjxfLQWIeZJdbwkSKTEF9JSHThEdqPyB958G3HQ25XPArYUJYTbCEI56scqVEq+wFsHk60rTHbdeFUfA56Trqqmu+XoPIf8RkmBQWH8+L9ZLu/Yg5hClZ4X1LowT/dRdKSaUK0eKEjFPjpkgFIofRFJ525gNc2H9BY4Rj+pKRh/aJB8RWL5+akYNBlTrQbw8hTG6qm606UqV6nb3Iz55VZoloFJ77oNln9ufj9Mjq6ySvljaOqmjLgk/EswI6LYVCBcSQCVJlg/0qn42o/9gS1NkV8e9z14lYveO3iU6cCrQnkrWnem4Orb2cKWQOyBtBNcBvays76VrqXBfQ/4zLWCSybnMLzuLF3IbUw1SqTfPAPXos/tngYkulNz6kgJF4AOAseCx/M0/M7GqmQv5Lz/eSLE8LSXg88s/N0ZP/lZfygN0qBEdCy/aLAFWCnWGbGyzX79X1yDC0NBlSgIb4vAri518d6j/QjG34yKPeFPXIM/Rvv0EKS4DvYxofEK//r3Ws5Kr6UP8GXXxY971jdVzp4l3o/TIOPaHtDBL0T3Xox+AAzGQqGSK8xdraz0P/OZpZr6UMBAAmvQgezqHs4MUGqUzDAr6bEz3FwclxgtuYYESbO7YROFqSM9B1mQAgRzeG1P02S5batabXtv/UQthAivBIlyzaIW4TDHPrHdUR9gw/fP49mjMnun1D46cHYAsxjWpBKRtTKQrv/JtAAFKUrMPHP6CxPicTpOIrxDeuHud1SzYiOMl2EwK1U0rMQNe9LmYpOUxos9TJKjzuvTjtq3RDBcHxtKjv5c8BDIU1Yupso8c9ElzzmaY1s+OC1IN8elBkKz6cZO5ECeekF6ZNHwFVwy4psJbyN8/x+VF8o09nCFYFSdpN5M54b0ippcB3tY4ywzpNxGN6VY0/GffoTB1WHp4HzIlSpx3EWWJezXq3o9B7HggB7BbwJD2lACFP+HhuUMvTekSfSGLqeAon14PqcWhbuihTVPBkAAqL3zfNNPZvpuWAuSYej3r9naHx3zMsEaZzjNpUKmgF+DiqnEzhkbMQn2GIkAw4FX4p8EyijZfxx2DpMlN3J8AfbwUHulpSGbxdK0AdasPW/vSvcg48lJRJcyxKzURzeYyFUccgoiCOxvwPRvWX4pA53BEznzU7SH55HAVVlfTJYPXZ9DVpgZi4Mzxz9tWydQ91+sdgzrfgG8WjLsnObr2qNa099Uv5Unu8SBONoDWy/Mm0lsRG4iRdg1MUDabwgfR83UTbuwSRWDM2NXR1SBbNpALPXZtZEBd/NDkDnnB15U2nM5KCTk9Gtivzp+opnbV6wOkSLZ16+tNWWmf7S96Md21nyCq7XtDTbDZFOGeWvpPxNJxhyByqkqcrR8M/w4FqO/VNZIlyBNSO1MPaJSFyTAd0au3ehfY7VTnDO+Ptv7JFMfuQubSD6kgRaIKlFKvUtrWkADrxuqxlDUxBvHoc9NTFVkRgSFDU0tr2oasZ2VTBIgACuk/J8taFyHyZ5gr/RllzaloqAHZ8yU1VTgTzi1Vjow1wjjdpb7aXJkDYgyYHHtarhq5KIdX0QW3MqcUM6plYktIbNKR5zd09/qFDfAovQcc+0xn0JchHvWMtObUBhlczOQXOy3gDzq0RbxtfMHgfFiffKwlAh0QCcQGRKgfHZdc2ZsJ+rTcpuLHlZZugTDD1wpO9ElufL0dkIys70OJfIwLZoh+KXJi2N5C3dEt8nIfY/BNEg8mK855y807CuAWWOgMqSKg7es3y3K3+HHP/w+rRMsxzl9DmC98kNYt7++bgUrMBMr3iuzKWO9f0AZAf53Pr/mKaJqt3RmN/JSx98l6jXEXCQUl++v2drsKJMNCVYDNqKbQIMw77xVKmWdIGVtMlvBu2iBxS8LKW1jFqKjMKs+WMKddOCRqgjFwQ4F7QKNZsVFA9HfTWIgSl8pfNg+9+QhLffYR3p5dXCPuCKZTfe3p0f2M9GQStNV7PEzyU1UbB7dQ/tFfw67PZl2vZE+5cCKaWb1FFuRUrRs7V9V0HxxOoUDENmEactRgf9G4+/woMHDwq6feDgmlBjXDsR7D3QY7ZQioNlmU5SuSFaDAt3Nt3inrvqynlBT1eKBylnDHw4fVQ8nkeO6en9vNcmt8uDlEP2sFR2hlhCLkrJIy/j/gj6yCzP8ptBzahoofHY1uht6uCHsWvMk27cuEAbaamflS5gHkCVYeaUfYKhBboBqF2+vji8mbjkVAjx33p/O00OTLvy0Ddnvjn5mYn9JzFaCFsr5nVSooVcqAcNEhaVwo0fYFYP8LlzFp4dwyhvBdUO7V4GBFuKssLsHcyiIRU5WSMFAY7/tyGWjF7Dohgl4Gniv7abHJUe+WSOyB45QQyOWmPulLJmBfXL7SQfQdPilgVqc0HhhEk0GZSHAC3Y8OVZ2sUJNY2lIaHZ/sUQXo58G9kqfL0hf1z3/tVaS3KycZ1kP+N/kmiuRNqNHF/I7wNqZZvQgfKqNqIKwPSE/pjkxcvbzhVL8nbiZJdvGhh/Pkr8f56Z628Di8OU0QhVpuvIoqWAfkj2RyB3bDbyK/6S9VfscdN02EwkrJLKcsE2CwBv/n+yF0H7RrEXS23joXc5zoSIy1kMWvZS23DwtHYplU8gYujLpQnbFvfqxHIVhHLDJo3xTZWaKRNK1yzgx56CJ7CIUDeLZ/u9lslkWJbmcagxnl5aF6wO7OB9lUjV3nK0VaNdZAiVKZS5S530TuWiLtFBvu/lOFd5rM6sZkVMgsdysJSClQInU6h2Yhv98UNj6gL/OK9LVS9f21i4gIqzFjs6M0uBZ3RRUwVwawA8cYAlWJezSi+6OXI/g2MZQfMr7aJ4hEe/tfJrkPWo7dE4jCVVJ5ddv798SqEctyu3sSHpmMCia113oG+Jxq/LFe/dkaZBlCD1sByOjDFG0y+AOVz62zQPmf8SCBVChc65+XJ92693p9M2HkA8sGgJmvsBjpWqsgmC1H3Bibv5hHln/NwTxr8kplHXuFVqoyhJlGzzEax8RiRNssx+pBFvuwJWYUts/I0sgQXepQnQ9TRjxeRcBTikPYPc/B77pYo2kXIGbs1URDhsIyIASZj9rscXF1yLy23u0BlCCDab3DnUQQqT8T4SfyX7O1s5I1UxoQENOFtNmU3UbzMoXmKqdaPzx0BYEP/3XBWMu+iZiTsxqWRUZRkMAahJA8GEcxS5e+NqMUy6E1lr3IrLIgPyAj8cnYuonxbP7V0eAMWO+abTstZwXIccVe5B/K/blDgYrS8V9kCRjZ+c1g3n37+cG4GOyEgEKV4H84+8ySIQupC/qzEEV+5+IsCz/oG2BREKdplDMY5w7NeLHZXD7DUP/7FNpLueRTNkgr98aA7eXdPjlZT12/MQomfs/m+VTiyzwS37bLU8r2GohPbdiS0rHYwTSlr+Frp0StvO5Elm8CjAXgfkYJ15AlI8F1yjmIFTtTXLgwX2wMREh821Bt+cBHwvEuqaMyonhmtUTLoGqT4rdOY9JASzrPUYZSWq6ZhgIx4xaoiVxUe8/0uveS0vHtfYsBZQHeyUY7XTwIiSXXZ2N6EWRBv36sJ/5MiOhTGmgamo+vPU6r5on4goyLyqBikzOBa59A6JoA5LrjnnwfIAkHCGRLiAqap5IxFtMAnGmLM93pBJvo8ftRXJ6HrTy76ir2Blly2mHyLBUzB0DuLg1UZlrUChlLqTmuZHVcKp5dku/IqX7f4nHGcXDVy9S3XpH1xGDxeyPP9mXZzM9BiwLdGqzCnQkmbZoOV4uMPAyV50A8hg0JtjfiltAYpzA0zu7TaHmtCtZg0k6f5Ec5sRwsKokUg50L0/EP83BM9pkOPTI6k0Q8nlShQOZcG29jGG1jN74y4sPYmhlQx3/jlOv/F77wGow1HQTciblD6GtFHmC3JVZyv0HQT/4tzqKkSpG3AmEpJEo6qQQJEA7GrmvdEf8ChL7NaDje5cbuIkOullUTxaeFBmAk+3f6ICmBVlWNAHGnAMczwi8yZbC18u6yDA1Uqjkh6EGX58ZpuCYOSUo4Xf0C/AkNx64qdCjgeY2umXNk84ZobYVtmFawI7EX5Gu356ukZTQOiw04dwy78ZIQgZiLdGF80HHN4IKlcP24d7I7BbUZEXWhUiQ+lpmPyOrnYa6zRGLgh1P+/DHKNdXdQfm55G2R2oCECi/v1Je1zA1xNvb2TN1SFPHCxRGgi1kxOK1s2ugeWTFi+e/9dphvWgj7kxK+hs4dQlIVkSS8MmPggSPQ9GSTaig08UxmKmNP0f1xHz9j16yznp+k13mTgHjZ9dckgRQLqn6Icnd4v6w0FAVOqYjgyuzduLYV7oPpp+L8YNSRofRT6NPnOnOJvii8w1ngMzkdyfq+GcxIh4iQ8GH0LEw0BMgQJTdMGd+J0HT611Rta/SfTAsmw5zu9lM+j/BM3ijit2Y4cx9+LqkuUhZURLS9WsajbxNpDY7aKD49Uujr4KzyX3DFGxKN+JCqkxymELJySz9wYPp541wqVjQSdkXd07pQ8IWl2gqBz5XbZv9XfBmzBKJf4oW2Tsv5PbjkXiCtQIr9tqoGmL0A4hgQQJ++A55TvTON0s9PZkA+aNAwxTuHddGWnRDnNLi3U6hWlm+jH/83q+URi4GIIfQBCCmnbP7+1ZquBqBvAuxfc/+GO6eN32DbakkAON2WzLlnEUf3cpUavGgVJVk9O2NXAS1RM0AGHlC8YDigat1LL7LOtO2/u175On1xvYtYmFE0VIumQBrljQaCVdgaBlv6mcaZ3TC9LxLeCfNdygVrl8BI/WXHIkolozFTZztABVpp8qO0Bw84XnLx3WxQnfALDYogmepvOU84w7ND7UsA7oguV/+ia4YrY5GxAVfrO/H+ezA3QsSF7tCEMTTT0VlOKuGvxAyWk3fy4JugSZoIrxqdh9IzWqFQmIkMwK6hllI5xa6e4HXbn6vXku5L6R4VV36XvF3AZ00W8kUtVvDLFc5pXSfp46Gn+aDpielCEQYBtJ9Lv9nY2H9U4Z3H7LnMNpfOi9qdZhfoyQt7NlCiMOLs5QoSQX2bpaXBg5x+XdlKm4fT07Y4oowp4e+m8p9PjTOVpRA2VxVUlrlV5ZOJBB5mMx6ydn2bSPUfl/7M/ckrn7GhigA+1DS8FiZy0DnHNbnUEXo8bO/jYGRZuH2f0uq7hN+zdx1dylUEY1oG7WhJFGacuO7XIQKwPwohbJ6kLrhOgp/EURr4wqmGhxMNcC7zIoW5Vv9IWRQBt6aPdILEGUjb9D79FF7sQtSJHWXER/EfYb++9QSiO+jmBg53OpL+6+gaHwvuZn06UHvyBhKtfNxVKixUxqtZ2Y5Mxmw5SVfPZc46iINNCiDrEG6pvPR8Wnr4wSlSDjVj8LxWSxXlaXkGkNB5nWgB8S2uGKBEuVpB4XGzU1qEVSfe0QgN0CJKkNrsVkNlsB/XQJK6RSpdFpXtN2ODPDG/DfReLrOlAZuuLMy/RChxTCfFcn+uSCYDEDUg3ATqL9FdUQBNN2OHqq8a+Z0ZnaFQoF7qRvJBveo9WZq4ZyKOIPjPvtcE4JMB3U8JiZzfTMbYyg+SSI9CrViSn48KcX9rP38SV/S9ak5YcFUjBJAjhDXuTmY0AVVI6t2vvS0cayQinXqk/n217uMSGLs1EHiF24ntu6BIWiMf8j+uLLZvNgkRzhd3ZyRlGPk8tLTn8AKUN5LPAitNRq7/KWw4AaMBtpRR2lRIbbTDUz2KCReCGwfZXpCwNo0cexp/Fl2rRUwNIhy/eHpzxE9KUqNuKk3bP+TYSCMXwb6R61tp2Y7Q8tykzi7q+niqKIPY7KZpWiOvPABcddLT4nX6TDdrmDKfSECKkLeQonzrY2bSqL2Z56tJbVrZ1OCLb2koCdefCRv2hYjTl7ugno02w5c9ezLnQU2h1ijs8kzaxzRE29VkPflW54E0/7bHprJci0rfn+KvfXoQI4SUfuIqoBc8urJmNpFuVvF0KcH+AZqURSanWtPbNjBmUkei+t0oLhPQa3xKCOabAMQ317veOWMovkx0ulsRG2LQoC/jsDft5X3L1djZLDqD0ZnHZG9DC8+Z+9aR1WXvcWZQvw0X4lPgONKru7AJUNs1TPUIiHd5k3kh4km1dJQvJ/uWpQCej69JePib6Sy8/VW2Gmnzd+tyMmnqS8EuP0N75/HU4wzAKBYTr/FpM+9OUz61YUylVkxcRjX8AhW3W4+XhUzGsJC2gn/k8SXg0ziAvOOpkpo6G53mBV7F9k62o9SHAl3vJo4NN6AO2eKsXtUaaa4iXcJBynROw2RS/g7alCmmexqWZ+2uLXMYRnRDjQgq/en8UpHoi9dIoZPkxNb4DIrACQX8Endh4jSGR1UA5LPtmpEoxvL9lD9OlhGxkFvZtBjfZLSiTW83KNC5rwkpHTKkJAohZrg0TeL0OnNk70Xo7FNi/+RsaqEyREn44AZz38xMp1N3ZPBmrMtMzuPCLR1oi81gBmvxmHi14gBdkURAk0eOT5EYWkH18CR11wYTs9n/9/QyR2U+6wEzMJfQKHOSK3iZZ3xQEHJAa6Se2A/xvjeE3+6fSGA/Cp8R51X66HgZEyy9rVE3yI+XXw/avr7Z9z8oOA1JgXLvZ281+oLgWZ7KcVnclBy9EBWp7P7eEwjM2XxMrdgFldIh7oVLIaX12VPBr/Ji7NAP71rGBJt2KmhsXkKm+ScS0bUY+Gfh6yVkSnvdnoKZqyOslquyHCJJf0e/mON1lXG+JD02D3ys9rcXFxUQ+CKNUmAsDPgHXtAm+WBnu/ZHqt9eVY0W7jNPar+4ms/bVGUPEx6SuAZsyn/9ZPyqsdXZ35Sxd+h/Q51hiLC1llElvc06lDlpBfZtriCDqid3lcBr+LBLL/bGI3i+yF1it4u2H+j0TnBq0jruPwmRXCUqmSISFJQjWmztRFdryvuiQqwI36b5OEXSE1uAg+Ysm8aZrOUHyzt0BZCSlAamZ5OBUqDvakt7AJCibUb21gvdvf9OyVbKa/Z80B95OhlQ6b8kOpR0PDyRZz4fFxFAORU5VX/7YPH4WBt6D9pvYHyosi6sOtxGwk2U4XxAFqUhlQGdAuj7Z7Vocof6XuqCYLFomwnxf1BBYVGToAjS9pUMLpHaM/Ihef4sbEud6L2zksfwSE08m5YQY/bLcMIaN+Mp2wIX3jCxGx9dpjPvllhMPMZnSnKRYI+eiKVn1b7hahVnuceP/fhEmSbqfMc/QxYGOYziFwmoK/QJ7jpnW+myYO+QsMdj7liWxS4nvSAFrupkNhRnjl7elITLy5VDtq0zP/R1gJ8dC2jM0BjA4XW9JeQQzqSAMYZ5J6nIPGGkd1LobQ/TE1fuirehtBAHnADEW9sGRnYLL2bHTU/ZXDAwwR2vePfHclQJCPybaGbrJ9RGKTZV9C6jIsSbCOPNzBZTW87g3dHbFBiZrAge/qqohbFLQWv7ObJRXcHYaKlIAbtcan+wPTViWueuo2D3/hK1HwQDJJDI38XMm37x7KejRxLfud6tqej4LqP3/9XtaNWu9oC3U6kc2ilDbhDH+z9rla/+hhGUWQnYdI1OycDqJgZVM61k9L3gNq6GDvnIaMVxSRb9YHglOhCfmWW9S1TmYK6R4eBBZrh80ROeMBupaAzRq1Lskb6LVvcKxnimHpOj0V/NZWLDKCVHT5abs5vTCVSoKaVSDtGlkVbYX3/P7k0+Mk8FlEnuj2A3dtedwdbb6uMZsWYrQ8Qm0H2tVEU//Df8mQaDYRG6kFU79rGnbaIhATp7Wi9kT6cNLwHI6qLXJaxhR2MMSVpQzLcp5F4f1aOv4oBNA5PvG/gVdkA1VlzQM/ZPeWJs4VSfWAlSaVqsE5SLFABwugE7c9qPPiXq3SU2pgeP22VXj5ftC32DTz7H1tMOt6qjNlKsDzYQJeF/DAWTuFynrtZRpJepJ1yXyEd1IFF5Eu/ffT1Io6kdijODOX+7fsXUGYkXEIe7oAWt9ZdsuhVfCHFAhBBgUPRTo1rxnTezEnjNlJzPEU8EXH+fRJqTvl13XsluMbdeCHNkOMg2aG2/ToGFgQYZaCKx39RW2VUiB8h9m6OZOhoETX9SEnZbVck5b9FqKG00a/naY2gvVAS9vFt0QnCbDWDpWprjquNYLXt9Nj4tqMF/sPBW7cvaOhh/EQnRL0e2wTcl/NSy90MONDX/E/LW6i2hMOvqToHAubp0te1K9c9XNcpvKw7bGZsyDeWZaR7dL1929k7s08upkmRC43998qLMaYfNRkG/NJpXQyz5+H80ZhBKFpD9P4lhzQbBTJuAbwgj+q6ySrRscCMw94rJQiXybRtMJ2Y+186+pOpC93Rviy8LoCQBhwPhHuXnq0VhUS2qV+txEjKQCH07x9SH+WClmG4tcSbNGd3GVClQFDWBi6Rx7CYL8CTcOpnA823Sz/iDe7QVmwBnvpAKa2bhX+j7NFBRhVDuh9BM51/XzZoGReFtzq2KzBS5+ADwYFyVKDm1mtuhNCZJ6olO9jeiAnVWgxgEVJ0qQY+LAs8CTwTFU8xQwdsCDSbHJYLSR4kdbVNWhZS5HHCIeSqetmAYAowjIwFT6PAlm3BbbBy0C6dazMTwmOl1z+4cEF53SuD1RMWLqhHC5rRc/q0lC227PLOzB0GWZHY0hioqxyjUf5cJQOTahnbjfcjNMo7W7VvaZrTxaP5Fst4BfXUZhBAFy5K1+XBbNTvzf5iZ+H87WygdyDTHWfSmZsJaWvGcHIdNADx9Eze024H5Vs35Gg/OtmXP/q3UggT2b8CJcmdGsIPoENLYreguOoE/GAm3KLkOOxoocNhfx4cSP6xNDoHaCz5Cd7pai2BCWGad9sO4qFnzDwVF4CXqcprSJ2OOX5BqWsg8NGoKUrUbPjMj/2BZnjD123+h454lU+R8oOfGKO8EH20IjTDhoz/c8V+SkigI733U4FwvWHkyLcGAnBlyyHlgHBPB0PHG0y7a1zPwRR0UwAh0yveoMMwQTp4Lq+7Fy0v80yFOaQsNNzW+bFl4jg82PhffWs6gb1pcq7UVmDMBxzMlBE190ze6lv7ONgO5NRtyUcN+JI7dZR4WBuiaK5iZk0JofavPIZuo1B2BxQXnDzHC0veFNFM8W9CaVKJox6H+dxjqvUwdzypQNM7vn99aBBHDF1xBPHmPbeX8z66J3mVbrEGO59pk4XhE5Tx3e6owd2t44K9txouN7vBbQ/aCSl9OSv2NGDXmyh2AxqF0OQG4ZtyewgLjYsrk6b4Ry6Qq7zZUtSoJ2fPIERMbqvJuziYw2BxAlDf1FemDQeZHbV0R8n+eBABtQH1TE8/+PqB1tK+9EszcRh+ZaiOjFDBwX2dK53RNMfGTsWYbdsAlJ3xTE3/pvJk0RZO6wp8Gp2dGBP7g+rYd0gaRQj4jVeh+BSMp3vag6JHIcWcbJtUiYrMVDKBGqB1FnN0j1Jrfm5DM/jxG9eLB1IlwkFDXQIzCNOYp9Y5WyxJLP9aQNQPpQNaeRJefPKOeAlI9569PC/VZ55fVbxvTX1/H/6GKQMc2IJUfBsVx5cfOykMJ2fVulxawdcHpGtFkRvMr5gmyvIEt4QOg2UOY85i+ACaPbDi7fR1O8QBaYrDP52h0qnNWM4Plo4HK+Hqnff5RZF54xRfCiq3Ss8xjOogeiy8i4SiQARW4427xoi3unFYL2sN9BdvH5YEaswJpzgE2SvDf9K1cn7uoUliVhREvYgcZyvme9VtX2ngNNhc5P9QcA2gHOxv14LbZ8rw53KKAtQFgIMbNZJdzxa9EdNE6I0wbQQCFGwPKJFNkpvCA0FXm47VhsIwG2MwLlVkHWlSCj54DqAFCyAlp7MzLMA5qkzpdZRYiMCxFY1DWIol2Y+V5UE9a/wrxyaphaOEYr8RkWVumjrlc5vkcUV5MJUK6n8u4NHZBkJGE/orwZm461uQ21BLi9ksO4lvn2je19/MX1Q1EOPBNIoWyvnAhaXYaf2nwE1DsGSOYPowq9iv8CUZQujliG/htB36IvVrT9MH3Jz/NxAFl4AxhG9jWlLjl1+8QeW/9HsF2YnmFmpZ7TCZprB65ysfYzNWEETzY3UT+VvcCthiy3dxO435jMABqdP404F4hsFnYsvBit0gj/fAqaHW+4Qo85aWmjP0GaSrdIUwSvjj6hnU6eFBv3VH+MHq1rGLH0QA2sqvysRZhaWqiilCQUy2OkbqfFSZHVZWjAQ2PQpnCZEdI32HmzyuxntnGZs5KOidQ+7U4v2sT8Ro/+Ac1Ng1BqaRs9ErCiuQcrI4MV9mpNpyOef90zYqK2wuE5zDFZP6XCSLGY3c/wt9+nxfTjU8dZd5JG+RYm/tK9bCDG//MxsrZbo5PxkCSBNpiQzAapGT8jFGbjKAqvFQFcFpmc5qsHrpuC3dO6KhHVfAdAIu4WO/RFepKhTBGsfu6vNf5XD5phNaYvY0Z/29OlaDs00D8KSeKiESrQJ/Zxdo2XS0x0e0yoy0U/Fv4vnGk/O/uA76aPMnSCjTLeL3JQxDLD79z6PxZT3gSTyBqHPhf9IpxpUrTGZuwY4U0bA2rKyf5/4x/VZlqwKo/66oOKYSyn/kYgzg2z3VrAv2zdDAyoFklzbOKSeMO9TAlhtgIqP2zeG/ZNntusOfnFrl15fX3SJWnNnxZGCTSpXlmwotJ40buUH0YZSN+4CoaN3iBjzncWa/gKsHTDYTVP3liH5rXSFTJ62aw7qbfa0BSTAD6hFbVlmfyKxOE1+KMmcRD2SgFxX+25M427AGc1GVmi0X58tF79FMtp9rYJ5xht++y4RN5OiGvbPB0/UMhK6R7JzZHFj8Woc/6/f00viIMFnWuiHli9wfpXVVLBbnQMQ0nLITLRWJ1u3OLoYEDwej0Woo6loBeIjn65D8oL3EtDoBjXOeHDmkuwMq6fYvfCeU/ShnC66WqRNaSGDNjk2Xq8VGYqONZ+OITqv4umL9pUkr5DuJqE8HHmYo1ZnK1kpqaPwa+Os+frUxfwiCiCRKLln1hILnFasLJDQ27hCt9j1mKvoGFN86MC4dilu6/pU1vF6p4IsfvupPo5R+Q8mjOQ8hDGpLITC3v5N1bciT0cSv8E+/UjhKGjCpzXTPzZFz+zsnGaAIdVELrBLHg5ZLhgTm12Coklrsrw23L+rmx1cQcqjnatbcHaog+naicGCK+rZgDFf9NyNRK0QY7vfUtkvKZsHrL9BE6GZl4rQsq2/2FWkec8RxGePye341o+MIOxTDRhZLYz3I2vCC9q3rFcCFW2d65wi/1g0pEKKcjGx60N0j4DHYJOsC0GDPEqhTwrwS3j7R5PW1Nl27Xn/ixqtyV+LQppYDNx/w6tBsD1W6xM7Tr/ClEDdZ0hBGZSNR5CZeIwC+yP0M17ePUgfIPcWMfZoGLWiYJLaNfi/BWkVpYHD/tq7j1VJ5zaI0ARjqFWZ2puBRZySz3wbjNXb0/nbR/fxWCDqfsdioBWD86Yk6Q+gyggKck+d8SWck18dUbn2del7QsBNwZ0hQKf8sDk6Vqf8T57JvfkdpMnfSzFpCQnuwgJ7SZMizXfzoi0T1hLkDv4YoH9YWzn575D3v2xbHX9Cob9yQ3pBZMI+QSE9eDiklc3OV3Y7gS242yh+Ms8C0h/oeS9sS0iD386Jho4k2ABS1uwjS4Yh7mD6D7Krs/EK7ySOiu7V0mi1YY5T5zEHRLUXTOHbRScB8AMWz94AqHfGIXDUl+7wMTU3oksBHOmhpGf0dT1r9TAxee96sAJXpWAcBU3+Z756qskmtac4sccNuiPOsWuL6Rg5eAAUPlZwbb6RX1gWH7LsjZNxarS/DYqvcfEqIWmO9XQUi69A7HVExLMg+kIxBq6XkUn7Rl7EVyxQsna8ammCm7Vc5Zu0AzjwbG6HUMxBTyHYd3cbhb/R4rZbDUxubT7TtfuOaxt85T6Gc9+yd0BEl5c/yD3BLqqNmHqDJz6eq8flHTa8eh2SZOiCL1Z2vQEPUe7OS9Om0Q7RuWSEm8kVBMWOPR1BuevADHd6dTV88/ElXYF5saoLNoipNyxRW54Pa3DZ9cHf1kgkAJp1p3ZxJjpmfJGXGwMDG/OYNROJDCViS79cwRfRlsRjctcJxnSS8OkBEJDz/GirbQBg5HHEEOGnRpRT0Uq4KYeT9iuLKm7ycsLfXFJPhasxbHbQR2AKufmBWdriz/3TQvo2O7tuJp07y0FQrPXlKzhcgbaaYGbpYuuT5iAmQ9ao77IlLXneBH0ccNpVy/ewq+TIDTPURL31jvzfONX7+5a7l3qg2DwC36pr4VpCKC45+YwMvm91V6SvSnq8/9YnM2Nr3pmliR4fh3EtaoNm258P1EAtOE071kUbovrcJ7XTU9RUfR9QeaG8gPyq5D5QglEuWHFnVrdls2nFGnn7W2alcXNG2n1Ggj+VZujZv2EVel6U5q4qz1QaUPtXFo4jXJsex+badE2Ec9lb8vAK+Lx0hgk11pjn+2IIRcIVykd4UjiqYcsCAjv3yz9wGelWMDzW4QI0WYeiHMEl6N+309HToog0QPhESbH/KadiI6HkoHDnTMYUSGHMqw03d5Y+zU63fc4k3igaZ+sPcKJwwfiMTYmZjrvh+3bFuuRzfFfiXTABT9eVOBaXAM9BSQGfSPHBOFu/fTWXMEpijRaNgM1WNW5tsMf/cao6qY6r1eWYZ52r4O4N5SvkSH1maQHS6adJj20/b8+I4UY8jVqrekYbrNnab7G9wl5kGtJucEFXuLD6Eh6OK5qmwRJn3GZ16Ma5qYOBqhzV8+MeuhBtTcAqSEWTbOCPA8ylz4jyAv2ThcuNrpfptJdyF9Ay+D9s2OxJNkG+3gJzGwmtVpeccSWsi/47Qu+rkCJYLF4kN7cAegzcho9hi3AMU0r15ZpAEoZFZBqhbsPv7qtVdOnYpAVcFKF2ddbM3sAhdr4msPXPyTW3xKBDT/ixSJ85COKRUp0p/ikhyY3kNI+uAI0PMCpaCF1ceAFvC1UtXsquxCMsTqNoUMQ1W0a29AOrCd5FsFIWUG0YOX3IeQdS5T6V2mGVA07DkC72ZjyUiYsjYgk/1YxEkHJb3Da5OC6tdE7Kcegt5/ykslTQxzWx71Q7sk8mrAMsOxK7EkDanTwRdV+R8Rd6bfxuRKuQVjXpAsFhkcMmB/IX/VX/w8gHFu9CEi09g5VNC00TXC7WeEyn+8pjfc6sZqXExHIzaBqSv7L+YfGWgSpfZp7aFdonp065bGRw9kPOJcoiWDEWT/jcX6KWr/EdHqmRVEDiDeZW0MZoTyVmNxQbkY8M6VECHO0vDD2PJb+6Z8g/1OmkiDSDI7sHNtZTdUx3iwQw9hE0pmeZzxQJN1cGoZUT9vlHFnu0bYBCvVy8i9xZFJM+QraJKNPy+TlBGTNMT+s2tZ5B5ie4sv4k+kD1nIZEkCIAx8+fE7y2a0pQTeCw2RJbb58LMpKdFKxPycpvP5RTFw0N0BRoTk6TmMnyM3N8C/SFT2yBl6WkCXOKLBtoQGDhN7rsK/2luXZCdVPOZyXAtBT3KQ+vjKd2I5fLl56+wDNUXFl36rL94JeTdWnXK9cO29OabGJHlA2/I4AQmrp/umpPBKbvHxEigHKvpFyaPrUOsgWV+ADnEY3NACCPv8ZxtXjbX/5tbxoegPzel1QAEVWF63qySomj23/QUFARZpJ1TBF4oWGxtCCxp6Oua4HmLs8AyOSo1F3mtOC157W9wT7VBEFRQfrYy6LJl4+LcNgZSS2UhGLVzfoAGz3nHYomXzZvEzuH0zdu/3Wn15ZiN62H4eueGkkUVPyWtdhUOzOX4drH5OMrgzg0JUlu/M/XXLDsgSbQdNl0jYslHe0SazQR5yf9Jus95oUuS8eyy1n9jSsnbA/wq9ZhKRnPRZJq/7xJMh8uDEHv4pvo3Bma33IbmmpOHT2uv3LKY4mhmP6E6/OfOunhqEai//6sfoGzI/y8IKeomaRsTFdi3GC2FYRY6ynsHMU/UmzE29HtIvHv77DzrulxEL18oyVMZbXJJxniEwlh1TshakFUgZyBNEMuOdPS8Hhylpkrjf6zECfG2lLkMJEDyhNL/KwqDVJG3KIjvc9/rPdfT2P29SKcnWm1bIjMtcbBt4bDrhPEH0WFE+Sr9BPoLTaI9MaQgWqEWCkOeK1duMZeqEAUarZ+B/AHDFlWeYJVNrD0He8pDgXWa672IRuxlQMpHAP4/cNH+fjq0yDdLV51y6CYPH4DHhOmYY17J1TulXpvIY20xwIReghUMviCEs8TnlIB01an+zRlpRQiAFLGpXpSjkMhUuEZE4z6HQwkOMKAdQrz98pfuFfj3Cll0+E4W2cnpDL2sY5iQ6j6H6qqKDGhTC3qP/RqtWHkVg+kVtE03aaeZolZ58MwjyifWM+XPEYiH368kBuOM66Y5lw5ybDomcIhY08akLbkW9EdTWXQIOzjfR4zlVJKszOrj0hw+J9KfCUUz6wGbeM473U7Zd7hD7mkVTpvPaYAeCbeEs4sRSqBcefhFiSWO+FUnTjKlErhnJGMCytFC5aPsBZF0v2t3X8CVkWbK4qhUxpVbtHULUxzdIxvLiNNs8x7k+RegKOU0f77ckFmp0RdxYdFSIbl9toGJBdkBCX667TEXiHfmJWtAPfaBMFQVI/3I+duklsGDZQORvY/TusFfUlaHg/sM5L3CQLdEFAkIf7lUo1KR07aewoeNuqocTUfVCj1rkP7KLf8Vqkip6W79c9j4KAu2pZcbNeEYihLG6xGu+Ll5/2Li+Ygw4B+EMS3ehrNI3hIhqGKBMjhI5ftAK92J81uweDRlck1dRqdOqQDF8RSc+MYpYjmP8jW8obkH9YhDdFBLLN6yBuKRj4KbWtQn7EAz8Ewanca+NvPtoWuoz+8XnLT0bGDBT0hoOOww655rrxTnMLBnIUGx8IKohXKQTKU0evk8AG3VlWW17W6iJgCrE62jVSjp5zhWNrc+XKkmKs2uvBR8Q6O9E1TdLWP2jNz+QHqI97Om3azaDt0VExGn/eA0b5bhvHi1WKrtOT/4JwVRhbWKQLHnw9abk+WJbigs0EZEqMnci2ntB6TF4zOOf+2gBxOW2xKlw5kcT2tpSzfRBAI4oVDJKiVOp2I+Cd+55xmj/Q/nXIeDRYVlXrXAYeU093gSprZlptMXGH5ou/Ae7A0efwsz7qVhedomoxaMpPchXhF/33C6BOTkp2sI6zFivEaRk6F5JN3JCP3szkUOfYMLunquZgXB4+XjIsMASJjipIlEOoj1pHJOBy4JNATTyqIBQTqQBBp21AO6LLtwmzKEWHdWiZhgVJykULxqKvvtAvxLH24gla95tHr3qsei9MReD+JpMzZVKUtXubIF/pTdyFHTfxsRIP6iCVYodFEToFRZS1gg8f1eTNYE9sFQkMF5WQtzP3nUlLfoRpHV3rnWMtxOcDE08Knz3iHU9DUzAR4EvcXBMkn9yJLn5+AvWojdvzeABHvHVzEqV0n+UeD0c5atyjqMd3jjG4wqbbIfoSrIMHjZSCs1kOZAhdzrD8n0Za24TKWk2viaaOerP8kC3HKF9USUT29ZQq4Wdb/otGQrUX/jpy87HJpRFpH8e5JgwD/BD5gYryJJVaE7J+LcuyORE6lfhlSWFCfGx0XLtSDMuCavU0lyfM7vQCYkaRAUUk05y58bmOK7W4hSy6tjN6iQB1PNL4AjW0q8gbPDhVnXmcSh8lPS76DWpoULlOYvsrBRVhEdfVSeZOGjfVyBOWKM4NpCuFaTVl1F7xT6mlIyOgguQHByDvQi9qBRcEwLDVHd8Ln9CoMA81zOYg17rIEux20sLCVqUCTNe05+tUc9swk0RJvpyvAH9rt3ry4qP0mR99t6QjXW+FjX1lQcISKWIAVqGfT9c8Y2kRpxXejuSfzhb4TakI4ZRuOzEiTCDYKqcJOD24gg6DkirXXr9NOhgJCrqtlZIX5i+M53596wI/H1bQFXGO2IG0U0Hb2lFzalUbWBEds50kMb/Fclpt5TXX99NxYs9aPb55ftste8Dnw9uaJx553Vh22OcOScSoRZ8rNzjrZgSwsDU7MnMDEQw4X5Ja6LgaEvDA3WqSExm0p1gx2cy5A3bNiwhBrhltvD9h6uAuHS38FelQ9+noLZ7tsfpyBYu/MBqJn+EnRp24s5NHkxJewGf3WV2ywDwTUXkNBJmLoow/I2yzKIRwcy0ISUsTcXUisO9rgm0pB1pSClaaYphhS9Ljd+XfBbUlwNBlyc2s3t/smrhlXjesxy/jm/fCsosWfWwu3o2latDaYXSZnZpHnkHDkQNajkjHWuP5EbsjbJP/f+zY3mMTma/gtmGHOBkwjKBFbQPu9jjJzOfe/vsn22HEGH0ri8n+rwJYzck2FOaOnLLBxaKidLa7almWnjm0pHYvsHL7syM0abhmeS3QrfkMy+qJmA4hZ/lGrghumAmT9WRo5M3mQuGggCZEH/1i4t4OplIL0UWQAw9sHrHkh3hK7wQDEP6hPWq5di5u1eSZL0fv85Rlb626rFjETAH2zSBZ5W8nW2UlHv3g2uen5fd/XOi9fTfYKSCMxUVr8lX9NqTmWQQGAXmAazc76I2WWWrid9wPvICDTR35nc01mEa6qaow86bhzMsNoI6KAW5Lf8sGSj8+hKlhgsixxz/3BMNWKpMXyndQ5UZsRDw5tZF34sGX6kqG38dTf/3sloodDwti5Vxc1CMy/R/xrH0N6iebH/SSksevpKdcf5OLHtPOYi3JKLljRW8KP0Asv5g1OUzbK+B7IcmkqI/1Kwz3rIXGROxgh8ZqdXvwHMrneZh6GWZl4BtKNUrfM0b4fm8wvNoqgRGaVI1oJMYbF+4i1FYj3U4l4HsblSaIb66fLohbze0kwnObiu7AbT5/mKLNyNUG8y58Th1pQ8hKE9HlOkbZEnpsZaDYNdpwwncmxq4vtY9RqFzJeGmCFFSPuaaDerKoHGi00lPuCVZpTzXFg2mp6QzeS/EOhFeHfqbot4oWaulvnfls+GneEORRAAt0Ca0qP5VR/pP2dFiiRraznLzQwqLP+uoj3/fENXx1JKEMtBRbUOtSES0XiddT7TG5+MjChxaOH9mHLPbDo5ZRr8jXXRhg/LeyMzqbIznRYIIPRws2RcXGVaQs36v0YQP0fG0V7QjefNfQZ2j9zHfz8ZwqzTeiZl+ahW7XTRLQyYsCdDUqqCwgPBu+FxeJcI8nvNENU3QsjmyDKprRR3RH5sSTc46JHZh7kgdIthQn41cmrFLhiapoLA3YmDUoETV60FCh++i8lTZeWC+MW/2YHHXUwxE2ys8/g+LPELMYgNctYYAIRWifs3XDz4t6fmeO48TSc1O74SbqMwFEjC4TB2J4ZTN3IhZFzq1t6AoDhKWxGzAnY5LL0jMO6LEFg/3UE6h9mnbUu+zDMyJJDv4En15cXuTq94ZpOvbDEEPx16R2g3N6VZCAOqY04vmys8zballgMV08Z2xo5XZ49L9Apy6YTEaTXyHlwclEIDLGPWmkkViInuoTWvDBzSMNluUkdZaPGnOWUMaWOFPc6Yc0EPL+lNNaAOhVqWcjk7vk7mmePJJgq6+OmNPeyb5JKuIVTwCiLFrm3/s4AWiQgrIzD8TENbrmln7Cls3oH7aVTSvPJyJ4nVI4nXqqvHYhjPwg7Go64nRwnD/N6r1cxdILb+L0Z+nYPArjEguzWYQ174zT42UpZqmAbk0gsKm6Gus9OmfnGkf7dOz5TPKRulj/KyP781SdVeyIkXlxUpTJVvMsGFm/VJjDZRgyosDWiQuQgeeoDhiu1u/C0nC/rTZJKJnPFBAuPDpomaR6flCGHzZo4Wh+UIK3AqJDYPoRl63xJ8hVuxnd+6uaf130aP4cIV1w/mwPRNUa6Ty3eKuUnrDnK66mOSaV7LBEU0CjlvPIhq1H2WT8+idOxvJrToYZuhJELTvYbawETl+tM5+PV/zatG5IzX6UWM7gJYTUAaL38wU5NUVEyFc+CMfkV+h53mDfJV6wzFdIEONNzU9Nq9nzIDv6aaqQNE20fHoUWZ2h4Ov98HXSEUdjrw9umojOc7ds5nJnnskehPd1c+gntlVqIHKJpx</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-        </div>
-        
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
   Volver al principio
 </button>
-        
-      </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-    <div class="md-copyright__highlight">
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
       Hecho con 💙 por Jim Raynor - 2026
     </div>
-  
-  
 </div>
-      
-        <div class="md-social">
-  
-    
-    
-    
-    
-    <a href="https://x.com/jimraynor1488" target="_blank" rel="noopener" title="X" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-    <a href="mailto:contacto@jim88.pp.ua" target="_blank" rel="noopener" title="Email" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-    <a href="https://t.me/jimraynorbot" target="_blank" rel="noopener" title="Telegram" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M248 8C111.033 8 0 119.033 0 256s111.033 248 248 248 248-111.033 248-248S384.967 8 248 8Zm114.952 168.66c-3.732 39.215-19.881 134.378-28.1 178.3-3.476 18.584-10.322 24.816-16.948 25.425-14.4 1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25 5.342-39.5 3.652-3.793 67.107-61.51 68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608 69.142-14.845 10.194-26.894 9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7 18.45-13.7 108.446-47.248 144.628-62.3c68.872-28.647 83.183-33.623 92.511-33.789 2.052-.034 6.639.474 9.61 2.885a10.452 10.452 0 0 1 3.53 6.716 43.765 43.765 0 0 1 .417 9.769Z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-    <a href="/sitemap.xml" target="_blank" rel="noopener" title="Mapa del sitio" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M208 80c0-26.5 21.5-48 48-48h64c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-8v40h152c30.9 0 56 25.1 56 56v32h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-64c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-32c0-4.4-3.6-8-8-8H312v40h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-64c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-40H112c-4.4 0-8 3.6-8 8v32h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-32c0-30.9 25.1-56 56-56h152v-40h-8c-26.5 0-48-21.5-48-48V80z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-    <a href="https://ko-fi.com/summary/0fb45a0d-39eb-4147-bf83-c3e87b4085d7" target="_blank" rel="noopener" title="Invítame al Ko-Fi" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48h-16v-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"/></svg>
-    </a>
-  
+<div class="md-social">
+<a class="md-social__link" href="https://x.com/jimraynor1488" rel="noopener" target="_blank" title="X">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"></path></svg>
+</a>
+<a class="md-social__link" href="mailto:contacto@jim88.pp.ua" rel="noopener" target="_blank" title="Email">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l217.6 163.2c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48H48zM0 176v208c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V176L294.4 339.2a63.9 63.9 0 0 1-76.8 0L0 176z"></path></svg>
+</a>
+<a class="md-social__link" href="https://t.me/jimraynorbot" rel="noopener" target="_blank" title="Telegram">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M248 8C111.033 8 0 119.033 0 256s111.033 248 248 248 248-111.033 248-248S384.967 8 248 8Zm114.952 168.66c-3.732 39.215-19.881 134.378-28.1 178.3-3.476 18.584-10.322 24.816-16.948 25.425-14.4 1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25 5.342-39.5 3.652-3.793 67.107-61.51 68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608 69.142-14.845 10.194-26.894 9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7 18.45-13.7 108.446-47.248 144.628-62.3c68.872-28.647 83.183-33.623 92.511-33.789 2.052-.034 6.639.474 9.61 2.885a10.452 10.452 0 0 1 3.53 6.716 43.765 43.765 0 0 1 .417 9.769Z"></path></svg>
+</a>
+<a class="md-social__link" href="/sitemap.xml" rel="noopener" target="_blank" title="Mapa del sitio">
+<svg viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M208 80c0-26.5 21.5-48 48-48h64c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-8v40h152c30.9 0 56 25.1 56 56v32h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-64c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-32c0-4.4-3.6-8-8-8H312v40h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-64c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-40H112c-4.4 0-8 3.6-8 8v32h8c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48v-64c0-26.5 21.5-48 48-48h8v-32c0-30.9 25.1-56 56-56h152v-40h-8c-26.5 0-48-21.5-48-48V80z"></path></svg>
+</a>
+<a class="md-social__link" href="https://ko-fi.com/summary/0fb45a0d-39eb-4147-bf83-c3e87b4085d7" rel="noopener" target="_blank" title="Invítame al Ko-Fi">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32v192c0 53 43 96 96 96h192c53 0 96-43 96-96h16c61.9 0 112-50.1 112-112s-50.1-112-112-112H32zm352 64h16c26.5 0 48 21.5 48 48s-21.5 48-48 48h-16v-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1c16.3 14.2 23.8 21.8 23.8 37.9 0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"></path></svg>
+</a>
 </div>
-      
-    </div>
-  </div>
+</div>
+</div>
 </footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    
-    
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "search.highlight", "search.suggest", "search.share", "search.term.highlight", "content.code.copy", "content.code.select", "content.code.scroll", "content.code.line-numbers", "content.code.annotate", "content.tabs.link", "content.tooltips", "content.footnote.tooltips", "navigation.instant", "navigation.path", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
-    
-    
-      <script src="../../../assets/javascripts/bundle.3220b9d7.min.js"></script>
-      
-        <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-      
-        <script src="../../../js/kofi_button.js"></script>
-      
-    
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "search.highlight", "search.suggest", "search.share", "search.term.highlight", "content.code.copy", "content.code.select", "content.code.scroll", "content.code.line-numbers", "content.code.annotate", "content.tabs.link", "content.tooltips", "content.footnote.tooltips", "navigation.instant", "navigation.path", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+<script src="../../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+<script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+<script src="../../../js/kofi_button.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
