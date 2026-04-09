@@ -99,6 +99,7 @@ extra:
       name: X
     - icon: fontawesome/solid/envelope
       link: mailto:contacto@jim88.pp.ua
+      
       name: Email
     - icon: fontawesome/brands/telegram
       link: https://t.me/jimraynorbot
@@ -107,7 +108,7 @@ extra:
       link: /sitemap.xml
       name: Mapa del sitio
     - icon: fontawesome/solid/mug-hot
-      link: https://ko-fi.com/invito
+      link: https://ko-fi.com/summary/0fb45a0d-39eb-4147-bf83-c3e87b4085d7
       name: Invítame al Ko-Fi
 
 markdown_extensions:
@@ -124,7 +125,3 @@ markdown_extensions:
 extra_javascript:
   - https://storage.ko-fi.com/cdn/widget/Widget_2.js
   - js/kofi_button.js
-
-#exclude_docs:
-#  - alias_report.md
-#  - blog/tags.md
