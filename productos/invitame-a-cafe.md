@@ -8,8 +8,6 @@ status: "active"
 summary: "Muchas gracias !"
 ---
 
-# Invítame a Café
-
 Como forma de agradecimiento por tu parte hacia mí, puedes invitarme a uno o varios cafés.
 <br><br>
 Muchas gracias !
