@@ -71,8 +71,8 @@ plugins:
       # Define niveles de acceso. Ideal si quieres gestionar varias contraseñas
       password_inventory:
        # _global: 'password-maestra'   # Este nivel aplica a TODO el sitio
-       # basico: 'clave-basica'
-       # vip: 'clave-vip'
+        basico: 'clave-basica'
+        vip: 'clave-vip'
         astro:
           - 'logia'
           yo: 'tu'
