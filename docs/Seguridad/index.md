@@ -11,12 +11,12 @@ Bienvenido a la sección de seguridad. Aquí encontrarás recursos prácticos pa
 
 ## 📚 Contenido actual
 
-### [[Seguridad/PGP/|PGP (Pretty Good Privacy)]]
+### [[Seguridad/PGP|PGP (Pretty Good Privacy)]]
 - [[Conceptos-Básicos|Conceptos básicos de PGP]]
 - [[JimRaynor-PublicKey|Mi clave pública PGP]]
 - [[Para-que-usar-PGP|Para qué usar PGP]]
 
-### [[Seguridad/OSINT/|OSINT (Open Source Intelligence)]]
+### [[Seguridad/OSINT/index.html|OSINT (Open Source Intelligence)]]
 *Técnicas y herramientas para recopilar información de fuentes abiertas.*
 
 ---
