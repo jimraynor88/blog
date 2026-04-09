@@ -1,6 +1,6 @@
 ---
 title: Astrología
-alias: Astrología
+alias: "Astrología"
 description: Exploración profunda de mi carta natal, perfiles temáticos y condiciones vitales.
 ---
 
