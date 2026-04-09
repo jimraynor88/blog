@@ -18,9 +18,9 @@ from collections import defaultdict
 
 # Configuración
 DOCS_DIR = "docs"
-REPORT_FILE = "alias_report.md"   # se genera en la raíz de docs
+REPORT_FILE = "alias_report.txt"   # se genera en la raíz de docs
 EXCLUDE_FILES = [
-    "alias_report.md",            # el propio reporte
+    "alias_report.txt",            # el propio reporte
     "blog/tags.md",               # generado automáticamente
     "tienda/index.md",          # si también es generado y quieres excluirlo, descomenta
 ]
