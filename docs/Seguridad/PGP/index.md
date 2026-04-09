@@ -1,10 +1,13 @@
 ---
 title: "PGP - Por qué es importante"
-alias: "PGP"
 tags:
   - Seguridad
   - PGP
+description: "Todas las comunicaciones son espiadas y analizadas, solo la encriptación permite evadir ese control"
+summary: "Tus mensajes viajan como una postal abierta. Cualquiera puede leerlos y el Chat Control de la UE en especial."
 ---
+
+# PGP - Por qué es importante
 
 ## 🔑 IMPORTANTE 🔐
 Tus mensajes viajan como una postal abierta. Cualquiera puede leerlos y el Chat Control de la UE en especial.
@@ -21,7 +24,7 @@ Usa un "sobre opaco digital" (PGP). Solo tu destinatario podrá leer tu mensaje.
 Mailvelope / FlowCrypt (Navegador Web PC) 🌐 │ Kleopatra (Linux) / GPG4win (Windows)  🖥│ OpenKeyChain (Android) / EasyPGP (iOS) 📱
 
 ## ▶ Paso 2
-Descarga e importa [mi Public Key](JimRaynor88_Public.key) en el gestor 🔑 
+Descarga e importa [[JimRaynor88_Public.key|mi Public Key]] en el gestor 🔑 
 
 ## ▶ Paso 3
 [Crea tus claves](https://pgpkeygenerator.com), guardalas en lugar seguro e importa SOLO tu Private Key 🔐 
