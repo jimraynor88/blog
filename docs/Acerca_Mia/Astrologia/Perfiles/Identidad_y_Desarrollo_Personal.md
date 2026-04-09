@@ -1,7 +1,7 @@
 ---
-title: Identidad y Desarollo Personal
-alias: perfil-identidad
-tags: Perfiles
+title: "Identidad y Desarollo Personal"
+alias: "perfil-identidad"
+tags: "Perfiles"
 ---
 
 # Identidad y Desarrollo Personal
