@@ -22,7 +22,7 @@ REPORT_FILE = "alias_report.md"   # se genera en la raíz de docs
 EXCLUDE_FILES = [
     "alias_report.md",            # el propio reporte
     "blog/tags.md",               # generado automáticamente
-    # "tienda/index.md",          # si también es generado y quieres excluirlo, descomenta
+    "tienda/index.md",          # si también es generado y quieres excluirlo, descomenta
 ]
 IGNORE_PATTERNS = [r"\.git", r"\.github", r"node_modules", r"site"]
 
