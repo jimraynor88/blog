@@ -1,7 +1,7 @@
 ---
-title: Casa 9 – Mi filosofía, mis viajes, mi educación superior, mi propósito
-alias: Casa 9
-tags: Carta Natal
+title: "Casa 9 – Mi filosofía, mis viajes, mi educación superior, mi propósito"
+alias: "09"
+tags: "Carta Natal"
 ---
 
 
@@ -42,4 +42,4 @@ El **sextil de mi Luna con mi Sol** (Casa 4) vincula mi búsqueda de sentido con
 
 Mi filosofía no es un dogma, sino un camino que construyo con mi mente, mis emociones y mi experiencia vivida. Viajar, estudiar, enseñar y compartir con almas afines son mis formas de expandirme. Confío en que las estrellas me guían hacia lo que necesito aprender, y que cada horizonte nuevo me acerca más a mi propósito.
 
-*Para profundizar, consulta mi perfil de **Identidad y Desarrollo Personal**.*
+*Para profundizar, consulta mi perfil de **[[perfil-identidad|Identidad y Desarrollo Personal]]**.*
