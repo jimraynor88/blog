@@ -1,11 +1,10 @@
 ---
 title: "PGP - Conceptos Básicos"
-tags:
+categories:
   - Seguridad
   - PGP
 description: "Conceptos básicos para conocer y entender PGP"
-summary: "**¿Qué es OpenPGP?**
-   Es un estándar de cifrado que permite proteger tus mensajes y archivos con un sistema de claves pública y privada, garantizando confidencialidad y autenticidad."
+summary: "OpenPGP es un estándar de cifrado que permite proteger tus mensajes y archivos con un sistema de claves pública y privada, garantizando confidencialidad y autenticidad."
 ---
 
 # PGP - Conceptos Básicos
