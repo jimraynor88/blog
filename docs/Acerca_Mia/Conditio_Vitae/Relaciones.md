@@ -1,7 +1,7 @@
 ---
-title: Conditio Vitae - Relaciones
-alias: cv-relaciones
-tags: Conditio Vitae
+title: "Conditio Vitae - Relaciones"
+alias: "cv-relaciones"
+tags: "Conditio Vitae"
 ---
 
 # Conditio Vitae Relaciones
