@@ -1,7 +1,7 @@
 ---
-title: Casa 10 – Mi carrera, mi reputación, mis logros, mi contribución al mundo
-alias: Casa 10
-tags: Carta Natal
+title: "Casa 10 – Mi carrera, mi reputación, mis logros, mi contribución al mundo"
+alias: "10"
+tags: "Carta Natal"
 ---
 
 # Casa 10 – Mi carrera, mi reputación, mis logros, mi contribución al mundo
@@ -40,4 +40,4 @@ Los **trígonos indirectos de mi Sol con Venus y Marte** (a través de Plutón e
 
 Mi profesión es una extensión de mi identidad. El éxito no es para mí un fin, sino una consecuencia de vivir con coherencia. Cuando confío en mi originalidad, construyo desde mi hogar y comunico con claridad, el reconocimiento llega. Las crisis no son obstáculos, sino escalones que me han enseñado a liderar con más conciencia. Mi carrera es un camino de autenticidad, no de impostura.
 
-*Para profundizar, consulta mi perfil de **Vocación y Logro**.*
+*Para profundizar, consulta mi perfil de **[[perfil-vocacion|Vocación y Logro]]**.*
