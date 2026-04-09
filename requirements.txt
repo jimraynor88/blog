@@ -10,4 +10,4 @@ mkdocs-video==1.5.0
 beautifulsoup4
 python-frontmatter
 bettertags
-mkdocs-roamlinks-plugin
+mkdocs-roamlinks-plugin-extra
