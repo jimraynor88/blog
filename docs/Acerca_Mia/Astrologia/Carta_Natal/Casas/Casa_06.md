@@ -1,7 +1,7 @@
 ---
-title: Casa 6 – Mi salud, mi trabajo diario, mis rutinas, mi servicio
-alias: Casa 6
-tags: Carta Natal
+title: "Casa 6 – Mi salud, mi trabajo diario, mis rutinas, mi servicio"
+alias: "06"
+tags: "Carta Natal"
 ---
 
 # Casa 6 – Mi salud, mi trabajo diario, mis rutinas, mi servicio
@@ -38,4 +38,4 @@ El **trígono de Marte con Plutón** (Casa 12) me ha dado una capacidad de regen
 
 Mi cuerpo es mi aliado, no mi enemigo. He aprendido que la salud no es solo ausencia de enfermedad, sino equilibrio entre entrega y límites. Mis rutinas necesitan estructura pero también espacio para la improvisación. Cuidarme es un acto de coherencia con mi identidad. Cuando escucho mi cuerpo y respeto mis ritmos, mi energía se renueva.
 
-*Para profundizar, consulta mi perfil de **Salud, Bienestar y Rutinas**.*
+*Para profundizar, consulta mi perfil de **[[perfil-salud|Salud, Bienestar y Rutinas]]**.*
