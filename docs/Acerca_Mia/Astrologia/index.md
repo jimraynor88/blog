@@ -1,7 +1,7 @@
 ---
 title: "Astrología"
-alias: "Astrología"
 description: "Exploración profunda de mi carta natal, perfiles temáticos y condiciones vitales."
+summary: "Aquí encontrarás una interpretación detallada de mi carta natal, dividida en varias secciones para que puedas explorar desde diferentes ángulos."
 ---
 
 # Astrología
@@ -20,7 +20,7 @@ El análisis completo de mi carta natal, incluyendo:
 
 → [Acceder a Carta Natal](Carta_Natal/index.md)
 
-### [[Perfiles Astrológicos|Perfiles]]
+### [[Perfiles|Perfiles Astrológicos]]
 Cinco perfiles temáticos que recorren áreas clave de mi vida:
 - **Vocación y Logro** (recursos, trabajo, carrera)
 - **Relaciones y Vínculos** (amor, pareja, intimidad)
