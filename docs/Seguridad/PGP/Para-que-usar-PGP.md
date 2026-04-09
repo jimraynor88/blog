@@ -1,6 +1,6 @@
 ---
 title: "PGP - ¿Para qué usarlo?"
-tags:
+categories:
   - Seguridad
   - PGP
 description: "Guía básica para conocer para qué deberías usar PGP"
