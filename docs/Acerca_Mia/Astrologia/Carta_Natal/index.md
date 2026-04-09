@@ -1,6 +1,6 @@
 ---
 title: "Mi Carta Natal - Índice"
-alias: "Carta-Natal"
+alias: "cn-index"
 tags: "Carta Natal"
 ---
 
