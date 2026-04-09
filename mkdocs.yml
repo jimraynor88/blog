@@ -125,6 +125,6 @@ extra_javascript:
   - https://storage.ko-fi.com/cdn/widget/Widget_2.js
   - js/kofi_button.js
 
-exclude_docs:
-  - alias_report.md
-  - blog/tags.md
+#exclude_docs:
+#  - alias_report.md
+#  - blog/tags.md
