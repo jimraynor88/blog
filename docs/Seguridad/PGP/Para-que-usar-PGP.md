@@ -1,6 +1,6 @@
 ---
-title: PGP - ¿Para qué usarlo?
-alias: PGP-para-que
+title: "PGP - ¿Para qué usarlo?"
+alias: "PGP-para-que"
 tags:
   - Seguridad
   - PGP
