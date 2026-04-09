@@ -1,7 +1,7 @@
 ---
-title: Conditio Vitae - Laboral
-alias: cv-laboral
-tags: Conditio Vitae
+title: "Conditio Vitae - Laboral"
+alias: "cv-laboral"
+tags: "Conditio Vitae"
 ---
 
 # Conditio Vitae Laboral
