@@ -1,6 +1,6 @@
 ---
-title: PGP - Por qué es importante
-alias: PGP
+title: "PGP - Por qué es importante"
+alias: "PGP"
 tags:
   - Seguridad
   - PGP
