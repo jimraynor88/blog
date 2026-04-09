@@ -1,6 +1,6 @@
 ---
 title: "PGP - Mi clave pública"
-tags:
+categories:
   - Seguridad
   - PGP
 ---
