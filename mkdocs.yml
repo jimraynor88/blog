@@ -81,7 +81,6 @@ plugins:
       enable_git_follow: false   # añade esta línea
   - glightbox
   - minify
-  - macros
   - mkdocs-video
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
