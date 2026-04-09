@@ -11,7 +11,7 @@ Bienvenido a la sección de seguridad. Aquí encontrarás recursos prácticos pa
 
 ## 📚 Contenido actual
 
-### [[PGP/index.html|PGP (Pretty Good Privacy)]]
+### [[Seguridad/PGP/|PGP (Pretty Good Privacy)]]
 - [[Conceptos-Básicos|Conceptos básicos de PGP]]
 - [[JimRaynor-PublicKey|Mi clave pública PGP]]
 - [[Para-que-usar-PGP|Para qué usar PGP]]
