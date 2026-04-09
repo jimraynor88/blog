@@ -12,4 +12,3 @@ beautifulsoup4
 python-frontmatter
 bettertags
 mkdocs-wikilinks-plugin
-mkdocs-alias-plugin
