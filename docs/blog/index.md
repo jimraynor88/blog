@@ -1,6 +1,6 @@
 ---
-title: Blog
-alias: Blog
+title: "Blog"
+alias: "Blog"
 ---
 # Blog
 
