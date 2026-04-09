@@ -12,7 +12,7 @@ Bienvenido a mi rincón astrológico. Aquí encontrarás una interpretación det
 
 ## 🌌 Contenido principal
 
-### [[Carta Natal|Carta Natal]]
+### [[Carta_Natal|Carta Natal]]
 El análisis completo de mi carta natal, incluyendo:
 - Las **12 casas astrológicas** con su significado personal.
 - Los **aspectos planetarios** que tejen la trama de mi personalidad.
@@ -20,7 +20,7 @@ El análisis completo de mi carta natal, incluyendo:
 
 → [Acceder a Carta Natal](Carta_Natal/index.md)
 
-### [[Perfiles|Perfiles Astrológicos]]
+### [[Perfiles/index.md|Perfiles Astrológicos]]
 Cinco perfiles temáticos que recorren áreas clave de mi vida:
 - **Vocación y Logro** (recursos, trabajo, carrera)
 - **Relaciones y Vínculos** (amor, pareja, intimidad)
@@ -30,7 +30,7 @@ Cinco perfiles temáticos que recorren áreas clave de mi vida:
 
 → [Acceder a Perfiles](Perfiles/index.md)
 
-### [[Conditio Vitae|Conditio Vitae]]
+### [[Condito_Vitae/index.md|Conditio Vitae]]
 Mis condiciones vitales: un resumen de mis capacidades innatas, dones y experiencia, presentado como un currículum de habilidades transversales (tanto para el ámbito laboral como para las relaciones personales).
 
 → [Acceder a Conditio Vitae](Conditio_Vitae/index.md)
