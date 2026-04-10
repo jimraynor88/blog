@@ -88,7 +88,7 @@ plugins:
       abstract_chars_count: 160     # longitud del resumen
   - bettertags
   - document-dates:
-      show_author: false
+      show_author: true
       date_format: '%A, d de %B de %Y'
       position: top
       type: date
