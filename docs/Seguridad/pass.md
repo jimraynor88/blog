@@ -1,6 +1,8 @@
 ---
-title: pass
-level: [amigos, yo, usuarios, vip]
+title: Título de tu página
+level:
+  - admin
+  - amigos
 ---
 
 # Estamos Tan Agustito
