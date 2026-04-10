@@ -1,6 +1,6 @@
 ---
 title: "Mi página secreta"
-level: "admin"
+level: admin
 inject_id: protected
 delete_id: teaser
 ---
