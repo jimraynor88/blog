@@ -1,8 +1,6 @@
 ---
 title: Documento multinivel
-level:
-  - usuarios
-  - amigos
+level: astro
 ---
 
 esto se ve?
