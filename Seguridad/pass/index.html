@@ -5,15 +5,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Todas las comunicaciones son espiadas y analizadas, solo la encriptación permite evadir ese control" name="description"/>
-<link href="https://jim88.pp.ua/Seguridad/PGP/" rel="canonical"/>
-<link href="../pass/" rel="prev"/>
-<link href="Conceptos-B%C3%A1sicos/" rel="next"/>
+<link href="https://jim88.pp.ua/Seguridad/pass/" rel="canonical"/>
+<link href="../encriptada/" rel="prev"/>
+<link href="../PGP/" rel="next"/>
 <link href="../../feed_rss_created.xml" rel="alternate" title="Fuente RSS" type="application/rss+xml"/>
 <link href="../../feed_rss_updated.xml" rel="alternate" title="Fuente RSS de contenido actualizado" type="application/rss+xml"/>
 <link href="../../assets/favicon.ico" rel="icon"/>
 <meta content="mkdocs-1.5.3, mkdocs-material-9.5.18" name="generator"/>
-<title>PGP - Por qué es importante - Jim Raynor's site</title>
+<title>pass - Jim Raynor's site</title>
 <link href="../../assets/stylesheets/main.66ac8b77.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -36,7 +35,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#pgp-por-que-es-importante">
+<a class="md-skip" href="#estamos-tan-agustito">
           Saltar a contenido
         </a>
 </div>
@@ -60,7 +59,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              PGP - Por qué es importante
+              pass
             
           </span>
 </div>
@@ -243,47 +242,48 @@
   </span>
 </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../pass/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
     [Protected] pass
   </span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link md-nav__link--active" href="./">
+<a class="md-nav__link" href="../PGP/">
 <span class="md-ellipsis">
     PGP
   </span>
 </a>
-<label class="md-nav__link md-nav__link--active" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="true" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_4">
 <span class="md-nav__icon md-icon"></span>
             PGP
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="Conceptos-B%C3%A1sicos/">
+<a class="md-nav__link" href="../PGP/Conceptos-B%C3%A1sicos/">
 <span class="md-ellipsis">
     PGP - Conceptos Básicos
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="JimRaynor-PublicKey/">
+<a class="md-nav__link" href="../PGP/JimRaynor-PublicKey/">
 <span class="md-ellipsis">
     PGP - Mi clave pública
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="Para-que-usar-PGP/">
+<a class="md-nav__link" href="../PGP/Para-que-usar-PGP/">
 <span class="md-ellipsis">
     PGP - ¿Para qué usarlo?
   </span>
@@ -328,120 +328,71 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Tabla de contenidos" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#importante">
-<span class="md-ellipsis">
-      🔑 IMPORTANTE 🔐
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#motivos">
-<span class="md-ellipsis">
-      🎯 Motivos
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#solucion">
-<span class="md-ellipsis">
-      ✅ Solución
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#paso-1">
-<span class="md-ellipsis">
-      ▶ Paso 1
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#paso-2">
-<span class="md-ellipsis">
-      ▶ Paso 2
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#paso-3">
-<span class="md-ellipsis">
-      ▶ Paso 3
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#paso-4">
-<span class="md-ellipsis">
-      ▶ Paso 4
-    </span>
-</a>
-</li>
-</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<div><h1 id="pgp-por-que-es-importante">PGP - Por qué es importante<a class="headerlink" href="#pgp-por-que-es-importante" title="Permanent link">¶</a></h1>
-<h2 id="importante">🔑 IMPORTANTE 🔐<a class="headerlink" href="#importante" title="Permanent link">¶</a></h2>
-<p>Tus mensajes viajan como una postal abierta. Cualquiera puede leerlos y el Chat Control de la UE en especial.</p>
-<h2 id="motivos">🎯 Motivos<a class="headerlink" href="#motivos" title="Permanent link">¶</a></h2>
-<p>No se trata de «no tener nada que ocultar», tienes el derecho y la obligación de proteger tu privacidad, seguridad y libertad. El mundo está lleno de gente malvada que sabe mucho y quiere aprovecharse. Para ellos no eres especial, solo alguien más a quien arruinar la vida.</p>
-<h2 id="solucion">✅ Solución<a class="headerlink" href="#solucion" title="Permanent link">¶</a></h2>
-<p>Usa un "sobre opaco digital" (PGP). Solo tu destinatario podrá leer tu mensaje. Haz esto:</p>
-<h2 id="paso-1">▶ Paso 1<a class="headerlink" href="#paso-1" title="Permanent link">¶</a></h2>
-<p><a href="https://openpgp.org/software">Instala un gestor:</a></p>
-<p>Mailvelope / FlowCrypt (Navegador Web PC) 🌐 │ Kleopatra (Linux) / GPG4win (Windows)  🖥│ OpenKeyChain (Android) / EasyPGP (iOS) 📱</p>
-<h2 id="paso-2">▶ Paso 2<a class="headerlink" href="#paso-2" title="Permanent link">¶</a></h2>
-<p>Descarga e importa <a href="JimRaynor88_Public.key">mi Public Key</a> en el gestor 🔑 </p>
-<h2 id="paso-3">▶ Paso 3<a class="headerlink" href="#paso-3" title="Permanent link">¶</a></h2>
-<p><a href="https://pgpkeygenerator.com">Crea tus claves</a>, guardalas en lugar seguro e importa SOLO tu Private Key 🔐 </p>
-<h2 id="paso-4">▶ Paso 4<a class="headerlink" href="#paso-4" title="Permanent link">¶</a></h2>
-<p>Cifra un mensaje, destinatario mi clave, añade tu Public Key (archivo o texto) y envíamelo. 🔐💬 Te guío si quieres 💪</p>
-<h1 id="mi-clave-publica-pgp">Mi clave pública PGP<a class="headerlink" href="#mi-clave-publica-pgp" title="Permanent link">¶</a></h1>
-<p>Para copiar a mano</p>
-<div class="highlight"><pre><span></span><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+<div id="mkdocs-encrypted-content" style="display:none">mhk8XQIiSPqTGKZr0Vmt2Q==;23IrRs4ZBXF08S2jQWVJno50WhnTbVwJ2MuIWCENYdg9b6xvn0C6Vy6TI54761PtM8bJpZU66JqKclntphS+Ij3Wlwx7TzOg4F8L8Rqo6KOy2/UouA7PPCtE8PGPdVINm55ud+uMN9YU+KZ28GM/2kF/WpWgW1aWKX22cY6cmdg+dtgz3FsQpE0nngBbp76IsgsdmnZ1DAFmjekivM+7g/d4GuQz8TuWjozLGqwop/k=</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+<form class="md-content__inner md-typeset" id="mkdocs-decrypt-form">
+<h1>⚠️ Esta página está protegida.</h1>
+<p>🔒 Necesitas credenciales para ver este contenido.</p>
+<input class="md-input" id="mkdocs-content-password" placeholder="Introduce la contraseña" type="password"/>
+<button class="md-button md-button--primary" id="mkdocs-decrypt-button">Desbloquear</button>
+<p id="mkdocs-decrypt-msg"></p>
+</form>
+</div>
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_5";
+var encryptcontent_path = "Seguridad/pass/";
+var decryption_failure_message = "\u274c Credenciales incorrectas.";
+var encryptcontent_keystore = ["fbQ7BHolGwjnqbap69JUDA==;HEFgblznN9DIaE9vFVIsYTFYxGTUAOMmJdxpltEmHeZ0En5bgzngfQ7i1O/kA3cpldLouCGdSqdNoBeVd+aGjdLWAlP4gyKUPY+7EkSlaYJ5Mx7nRltRItcPdwlYRQ7d;uaDOVo19rF5iYTkJAvljUw=="];
+var encryptcontent_obfuscate = 0;
 
-xjMEaTiwuBYJKwYBBAHaRw8BAQdAULW0hAnmT7uuWp0MLjPApWrPwB2byApD
-cP61TkcrjQPNCkppbSBSYXlub3LCjAQQFgoAPgWCaTiwuAQLCQcICZAlsWQ4
-ylh93gMVCAoEFgACAQIZAQKbAwIeARYhBEVAQ/IYfZwLbxKeyiWxZDjKWH3e
-AAAhHAEA2TNPqXn072RNX5qJ2E1BdkKmGZ2zVHIy8GIitHqH0kMBAP57IEpK
-NQlcvw5F7hxHuRmnfkly2MuadVJK6F7iUO8DzjgEaTiwuBIKKwYBBAGXVQEF
-AQEHQH92bSqmHqW2yJ1PiZRdXSPOc7ImN0dKB7kPIZyVNH4aAwEIB8J4BBgW
-CgAqBYJpOLC4CZAlsWQ4ylh93gKbDBYhBEVAQ/IYfZwLbxKeyiWxZDjKWH3e
-AADTIgEAtl3w5Dv5yUviNqFRe6S4siobVbGw4NbiMaEZ+Xzu1vEBANKaL8ED
-DiaBt6uhKqPZCWkBHanc5yMXA3BSjuGb8vgD
-=4/cH
------END PGP PUBLIC KEY BLOCK-----
-</code></pre></div>
-<h2 id="categories">Categories<a class="headerlink" href="#categories" title="Permanent link">¶</a></h2>
-<ul>
-<li><a href="../../categories/pgp/">PGP</a></li>
-<li><a href="../../categories/seguridad/">Seguridad</a></li>
-</ul></div>
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("//cdn.jsdelivr.net/npm/crypto-es@3.1.2/+esm").then((module) => {
+        window["CryptoJS"] = Object();
+        CryptoJS.enc = Object();
+        CryptoJS.enc.Base64 = module.Base64;
+        CryptoJS.enc.Hex = module.Hex;
+        CryptoJS.enc.Utf8 = module.Utf8;
+        CryptoJS.algo = Object();
+        CryptoJS.algo.SHA256 = module.SHA256Algo;
+        CryptoJS.PBKDF2 = module.PBKDF2;
+        CryptoJS.mode = Object();
+        CryptoJS.mode.CBC = module.CBC;
+        CryptoJS.pad = Object();
+        CryptoJS.pad.Pkcs7 = module.Pkcs7;
+        CryptoJS.AES = module.AES;
+        CryptoJS.SHA256 = module.SHA256;
+    import("../../assets/javascripts/decrypt-contents.js");
+    });
+} else {
+    init_decryptor();
+}
+</script>
 <aside class="md-source-file">
 <span class="md-source-file__fact">
 <span class="md-icon" title="Última actualización">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="9 de abril de 2026 21:58:28 UTC">9 de abril de 2026</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="10 de abril de 2026 01:16:34 UTC">10 de abril de 2026</span>
 </span>
 <span class="md-source-file__fact">
 <span class="md-icon" title="Creado">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="16 de marzo de 2026 14:33:39 UTC">16 de marzo de 2026</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="10 de abril de 2026 01:16:34 UTC">10 de abril de 2026</span>
 </span>
 </aside>
 </article>
-<div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../pass/index.html">← Anterior</a><a class="next" href="JimRaynor-PublicKey/index.html">Siguiente →</a></div></div>
+<div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../encriptada/index.html">← Anterior</a><a class="next" href="../PGP/index.html">Siguiente →</a></div></div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
 </div>
