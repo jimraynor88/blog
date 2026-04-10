@@ -1,5 +1,5 @@
 ---
-level: [amigos, admin]
+level: [amigos, yo]
 title: pass
 ---
 
