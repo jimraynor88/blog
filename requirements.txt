@@ -3,15 +3,15 @@ mkdocs-awesome-pages-plugin==2.9.2
 mkdocs-section-index==0.3.8
 mkdocs-rss-plugin==1.10.0
 mkdocs-glightbox==0.3.7
-# mkdocs-minify-plugin==0.7.2
+mkdocs-minify-plugin==0.7.2
 # mkdocs-git-revision-date-localized-plugin
 mkdocs-glightbox
 mkdocs-video==1.5.0
 beautifulsoup4
 python-frontmatter
 bettertags
-# mkdocs-roamlinks-plugin-extra
+mkdocs-roamlinks-plugin-extra
 mkdocs-categories-plugin
 mkdocs-encryptcontent-plugin>=3.1.0
-# pymdown-extensions
-# mkdocs-document-dates
+pymdown-extensions
+mkdocs-document-dates
