@@ -1,7 +1,7 @@
 ---
 level:
 #  -  admin
-#  -  usuarios
+  -  usuarios
   -  amigos
 title: pass
 ---
