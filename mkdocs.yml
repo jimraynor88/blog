@@ -89,9 +89,9 @@ plugins:
   - bettertags
   - document-dates:
       show_author: true
-      date_format: '%A, d de %B de %Y'
+      date_format: '%A, %d de %B de %Y'
       position: top
-      type: date
+      #type: date
       exclude:
         - tienda/*
         - categories/*
