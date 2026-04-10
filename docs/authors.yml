@@ -1,0 +1,6 @@
+# docs/authors.yml
+"Jim Raynor":
+  name: "Jim Raynor"
+  link: "https://jim88.pp.ua"
+  avatar: "assets/logo.jpg" # Ruta a tu imagen
+  email: "contacto@jim88.pp.ua"
