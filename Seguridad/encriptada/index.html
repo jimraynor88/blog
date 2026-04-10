@@ -20,7 +20,7 @@
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../assets/stylesheets/kofi.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -29,7 +29,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></link></head>
 <body data-md-color-accent="blue" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
@@ -325,7 +325,9 @@
 </div>
 </div>
 </div>
-<div><div id="mkdocs-encrypted-content" style="display:none">fe2ngX8TDpUA61uCaLSVuQ==;6iov7Dx0GY/ml7v9VFMMrg==</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<div id="mkdocs-encrypted-content" style="display:none">WBE+q5luZhRQpsHB+JKrBw==;X7xu6RdOpnozZmUMwXTC1iEyFzez5OvkzeE/Q6XQjQmNaTkw1RPQdSzKQqAe0eNILFkVLLszeY91ehObr4ndqt6H+AaCcLuH1Q1TO+EGXgGGRs1BYLQSWXMOfmY1nH1k1HhT6zaE/LcBNyNGmRHjnasUvrLa5yh17Mv1i8oxz4pJ7dpKYf4c2QfWv3eiUaA8Yj+I3ZznbsAcKIAthm66ZylmItKBYAcymqRzn3oFaudJefMDSR/tSDTDMQOARaCqXkyxgjXrrMyXZc0YPUgpYJsJFRUdqo36luFd2N9k4uKdru9X0kWq4rqxWT1NsZdlgGLV0KoLWF2vR5fq4/WuZyrTmJY/yzqMbvDV20hWkuA=</div>
 <div id="mkdocs-decrypted-content" style="display:none">
 <form class="md-content__inner md-typeset" id="mkdocs-decrypt-form">
 <h1>⚠️ Esta página está protegida.</h1>
@@ -336,22 +338,54 @@
 </form>
 </div>
 <script type="text/javascript">
-var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_id = "encryptcontent_5";
 var encryptcontent_path = "Seguridad/encriptada/";
 var decryption_failure_message = "\u274c Credenciales incorrectas.";
-var encryptcontent_keystore = ["CsohY9gW69Sq+1ZvHqZ3LA==;jYRDMYw3FmmFNaYRA1IeOb2y3FwqcRWbjXASk5FJDUZGrCFiLfZ6mEJr5oKuoqkkns7E1QwU/Z/AZyND0fO/6ATV8rXE8t3753JDXW8K6yPt00SgM2FGmy1vT+IGKAs4;E7UhYEsnX9qXRjBikrG89g=="];
+var encryptcontent_keystore = ["UwK4a73thY4FH5D+hx3wXg==;bnmrbmoMjb+euX5SlXqro/7Uho+Y+8TY0b23vVmugoUbJnmK0ZSjJL5UQNQBq+avkfecmqHxY68MACORJIEEbDQlN80+9Tor64VGM6mY8rk83laQybjxENG3mK8KvjOu;WEOAOBZBPrCMo92vfv1IUQ=="];
 var encryptcontent_obfuscate = 0;
-var inject_something = {'md-content': ['div', 'class']};
+
 const encryptcontent_event = new Event("encryptcontent_event");
 var encryptcontent_done = false;
 </script>
 <script type="module">
 if (!window.hasOwnProperty("init_decryptor")) {
+    import("//cdn.jsdelivr.net/npm/crypto-es@3.1.2/+esm").then((module) => {
+        window["CryptoJS"] = Object();
+        CryptoJS.enc = Object();
+        CryptoJS.enc.Base64 = module.Base64;
+        CryptoJS.enc.Hex = module.Hex;
+        CryptoJS.enc.Utf8 = module.Utf8;
+        CryptoJS.algo = Object();
+        CryptoJS.algo.SHA256 = module.SHA256Algo;
+        CryptoJS.PBKDF2 = module.PBKDF2;
+        CryptoJS.mode = Object();
+        CryptoJS.mode.CBC = module.CBC;
+        CryptoJS.pad = Object();
+        CryptoJS.pad.Pkcs7 = module.Pkcs7;
+        CryptoJS.AES = module.AES;
+        CryptoJS.SHA256 = module.SHA256;
     import("../../assets/javascripts/decrypt-contents.js");
+    });
 } else {
     init_decryptor();
 }
-</script></div><div class="md-content" data-md-component="content" style="display:none !important">5hisMkzyB4+mn02v9XDU4Q==;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<div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../OSINT/index.html">← Anterior</a><a class="next" href="../PGP/index.html">Siguiente →</a></div></div>
+</script>
+<aside class="md-source-file">
+<span class="md-source-file__fact">
+<span class="md-icon" title="Última actualización">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
+</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="10 de abril de 2026 00:55:31 UTC">10 de abril de 2026</span>
+</span>
+<span class="md-source-file__fact">
+<span class="md-icon" title="Creado">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"></path></svg>
+</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="9 de abril de 2026 23:31:14 UTC">9 de abril de 2026</span>
+</span>
+</aside>
+</article>
+<div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../OSINT/index.html">← Anterior</a><a class="next" href="../PGP/index.html">Siguiente →</a></div></div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
 </div>
