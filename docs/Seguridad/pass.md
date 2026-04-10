@@ -1,6 +1,6 @@
 ---
 title: pass
-levels:
+level:
   -  admin
   -  usuarios
 ---
