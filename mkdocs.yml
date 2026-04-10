@@ -76,7 +76,7 @@ plugins:
       remember_password: False
       search_index: 'encrypted'
 
-  - roamlinks_extra
+  #- roamlinks_extra
   - awesome-pages
   - section-index
   - categories
@@ -88,10 +88,10 @@ plugins:
       length: 20                    # número de posts en el feed
       abstract_chars_count: 160     # longitud del resumen
   - bettertags
-  - document-dates:
-      position: bottom
-      exclude:
-        - tienda/*
+  #- document-dates:
+   #   position: bottom
+    #  exclude:
+     #   - tienda/*
 
   #- git-revision-date-localized:
    #   type: date
