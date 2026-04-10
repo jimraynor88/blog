@@ -1,6 +1,9 @@
 ---
-title: "pass"
-password: "pw"
+title: pass
+password: pw
+levels:
+  -  admin
+  -  amigos
 ---
 
 # Estamos Tan Agustito
