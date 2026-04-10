@@ -88,10 +88,13 @@ plugins:
       abstract_chars_count: 160     # longitud del resumen
   - bettertags
   - document-dates:
+      show_author: false
+      date_format: '%A, d de %B de %Y'
       position: top
+      type: date
       exclude:
         - tienda/*
-
+        - categories/*
   #- git-revision-date-localized:
    #   type: date
     #  enable_creation_date: true
