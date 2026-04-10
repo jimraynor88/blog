@@ -88,11 +88,16 @@ plugins:
       length: 20                    # número de posts en el feed
       abstract_chars_count: 160     # longitud del resumen
   - bettertags
-  - git-revision-date-localized:
-      type: date
-      enable_creation_date: true
-      fallback_to_build_date: true
-      enable_git_follow: false   # añade esta línea
+   - document-dates:
+      position: bottom
+      exclude:
+        - tienda/*
+  
+  #- git-revision-date-localized:
+   #   type: date
+    #  enable_creation_date: true
+     # fallback_to_build_date: true
+      #enable_git_follow: false   # añade esta línea
   - glightbox
  # - minify
   - mkdocs-video
