@@ -3,7 +3,7 @@ title: pass
 password: pw
 levels:
   -  admin
-  -  amigos
+  -  usuarios
 ---
 
 # Estamos Tan Agustito
