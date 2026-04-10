@@ -88,14 +88,14 @@ plugins:
       length: 20                    # número de posts en el feed
       abstract_chars_count: 160     # longitud del resumen
   - bettertags
-  - document-dates:
-      show_author: true
-      date_format: '%A, %d de %B de %Y'
-      position: top
+  #- document-dates:
+   #   show_author: true
+    #  date_format: '%A, %d de %B de %Y'
+     # position: top
       #type: date
-      exclude:
-        - tienda/*
-        - categories/*
+      #exclude:
+       # - tienda/*
+        #- categories/*
   #- git-revision-date-localized:
    #   type: date
     #  enable_creation_date: true
