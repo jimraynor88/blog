@@ -3,6 +3,7 @@ title: pass
 level:
   -  admin
   -  usuarios
+  -  amigos
 ---
 
 # Estamos Tan Agustito
