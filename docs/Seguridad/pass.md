@@ -1,6 +1,5 @@
 ---
 title: pass
-password: pw
 levels:
   -  admin
   -  usuarios
