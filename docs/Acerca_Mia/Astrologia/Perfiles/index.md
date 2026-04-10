@@ -1,8 +1,5 @@
 ---
 title: "Perfiles Astrológicos"
-level: 
-  - admin
-  - amigos
 category: "Perfiles"
 ---
 
