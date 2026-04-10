@@ -66,9 +66,9 @@ plugins:
   - encryptcontent:
       password_file: 'passwords.yml'   # Carga las contraseñas desde este archivo externo
       inject:
-        .md-content: [div, class]          # Inyecta el formulario dentro del div con clase "md-content"
+        main: [div, class]          # Inyecta el formulario dentro del div con clase "md-content"
       encrypted_something:
-        .md-content: [div, class]          # Cifra el contenido de ese mismo div
+        main: [div, class]          # Cifra el contenido de ese mismo div
       
       #inject:
        # main: [tag, class]   # si el contenido principal está en <main class="md-main">
