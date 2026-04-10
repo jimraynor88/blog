@@ -19,6 +19,15 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../../assets/stylesheets/kofi.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/fonts/material-icons.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/tippy/material.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/tippy/shift-away.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/tippy/tippy.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/tippy/scale.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/tippy/light.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/tippy/backdrop.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/core/core.css" rel="stylesheet"/>
+<link href="../../assets/document_dates/user.config.css" rel="stylesheet"/>
 <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><style>
     html.glightbox-open { overflow: initial; height: 100%; }
@@ -341,7 +350,7 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<div id="mkdocs-encrypted-content" style="display:none">tQo3VzArEGKYwRWpljXcBg==;MFHbG7oZ7YOVDrVN5GhVSTh6QbZChH5qyNzh6qfah33//1fvqW68gu5PygRwF8m30uwiqEJ5yjEyK2sbZkIG/GeHggYOqqfX7NoV1GnI5toI2h75FrMMrxZRRrYvfdIlZDqzD9AIdy6HxFb25gFshXs837sJhem+9VCuELyEFVQcaVRGS0k328ELTMomwjHiHufb992g1Mavsjlw526j3zEfJQLy9l98qgOylAXp+S0=</div>
+<div id="mkdocs-encrypted-content" style="display:none">g6srXhYWKyI20DR6XY3v+Q==;De4AQAKTdPS/bslOgSUlG3mZVpCUejqsGkg7nQOGZeFIwsd9UY8k2ZGGWDNQJGXU3f2zL9fgFBBOBVZ7VMnLXpPIIO3nmrAkF4V7M4lJga73xUlE1qC+alTk8RZ84JvK/CX/aWLgF/nEHE370Qh7phiXb3m797GxB8hKzxaKQsweesPV5zEIFSWlontC20uGW8zU+mvpfNuv7E9SN7rn3fHRsXDBwsDDk/xomzJbDZAndxJ4/BVGZC7G5jHK72CtCyfFydi7UOoixFfXGam6RZoHQTlcz7X0hobDPQ29HBgOIY//iH27LbUIHceDuIi9/GxICggJNUislAwuuDvtjbMR7HKajiMdvncezFs3pONWS1mKiBh73MGBQSfSqLBz74ajJD8+JQYNtk7Xezx+oJU+z3n6Oj8dan8aH8MhSFrNm4tm9+S4ErqqDBLcJqiqvufj9ux8hv3+tbGYv60bbAg3jVhIgqQWcLfe27DFzdbmkOqqkUWpevj8xpf8KG7YVJSDCClnQyEX5Tf/pcXWhbx9xD+wVln516+QsrkVqRow1EuEylg5VxZ7ek8t43Qx/YiDx4FWAfNt1XLlVLzltrJijaCXqFLwDm29xTEokiUBbC838JHElvRE1E+GQHzqcObS5VsiPCXKkbdcb1P9GAX50CtFlPaFJnsEZ6QezYB1ylrKl8jZ/b0nUvhMqMW7+z/2g3NYv6yO6PJq7u7qCjn9VUqUaXJpOGhMpd9O2lfMBDGY3+CvXexnfB6KG5cZ4KtKPR4sSo93ZmlgqVZgolx2yq7sZF2bN8n/pq8sGCpcW347Knb8LqVFnNnhuHlig0f3H9mRjNSyexBiYcjOidDhXUdGbl6YBeWc/gl5ylzTlP9y0tutR/y6CoBp0eIO+wPaKauOBOftDV5Whc8b4BOpvyKBhbgEl90z5AbXlSBEjYZRchUVTfGlMp8/VK8qjGUsl/SRSTOMgmAYpMFcqBe3Q0ro7rd7NEI3rhxC2LZqTXGlutC0qaysxB8ucuP9NFPG68Yf3diE+OKaVpmnOHxltQCqXlc4+MNG75zsVpBnEmXOH5bh7o4vZ9JyljAj9InW87OT7UpyYhJ/Bemyfc5FZifXVWpx9QhkSV+tNK7lJzLebECHXrqbnwD8ca4msGBy2DRyERY5nKi/4oISgjzNbbjc+3dim61IqbeVcI5hEJtXRx0gdEslJsQ9LSn1gTGyAI5d7nYDoMMVA01EplFfgZDsS4q6rsXBAkVrAYtIUW3kW4I420IURby0JSyrRnDxJ5VNT/7q4+BDUsB2J0V7SLPRc2yW1o+0tMhl4loQv7MqHiTp8kfNm32GQ2xvdA9TJ9fUn9ZG26oH4Kg8GpiIk5ImkG7ppfmuyZ3pYXTtbBKSstqU76znZjYCmtfeMcP7uOW+JqbDlMAkIqVK0YijgBknTr46wGfmypiNJKf8X4J7+Saw/MXnYYGfsmrW3vQ9fCgXci7JDwCQaskr+hqEVn3LmdSdwoyWAtILjd/sFUQMW2iIcLWYucAGyR2Q</div>
 <div id="mkdocs-decrypted-content" style="display:none">
 <form class="md-content__inner md-typeset" id="mkdocs-decrypt-form">
 <h1>⚠️ Esta página está protegida.</h1>
@@ -356,7 +365,7 @@
 var encryptcontent_id = "encryptcontent_5";
 var encryptcontent_path = "Seguridad/pass/";
 var decryption_failure_message = "\u274c Credenciales incorrectas.";
-var encryptcontent_keystore = ["YEZq8scFW7ZCNttq6bzugQ==;ZCGhuxzQ+3t3DKJflJY+BZj9YUiJyUwDtblJwxiu0lx69Lp9Z3Bzncc9IWrY54CrwdnG9C5TfOzuaJocuCtsyBRAQgd4X/8paW5RoXByEz0w7dlTvB4wZNlTo+iPL9WA;jryhtE8avyBNSmAKrF6Iuw==;TR5YyQs7lLytmEjsys1tKoyfvFypEzBLulzeqzb+76M=", "1vF61PJQJpXJnxDs1Yb25Q==;w8t8ZH0zaYffwXBZmtnHk4P5x0cNiQpItpjJzlh2nfsqa+t0Y5Y+wdx4Os2tWZ0T762oXfSANf7wjPVEJG+npLBMMuoF3C/AkWqiNtm/HXcw7roMZUoIRiTzqZaRNKp4;DsrfGeTHbiAYJ5k5TKnc0Q==;gbY32PzSxtpjWeaWMROhFw3nleS3JbhNHgtM/Z7FjOk=", "wriWi8c63VNaufvsivx+ew==;OcM0AHwuZSVfaF/QxlMYX0iRtgt8b4o+unpfydmLd1a3YsPRt08wTD9aD+AUxCFvyMWwneH8sxbXNPMGgCaLwHIsAoKZeHWTzjoXy+QeUM7VZfPtAYgdwUDJOO6RLte+;Spjc2DjLwur0YUjQaAB3LA==;e4UXW0VQYOMjfpJfAjBTypUV6Ggqg8iwmRHHJKH4t18=", "fLmDUSA2YxGmP6FHiK9OLg==;dRbV4aSbnLS3Tz3MKcJlTrzppcrmqVE3iANcUAHmCow+IW/W1CvwVZCoMCcbAGfjcAKFhPxTqLhReusftnjI3M4QaJbRIj3P8ofAoJtOoR1KjTZHpzUvBslVsNOs06o+;IblS5bm9e8EZ8HdldneRbQ==;1TMVvqCM7FDSWR/K87MtxdKJzcbBa36L7YyOP3zqo04=", "iiY7LJK6P26+0qALKwINsA==;AuCn4QRXBc9qpaAKncP2iOQNnAZH2iJM8u0BLhVywXXCKGDUBCZD4DIoMjSUkcY37R9Dthn0GbYtw7TCEo6vNxylsPmB+KkPO8Y2HfBqDegCkVl/LnKHpu9wI3Eco7Pt;Mo5WlElF+NPGM0CtjitUMA==;hEvBcvAyvdLQuq41NsHWbC3LqEgbG22PwR+jxd4pxss=", "+ArBnnqOpfLoQes5oWaHpA==;BNMvROlXyTBjZnOLIZqcqAIT4SisUfHoGlR4/2Nj++GqCiZSyKLh/KQIYX7indyxodaqVvalzr+jXGINK1JVygFsnEKPJOz7RcDapAo1ATK2KVLRWgv+DtNfbI5fq0PC;kZJ/IRDn4l3LNXYdt+yGKQ==;6QWKsZj2kI9wIRGwwPtbNvmdAFVFIYhsQOKJGzSdx6E="];
+var encryptcontent_keystore = ["FL2ZlpfobFqUAONanQoPHw==;u4vUuu64qY2H3mr1CFMnCiX3Pnn6fPT0WVdSugO7E/u7DHCUqmYuQfyRyPq+01B+4GdPBlvGfznHdzReotrifEesJFblELdOowEJTc+NrChv1wR1lV9QuYqDVKa4PjcS;gft66kO0Me9vSzEbfiq1/A==;TR5YyQs7lLytmEjsys1tKoyfvFypEzBLulzeqzb+76M=", "GytNiC40aP6F0UFUe9gb/g==;g7QX5X+LfjB7v38yqov5/GtVSmjMkSu/tb9siBNXL4xbEci602qBSGBD/ZDso5UrPPnh32Zb5SbyQa/DvjMonYOe8qSTWCyI9IYAHc7UAGsLLguNlUragIugNqeUHnWB;kFwJK3qiKUjLgd7oI7KIaA==;gbY32PzSxtpjWeaWMROhFw3nleS3JbhNHgtM/Z7FjOk=", "5jXdkloarngo/XoFysH3bg==;IWCcxt9bPEYysFYBQALkZdjWalVKs7MSDQpVWozdfd9OLravBJwmWJTygRHMiNGOj68xOBG87L/s7uTJeh52vJNonXBH4/6BTcou6TKJsChv8esiR5UFtauNugiskaEN;3trFZcVsChErpVw94HpZMw==;e4UXW0VQYOMjfpJfAjBTypUV6Ggqg8iwmRHHJKH4t18=", "jeQr4CQSZn07NiBR0diHjQ==;X8mfg4Zq/DXq7j2znJ/cOXUbhXaDP4y16vQscbXX7BGo40c5KetYLqNoxqnP5HyKMMWOoySJxya4BgZXl5Jd0cfVRu0MsbTlRfkbG4YOrrUHktnEJmmtB0z3tDO9AJd2;nNR3TGkYJxAxsHqnrMAwmQ==;1TMVvqCM7FDSWR/K87MtxdKJzcbBa36L7YyOP3zqo04=", "0AobL1arZKx0rGUBfQ4B6Q==;cxUazQBtL2BJ5COLUacFZXz3RgX2mpl72hJ3OJvOLBnRb7amgsgqrAxtjjQ68WV2N+OvcD1+JV9HlnJJjgcM48rGvwA3DIx1YWWkAsAp3u9PZ2wp4MTg+E3CPG+WFTUC;4QZj04g9L0pF/4o2VMTX5g==;hEvBcvAyvdLQuq41NsHWbC3LqEgbG22PwR+jxd4pxss=", "xByAv1xH6VEOnupX8ywHYA==;wS6kG/OoT2Zw0XNseddwzXN+qRO7Dhjc5/hv3QJJ3YKW9XxRxB+KwhCcZSOGdms0ZhjichTrFDTPlxp8MN6Nhu5MKj4N3PDV2UWUCdvxnj4Lf1JbxXougLVJ/o/eGzI6;Bi12TPLjGYPSLqdsTgyP7A==;6QWKsZj2kI9wIRGwwPtbNvmdAFVFIYhsQOKJGzSdx6E="];
 var encryptcontent_obfuscate = 0;
 
 const encryptcontent_event = new Event("encryptcontent_event");
@@ -431,5 +440,12 @@ if (!window.hasOwnProperty("init_decryptor")) {
 <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
 <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
 <script src="../../js/kofi_button.js"></script>
+<script src="../../assets/document_dates/tippy/popper.min.js"></script>
+<script src="../../assets/document_dates/tippy/tippy.umd.min.js"></script>
+<script src="../../assets/document_dates/core/md5.min.js"></script>
+<script src="../../assets/document_dates/core/default.config.js"></script>
+<script src="../../assets/document_dates/user.config.js"></script>
+<script src="../../assets/document_dates/core/utils.js"></script>
+<script src="../../assets/document_dates/core/core.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

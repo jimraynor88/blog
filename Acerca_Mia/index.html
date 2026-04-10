@@ -18,6 +18,15 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="../assets/stylesheets/kofi.css" rel="stylesheet"/>
+<link href="../assets/document_dates/fonts/material-icons.css" rel="stylesheet"/>
+<link href="../assets/document_dates/tippy/material.css" rel="stylesheet"/>
+<link href="../assets/document_dates/tippy/shift-away.css" rel="stylesheet"/>
+<link href="../assets/document_dates/tippy/tippy.css" rel="stylesheet"/>
+<link href="../assets/document_dates/tippy/scale.css" rel="stylesheet"/>
+<link href="../assets/document_dates/tippy/light.css" rel="stylesheet"/>
+<link href="../assets/document_dates/tippy/backdrop.css" rel="stylesheet"/>
+<link href="../assets/document_dates/core/core.css" rel="stylesheet"/>
+<link href="../assets/document_dates/user.config.css" rel="stylesheet"/>
 <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><style>
     html.glightbox-open { overflow: initial; height: 100%; }
@@ -369,24 +378,25 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1>Acerca Mia</h1>
-<div><h2 id="bienvenido">🏠 Bienvenido<a class="headerlink" href="#bienvenido" title="Permanent link">¶</a></h2>
+<div><div class="document-dates-plugin-wrapper document-dates-top"><div class="document-dates-plugin" locale=""><div class="dd-left"><span class="dd-item" data-tippy-content="" data-tippy-raw="2026-04-08"><span class="material-icons" data-icon="doc_created"></span><time datetime="2026-04-08T22:10:12+02:00">2026-04-08</time></span><span class="dd-item" data-tippy-content="" data-tippy-raw="2026-04-09"><span class="material-icons" data-icon="doc_updated"></span><time datetime="2026-04-09T21:30:36+00:00">2026-04-09</time></span></div><div class="dd-right"><span class="material-icons" data-icon="doc_author"></span><div class="author-group"><div class="avatar-wrapper" data-name="Jɪᴍ Rᴀʏɴᴏʀ" data-tippy-content="" data-tippy-raw='&lt;a href="mailto:232726672+jimraynor88@users.noreply.github.com"&gt;Jɪᴍ Rᴀʏɴᴏʀ&lt;/a&gt;'><span class="avatar-text"></span><img class="avatar" data-email="232726672+jimraynor88@users.noreply.github.com" data-src=""/></div></div></div></div></div>
+<h2 id="bienvenido">🏠 Bienvenido<a class="headerlink" href="#bienvenido" title="Permanent link">¶</a></h2>
 <p>Éste es mi rincón digital. Aquí comparto reflexiones sobre filosofía, economía, desarrollo personal, astrología y, sobre todo, la importancia de la libertad y seguridad digital.</p>
 <hr/>
 <h2 id="por-que-uso-pgp">🔐 ¿Por qué uso PGP?<a class="headerlink" href="#por-que-uso-pgp" title="Permanent link">¶</a></h2>
 <p>En un mundo donde la vigilancia es la norma, proteger la privacidad no es un lujo, es un acto de soberanía.<br/><br/>Por eso, si quieres contactarme de forma segura, utiliza mi <strong>clave pública PGP</strong>.</p>
 <ul>
 <li>
-<p><strong>Clave pública:</strong> [[JimRaynor88_Public.key|Descargar (key)]]</p>
+<p><strong>Clave pública:</strong> <a href="../Seguridad/PGP/JimRaynor88_Public.key">Descargar (key)</a></p>
 </li>
 <li>
-<p><strong>Guía básica:</strong> [[Para-que-usar-PGP|Por qué y para qué usar PGP]]</p>
+<p><strong>Guía básica:</strong> <a href="../Seguridad/PGP/Para-que-usar-PGP/">Por qué y para qué usar PGP</a></p>
 </li>
 </ul>
 <hr/>
 <h2 id="lo-que-encontraras-aqui">📖 Lo que encontrarás aquí<a class="headerlink" href="#lo-que-encontraras-aqui" title="Permanent link">¶</a></h2>
 <ul>
 <li><strong>[[Astrologia|Astrología]]:</strong> un mapa profundo de mi carta natal, con interpretaciones personales y técnicas.</li>
-<li><strong>[[Conditio_Vitae|Conditio Vitae]]:</strong> mis condiciones vitales, capacidades innatas, forma de actuar, ver y tratar los asuntos [[Laboral|laborales]] y con cualquier tipo de [[Relaciones|relación personal]].</li>
+<li><strong>[[Conditio_Vitae|Conditio Vitae]]:</strong> mis condiciones vitales, capacidades innatas, forma de actuar, ver y tratar los asuntos <a href="Conditio_Vitae/Laboral/">laborales</a> y con cualquier tipo de <a href="Conditio_Vitae/Relaciones/">relación personal</a>.</li>
 <li><strong>[[Blog]]:</strong> artículos sobre filosofía, economía, vida y todo lo que me mueve.</li>
 <li><strong>[[Seguridad]]:</strong> guías sobre PGP, OSINT y cómo proteger tu información.</li>
 <li><strong>[[tienda|Tienda]]:</strong> un espacio donde poder adquirir y/o agradecerme con algún que otro café.</li>
@@ -441,5 +451,12 @@
 <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
 <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
 <script src="../js/kofi_button.js"></script>
+<script src="../assets/document_dates/tippy/popper.min.js"></script>
+<script src="../assets/document_dates/tippy/tippy.umd.min.js"></script>
+<script src="../assets/document_dates/core/md5.min.js"></script>
+<script src="../assets/document_dates/core/default.config.js"></script>
+<script src="../assets/document_dates/user.config.js"></script>
+<script src="../assets/document_dates/core/utils.js"></script>
+<script src="../assets/document_dates/core/core.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
