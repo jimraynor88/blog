@@ -87,7 +87,7 @@ plugins:
         as_update: false            # ← no usa fecha de actualización
       length: 20                    # número de posts en el feed
       abstract_chars_count: 160     # longitud del resumen
-  - bettertags
+  #- bettertags
   #- document-dates:
    #   show_author: true
     #  date_format: '%A, %d de %B de %Y'
