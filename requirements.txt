@@ -14,3 +14,4 @@ mkdocs-roamlinks-plugin-extra
 mkdocs-categories-plugin
 mkdocs-encryptcontent-plugin
 pymdown-extensions
+mkdocs-document-dates
