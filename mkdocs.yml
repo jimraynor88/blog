@@ -88,11 +88,11 @@ plugins:
       length: 20                    # número de posts en el feed
       abstract_chars_count: 160     # longitud del resumen
   - bettertags
-   - document-dates:
+  - document-dates:
       position: bottom
       exclude:
         - tienda/*
-  
+
   #- git-revision-date-localized:
    #   type: date
     #  enable_creation_date: true
