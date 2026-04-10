@@ -64,7 +64,11 @@ extra_css:
 plugins:
   - search
   - encryptcontent:
-      password_file: 'p.yml'   # Carga las contraseñas desde este archivo externo
+      password_file: 'passwords.yml'   # Carga las contraseñas desde este archivo externo
+      inject:
+        md-content: [div, class]   # Inyecta el formulario dentro del div principal del contenido
+      encrypted_something:
+        md-content: [div, class]   # Asegura que solo el contenido se cifre (no el formulario)
       password_button: True
       password_button_text: 'Desbloquear'
       placeholder: 'Introduce la contraseña'
@@ -74,8 +78,7 @@ plugins:
       encryption_info_message: '🔒 Necesitas credenciales para ver este contenido.'
       remember_password: False
       search_index: 'encrypted'
-      encrypted_something:
-        md-content: [div, class]
+
   - roamlinks_extra
   - awesome-pages
   - section-index
