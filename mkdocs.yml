@@ -106,7 +106,10 @@ plugins:
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
 extra:
-  author: Jim Raynor
+  author: "Jim Raynor"
+  link: "https://jim88.pp.ua"
+  avatar: "docs/assets/logo.jpg" # Ruta a tu imagen
+  email: "contacto@jim88.pp.ua"
   year: 2026
   generator: false               # sigue siendo necesario
  # revision: true   # no es una opción estándar, mejor usar el plugin directamente
