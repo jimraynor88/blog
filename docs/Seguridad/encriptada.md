@@ -1,6 +1,5 @@
 ---
 title: Mi página secreta
-# level: basico
 password: lola
 ---
 
