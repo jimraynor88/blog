@@ -1,10 +1,10 @@
 ---
+title: pass
 level:
   - amigos
   - yo
   - usuarios
   - vip
-title: pass
 ---
 
 # Estamos Tan Agustito
