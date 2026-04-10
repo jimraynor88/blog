@@ -1,5 +1,9 @@
 ---
-level: [amigos, yo]
+level:
+  - amigos
+  - yo
+  - usuarios
+  - vip
 title: pass
 ---
 
