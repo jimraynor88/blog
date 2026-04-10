@@ -1,9 +1,9 @@
 ---
 title: "Perfiles Astrológicos"
-category: "Perfiles"
 level: 
   - admin
   - amigos
+category: "Perfiles"
 ---
 
 # Perfiles astrológicos: mi mapa interior
