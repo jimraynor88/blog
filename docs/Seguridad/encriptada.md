@@ -1,6 +1,6 @@
 ---
 title: Mi página secreta
-password: "secreta"
+
 ---
 
 # Este contenido está protegido
