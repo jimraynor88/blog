@@ -1,8 +1,6 @@
 ---
 title: Título de tu página
-level:
-  - admin
-  - amigos
+level: amigos
 ---
 
 # Estamos Tan Agustito
