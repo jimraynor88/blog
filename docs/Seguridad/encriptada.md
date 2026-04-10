@@ -1,6 +1,7 @@
 ---
 title: Mi página secreta
-level: basico
+# level: basico
+password: lola
 ---
 
 # Este contenido está protegido
