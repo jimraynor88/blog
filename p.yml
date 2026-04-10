@@ -1,0 +1,11 @@
+# passwords.yml
+basico: 'clave-basica'
+vip: 'clave-vip'
+astro:
+  - 'logia'
+  - 'yo'
+  - 'tu'
+# Ejemplo con usuario/contraseña (para que varios usuarios tengan acceso independiente)
+usuarios:
+  alicia: 'contraseñaAlicia'
+  bob: 'contraseñaBob'
