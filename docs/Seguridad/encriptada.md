@@ -5,7 +5,7 @@ inject_id: nove
 title: "Mi página secreta"
 ---
 
-# Este contenido está protegido
+# Este contenido está protegido con Nivel Admin
 
 El visitante deberá introducir la contraseña para poder ver el resto del artículo...
 esta es
