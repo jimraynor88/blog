@@ -65,15 +65,16 @@ plugins:
   - search
   - encryptcontent:
       password_file: 'passwords.yml'   # Carga las contraseñas desde este archivo externo
-      inject:
-        main: [div, class]          # Inyecta el formulario dentro del div con clase "md-content"
-      encrypted_something:
-        main: [div, class]          # Cifra el contenido de ese mismo div
+      #inject:
+      #  main: [div, class]          # Inyecta el formulario dentro del div con clase "md-content"
+      #encrypted_something:
+      #  main: [div, class]          # Cifra el contenido de ese mismo div
       
       #inject:
        # main: [tag, class]   # si el contenido principal está en <main class="md-main">
       #encrypted_something:
        # md-content: [div, class]   # Asegura que solo el contenido se cifre (no el formulario)
+      webcrypto: false
       password_button: True
       password_button_text: 'Desbloquear'
       placeholder: 'Introduce la contraseña'
