@@ -1,8 +1,8 @@
 ---
-title: "Mi página secreta"
 level: admin
 inject_id: nove
 #delete_id: teaser
+title: "Mi página secreta"
 ---
 
 # Este contenido está protegido
