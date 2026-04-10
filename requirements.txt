@@ -10,8 +10,8 @@ mkdocs-video==1.5.0
 beautifulsoup4
 python-frontmatter
 bettertags
-mkdocs-roamlinks-plugin-extra
+# mkdocs-roamlinks-plugin-extra
 mkdocs-categories-plugin
 mkdocs-encryptcontent-plugin
-pymdown-extensions
-mkdocs-document-dates
+# pymdown-extensions
+# mkdocs-document-dates
