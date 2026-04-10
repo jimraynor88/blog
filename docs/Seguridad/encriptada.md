@@ -1,5 +1,5 @@
 ---
-level: yo
+level: admin
 inject_id: nove
 #delete_id: teaser
 title: "Mi página secreta"
