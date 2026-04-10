@@ -1,7 +1,7 @@
 ---
 title: "Mi página secreta"
 level: admin
-inject_id: protected
+inject_id: nove
 #delete_id: teaser
 ---
 
