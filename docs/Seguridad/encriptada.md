@@ -1,6 +1,6 @@
 ---
 title: Mi página secreta
-level: usuarios
+level: basico
 ---
 
 # Este contenido está protegido
