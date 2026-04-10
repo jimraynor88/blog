@@ -1,6 +1,6 @@
 ---
 title: pass
-level: {amigos, yo, usuarios, vip}
+level: {'amigos', 'yo', 'usuarios', 'vip'}
 ---
 
 # Estamos Tan Agustito
