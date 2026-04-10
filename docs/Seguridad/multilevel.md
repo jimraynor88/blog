@@ -1,8 +1,8 @@
 ---
 title: Documento multinivel
 level:
-  - basico
-  - vip
+  - usuarios
+  - amigos
 ---
 
 esto se ve?
