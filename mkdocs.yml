@@ -123,7 +123,6 @@ extra:
       name: X
     - icon: fontawesome/solid/envelope
       link: mailto:contacto@jim88.pp.ua
-      
       name: Email
     - icon: fontawesome/brands/telegram
       link: https://t.me/jimraynorbot
