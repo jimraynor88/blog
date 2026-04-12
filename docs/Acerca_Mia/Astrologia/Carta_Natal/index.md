@@ -15,23 +15,23 @@ Esta es mi carta, interpretada desde dentro. Cada casa es un escenario de mi vid
 
 | Casa | Ámbito | Enlace |
 |------ | -------- | -------- |
-| **[Casa 1](Casa_01)** | Mi identidad, mi presencia, mi forma de iniciar | Casa 1 – Escorpio / Sagitario |
-| **[Casa 2](Casa_02)** | Mis recursos, mis valores, mi autoestima | Casa 2 – Sagitario |
-| **[Casa 3](Casa_03)** | Mi comunicación, mis hermanos, mi entorno cercano | Casa 3 – Capricornio |
-| **[Casa 4](Casa_04)** | Mi hogar, mis raíces, mi familia, mi mundo interior | Casa 4 – Acuario |
-| **[Casa 5](Casa_05)** | Mi creatividad, mi amor romántico, mi placer | Casa 5 – Piscis |
-| **[Casa 6](Casa_06)** | Mi salud, mi trabajo diario, mis rutinas | Casa 6 – Aries |
-| **[Casa 7](Casa_07)** | Mis relaciones de pareja, mis asociaciones | Casa 7 – Tauro |
-| **[Casa 8](Casa_08)** | Mi sexualidad, mi transformación, mis crisis | Casa 8 – Géminis |
-| **[Casa 9](Casa_09)** | Mi filosofía, mis viajes, mi propósito | Casa 9 – Cáncer |
-| **[Casa 10](Casa_10)** | Mi carrera, mi reputación, mis logros | Casa 10 – Leo |
-| **[Casa 11](Casa_11)** | Mis amistades, mis grupos, mis ideales | Casa 11 – Virgo |
-| **[Casa 12](Casa_12)** | Mi inconsciente, mi espiritualidad, mi soledad | Casa 12 – Libra |
+| **[Casa 1](Casas/Casa_01)** | Mi identidad, mi presencia, mi forma de iniciar | Casa 1 – Escorpio / Sagitario |
+| **[Casa 2](Casas/Casa_02)** | Mis recursos, mis valores, mi autoestima | Casa 2 – Sagitario |
+| **[Casa 3](Casas/Casa_03)** | Mi comunicación, mis hermanos, mi entorno cercano | Casa 3 – Capricornio |
+| **[Casa 4](Casas/Casa_04)** | Mi hogar, mis raíces, mi familia, mi mundo interior | Casa 4 – Acuario |
+| **[Casa 5](Casas/Casa_05)** | Mi creatividad, mi amor romántico, mi placer | Casa 5 – Piscis |
+| **[Casa 6](Casas/Casa_06)** | Mi salud, mi trabajo diario, mis rutinas | Casa 6 – Aries |
+| **[Casa 7](Casas/Casa_07)** | Mis relaciones de pareja, mis asociaciones | Casa 7 – Tauro |
+| **[Casa 8](Casas/Casa_08)** | Mi sexualidad, mi transformación, mis crisis | Casa 8 – Géminis |
+| **[Casa 9](Casas/Casa_09)** | Mi filosofía, mis viajes, mi propósito | Casa 9 – Cáncer |
+| **[Casa 10](Casas/Casa_10)** | Mi carrera, mi reputación, mis logros | Casa 10 – Leo |
+| **[Casa 11](Casas/Casa_11)** | Mis amistades, mis grupos, mis ideales | Casa 11 – Virgo |
+| **[Casa 12](Casas/Casa_12)** | Mi inconsciente, mi espiritualidad, mi soledad | Casa 12 – Libra |
 
 ---
 ## 🔗 La red que me conecta: aspectos y estrellas
 
-Más allá de las casas y los perfiles, los aspectos entre planetas y estrellas fijas tejen una red que sostiene mi experiencia. Para una visión completa, consulta **[Aspectos-Natales](Aspectos Natales).
+Más allá de las casas y los perfiles, los aspectos entre planetas y estrellas fijas tejen una red que sostiene mi experiencia. Para una visión completa, consulta **[Aspectos Natales](Aspectos_Natales)**.
 ---
 
 ## 📚 Perfiles temáticos: mi vida en cinco pilares
@@ -40,11 +40,11 @@ Si prefieres una lectura más transversal, aquí he reunido los aspectos de mi c
 
 | Perfil | Enlace |
 |--------|--------|
-| **[Vocación y Logro](Perfiles/Vocacion_Y_Logro)** – Cómo genero valor, me esfuerzo y alcanzo reconocimiento |
-| **[Relaciones y Vínculos](Perfiles/Relaciones_Y_Vinculos)** – Cómo amo, me asocio y me transformo a través de los demás |
-| **[Identidad y Desarrollo Personal](Perfiles/Identidad_Y_Desarollo)** – Quién soy, cómo crezco y me expreso |
-| **[Salud, Bienestar y Rutinas](Perfiles/Salud_Bienestar_Y_Rutinas)** – Cómo cuido mi cuerpo, mi mente y mi energía |
-| **[Espiritualidad y Trascendencia](Perfiles/Espiritualidad_y_Trascendencia)** – Mi conexión con lo sagrado y el sentido de la vida |
+| **[Vocación y Logro](../Perfiles/Vocacion_Y_Logro)** – Cómo genero valor, me esfuerzo y alcanzo reconocimiento |
+| **[Relaciones y Vínculos](../Perfiles/Relaciones_Y_Vinculos)** – Cómo amo, me asocio y me transformo a través de los demás |
+| **[Identidad y Desarrollo Personal](../Perfiles/Identidad_Y_Desarollo)** – Quién soy, cómo crezco y me expreso |
+| **[Salud, Bienestar y Rutinas](../Perfiles/Salud_Bienestar_Y_Rutinas)** – Cómo cuido mi cuerpo, mi mente y mi energía |
+| **[Espiritualidad y Trascendencia](../Perfiles/Espiritualidad_y_Trascendencia)** – Mi conexión con lo sagrado y el sentido de la vida |
 
 ---
 
@@ -52,7 +52,7 @@ Si prefieres una lectura más transversal, aquí he reunido los aspectos de mi c
 
 Y más allá de la astrología, he querido plasmar quién soy en documentos más directos, pensados para quien quiera conocer mis dones, mi experiencia y lo que puedo aportar. No son CV al uso, sino una presentación de mis capacidades innatas y de lo que he forjado en el camino.
 
-- **[Conditio Vitae Laboral](Conditio_Vitae/Laboral)** – Lo que sé hacer, cómo puedo aportar valor, y qué busco en un proyecto o equipo.
-- **[Conditio Vitae Relaciones](Conditio_Vitae/Relaciones)** – Una presentación sincera de mi forma de vincularme.
+- **[Conditio Vitae Laboral](../Conditio_Vitae/Laboral)** – Lo que sé hacer, cómo puedo aportar valor, y qué busco en un proyecto o equipo.
+- **[Conditio Vitae Relaciones](../Conditio_Vitae/Relaciones)** – Una presentación sincera de mi forma de vincularme.
 
 *Toda esta interpretación ha sido construida desde mis datos natales y desde mi propia experiencia.*
