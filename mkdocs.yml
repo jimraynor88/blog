@@ -115,9 +115,9 @@ extra:
   generator: false               # sigue siendo necesario
  # revision: true   # no es una opción estándar, mejor usar el plugin directamente
   social:
-    #- icon: fontawesome/brands/github
-     # link: https://github.com/jimraynor88
-      #name: GitHub
+    - icon: fontawesome/brands/keybase
+      link: https://keybase.io/jimraynor88
+      name: KeyBase
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/jimraynor1488
       name: X
