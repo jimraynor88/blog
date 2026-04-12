@@ -51,7 +51,7 @@ Si prefieres una lectura más transversal, aquí he reunido los aspectos de mi c
 
 Y más allá de la astrología, he querido plasmar quién soy en documentos más directos, pensados para quien quiera conocer mis dones, mi experiencia y lo que puedo aportar. No son CV al uso, sino una presentación de mis capacidades innatas y de lo que he forjado en el camino.
 
-- **[Conditio Vitae Laboral](/Acerca_Mia/Astrologia/Conditio_Vitae/Laboral)** – Lo que sé hacer, cómo puedo aportar valor, y qué busco en un proyecto o equipo.
-- **[Conditio Vitae Relaciones](/Acerca_Mia/Astrologia/Conditio_Vitae/Relaciones)** – Una presentación sincera de mi forma de vincularme.
+**[Conditio Vitae Laboral](/Acerca_Mia/Astrologia/Conditio_Vitae/Laboral)** – Lo que sé hacer, cómo puedo aportar valor, y qué busco en un proyecto o equipo.<br>
+**[Conditio Vitae Relaciones](/Acerca_Mia/Astrologia/Conditio_Vitae/Relaciones)** – Una presentación sincera de mi forma de vincularme.
 
 *Toda esta interpretación ha sido construida desde mis datos natales y desde mi propia experiencia.*
