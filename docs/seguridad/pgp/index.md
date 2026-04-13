@@ -32,10 +32,10 @@ Descarga e importa [[JimRaynor88_Public.key|mi Public Key]] en el gestor 🔑
 ## ▶ Paso 4
 Cifra un mensaje, destinatario mi clave, añade tu Public Key (archivo o texto) y envíamelo. 🔐💬 Te guío si quieres 💪
 
-## Igualmente puedes contactarme de forma privada y cifrada desde 
+### Igualmente puedes contactarme de forma privada y cifrada [[contacto|desde aquí]]
 
 # Mi clave pública PGP
-Para copiar a mano
+Para copiar a mano o para [[JimRaynor88_Public.key|descargar]]
 
 ```code
 
