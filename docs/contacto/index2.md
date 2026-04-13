@@ -28,7 +28,6 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
   <label for="senderPubKey">Tu clave pública (obligatoria):</label>
   <textarea id="senderPubKey" rows="6" placeholder="Pega aquí tu clave pública PGP..."></textarea>
   <small>Debe empezar por <code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code> y terminar con <code>-----END PGP PUBLIC KEY BLOCK-----</code>.</small>
-  <button type="button" id="generateKeyBtn" style="margin-top: 0.5rem;">🔑 No tengo clave, generar una</button>
 </div>
 
 <div class="form-group">
@@ -48,39 +47,47 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 
 </div>
 
-<!-- Modal personalizado (no usa <dialog> para evitar bloqueos) -->
-<div id="keygenModal" class="modal">
-  <div class="modal-content">
-    <span id="closeModalBtn" class="close">&times;</span>
-    <h3>Generar tu clave PGP</h3>
-    <div class="form-group">
-      <label for="modalName">Nombre / Alias:</label>
-      <input type="text" id="modalName" placeholder="Tu nombre o nick" value="Anónimo">
-    </div>
-    <div class="form-group">
-      <label for="modalEmail">Correo electrónico (opcional):</label>
-      <input type="email" id="modalEmail" placeholder="ejemplo@dominio.com">
-    </div>
-    <button id="modalGenerateBtn">Generar par de claves</button>
-    <div id="modalResult" style="display: none; margin-top: 1rem;">
-      <div class="form-group">
-        <label>Clave pública generada:</label>
-        <textarea id="modalPublicKey" rows="6" readonly style="font-family: monospace;"></textarea>
-        <button id="modalCopyPubBtn">Copiar clave pública</button>
-      </div>
-      <div class="form-group">
-        <label>Clave privada (descárgala):</label>
-        <textarea id="modalPrivateKey" rows="6" readonly style="font-family: monospace;"></textarea>
-        <button id="modalDownloadPrivBtn">Descargar clave privada (.asc)</button>
-      </div>
-      <p class="warning">⚠️ Guarda tu clave privada en un lugar seguro. No la pierdas.</p>
-    </div>
+---
+
+## 🔑 Generar nueva clave PGP (si no tienes)
+
+Rellena tu nombre y contacto (opcional), genera un par de claves y luego copia la clave pública al formulario de arriba.
+
+<div class="keygen-inline">
+
+<div class="form-group">
+  <label for="genName">Nombre / Alias:</label>
+  <input type="text" id="genName" placeholder="Tu nombre o nick" value="Anónimo">
+</div>
+
+<div class="form-group">
+  <label for="genContact">Contacto (email, Telegram, etc.):</label>
+  <input type="text" id="genContact" placeholder="ejemplo@dominio.com o @usuario">
+  <small>Opcional. Se incluirá en la clave.</small>
+</div>
+
+<button id="genKeyBtn">Generar par de claves</button>
+
+<div id="genResult" style="display: none; margin-top: 1rem;">
+  <div class="form-group">
+    <label>Clave pública generada:</label>
+    <textarea id="genPublicKey" rows="6" readonly style="font-family: monospace;"></textarea>
+    <button id="copyPubToFormBtn">Copiar clave pública al formulario</button>
+    <button id="downloadPubBtn">Descargar clave pública (.asc)</button>
   </div>
+  <div class="form-group">
+    <label>Clave privada (descárgala y guárdala):</label>
+    <textarea id="genPrivateKey" rows="6" readonly style="font-family: monospace;"></textarea>
+    <button id="downloadPrivBtn">Descargar clave privada (.asc)</button>
+  </div>
+  <p class="warning">⚠️ La clave privada es única. Guárdala en un lugar seguro. No la pierdas.</p>
+</div>
+
 </div>
 
 <script src="https://jim88.pp.ua/js/openpgp.min.js"></script>
 <script>
-// Tu clave pública (actualizada)
+// ==================== TU CLAVE PÚBLICA (actualizada) ====================
 const myPublicKeyArmored = `-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: User-ID:	JimPGP <pgp@jim88.pp.ua>
 Comment: Created:	13/4/26 23:17
@@ -100,7 +107,7 @@ CjNU4RXQh7L+8+Y/vLE+Jwg=
 =XRPp
 -----END PGP PUBLIC KEY BLOCK-----`;
 
-// Elementos DOM
+// ==================== ELEMENTOS DEL FORMULARIO PRINCIPAL ====================
 const messageEl = document.getElementById('message');
 const contactEl = document.getElementById('contact');
 const senderKeyEl = document.getElementById('senderPubKey');
@@ -109,17 +116,6 @@ const statusEl = document.getElementById('status');
 const encryptBtn = document.getElementById('encryptBtn');
 const copyBtn = document.getElementById('copyBtn');
 const sendBtn = document.getElementById('sendBtn');
-const generateKeyBtn = document.getElementById('generateKeyBtn');
-const keygenModal = document.getElementById('keygenModal');
-const closeModalBtn = document.getElementById('closeModalBtn');
-const modalGenerateBtn = document.getElementById('modalGenerateBtn');
-const modalResult = document.getElementById('modalResult');
-const modalPublicKey = document.getElementById('modalPublicKey');
-const modalPrivateKey = document.getElementById('modalPrivateKey');
-const modalCopyPubBtn = document.getElementById('modalCopyPubBtn');
-const modalDownloadPrivBtn = document.getElementById('modalDownloadPrivBtn');
-const modalName = document.getElementById('modalName');
-const modalEmail = document.getElementById('modalEmail');
 
 let currentEncrypted = '';
 
@@ -128,7 +124,7 @@ function setStatus(text, isError = false) {
   statusEl.innerHTML = `<span style="color: ${isError ? 'red' : 'green'};">${text}</span>`;
 }
 
-// Validación de clave pública
+// Validación de clave pública (formato básico)
 function isPublicKeyValid(pubKey) {
   const trimmed = pubKey.trim();
   return trimmed.startsWith('-----BEGIN PGP PUBLIC KEY BLOCK-----') && 
@@ -170,11 +166,11 @@ encryptBtn.addEventListener('click', async () => {
     return;
   }
   if (!senderPubKey) {
-    setStatus('❌ Debes proporcionar tu clave pública (o generarla con el botón).', true);
+    setStatus('❌ Debes proporcionar tu clave pública (puedes generar una abajo).', true);
     return;
   }
   if (!isPublicKeyValid(senderPubKey)) {
-    setStatus('❌ La clave pública no tiene el formato correcto.', true);
+    setStatus('❌ La clave pública no tiene el formato correcto. Debe empezar y terminar con las cabeceras PGP.', true);
     return;
   }
 
@@ -211,11 +207,11 @@ copyBtn.addEventListener('click', async () => {
     await navigator.clipboard.writeText(currentEncrypted);
     setStatus('📋 Mensaje cifrado copiado al portapapeles.');
   } catch (err) {
-    setStatus('❌ No se pudo copiar automáticamente.', true);
+    setStatus('❌ No se pudo copiar automáticamente. Selecciona y copia manualmente.', true);
   }
 });
 
-// Envío con reintentos
+// Enviar al Worker con timeout y reintento
 async function sendWithRetry(url, data, retries = 1) {
   for (let i = 0; i <= retries; i++) {
     try {
@@ -246,7 +242,7 @@ async function sendWithRetry(url, data, retries = 1) {
 
 sendBtn.addEventListener('click', async () => {
   if (!currentEncrypted) {
-    setStatus('❌ Primero debes cifrar el mensaje.', true);
+    setStatus('❌ Primero debes cifrar el mensaje (botón "Cifrar mensaje").', true);
     return;
   }
 
@@ -259,6 +255,7 @@ sendBtn.addEventListener('click', async () => {
 
   if (result.ok) {
     setStatus('✅ Mensaje enviado correctamente. Recibiré tu mensaje cifrado.');
+    // Limpiar campos
     messageEl.value = '';
     contactEl.value = '';
     senderKeyEl.value = '';
@@ -301,74 +298,95 @@ messageEl.addEventListener('input', resetManualInstructions);
 contactEl.addEventListener('input', resetManualInstructions);
 senderKeyEl.addEventListener('input', resetManualInstructions);
 
-// --- Modal personalizado (sin <dialog>) ---
-generateKeyBtn.addEventListener('click', () => {
-  keygenModal.style.display = 'flex';
-});
-closeModalBtn.addEventListener('click', () => {
-  keygenModal.style.display = 'none';
-});
-window.addEventListener('click', (event) => {
-  if (event.target === keygenModal) {
-    keygenModal.style.display = 'none';
-  }
-});
+// ==================== GENERADOR DE CLAVES INTEGRADO ====================
+const genName = document.getElementById('genName');
+const genContact = document.getElementById('genContact');
+const genKeyBtn = document.getElementById('genKeyBtn');
+const genResultDiv = document.getElementById('genResult');
+const genPublicKey = document.getElementById('genPublicKey');
+const genPrivateKey = document.getElementById('genPrivateKey');
+const copyPubToFormBtn = document.getElementById('copyPubToFormBtn');
+const downloadPubBtn = document.getElementById('downloadPubBtn');
+const downloadPrivBtn = document.getElementById('downloadPrivBtn');
 
-modalGenerateBtn.addEventListener('click', async () => {
-  const name = modalName.value.trim() || 'Anónimo';
-  const email = modalEmail.value.trim();
-  modalGenerateBtn.disabled = true;
-  modalGenerateBtn.textContent = 'Generando... (puede tardar unos segundos)';
-  modalResult.style.display = 'none';
+let lastGeneratedPublicKey = '';
+let lastGeneratedPrivateKey = '';
+
+genKeyBtn.addEventListener('click', async () => {
+  const name = genName.value.trim() || 'Anónimo';
+  const contact = genContact.value.trim();
+  // Crear userID: puede ser solo nombre o nombre + email
+  let userID = name;
+  if (contact) userID += ` <${contact}>`;
+  
+  genKeyBtn.disabled = true;
+  genKeyBtn.textContent = 'Generando... (puede tardar unos segundos)';
+  genResultDiv.style.display = 'none';
   try {
     const { privateKey, publicKey } = await openpgp.generateKey({
       type: 'ecc',
       curve: 'ed25519',
-      userIDs: [{ name: name, email: email }],
+      userIDs: [{ name: userID }],
       format: 'armored'
     });
-    modalPublicKey.value = publicKey;
-    modalPrivateKey.value = privateKey;
-    modalResult.style.display = 'block';
-    window._tempPrivateKey = privateKey;
+    lastGeneratedPublicKey = publicKey;
+    lastGeneratedPrivateKey = privateKey;
+    genPublicKey.value = publicKey;
+    genPrivateKey.value = privateKey;
+    genResultDiv.style.display = 'block';
   } catch (err) {
     alert('Error al generar las claves: ' + err.message);
   } finally {
-    modalGenerateBtn.disabled = false;
-    modalGenerateBtn.textContent = 'Generar par de claves';
+    genKeyBtn.disabled = false;
+    genKeyBtn.textContent = 'Generar par de claves';
   }
 });
 
-modalCopyPubBtn.addEventListener('click', () => {
-  const pub = modalPublicKey.value;
-  if (!pub) return;
-  navigator.clipboard.writeText(pub).then(() => {
-    alert('Clave pública copiada al portapapeles.');
-    senderKeyEl.value = pub;
-    keygenModal.style.display = 'none';
-    setStatus('✅ Clave pública añadida. Ahora puedes cifrar el mensaje.');
-  }).catch(() => {
-    alert('No se pudo copiar automáticamente. Selecciona y copia manualmente.');
-  });
+copyPubToFormBtn.addEventListener('click', () => {
+  if (!lastGeneratedPublicKey) {
+    alert('Primero genera las claves.');
+    return;
+  }
+  senderKeyEl.value = lastGeneratedPublicKey;
+  setStatus('✅ Clave pública añadida al formulario. Ahora puedes cifrar el mensaje.');
+  // Opcional: desplazar hacia arriba
+  senderKeyEl.scrollIntoView({ behavior: 'smooth' });
 });
 
-modalDownloadPrivBtn.addEventListener('click', () => {
-  const priv = modalPrivateKey.value;
-  if (!priv) return;
-  const blob = new Blob([priv], { type: 'application/pgp-keys' });
+function downloadKey(key, filename) {
+  if (!key) return;
+  const blob = new Blob([key], { type: 'application/pgp-keys' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'private.asc';
+  a.download = filename;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
+}
+
+downloadPubBtn.addEventListener('click', () => {
+  if (!lastGeneratedPublicKey) {
+    alert('Primero genera las claves.');
+    return;
+  }
+  const name = genName.value.trim().replace(/\s+/g, '_') || 'anonymous';
+  downloadKey(lastGeneratedPublicKey, `${name}_public.asc`);
+});
+
+downloadPrivBtn.addEventListener('click', () => {
+  if (!lastGeneratedPrivateKey) {
+    alert('Primero genera las claves.');
+    return;
+  }
+  const name = genName.value.trim().replace(/\s+/g, '_') || 'anonymous';
+  downloadKey(lastGeneratedPrivateKey, `${name}_private.asc`);
 });
 </script>
 
 <style>
-/* Estilos del formulario (igual que antes) */
+/* Estilos del formulario principal */
 .pgp-contact textarea, .pgp-contact input {
   width: 100%;
   box-sizing: border-box;
@@ -401,50 +419,16 @@ small {
   color: #666;
 }
 
-/* Estilos del modal personalizado (evita bloqueos de Brave) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  align-items: center;
-  justify-content: center;
-}
-.modal-content {
-  background-color: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
-  margin: auto;
+/* Estilos del generador inline */
+.keygen-inline {
+  margin-top: 2rem;
   padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
   border-radius: 8px;
-  width: 90%;
-  max-width: 500px;
-  max-height: 90%;
-  overflow-y: auto;
-  position: relative;
+  background-color: var(--md-default-bg-color);
 }
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-}
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-.modal-content textarea, .modal-content input {
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  font-family: monospace;
+.keygen-inline .form-group {
+  margin-bottom: 1rem;
 }
 .warning {
   margin-top: 1rem;
