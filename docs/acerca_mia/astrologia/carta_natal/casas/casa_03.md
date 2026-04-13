@@ -36,4 +36,4 @@ El regente de esta casa, **Saturno** (Casa 12), añade una capa de responsabilid
 
 Mi palabra tiene poder. Cuando hablo desde mi verdad, no solo comunico, sino que transformo mi entorno y a mí mismo. He aprendido que la comunicación honesta, aunque a veces incómoda, es la base de relaciones sólidas y de mi propio crecimiento. Usar mi mente con conciencia, sin dispersión, es uno de mis grandes recursos.
 
-*Para profundizar, consulta mi perfil de **[identidad_y_desarrollo_personal|Identidad y Desarrollo Personal]]**.*
+*Para profundizar, consulta mi perfil de **[[identidad_y_desarrollo_personal|Identidad y Desarrollo Personal]]**.*
