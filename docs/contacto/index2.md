@@ -5,7 +5,7 @@ description: Envíame un mensaje seguro con PGP
 
 # Contacto cifrado con PGP
 
-Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mensaje se cifrará con mi clave pública y **debes incluir tu clave pública** para que pueda responderte de forma cifrada. Si no tienes una, puedes generar una abajo.
+Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mensaje se cifrará con mi clave pública y necesito tu clave pública para responderte de forma cifrada. **Puedes pegar tu clave o generar una nueva abajo.**
 
 ---
 
@@ -14,26 +14,48 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 <div class="pgp-contact">
 
 <div class="form-group">
-  <label for="message">Tu mensaje (texto plano):</label>
-  <textarea id="message" rows="6" placeholder="Escribe aquí tu mensaje..."></textarea>
+  <label for="userName">Tu nombre o alias:</label>
+  <input type="text" id="userName" placeholder="Ej: Juan Pérez" value="">
+  <small>Obligatorio para identificarte.</small>
 </div>
 
 <div class="form-group">
-  <label for="contact">Tu contacto (email, Telegram, etc.):</label>
-  <input type="text" id="contact" placeholder="ejemplo@dominio.com o @usuario" value="">
+  <label for="userContact">Tu contacto (email, Telegram, etc.):</label>
+  <input type="text" id="userContact" placeholder="ejemplo@dominio.com o @usuario" value="">
   <small>Obligatorio para que pueda responderte.</small>
 </div>
 
 <div class="form-group">
   <label for="senderPubKey">Tu clave pública (obligatoria):</label>
   <textarea id="senderPubKey" rows="6" placeholder="Pega aquí tu clave pública PGP..."></textarea>
-  <small>Debe empezar por <code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code> y terminar con <code>-----END PGP PUBLIC KEY BLOCK-----</code>.</small>
+  <small>Debe empezar por <code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code>.</small>
+  <button type="button" id="generateKeyBtn" style="margin-top: 0.5rem;">🔑 Generar nueva clave con mis datos</button>
+</div>
+
+<div id="keygenArea" style="display: none; margin-top: 1rem; padding: 1rem; border: 1px solid var(--md-default-fg-color--lighter); border-radius: 8px;">
+  <div class="form-group">
+    <label>Clave pública generada:</label>
+    <textarea id="genPublicKey" rows="6" readonly style="font-family: monospace;"></textarea>
+    <button id="copyPubToFormBtn">Usar esta clave pública</button>
+    <button id="downloadPubBtn">Descargar clave pública (.asc)</button>
+  </div>
+  <div class="form-group">
+    <label>Clave privada (descárgala y guárdala):</label>
+    <textarea id="genPrivateKey" rows="6" readonly style="font-family: monospace;"></textarea>
+    <button id="downloadPrivBtn">Descargar clave privada (.asc)</button>
+  </div>
+  <p class="warning">⚠️ Guarda tu clave privada. Sin ella no podrás descifrar mis respuestas.</p>
+</div>
+
+<div class="form-group">
+  <label for="message">Tu mensaje (texto plano):</label>
+  <textarea id="message" rows="6" placeholder="Escribe aquí tu mensaje..."></textarea>
 </div>
 
 <div class="form-group">
   <label for="encryptedResult">Mensaje cifrado (resultado):</label>
   <textarea id="encryptedResult" rows="8" readonly style="font-family: monospace;"></textarea>
-  <small>Este es el texto cifrado. Puedes copiarlo y guardarlo por si acaso.</small>
+  <small>Este es el texto cifrado. Puedes copiarlo por si acaso.</small>
 </div>
 
 <div class="form-group">
@@ -47,47 +69,9 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 
 </div>
 
----
-
-## 🔑 Generar nueva clave PGP (si no tienes)
-
-Rellena tu nombre y contacto (opcional), genera un par de claves y luego copia la clave pública al formulario de arriba.
-
-<div class="keygen-inline">
-
-<div class="form-group">
-  <label for="genName">Nombre / Alias:</label>
-  <input type="text" id="genName" placeholder="Tu nombre o nick" value="Anónimo">
-</div>
-
-<div class="form-group">
-  <label for="genContact">Contacto (email, Telegram, etc.):</label>
-  <input type="text" id="genContact" placeholder="ejemplo@dominio.com o @usuario">
-  <small>Opcional. Se incluirá en la clave.</small>
-</div>
-
-<button id="genKeyBtn">Generar par de claves</button>
-
-<div id="genResult" style="display: none; margin-top: 1rem;">
-  <div class="form-group">
-    <label>Clave pública generada:</label>
-    <textarea id="genPublicKey" rows="6" readonly style="font-family: monospace;"></textarea>
-    <button id="copyPubToFormBtn">Copiar clave pública al formulario</button>
-    <button id="downloadPubBtn">Descargar clave pública (.asc)</button>
-  </div>
-  <div class="form-group">
-    <label>Clave privada (descárgala y guárdala):</label>
-    <textarea id="genPrivateKey" rows="6" readonly style="font-family: monospace;"></textarea>
-    <button id="downloadPrivBtn">Descargar clave privada (.asc)</button>
-  </div>
-  <p class="warning">⚠️ La clave privada es única. Guárdala en un lugar seguro. No la pierdas.</p>
-</div>
-
-</div>
-
 <script src="https://jim88.pp.ua/js/openpgp.min.js"></script>
 <script>
-// ==================== TU CLAVE PÚBLICA (actualizada) ====================
+// ==================== TU CLAVE PÚBLICA ====================
 const myPublicKeyArmored = `-----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: User-ID:	JimPGP <pgp@jim88.pp.ua>
 Comment: Created:	13/4/26 23:17
@@ -107,92 +91,179 @@ CjNU4RXQh7L+8+Y/vLE+Jwg=
 =XRPp
 -----END PGP PUBLIC KEY BLOCK-----`;
 
-// ==================== ELEMENTOS DEL FORMULARIO PRINCIPAL ====================
-const messageEl = document.getElementById('message');
-const contactEl = document.getElementById('contact');
+// ==================== DOM Elements ====================
+const userNameEl = document.getElementById('userName');
+const userContactEl = document.getElementById('userContact');
 const senderKeyEl = document.getElementById('senderPubKey');
+const messageEl = document.getElementById('message');
 const encryptedResultEl = document.getElementById('encryptedResult');
 const statusEl = document.getElementById('status');
 const encryptBtn = document.getElementById('encryptBtn');
 const copyBtn = document.getElementById('copyBtn');
 const sendBtn = document.getElementById('sendBtn');
+const generateKeyBtn = document.getElementById('generateKeyBtn');
+const keygenArea = document.getElementById('keygenArea');
+const genPublicKey = document.getElementById('genPublicKey');
+const genPrivateKey = document.getElementById('genPrivateKey');
+const copyPubToFormBtn = document.getElementById('copyPubToFormBtn');
+const downloadPubBtn = document.getElementById('downloadPubBtn');
+const downloadPrivBtn = document.getElementById('downloadPrivBtn');
 
 let currentEncrypted = '';
+let lastGeneratedPublic = '';
+let lastGeneratedPrivate = '';
 
-// Función para mostrar mensajes de estado
 function setStatus(text, isError = false) {
   statusEl.innerHTML = `<span style="color: ${isError ? 'red' : 'green'};">${text}</span>`;
 }
 
-// Validación de clave pública (formato básico)
 function isPublicKeyValid(pubKey) {
   const trimmed = pubKey.trim();
-  return trimmed.startsWith('-----BEGIN PGP PUBLIC KEY BLOCK-----') && 
+  return trimmed.startsWith('-----BEGIN PGP PUBLIC KEY BLOCK-----') &&
          trimmed.endsWith('-----END PGP PUBLIC KEY BLOCK-----');
 }
 
 // Cifrado con timeout
-async function encryptMessageWithTimeout(publicKeyArmored, plaintext, signKeyArmored = null, timeoutMs = 30000) {
+async function encryptMessageWithTimeout(publicKeyArmored, plaintext, timeoutMs = 30000) {
   const timeoutPromise = new Promise((_, reject) =>
-    setTimeout(() => reject(new Error('Tiempo de espera agotado al cifrar. Recarga la página y vuelve a intentarlo.')), timeoutMs)
+    setTimeout(() => reject(new Error('Tiempo de espera agotado. Recarga la página.')), timeoutMs)
   );
   const encryptPromise = (async () => {
     const publicKey = await openpgp.readKey({ armoredKey: publicKeyArmored });
-    const options = {
-      message: await openpgp.createMessage({ text: plaintext }),
-      encryptionKeys: publicKey,
-    };
-    if (signKeyArmored && signKeyArmored.trim()) {
-      const privateKey = await openpgp.readPrivateKey({ armoredKey: signKeyArmored });
-      options.signingKeys = privateKey;
-    }
-    return await openpgp.encrypt(options);
+    const message = await openpgp.createMessage({ text: plaintext });
+    return await openpgp.encrypt({ message, encryptionKeys: publicKey });
   })();
   return await Promise.race([encryptPromise, timeoutPromise]);
 }
 
-// Cifrar mensaje
+// Generar clave usando nombre y contacto
+async function generateKeyWithNameAndContact(name, contact) {
+  let userID = name;
+  if (contact) userID += ` <${contact}>`;
+  return await openpgp.generateKey({
+    type: 'ecc',
+    curve: 'ed25519',
+    userIDs: [{ name: userID }],
+    format: 'armored'
+  });
+}
+
+// Descargar archivo
+function downloadKey(key, filename) {
+  const blob = new Blob([key], { type: 'application/pgp-keys' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// === Botón Generar clave ===
+generateKeyBtn.addEventListener('click', async () => {
+  const name = userNameEl.value.trim();
+  const contact = userContactEl.value.trim();
+  if (!name) {
+    setStatus('❌ Introduce tu nombre o alias antes de generar la clave.', true);
+    return;
+  }
+  generateKeyBtn.disabled = true;
+  generateKeyBtn.textContent = 'Generando...';
+  keygenArea.style.display = 'none';
+  try {
+    const { privateKey, publicKey } = await generateKeyWithNameAndContact(name, contact);
+    lastGeneratedPublic = publicKey;
+    lastGeneratedPrivate = privateKey;
+    genPublicKey.value = publicKey;
+    genPrivateKey.value = privateKey;
+    keygenArea.style.display = 'block';
+    setStatus('✅ Claves generadas. Puedes usarlas o copiarlas al formulario.');
+  } catch (err) {
+    console.error(err);
+    setStatus('❌ Error al generar claves: ' + err.message, true);
+  } finally {
+    generateKeyBtn.disabled = false;
+    generateKeyBtn.textContent = '🔑 Generar nueva clave con mis datos';
+  }
+});
+
+// Usar la clave pública generada en el formulario
+copyPubToFormBtn.addEventListener('click', () => {
+  if (!lastGeneratedPublic) {
+    setStatus('❌ Primero genera las claves.', true);
+    return;
+  }
+  senderKeyEl.value = lastGeneratedPublic;
+  setStatus('✅ Clave pública añadida al formulario. Ahora puedes continuar.');
+  // Opcional: cerrar el área de generación (pero no es necesario)
+  // keygenArea.style.display = 'none';
+});
+
+downloadPubBtn.addEventListener('click', () => {
+  if (!lastGeneratedPublic) {
+    setStatus('❌ Primero genera las claves.', true);
+    return;
+  }
+  const name = userNameEl.value.trim().replace(/\s+/g, '_') || 'anonymous';
+  downloadKey(lastGeneratedPublic, `${name}_public.asc`);
+});
+
+downloadPrivBtn.addEventListener('click', () => {
+  if (!lastGeneratedPrivate) {
+    setStatus('❌ Primero genera las claves.', true);
+    return;
+  }
+  const name = userNameEl.value.trim().replace(/\s+/g, '_') || 'anonymous';
+  downloadKey(lastGeneratedPrivate, `${name}_private.asc`);
+});
+
+// === Cifrar mensaje ===
 encryptBtn.addEventListener('click', async () => {
+  const name = userNameEl.value.trim();
+  const contact = userContactEl.value.trim();
   const plaintext = messageEl.value.trim();
-  const contact = contactEl.value.trim();
   const senderPubKey = senderKeyEl.value.trim();
-  
+
+  if (!name) {
+    setStatus('❌ Introduce tu nombre o alias.', true);
+    return;
+  }
+  if (!contact) {
+    setStatus('❌ Introduce tu contacto (email, Telegram, etc.).', true);
+    return;
+  }
   if (!plaintext) {
     setStatus('❌ Escribe un mensaje.', true);
     return;
   }
-  if (!contact) {
-    setStatus('❌ Indica un contacto (email, Telegram, etc.).', true);
-    return;
-  }
   if (!senderPubKey) {
-    setStatus('❌ Debes proporcionar tu clave pública (puedes generar una abajo).', true);
+    setStatus('❌ Debes proporcionar tu clave pública (puedes generar una arriba).', true);
     return;
   }
   if (!isPublicKeyValid(senderPubKey)) {
-    setStatus('❌ La clave pública no tiene el formato correcto. Debe empezar y terminar con las cabeceras PGP.', true);
+    setStatus('❌ La clave pública no tiene el formato correcto.', true);
     return;
   }
 
-  setStatus('🔐 Cifrando mensaje... (puede tardar unos segundos)');
+  setStatus('🔐 Cifrando mensaje...');
   encryptBtn.disabled = true;
   copyBtn.disabled = true;
   sendBtn.disabled = true;
   encryptedResultEl.value = '';
 
   try {
-    let fullMessage = `Mensaje de: ${contact}\n\n${plaintext}\n\n--- Clave pública del remitente ---\n${senderPubKey}`;
+    let fullMessage = `De: ${name} (${contact})\n\n${plaintext}\n\n--- Clave pública del remitente ---\n${senderPubKey}`;
     const encrypted = await encryptMessageWithTimeout(myPublicKeyArmored, fullMessage);
     currentEncrypted = encrypted;
     encryptedResultEl.value = encrypted;
-    setStatus('✅ Mensaje cifrado correctamente. Ya puedes copiarlo o enviarlo.');
+    setStatus('✅ Mensaje cifrado correctamente. Ahora puedes copiarlo o enviarlo.');
     copyBtn.disabled = false;
     sendBtn.disabled = false;
   } catch (err) {
     console.error(err);
-    setStatus(`❌ Error al cifrar: ${err.message}.`, true);
-    encryptBtn.disabled = false;
-  } finally {
+    setStatus(`❌ Error al cifrar: ${err.message}`, true);
     encryptBtn.disabled = false;
   }
 });
@@ -200,7 +271,7 @@ encryptBtn.addEventListener('click', async () => {
 // Copiar mensaje cifrado
 copyBtn.addEventListener('click', async () => {
   if (!currentEncrypted) {
-    setStatus('❌ No hay mensaje cifrado para copiar.', true);
+    setStatus('❌ No hay mensaje cifrado.', true);
     return;
   }
   try {
@@ -211,7 +282,7 @@ copyBtn.addEventListener('click', async () => {
   }
 });
 
-// Enviar al Worker con timeout y reintento
+// Enviar al Worker
 async function sendWithRetry(url, data, retries = 1) {
   for (let i = 0; i <= retries; i++) {
     try {
@@ -224,41 +295,32 @@ async function sendWithRetry(url, data, retries = 1) {
         signal: controller.signal
       });
       clearTimeout(timeoutId);
-      if (response.ok) {
-        return { ok: true, status: response.status };
-      } else {
-        const errorText = await response.text();
-        return { ok: false, status: response.status, error: errorText };
-      }
+      if (response.ok) return { ok: true };
+      else return { ok: false, error: await response.text() };
     } catch (err) {
-      if (i === retries) {
-        return { ok: false, error: err.message };
-      }
+      if (i === retries) return { ok: false, error: err.message };
       await new Promise(resolve => setTimeout(resolve, 1000));
     }
   }
-  return { ok: false, error: 'Máximo de reintentos alcanzado' };
+  return { ok: false, error: 'Máximo de reintentos' };
 }
 
 sendBtn.addEventListener('click', async () => {
   if (!currentEncrypted) {
-    setStatus('❌ Primero debes cifrar el mensaje (botón "Cifrar mensaje").', true);
+    setStatus('❌ Primero cifra el mensaje.', true);
     return;
   }
-
   setStatus('📡 Enviando mensaje cifrado...');
   sendBtn.disabled = true;
   copyBtn.disabled = true;
-
-  const workerUrl = 'https://mimail.jimraynor.workers.dev';
-  const result = await sendWithRetry(workerUrl, { text: currentEncrypted }, 1);
-
+  const result = await sendWithRetry('https://mimail.jimraynor.workers.dev', { text: currentEncrypted }, 1);
   if (result.ok) {
     setStatus('✅ Mensaje enviado correctamente. Recibiré tu mensaje cifrado.');
-    // Limpiar campos
-    messageEl.value = '';
-    contactEl.value = '';
+    // Limpiar todo
+    userNameEl.value = '';
+    userContactEl.value = '';
     senderKeyEl.value = '';
+    messageEl.value = '';
     encryptedResultEl.value = '';
     currentEncrypted = '';
     copyBtn.disabled = true;
@@ -266,8 +328,7 @@ sendBtn.addEventListener('click', async () => {
     const oldDiv = document.getElementById('manualInstructions');
     if (oldDiv) oldDiv.remove();
   } else {
-    let errorMsg = `❌ Error al enviar: ${result.error || 'desconocido'}.`;
-    setStatus(errorMsg, true);
+    setStatus(`❌ Error al enviar: ${result.error}.`, true);
     let manualDiv = document.getElementById('manualInstructions');
     if (!manualDiv) {
       manualDiv = document.createElement('div');
@@ -289,104 +350,18 @@ sendBtn.addEventListener('click', async () => {
   }
 });
 
-// Reset manual instructions
-function resetManualInstructions() {
-  const oldDiv = document.getElementById('manualInstructions');
-  if (oldDiv) oldDiv.remove();
+// Limpiar mensaje manual si hay cambios
+function resetManual() {
+  const div = document.getElementById('manualInstructions');
+  if (div) div.remove();
 }
-messageEl.addEventListener('input', resetManualInstructions);
-contactEl.addEventListener('input', resetManualInstructions);
-senderKeyEl.addEventListener('input', resetManualInstructions);
-
-// ==================== GENERADOR DE CLAVES INTEGRADO ====================
-const genName = document.getElementById('genName');
-const genContact = document.getElementById('genContact');
-const genKeyBtn = document.getElementById('genKeyBtn');
-const genResultDiv = document.getElementById('genResult');
-const genPublicKey = document.getElementById('genPublicKey');
-const genPrivateKey = document.getElementById('genPrivateKey');
-const copyPubToFormBtn = document.getElementById('copyPubToFormBtn');
-const downloadPubBtn = document.getElementById('downloadPubBtn');
-const downloadPrivBtn = document.getElementById('downloadPrivBtn');
-
-let lastGeneratedPublicKey = '';
-let lastGeneratedPrivateKey = '';
-
-genKeyBtn.addEventListener('click', async () => {
-  const name = genName.value.trim() || 'Anónimo';
-  const contact = genContact.value.trim();
-  // Crear userID: puede ser solo nombre o nombre + email
-  let userID = name;
-  if (contact) userID += ` <${contact}>`;
-  
-  genKeyBtn.disabled = true;
-  genKeyBtn.textContent = 'Generando... (puede tardar unos segundos)';
-  genResultDiv.style.display = 'none';
-  try {
-    const { privateKey, publicKey } = await openpgp.generateKey({
-      type: 'ecc',
-      curve: 'ed25519',
-      userIDs: [{ name: userID }],
-      format: 'armored'
-    });
-    lastGeneratedPublicKey = publicKey;
-    lastGeneratedPrivateKey = privateKey;
-    genPublicKey.value = publicKey;
-    genPrivateKey.value = privateKey;
-    genResultDiv.style.display = 'block';
-  } catch (err) {
-    alert('Error al generar las claves: ' + err.message);
-  } finally {
-    genKeyBtn.disabled = false;
-    genKeyBtn.textContent = 'Generar par de claves';
-  }
-});
-
-copyPubToFormBtn.addEventListener('click', () => {
-  if (!lastGeneratedPublicKey) {
-    alert('Primero genera las claves.');
-    return;
-  }
-  senderKeyEl.value = lastGeneratedPublicKey;
-  setStatus('✅ Clave pública añadida al formulario. Ahora puedes cifrar el mensaje.');
-  // Opcional: desplazar hacia arriba
-  senderKeyEl.scrollIntoView({ behavior: 'smooth' });
-});
-
-function downloadKey(key, filename) {
-  if (!key) return;
-  const blob = new Blob([key], { type: 'application/pgp-keys' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}
-
-downloadPubBtn.addEventListener('click', () => {
-  if (!lastGeneratedPublicKey) {
-    alert('Primero genera las claves.');
-    return;
-  }
-  const name = genName.value.trim().replace(/\s+/g, '_') || 'anonymous';
-  downloadKey(lastGeneratedPublicKey, `${name}_public.asc`);
-});
-
-downloadPrivBtn.addEventListener('click', () => {
-  if (!lastGeneratedPrivateKey) {
-    alert('Primero genera las claves.');
-    return;
-  }
-  const name = genName.value.trim().replace(/\s+/g, '_') || 'anonymous';
-  downloadKey(lastGeneratedPrivateKey, `${name}_private.asc`);
-});
+userNameEl.addEventListener('input', resetManual);
+userContactEl.addEventListener('input', resetManual);
+messageEl.addEventListener('input', resetManual);
+senderKeyEl.addEventListener('input', resetManual);
 </script>
 
 <style>
-/* Estilos del formulario principal */
 .pgp-contact textarea, .pgp-contact input {
   width: 100%;
   box-sizing: border-box;
@@ -417,18 +392,6 @@ small {
   display: block;
   margin-top: -0.25rem;
   color: #666;
-}
-
-/* Estilos del generador inline */
-.keygen-inline {
-  margin-top: 2rem;
-  padding: 1rem;
-  border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: 8px;
-  background-color: var(--md-default-bg-color);
-}
-.keygen-inline .form-group {
-  margin-bottom: 1rem;
 }
 .warning {
   margin-top: 1rem;
