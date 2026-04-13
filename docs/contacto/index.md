@@ -39,7 +39,7 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 
 </div>
 
-<script src="../js/openpgp.min.js"></script>
+<script src="https://jim88.pp.ua/js/openpgp.min.js"></script>
 <script>
 // Tu clave pública (oculta)
 const myPublicKeyArmored = `-----BEGIN PGP PUBLIC KEY BLOCK-----
