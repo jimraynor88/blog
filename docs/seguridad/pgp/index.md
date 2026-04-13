@@ -27,10 +27,12 @@ Mailvelope / FlowCrypt (Navegador Web PC) 🌐 │ Kleopatra (Linux) / GPG4win (
 Descarga e importa [[JimRaynor88_Public.key|mi Public Key]] en el gestor 🔑 
 
 ## ▶ Paso 3
-[Crea tus claves](https://pgpkeygenerator.com), guardalas en lugar seguro e importa SOLO tu Private Key 🔐 
+[[generar-clave|Crea tus claves]], guardalas en lugar seguro e importa SOLO tu Private Key 🔐 
 
 ## ▶ Paso 4
 Cifra un mensaje, destinatario mi clave, añade tu Public Key (archivo o texto) y envíamelo. 🔐💬 Te guío si quieres 💪
+
+## Igualmente puedes contactarme de forma privada y cifrada desde 
 
 # Mi clave pública PGP
 Para copiar a mano
