@@ -41,7 +41,7 @@ Puedes generar un par de claves de curva elíptica (Ed25519 / Curve25519) de for
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/openpgp@5.11.0/dist/openpgp.min.js"></script>
+<script src="../js/openpgp.min.js"></script>
 <script>
 document.getElementById('generateBtn').addEventListener('click', async () => {
   const name = document.getElementById('keyName').value || 'Usuario';
