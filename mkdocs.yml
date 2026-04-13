@@ -79,8 +79,8 @@ plugins:
       encryption_info_message: '🔒 Necesitas credenciales para ver este contenido.'
 #      inject:
  #       main: [main, tag]
-  #    encrypted_something:
-   #     main: [main, tag]
+      encrypted_something:
+        main: [main, tag]
 #  - encryptcontent:
  #     password_file: 'passwords.yml'   # Carga las contraseñas desde este archivo externo
   #    webcrypto: false
