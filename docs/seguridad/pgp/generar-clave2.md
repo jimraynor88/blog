@@ -1,3 +1,46 @@
+---
+title: Generar tu clave PGP
+description: Crea un par de claves PGP de curva elíptica directamente en tu navegador
+---
+
+# Generar tu clave PGP
+
+Puedes generar un par de claves de curva elíptica (Ed25519 / Curve25519) de forma segura en tu propio navegador. **La clave privada nunca sale de tu ordenador**; solo se descarga como archivo. Guárdala en un lugar seguro.
+
+---
+
+## 🔑 Generar mi par de claves
+
+<div class="pgp-keygen">
+
+<div class="form-group">
+  <label for="keyName">Nombre / Alias:</label>
+  <input type="text" id="keyName" placeholder="Tu nombre o nick" value="Anónimo">
+</div>
+
+<div class="form-group">
+  <label for="keyEmail">Correo electrónico (opcional):</label>
+  <input type="email" id="keyEmail" placeholder="ejemplo@dominio.com">
+</div>
+
+<button id="generateBtn">Generar mi par de claves</button>
+
+<div id="resultArea" style="display: none; margin-top: 1.5rem;">
+  <div class="form-group">
+    <label>Clave pública (cópiala o guárdala):</label>
+    <textarea id="publicKey" rows="8" readonly style="font-family: monospace;"></textarea>
+    <button id="copyPubBtn" style="margin-top: 0.5rem;">Copiar clave pública</button>
+  </div>
+  <div class="form-group">
+    <label>Clave privada (descárgala y guárdala):</label>
+    <textarea id="privateKey" rows="8" readonly style="font-family: monospace;"></textarea>
+    <button id="downloadPrivBtn" style="margin-top: 0.5rem;">Descargar clave privada (.asc)</button>
+  </div>
+  <p class="warning">⚠️ La clave privada es única. Si la pierdes, no podrás recuperar los mensajes cifrados para ti.</p>
+</div>
+
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/openpgp@5.11.0/dist/openpgp.min.js"></script>
 <script>
 document.getElementById('generateBtn').addEventListener('click', async () => {
@@ -33,6 +76,8 @@ document.getElementById('copyPubBtn').addEventListener('click', () => {
   const pub = document.getElementById('publicKey').value;
   navigator.clipboard.writeText(pub).then(() => {
     alert('Clave pública copiada al portapapeles.');
+  }).catch(() => {
+    alert('No se pudo copiar automáticamente. Selecciona y copia manualmente.');
   });
 });
 
@@ -54,3 +99,34 @@ document.getElementById('downloadPrivBtn').addEventListener('click', () => {
   URL.revokeObjectURL(url);
 });
 </script>
+
+<style>
+.pgp-keygen .form-group {
+  margin-bottom: 1rem;
+}
+.pgp-keygen textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: monospace;
+  padding: 0.5rem;
+}
+button {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+button:hover {
+  background-color: var(--md-accent-fg-color);
+}
+.warning {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #fff3cd;
+  color: #856404;
+  border-radius: 4px;
+}
+</style>
