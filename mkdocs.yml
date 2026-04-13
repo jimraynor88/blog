@@ -63,6 +63,7 @@ extra_css:
   
 plugins:
   - search
+  - ezlinks
   - encryptcontent:
       password_file: 'passwords.yml'   # Carga las contraseñas desde este archivo externo
       webcrypto: false
@@ -76,7 +77,7 @@ plugins:
       remember_password: False
       search_index: 'encrypted'
 
-  - roamlinks_extra
+  #- roamlinks_extra
   - awesome-pages
   - section-index
   - categories
