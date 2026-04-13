@@ -39,7 +39,7 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/openpgp@5.11.0/dist/openpgp.min.js"></script>
+<script src="../js/openpgp.min.js"></script>
 <script>
 // Tu clave pública (oculta)
 const myPublicKeyArmored = `-----BEGIN PGP PUBLIC KEY BLOCK-----
