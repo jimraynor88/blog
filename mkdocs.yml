@@ -65,17 +65,34 @@ plugins:
   - search
   - ezlinks
   - encryptcontent:
-      password_file: 'passwords.yml'   # Carga las contraseñas desde este archivo externo
-      webcrypto: false
+      password_file: 'passwords.yml'
+      webcrypto: true          # usa la API nativa del navegador (más rápida que crypto-js)
+      kdf_pow: 3               # reduce la dificultad (por defecto era 4 o 5). 3 es un buen equilibrio
+      remember_keys: true      # guarda las claves derivadas en sessionStorage para no recalcular en cada página
+      remember_password: false # no guardar la contraseña en texto, solo la clave derivada
       password_button: True
       password_button_text: 'Desbloquear'
-      placeholder: 'Introduce la contraseña'
-      placeholder_user: 'Usuario (opcional)'  # Si usas usuario/contraseña
+      placeholder: 'Contraseña'
+      placeholder_user: 'Usuario'
       summary: '⚠️ Esta página está protegida.'
-      decryption_failure_message: '❌ Credenciales incorrectas.'
+      decryption_failure_message: '❌ Credenciales incorrectas. Si el problema persiste, recarga la página e inténtalo de nuevo.'
       encryption_info_message: '🔒 Necesitas credenciales para ver este contenido.'
-      remember_password: False
-      search_index: 'encrypted'
+      inject:
+        main: [main, tag]
+      encrypted_something:
+        main: [main, tag]
+#  - encryptcontent:
+ #     password_file: 'passwords.yml'   # Carga las contraseñas desde este archivo externo
+  #    webcrypto: false
+   #   password_button: True
+    #  password_button_text: 'Desbloquear'
+     # placeholder: 'Introduce la contraseña'
+      #placeholder_user: 'Usuario (opcional)'  # Si usas usuario/contraseña
+     # summary: '⚠️ Esta página está protegida.'
+    #  decryption_failure_message: '❌ Credenciales incorrectas.'
+   #   encryption_info_message: '🔒 Necesitas credenciales para ver este contenido.'
+  #    remember_password: False
+ #     search_index: 'encrypted'
 
   #- roamlinks_extra
   - awesome-pages
