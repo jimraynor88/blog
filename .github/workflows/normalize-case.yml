@@ -1,7 +1,10 @@
 name: Normalizar nombres a minúsculas
 
 on:
-  workflow_dispatch:  # Solo se ejecuta manualmente
+  workflow_dispatch:
+
+permissions:
+  contents: write   # Permite hacer push
 
 jobs:
   normalize:
@@ -10,7 +13,7 @@ jobs:
       - name: Checkout repositorio
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # Para tener todo el historial
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -27,4 +30,6 @@ jobs:
           git checkout -b lowercase-names
           git add .
           git commit -m "Normalizar nombres a minúsculas y actualizar enlaces" || echo "No hay cambios"
-          git push origin lowercase-names
+          git push --set-upstream origin lowercase-names
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
