@@ -11,17 +11,17 @@ Bienvenido a la sección de seguridad. Aquí encontrarás recursos prácticos pa
 
 ## 📚 Contenido actual
 
-### [[Seguridad/PGP/index.html|PGP (Pretty Good Privacy)]]
-- [[Conceptos-Básicos|Conceptos básicos de PGP]]
-- [[JimRaynor-PublicKey|Mi clave pública PGP]]
-- [[Para-que-usar-PGP|Para qué usar PGP]]
+### [[pgp|PGP (Pretty Good Privacy)]]
+- [[conceptos-basicos|Conceptos básicos de PGP]]
+- [[jimraynor-publickey|Mi clave pública PGP]]
+- [[para-que-usar-pgp|Para qué usar PGP]]
 
-### [[seguridad/osint/index.html|OSINT (Open Source Intelligence)]]
+### [[osint|OSINT (Open Source Intelligence)]]
 *Técnicas y herramientas para recopilar información de fuentes abiertas.*
 
 ---
 
-## 🛠️ Herramientas y guías prácticas
+## 🛠️ Herramientas y guías prácticas (Próximamente)
 
 - [[gestores-contraseñas|Gestión de contraseñas]] (Bitwarden, KeePass)
 - [[autenticacion-2fa|Autenticación de dos factores (2FA)]]
