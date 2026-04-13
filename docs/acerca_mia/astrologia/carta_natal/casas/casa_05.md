@@ -38,4 +38,4 @@ El otro regente, **Júpiter** en mi Casa 1, en trígonos con mi Sol, Luna y Merc
 
 Mi creatividad y mi amor son sagrados. Para no desgastarme, necesito aprender a dosificar mi entrega sin perder la pasión. Las crisis amorosas pueden ser puertas a una creatividad más profunda, y mi autenticidad es el mejor filtro para elegir con quién comparto mi mundo íntimo. Crear desde mi verdad, sin forzar, es mi gran recurso.
 
-*Para profundizar, consulta mis perfiles de **[[perfil-relaciones|Relaciones y Vínculos]]** y **[[perfil-identidad|Identidad y Desarrollo Personal]]**.*
+*Para profundizar, consulta mis perfiles de **[[relaciones_y_vinculos|Relaciones y Vínculos]]** y **[[identidad_y_desarrollo_personal|Identidad y Desarrollo Personal]]**.*
