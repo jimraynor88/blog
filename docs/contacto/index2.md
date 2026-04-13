@@ -313,7 +313,7 @@ sendBtn.addEventListener('click', async () => {
   setStatus('📡 Enviando mensaje cifrado...');
   sendBtn.disabled = true;
   copyBtn.disabled = true;
-  const result = await sendWithRetry('https://mimail.jimraynor.workers.dev', { text: currentEncrypted }, 1);
+  const result = await sendWithRetry('https://contacto.jim88.pp.ua', { text: currentEncrypted }, 1);
   if (result.ok) {
     setStatus('✅ Mensaje enviado correctamente. Recibiré tu mensaje cifrado.');
     // Limpiar todo
