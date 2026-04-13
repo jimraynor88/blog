@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+         <loc>https://jim88.pp.ua/contacto/</loc>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://jim88.pp.ua/acerca_mia/</loc>
          <lastmod>2026-04-13</lastmod>
          <changefreq>daily</changefreq>
@@ -162,11 +167,6 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/seguridad/</loc>
-         <lastmod>2026-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jim88.pp.ua/seguridad/contacto/</loc>
          <lastmod>2026-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
