@@ -407,10 +407,10 @@
 <button disabled="" id="copyBtn">2. Copiar mensaje cifrado</button>
 <button disabled="" id="sendBtn">3. Enviar mensaje</button>
 </div>
-<!-- Modal para generar clave -->
-<p><dialog id="keygenModal" style="border: none; border-radius: 8px; padding: 1rem; max-width: 90%; width: 500px;">
-<br/>
+<!-- Modal personalizado (no usa <dialog> para evitar bloqueos) -->
+<div class="modal" id="keygenModal">
 <div class="modal-content">
+<span class="close" id="closeModalBtn">×</span>
 <h3>Generar tu clave PGP</h3>
 <div class="form-group">
 <label for="modalName">Nombre / Alias:</label>
@@ -434,13 +434,17 @@
 </div>
 <p class="warning">⚠️ Guarda tu clave privada en un lugar seguro. No la pierdas.</p>
 </div>
-<button id="closeModalBtn" style="margin-top: 1rem;">Cerrar</button>
-</div></dialog></p>
-<p></p>
+</div>
+</div>
 <script src="https://jim88.pp.ua/js/openpgp.min.js"></script>
 <script>
-// Tu clave pública (oculta)
+// Tu clave pública (actualizada)
 const myPublicKeyArmored = `-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: User-ID:   JimPGP <pgp@jim88.pp.ua>
+Comment: Created:   13/4/26 23:17
+Comment: Type:  256-bit EdDSA (secret key available)
+Comment: Usage: Signing, Encryption, Certifying User-IDs
+Comment: Fingerprint:   0823D12E56A3D4EB5F4A809FF10D59422F64CE6E
 
 mDMEad1dZBYJKwYBBAHaRw8BAQdAm/+1BydAgefBb1MyVoz4APWag2UiJRfrJKc8
 X0trBBi0GEppbVBHUCA8cGdwQGppbTg4LnBwLnVhPoiMBBAWCgA+BYJp3V1kBAsJ
@@ -465,31 +469,31 @@ const copyBtn = document.getElementById('copyBtn');
 const sendBtn = document.getElementById('sendBtn');
 const generateKeyBtn = document.getElementById('generateKeyBtn');
 const keygenModal = document.getElementById('keygenModal');
+const closeModalBtn = document.getElementById('closeModalBtn');
 const modalGenerateBtn = document.getElementById('modalGenerateBtn');
 const modalResult = document.getElementById('modalResult');
 const modalPublicKey = document.getElementById('modalPublicKey');
 const modalPrivateKey = document.getElementById('modalPrivateKey');
 const modalCopyPubBtn = document.getElementById('modalCopyPubBtn');
 const modalDownloadPrivBtn = document.getElementById('modalDownloadPrivBtn');
-const closeModalBtn = document.getElementById('closeModalBtn');
 const modalName = document.getElementById('modalName');
 const modalEmail = document.getElementById('modalEmail');
 
-let currentEncrypted = ''; // almacena el último mensaje cifrado
+let currentEncrypted = '';
 
 // Función para mostrar mensajes de estado
 function setStatus(text, isError = false) {
   statusEl.innerHTML = `<span style="color: ${isError ? 'red' : 'green'};">${text}</span>`;
 }
 
-// Validación de clave pública (formato básico)
+// Validación de clave pública
 function isPublicKeyValid(pubKey) {
   const trimmed = pubKey.trim();
   return trimmed.startsWith('-----BEGIN PGP PUBLIC KEY BLOCK-----') && 
          trimmed.endsWith('-----END PGP PUBLIC KEY BLOCK-----');
 }
 
-// Función para cifrar el mensaje con timeout
+// Cifrado con timeout
 async function encryptMessageWithTimeout(publicKeyArmored, plaintext, signKeyArmored = null, timeoutMs = 30000) {
   const timeoutPromise = new Promise((_, reject) =>
     setTimeout(() => reject(new Error('Tiempo de espera agotado al cifrar. Recarga la página y vuelve a intentarlo.')), timeoutMs)
@@ -509,7 +513,7 @@ async function encryptMessageWithTimeout(publicKeyArmored, plaintext, signKeyArm
   return await Promise.race([encryptPromise, timeoutPromise]);
 }
 
-// Cifrar al hacer clic
+// Cifrar mensaje
 encryptBtn.addEventListener('click', async () => {
   const plaintext = messageEl.value.trim();
   const contact = contactEl.value.trim();
@@ -528,7 +532,7 @@ encryptBtn.addEventListener('click', async () => {
     return;
   }
   if (!isPublicKeyValid(senderPubKey)) {
-    setStatus('❌ La clave pública no tiene el formato correcto. Debe empezar y terminar con las cabeceras PGP.', true);
+    setStatus('❌ La clave pública no tiene el formato correcto.', true);
     return;
   }
 
@@ -548,14 +552,14 @@ encryptBtn.addEventListener('click', async () => {
     sendBtn.disabled = false;
   } catch (err) {
     console.error(err);
-    setStatus(`❌ Error al cifrar: ${err.message}. Recarga la página y vuelve a intentarlo.`, true);
+    setStatus(`❌ Error al cifrar: ${err.message}.`, true);
     encryptBtn.disabled = false;
   } finally {
     encryptBtn.disabled = false;
   }
 });
 
-// Copiar al portapapeles
+// Copiar mensaje cifrado
 copyBtn.addEventListener('click', async () => {
   if (!currentEncrypted) {
     setStatus('❌ No hay mensaje cifrado para copiar.', true);
@@ -565,11 +569,11 @@ copyBtn.addEventListener('click', async () => {
     await navigator.clipboard.writeText(currentEncrypted);
     setStatus('📋 Mensaje cifrado copiado al portapapeles.');
   } catch (err) {
-    setStatus('❌ No se pudo copiar automáticamente. Selecciona el texto y copia manualmente.', true);
+    setStatus('❌ No se pudo copiar automáticamente.', true);
   }
 });
 
-// Enviar al Worker con timeout y reintento
+// Envío con reintentos
 async function sendWithRetry(url, data, retries = 1) {
   for (let i = 0; i <= retries; i++) {
     try {
@@ -600,7 +604,7 @@ async function sendWithRetry(url, data, retries = 1) {
 
 sendBtn.addEventListener('click', async () => {
   if (!currentEncrypted) {
-    setStatus('❌ Primero debes cifrar el mensaje (botón "Cifrar mensaje").', true);
+    setStatus('❌ Primero debes cifrar el mensaje.', true);
     return;
   }
 
@@ -613,7 +617,6 @@ sendBtn.addEventListener('click', async () => {
 
   if (result.ok) {
     setStatus('✅ Mensaje enviado correctamente. Recibiré tu mensaje cifrado.');
-    // Limpiar campos
     messageEl.value = '';
     contactEl.value = '';
     senderKeyEl.value = '';
@@ -625,13 +628,7 @@ sendBtn.addEventListener('click', async () => {
     if (oldDiv) oldDiv.remove();
   } else {
     let errorMsg = `❌ Error al enviar: ${result.error || 'desconocido'}.`;
-    if (result.status === 403 || result.status === 401) {
-      errorMsg += ' Posible problema de CORS o autenticación.';
-    } else if (result.status === 500) {
-      errorMsg += ' Error interno del servidor.';
-    }
     setStatus(errorMsg, true);
-
     let manualDiv = document.getElementById('manualInstructions');
     if (!manualDiv) {
       manualDiv = document.createElement('div');
@@ -645,7 +642,7 @@ sendBtn.addEventListener('click', async () => {
     }
     manualDiv.innerHTML = `
       <strong>⚠️ Envío automático falló. Puedes enviar el mensaje manualmente:</strong><br>
-      Copia el texto cifrado de arriba (ya está en el campo "Mensaje cifrado") y envíalo por correo a <strong>pgp@jim88.pp.ua</strong>.<br>
+      Copia el texto cifrado de arriba y envíalo por correo a <strong>pgp@jim88.pp.ua</strong>.<br>
       Si el problema persiste, recarga la página e intenta de nuevo.
     `;
     sendBtn.disabled = false;
@@ -662,13 +659,17 @@ messageEl.addEventListener('input', resetManualInstructions);
 contactEl.addEventListener('input', resetManualInstructions);
 senderKeyEl.addEventListener('input', resetManualInstructions);
 
-// --- Modal de generación de claves ---
+// --- Modal personalizado (sin <dialog>) ---
 generateKeyBtn.addEventListener('click', () => {
-  keygenModal.showModal();
+  keygenModal.style.display = 'flex';
 });
-
 closeModalBtn.addEventListener('click', () => {
-  keygenModal.close();
+  keygenModal.style.display = 'none';
+});
+window.addEventListener('click', (event) => {
+  if (event.target === keygenModal) {
+    keygenModal.style.display = 'none';
+  }
 });
 
 modalGenerateBtn.addEventListener('click', async () => {
@@ -687,7 +688,6 @@ modalGenerateBtn.addEventListener('click', async () => {
     modalPublicKey.value = publicKey;
     modalPrivateKey.value = privateKey;
     modalResult.style.display = 'block';
-    // Guardar temporalmente la clave privada para descarga
     window._tempPrivateKey = privateKey;
   } catch (err) {
     alert('Error al generar las claves: ' + err.message);
@@ -702,9 +702,8 @@ modalCopyPubBtn.addEventListener('click', () => {
   if (!pub) return;
   navigator.clipboard.writeText(pub).then(() => {
     alert('Clave pública copiada al portapapeles.');
-    // Rellenar el campo del formulario principal y cerrar el modal
     senderKeyEl.value = pub;
-    keygenModal.close();
+    keygenModal.style.display = 'none';
     setStatus('✅ Clave pública añadida. Ahora puedes cifrar el mensaje.');
   }).catch(() => {
     alert('No se pudo copiar automáticamente. Selecciona y copia manualmente.');
@@ -726,6 +725,7 @@ modalDownloadPrivBtn.addEventListener('click', () => {
 });
 </script>
 <style>
+/* Estilos del formulario (igual que antes) */
 .pgp-contact textarea, .pgp-contact input {
   width: 100%;
   box-sizing: border-box;
@@ -757,14 +757,44 @@ small {
   margin-top: -0.25rem;
   color: #666;
 }
-dialog {
-  border: none;
-  border-radius: 8px;
-  padding: 1rem;
-  max-width: 90%;
-  width: 500px;
-  background: var(--md-default-bg-color);
+
+/* Estilos del modal personalizado (evita bloqueos de Brave) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background-color: var(--md-default-bg-color);
   color: var(--md-default-fg-color);
+  margin: auto;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90%;
+  overflow-y: auto;
+  position: relative;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 .modal-content textarea, .modal-content input {
   width: 100%;
