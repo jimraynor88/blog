@@ -10,20 +10,20 @@ En un mundo donde la vigilancia es la norma, proteger la privacidad no es un luj
 
 - **Clave pública:** [[JimRaynor88_Public.key|Descargar (key)]]
 
-- **Guía básica:** [[Para-que-usar-PGP|Por qué y para qué usar PGP]]
+- **Guía básica:** [[para-que-usar-pgp|Por qué y para qué usar PGP]]
 
 ---
 
 ## 📖 Lo que encontrarás aquí
 
-- **[[../Acerca_Mia/Astrologia/index.html|Astrología]]:** un mapa profundo de mi carta natal, con interpretaciones personales y técnicas.
-- **[[../Acerca_Mia/Conditio_Vitae/index.html|Conditio Vitae]]:** mis condiciones vitales, capacidades innatas, forma de actuar, ver y tratar los asuntos [[Laboral|laborales]] y con cualquier tipo de [[Relaciones|relación personal]].
-- **[[../blog/index.html|Blog]]:** artículos sobre filosofía, economía, vida y todo lo que me mueve.
-- **[[../Seguridad/index.html|Seguridad]]:** guías sobre PGP, OSINT y cómo proteger tu información.
-- **[[../tienda/index.html|Tienda]]:** un espacio donde poder adquirir y/o agradecerme con algún que otro café.
+- **[[astrologia|Astrología]]:** un mapa profundo de mi carta natal, con interpretaciones personales y técnicas.
+- **[[conditio_vitae|Conditio Vitae]]:** mis condiciones vitales, capacidades innatas, forma de actuar, ver y tratar los asuntos [[laboral|laborales]] y con cualquier tipo de [[relaciones|relación personal]].
+- **[[blog|Blog]]:** artículos sobre filosofía, economía, vida y todo lo que me mueve.
+- **[[seguridad|Seguridad]]:** guías sobre PGP, OSINT y cómo proteger tu información.
+- **[[tienda|Tienda]]:** un espacio donde poder adquirir y/o agradecerme con algún que otro café.
 ---
 
-Si buscas conocerme mejor, explora [[Perfiles/index.md|mis perfiles]] y [[Carta_Natal/index.md|casas astrológicas]].<br><br>Si lo que te interesa es mi experiencia profesional, mira mi [[Acerca_Mia/Conditio_Vitae/index.md|currículum de condiciones vitales]].
+Si buscas conocerme mejor, explora [[perfiles|mis perfiles]] y [[carta_natal|casas astrológicas]].<br><br>Si lo que te interesa es mi experiencia profesional, mira mi [[conditio_vitae|currículum de condiciones vitales]].
 
 ---
 
