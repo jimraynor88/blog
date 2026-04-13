@@ -42,7 +42,7 @@ async function decrypt_key(pass, iv_b64, ciphertext_b64, salt_b64) {
         {
           name: "PBKDF2",
           salt,
-          iterations: encryptcontent_obfuscate ? 1 : 1000,
+          iterations: encryptcontent_obfuscate ? 1 : 100,
           hash: "SHA-256",
         },
         kdfkey,
