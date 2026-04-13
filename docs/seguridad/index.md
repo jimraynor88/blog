@@ -16,7 +16,7 @@ Bienvenido a la sección de seguridad. Aquí encontrarás recursos prácticos pa
 - [[JimRaynor-PublicKey|Mi clave pública PGP]]
 - [[Para-que-usar-PGP|Para qué usar PGP]]
 
-### [[Seguridad/OSINT/index.html|OSINT (Open Source Intelligence)]]
+### [[seguridad/osint/index.html|OSINT (Open Source Intelligence)]]
 *Técnicas y herramientas para recopilar información de fuentes abiertas.*
 
 ---
