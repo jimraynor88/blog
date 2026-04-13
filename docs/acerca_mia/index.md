@@ -16,14 +16,14 @@ En un mundo donde la vigilancia es la norma, proteger la privacidad no es un luj
 
 ## 📖 Lo que encontrarás aquí
 
-- **[[astrologia/|Astrología]]:** un mapa profundo de mi carta natal, con interpretaciones personales y técnicas.
-- **[[conditio_vitae/|Conditio Vitae]]:** mis condiciones vitales, capacidades innatas, forma de actuar, ver y tratar los asuntos [[laboral|laborales]] y con cualquier tipo de [[relaciones|relación personal]].
-- **[[blog/|Blog]]:** artículos sobre filosofía, economía, vida y todo lo que me mueve.
-- **[[seguridad/|Seguridad]]:** guías sobre PGP, OSINT y cómo proteger tu información.
-- **[[tienda/|Tienda]]:** un espacio donde poder adquirir y/o agradecerme con algún que otro café.
+- **[[astrologia/index.md|Astrología]]:** un mapa profundo de mi carta natal, con interpretaciones personales y técnicas.
+- **[[conditio_vitae/index.md|Conditio Vitae]]:** mis condiciones vitales, capacidades innatas, forma de actuar, ver y tratar los asuntos [[laboral|laborales]] y con cualquier tipo de [[relaciones|relación personal]].
+- **[[blog/index.md|Blog]]:** artículos sobre filosofía, economía, vida y todo lo que me mueve.
+- **[[seguridad/index.md|Seguridad]]:** guías sobre PGP, OSINT y cómo proteger tu información.
+- **[[tienda/index.md|Tienda]]:** un espacio donde poder adquirir y/o agradecerme con algún que otro café.
 ---
 
-Si buscas conocerme mejor, explora [[perfiles/|mis perfiles]] y [[carta_natal/|casas astrológicas]].<br><br>Si lo que te interesa es mi experiencia profesional, mira mi [[conditio_vitae/|currículum de condiciones vitales]].
+Si buscas conocerme mejor, explora [[perfiles/index.md|mis perfiles]] y [[carta_natal/index.md|casas astrológicas]].<br><br>Si lo que te interesa es mi experiencia profesional, mira mi [[conditio_vitae/index.md|currículum de condiciones vitales]].
 
 ---
 
