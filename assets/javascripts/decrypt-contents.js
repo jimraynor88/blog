@@ -282,7 +282,8 @@ async function decryptor_reaction(key_or_keys, password_input, decrypted_content
         }
 
         // continue to decrypt others parts
-        
+        let encrypted_something = {'main': ['main', 'tag']};
+        decrypt_somethings(key, encrypted_something);
         if (typeof inject_something !== 'undefined') {
             decrypted_content = await decrypt_somethings(key, inject_something);
         }
