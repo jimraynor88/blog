@@ -7,7 +7,7 @@ tags: "Carta Natal"
 
 # Mis doce casas – visión general
 
-Un resumen de cada ámbito de mi vida, con los datos técnicos esenciales y una breve interpretación en primera persona. Para el desarrollo completo, consulta cada archivo individual de la carpeta [[cn-index|`Casas`]].
+Un resumen de cada ámbito de mi vida, con los datos técnicos esenciales y una breve interpretación en primera persona. Para el desarrollo completo, consulta cada archivo individual de la carpeta [[casas|`Casas`]].
 
 ---
 
