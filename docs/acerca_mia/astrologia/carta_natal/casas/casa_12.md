@@ -42,4 +42,4 @@ El **sextil de Saturno con el Nodo Norte** (Casa 8) me ha mostrado que mi evoluc
 
 Mi espiritualidad y mi sanación se forjan en la soledad y en la crisis. Aceptar mis sombras, confiar en que las bendiciones ocultas llegan cuando más las necesito, y permitir que el silencio sea mi maestro, son los pilares de mi camino interior. He aprendido que la verdadera fortaleza no está en no caer, sino en saber levantarme cada vez con más conciencia. Mi casa 12 no es un lugar de castigo, sino un templo donde me transformo.
 
-*Para profundizar, consulta mis perfiles de **[[perfil-espiritual|Espiritualidad y Trascendencia]]** y **[[perfil-salud|Salud, Bienestar y Rutinas]]**.*
+*Para profundizar, consulta mis perfiles de **[[espiritualidad_y_trascendencia|Espiritualidad y Trascendencia]]** y **[[salud_bienestar_y_rutinas|Salud, Bienestar y Rutinas]]**.*
