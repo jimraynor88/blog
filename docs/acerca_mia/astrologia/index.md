@@ -20,13 +20,13 @@ El análisis completo de mi carta natal, incluyendo:
 
 ### [[perfiles|Perfiles Astrológicos]]
 Cinco perfiles temáticos que recorren áreas clave de mi vida:
-- **Vocación y Logro** (recursos, trabajo, carrera)
-- **Relaciones y Vínculos** (amor, pareja, intimidad)
-- **Identidad y Desarrollo Personal** (yo, creatividad, filosofía)
-- **Salud, Bienestar y Rutinas** (cuerpo, psique, transformación)
+- **Vocación y Logro** (recursos, trabajo, carrera)<br>
+- **Relaciones y Vínculos** (amor, pareja, intimidad)<br>
+- **Identidad y Desarrollo Personal** (yo, creatividad, filosofía)<br>
+- **Salud, Bienestar y Rutinas** (cuerpo, psique, transformación)<br>
 - **Espiritualidad y Trascendencia** (sentido, crisis, evolución)
 
-### [[conditio_vitae|Conditio Vitae]]
+### [[../conditio_vitae|Conditio Vitae]]
 Mis condiciones vitales: un resumen de mis capacidades innatas, dones y experiencia, presentado como un currículum de habilidades transversales (tanto para el ámbito laboral como para las relaciones personales).
 
 ---
