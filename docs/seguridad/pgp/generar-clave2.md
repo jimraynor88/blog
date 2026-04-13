@@ -1,5 +1,5 @@
 ---
-title: Generar tu clave PGP
+title: PGP - Genera tus claves
 description: Crea un par de claves PGP de curva elíptica directamente en tu navegador
 ---
 
