@@ -5,7 +5,7 @@ description: Envíame un mensaje seguro con PGP
 
 # Contacto cifrado con PGP
 
-Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mensaje se cifrará con mi clave pública y podrás dejar tu contacto para que pueda responderte. Si no tienes clave PGP, puedes [generar una aquí](generar-clave/) e incluirla en el mensaje para que yo pueda responderte cifrado.
+Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mensaje se cifrará con mi clave pública y podrás dejar tu contacto para que pueda responderte. Si no tienes clave PGP, puedes [[generar-clave|generar una aquí]] e incluirla en el mensaje para que yo pueda responderte cifrado.
 
 ---
 
