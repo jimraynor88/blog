@@ -5,7 +5,7 @@ description: Envíame un mensaje seguro con PGP
 
 # Contacto cifrado con PGP
 
-Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mensaje se cifrará con mi clave pública y podrás dejar tu contacto para que pueda responderte. Si no tienes clave PGP, puedes [generar una aquí](generar-clave/) e incluirla en el mensaje para que yo pueda responderte cifrado.
+Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mensaje se cifrará con mi clave pública y podrás dejar tu contacto para que pueda responderte. Si no tienes clave PGP, puedes [generar una aquí](../seguridad/pgp/generar-clave/) e incluirla en el mensaje para que yo pueda responderte cifrado.
 
 ---
 
@@ -20,14 +20,14 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 
 <div class="form-group">
   <label for="contact">Tu contacto (email, Telegram, etc.):</label>
-  <input type="text" id="contact" placeholder="ejemplo@dominio.com o @usuario" value="">
+  <input type="text" id="contact" placeholder="ejemplo@dominio.com o @usuario en tu Red Social" value="">
   <small>Obligatorio para que pueda responderte.</small>
 </div>
 
 <div class="form-group">
   <label for="senderPubKey">Tu clave pública (opcional):</label>
   <textarea id="senderPubKey" rows="4" placeholder="Pega aquí tu clave pública si quieres que te responda cifrado..."></textarea>
-  <small>Si la incluyes, podré responderte de forma cifrada. Si no tienes, puedes <a href="generar-clave/">generar una aquí</a>.</small>
+  <small>Si la incluyes, podré responderte de forma cifrada. Si no tienes, puedes <a href="../seguridad/pgp/generar-clave/">generar una aquí</a>.</small>
 </div>
 
 <div class="form-group">
