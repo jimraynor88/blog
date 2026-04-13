@@ -15,18 +15,18 @@ Esta es mi carta, interpretada desde dentro. Cada casa es un escenario de mi vid
 
 | Casa | Ámbito | Enlace |
 |------ | -------- | -------- |
-| **[[casa_01|Casa 1]]** | Mi identidad, mi presencia, mi forma de iniciar | Casa 1 – Escorpio / Sagitario |
-| **[[casa_02|Casa 2]]** | Mis recursos, mis valores, mi autoestima | Casa 2 – Sagitario |
-| **[[casa_03|Casa 3]]** | Mi comunicación, mis hermanos, mi entorno cercano | Casa 3 – Capricornio |
-| **[[casa_04|Casa 4]]** | Mi hogar, mis raíces, mi familia, mi mundo interior | Casa 4 – Acuario |
-| **[[casa_05|Casa 5]]** | Mi creatividad, mi amor romántico, mi placer | Casa 5 – Piscis |
-| **[[casa_06|Casa 6]]** | Mi salud, mi trabajo diario, mis rutinas | Casa 6 – Aries |
-| **[[casa_07|Casa 7]]** | Mis relaciones de pareja, mis asociaciones | Casa 7 – Tauro |
-| **[[casa_08|Casa 8]]** | Mi sexualidad, mi transformación, mis crisis | Casa 8 – Géminis |
-| **[[casa_09|Casa 9]]** | Mi filosofía, mis viajes, mi propósito | Casa 9 – Cáncer |
-| **[[casa_10|Casa 10]]** | Mi carrera, mi reputación, mis logros | Casa 10 – Leo |
-| **[[casa_11|Casa 11]]** | Mis amistades, mis grupos, mis ideales | Casa 11 – Virgo |
-| **[[casa_12|Casa 12]]** | Mi inconsciente, mi espiritualidad, mi soledad | Casa 12 – Libra |
+| **[Casa 1](casa_01)** | Mi identidad, mi presencia, mi forma de iniciar | Casa 1 – Escorpio / Sagitario |
+| **[Casa 2](casa_02)** | Mis recursos, mis valores, mi autoestima | Casa 2 – Sagitario |
+| **[Casa 3](casa_03)** | Mi comunicación, mis hermanos, mi entorno cercano | Casa 3 – Capricornio |
+| **[Casa 4](casa_04)** | Mi hogar, mis raíces, mi familia, mi mundo interior | Casa 4 – Acuario |
+| **[Casa 5](casa_05)** | Mi creatividad, mi amor romántico, mi placer | Casa 5 – Piscis |
+| **[Casa 6](casa_06)** | Mi salud, mi trabajo diario, mis rutinas | Casa 6 – Aries |
+| **[Casa 7](casa_07)** | Mis relaciones de pareja, mis asociaciones | Casa 7 – Tauro |
+| **[Casa 8](casa_08)** | Mi sexualidad, mi transformación, mis crisis | Casa 8 – Géminis |
+| **[Casa 9](casa_09)** | Mi filosofía, mis viajes, mi propósito | Casa 9 – Cáncer |
+| **[Casa 10](casa_10)** | Mi carrera, mi reputación, mis logros | Casa 10 – Leo |
+| **[Casa 11](casa_11)** | Mis amistades, mis grupos, mis ideales | Casa 11 – Virgo |
+| **[Casa 12](casa_12)** | Mi inconsciente, mi espiritualidad, mi soledad | Casa 12 – Libra |
 
 ---
 ## 🔗 La red que me conecta: aspectos y estrellas
