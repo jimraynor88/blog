@@ -35,4 +35,4 @@ El regente de esta casa, **Júpiter**, está en mi Casa 1, unido a **Urano**. Es
 
 Mi valor económico y mi autoestima son consecuencia de mi autenticidad. Cuando actúo desde mi verdad, los recursos fluyen; cuando me desvío, la inestabilidad me recuerda que debo volver a mi centro. Aprender a estructurar mi inspiración (poner límites a Neptuno) y a concretar mis ideas es el camino para que mi visión se materialice sin perderse en la dispersión.
 
-*Para profundizar, consulta mi perfil de **[[perfil-vocacion|Vocación y Logro]]**.*
+*Para profundizar, consulta mi perfil de **[[vocacion_y_logro|Vocación y Logro]]**.*
