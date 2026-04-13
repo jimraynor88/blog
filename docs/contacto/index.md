@@ -27,7 +27,7 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 <div class="form-group">
   <label for="senderPubKey">Tu clave pública (opcional):</label>
   <textarea id="senderPubKey" rows="4" placeholder="Pega aquí tu clave pública si quieres que te responda cifrado..."></textarea>
-  <small>Si la incluyes, podré responderte de forma cifrada. Si no tienes, puedes <a href="../pgp/generar-clave/">generar una aquí</a>.</small>
+  <small>Si la incluyes, podré responderte de forma cifrada. Si no tienes, puedes <a href="../seguridad/pgp/generar-clave/">generar una aquí</a>.</small>
 </div>
 
 <div class="form-group">
