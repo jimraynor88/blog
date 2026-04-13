@@ -15,12 +15,12 @@ Puedes generar un par de claves de curva elíptica (Ed25519 / Curve25519) de for
 
 <div class="form-group">
   <label for="keyName">Nombre / Alias:</label>
-  <input type="text" id="keyName" placeholder="Tu nombre o nick" value="Anónimo">
+  <input type="text" id="keyName" placeholder="Tu nombre o nick" value="-">
 </div>
 
 <div class="form-group">
-  <label for="keyEmail">Correo electrónico (opcional):</label>
-  <input type="email" id="keyEmail" placeholder="ejemplo@dominio.com">
+  <label for="keyEmail">Email o URL de tu Perfil de RRSS:</label>
+  <input type="email" id="keyEmail" placeholder="X.com/MiUser">
 </div>
 
 <button id="generateBtn">Generar mi par de claves</button>
@@ -32,7 +32,7 @@ Puedes generar un par de claves de curva elíptica (Ed25519 / Curve25519) de for
     <button id="copyPubBtn" style="margin-top: 0.5rem;">Copiar clave pública</button>
   </div>
   <div class="form-group">
-    <label>Clave privada (descárgala y guárdala):</label>
+    <label>Clave privada (descárgala, guárdala e impórtala a tu gestor de claves):</label>
     <textarea id="privateKey" rows="8" readonly style="font-family: monospace;"></textarea>
     <button id="downloadPrivBtn" style="margin-top: 0.5rem;">Descargar clave privada (.asc)</button>
   </div>
