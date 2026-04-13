@@ -1,0 +1,30 @@
+name: Normalizar nombres a minúsculas
+
+on:
+  workflow_dispatch:  # Solo se ejecuta manualmente
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Para tener todo el historial
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Ejecutar script de normalización
+        run: python scripts/normalize_case.py
+
+      - name: Crear rama y commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b lowercase-names
+          git add .
+          git commit -m "Normalizar nombres a minúsculas y actualizar enlaces" || echo "No hay cambios"
+          git push origin lowercase-names
