@@ -38,4 +38,4 @@ El **trígono de Marte con Plutón** (Casa 12) me ha dado una capacidad de regen
 
 Mi cuerpo es mi aliado, no mi enemigo. He aprendido que la salud no es solo ausencia de enfermedad, sino equilibrio entre entrega y límites. Mis rutinas necesitan estructura pero también espacio para la improvisación. Cuidarme es un acto de coherencia con mi identidad. Cuando escucho mi cuerpo y respeto mis ritmos, mi energía se renueva.
 
-*Para profundizar, consulta mi perfil de **[[perfil-salud|Salud, Bienestar y Rutinas]]**.*
+*Para profundizar, consulta mi perfil de **[[salud_bienestar_y_rutinas|Salud, Bienestar y Rutinas]]**.*
