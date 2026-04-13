@@ -26,11 +26,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/acerca_mia/astrologia/carta_natal/casas/Casa_02/</loc>
-         <lastmod>2026-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://jim88.pp.ua/acerca_mia/astrologia/carta_natal/casas/Casa_03/</loc>
          <lastmod>2026-04-13</lastmod>
          <changefreq>daily</changefreq>
@@ -82,6 +77,11 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/acerca_mia/astrologia/carta_natal/casas/casa_01/</loc>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/acerca_mia/astrologia/carta_natal/casas/casa_02/</loc>
          <lastmod>2026-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
