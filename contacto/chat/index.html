@@ -5,7 +5,6 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Comunícate conmigo de forma segura." name="description"/>
 <meta content="Jim Raynor" name="author"/>
 <link href="https://jim88.pp.ua/contacto/chat/" rel="canonical"/>
 <link href="../" rel="prev"/>
@@ -37,9 +36,6 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#chat-cifrado">
-          Saltar a contenido
-        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -333,27 +329,14 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<div><h1 id="chat-cifrado">Chat Cifrado<a class="headerlink" href="#chat-cifrado" title="Permanent link">¶</a></h1>
-<div id="conversejs" style="height: 600px; width: 100%;"></div>
+<h1>Chat Cifrado</h1>
+<div><div id="conversejs" style="height: 500px; width: 100%;"></div>
 <p><link href="https://cdn.conversejs.org/11.0.0/css/converse.min.css" rel="stylesheet" type="text/css"/></p>
 <script src="https://cdn.conversejs.org/11.0.0/dist/converse.min.js"></script>
 <script>
   converse.initialize({
-    view_mode: 'fullscreen',
-    bosh_service_url: 'https://xmpp.jp:5281/http-bind/', 
-    i18n: 'es',
-    auto_login: false,
-    allow_logout: false,
-    allow_contact_deletion: false,
-    allow_contact_requests: false,
-    allow_registration: false,
-    hide_open_bookmarks: false,
-    show_controlbox_by_default: true,
-    message_archiving: 'always',
-    enable_emojis: true,
-    enable_smileys: true,
-    enable_omemo: true,
-    omemo_auto_trust_own_devices: true,
+    view_mode: 'embedded', // Cambiado de 'fullscreen' a 'embedded'
+    // ... el resto de tu configuración (bosh_service_url, i18n, etc.)
   });
 </script></div>
 </article>
