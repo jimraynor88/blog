@@ -91,11 +91,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/acerca_mia/astrologia/perfiles/Espiritualidad_y_Trascendencia/</loc>
-         <lastmod>2026-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://jim88.pp.ua/acerca_mia/astrologia/perfiles/Identidad_y_Desarrollo_Personal/</loc>
          <lastmod>2026-04-13</lastmod>
          <changefreq>daily</changefreq>
@@ -112,6 +107,11 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/acerca_mia/astrologia/perfiles/Vocacion_y_Logro/</loc>
+         <lastmod>2026-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/acerca_mia/astrologia/perfiles/espiritualidad_y_trascendencia/</loc>
          <lastmod>2026-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
