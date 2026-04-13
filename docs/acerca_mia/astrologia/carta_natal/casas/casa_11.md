@@ -38,4 +38,4 @@ La **conjunción Mercurio–Lilith** en mi Casa 3 hace que en mis grupos sea el 
 
 Mis amistades y mis grupos son una extensión de mi mente y de mis valores. Busco entornos donde pueda ser auténtico, compartir ideas sin filtros y construir proyectos con sentido. La calidad de mis vínculos sociales es más importante que la cantidad, y cuando encuentro un grupo que respeta mi verdad, puedo entregarme a él con lealtad y creatividad.
 
-*Para profundizar, consulta mi perfil de **[[perfil-identidad|Identidad y Desarrollo Personal]]**.*
+*Para profundizar, consulta mi perfil de **[[identidad_y_desarrollo_personal|Identidad y Desarrollo Personal]]**.*
