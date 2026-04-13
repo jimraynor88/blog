@@ -11,23 +11,23 @@ Estos cinco perfiles son el resultado de un viaje profundo por mi carta natal. C
 
 ## 🌟 Los perfiles
 
-### [[perfil-vocacion|Vocación y Logro]]  
+### [[vocacion_y_logro|Vocación y Logro]]  
 *Cómo genero valor, me esfuerzo y alcanzo reconocimiento.*  
 Un recorrido por mis recursos ([[Casa 2]]), mi trabajo diario ([[Casa 6]]) y mi carrera ([[Casa 10]]). Aquí encontrarás por qué mi éxito no es lineal, cómo he convertido las crisis en oportunidades, y qué hace que mi forma de liderar sea única.
 
-### [[perfil-relaciones|Relaciones y Vínculos]]  
+### [[relaciones_y_vinculos|Relaciones y Vínculos]]  
 *Cómo amo, me asocio y me transformo a través de los demás.*  
 Explora mi [[Casa 5]] (amor romántico), mi [[Casa 7]] (pareja) y mi [[Casa 8]] (intimidad). Descubrirás la intensidad de mi Venus-Marte, las heridas de Quirón, y el eje Antares–Aldebarán que me ha enseñado que la integridad es la base de todo vínculo sólido.
 
-### [[perfil-identidad|Identidad y Desarrollo Personal]]  
+### [[identidad_y_desarrollo_personal|Identidad y Desarrollo Personal]]  
 *Quién soy, cómo me presento, y cómo crezco en libertad.*  
 Mi [[Casa 1]] (identidad), mi [[Casa 5]] (autoexpresión) y mi [[Casa 9]] (filosofía) se unen aquí. La conjunción Júpiter‑Urano en mi Ascendente, los trígonos con mi Sol, Luna y Mercurio, y las estrellas que me han guiado. Un retrato de mi autenticidad radical.
 
-### [[perfil-salud|Salud, Bienestar y Rutinas]]
+### [[salud_bienestar_y_rutinas|Salud, Bienestar y Rutinas]]
 *Cómo cuido mi cuerpo, mi mente y mi energía.*  
 Mi [[Casa 6]] (salud), mi [[Casa 12]] (psique), mi [[Casa 8]] (transformación) y mi Luna (emociones) se entrelazan. Sedna, Pholus, Eris, y estrellas como Spica y Rigel me han enseñado que la salud es un equilibrio entre entrega y límites.
 
-### [[perfil-espiritual|Espiritualidad y Trascendencia]]  
+### [[espiritualidad_y_trascendencia|Espiritualidad y Trascendencia]]  
 *Mi conexión con lo sagrado, el sentido de la vida y la evolución del alma.*  
 Mi [[Casa 12]] (espiritualidad), mi [[Casa 9]] (propósito) y mi [[Casa 8]] (crisis) se reúnen aquí. Saturno y Plutón en mi [[Casa 12]], las estrellas Sirius y Betelgeuse, y el Nodo Norte en [[Casa 8]] me han mostrado que la trascendencia nace de la soledad y la transformación.
 
