@@ -40,4 +40,4 @@ Los **sextiles de Marte con Júpiter y Urano** me dan una energía que convierte
 
 Mi hogar es mi laboratorio de transformación. Aquí he aprendido a equilibrar la pasión con la estructura, la entrega con la autonomía. Cuando mi mundo interior está en paz, mi vida fluye; cuando hay conflictos, son espejos de lo que debo sanar. Aceptar mi necesidad de libertad sin abandonar el compromiso afectivo es uno de mis grandes aprendizajes.
 
-*Para profundizar, consulta mis perfiles de **[[perfil-identidad|Identidad y Desarrollo Personal]]** y **[[perfil-relaciones|Relaciones y Vínculos]]**.*
+*Para profundizar, consulta mis perfiles de **[[identidad_y_desarrollo_personal|Identidad y Desarrollo Personal]]** y **[[relaciones_y_vinculos|Relaciones y Vínculos]]**.*
