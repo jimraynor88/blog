@@ -40,4 +40,4 @@ Los **trígonos indirectos de mi Sol con Venus y Marte** (a través de Plutón e
 
 Mi profesión es una extensión de mi identidad. El éxito no es para mí un fin, sino una consecuencia de vivir con coherencia. Cuando confío en mi originalidad, construyo desde mi hogar y comunico con claridad, el reconocimiento llega. Las crisis no son obstáculos, sino escalones que me han enseñado a liderar con más conciencia. Mi carrera es un camino de autenticidad, no de impostura.
 
-*Para profundizar, consulta mi perfil de **[[perfil-vocacion|Vocación y Logro]]**.*
+*Para profundizar, consulta mi perfil de **[[vocacion_y_logro|Vocación y Logro]]**.*
