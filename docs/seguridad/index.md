@@ -15,6 +15,7 @@ Bienvenido a la sección de seguridad. Aquí encontrarás recursos prácticos pa
 - [[conceptos-basicos|Conceptos básicos de PGP]]
 - [[jimraynor-publickey|Mi clave pública PGP]]
 - [[para-que-usar-pgp|Para qué usar PGP]]
+- [[generar-clave|Genera tus propias claves seguras PGP]]
 
 ### [[osint|OSINT (Open Source Intelligence)]]
 *Técnicas y herramientas para recopilar información de fuentes abiertas.*
