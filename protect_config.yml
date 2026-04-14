@@ -11,7 +11,7 @@ protections:
   - folder: "docs/acerca_mia/astrologia/carta_natal/casas/"
     level: "astro"
     enabled: true
-    exclude:
+    exclude: []
       #- "**/borrador.md"        # Excluye cualquier archivo llamado borrador.md en cualquier subcarpeta
       #- "Casa_12.md"            # Excluye este archivo específico
 
