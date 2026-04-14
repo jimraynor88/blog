@@ -1,9 +1,27 @@
 # protect_config.yml
 protections:
- # - folder: "docs/Seguridad/PGP"
- #   level: "vip"
   - folder: "docs/acerca_mia/astrologia"
     level: "astro"
-  #- folder: "docs/Blog/posts/2026"
-  #  password: "archivo"
-  # Puedes añadir más carpetas y niveles/passwords
+    enabled: true
+    exclude:
+      - "index.md"               # Excluye solo index.md dentro de esa carpeta
+      - "README.md"
+      # - "subcarpeta/otro.md"   # También puedes usar rutas relativas a la carpeta
+
+  - folder: "docs/Astrologia/Carta_Natal"
+    password: "clave-astral"
+    enabled: false
+    exclude:
+      - "**/borrador.md"        # Excluye cualquier archivo llamado borrador.md en cualquier subcarpeta
+      - "Casa_12.md"            # Excluye este archivo específico
+
+  - folder: "docs/Blog/posts/2026"
+    level: "archivo"
+    enabled: false
+    exclude:
+      - "*.bkp.md"              # Usa patrones simples (asterisco) si quieres (opcional, podemos implementar)
+
+  # Puedes desactivar temporalmente una regla sin borrarla:
+  # - folder: "docs/Otros"
+  #   level: "prueba"
+  #   enabled: false
