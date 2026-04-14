@@ -16,7 +16,7 @@ Si has recibido una contraseña por correo, introdúcela aquí para acceder al c
 <div id="error-msg" style="color: red; margin-top: 1rem;"></div>
 
 <script>
-const workerUrl = 'https://tu-worker.workers.dev/verify'; // CAMBIA ESTO
+const workerUrl = 'https://kofi-manager.jimraynor.workers.dev/webhook'; // CAMBIA ESTO
 
 document.getElementById('btn-verificar').addEventListener('click', async () => {
   const password = document.getElementById('password').value.trim();
