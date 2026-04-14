@@ -5,15 +5,15 @@ protections:
     enabled: true
     exclude:
       - "index.md"               # Excluye solo index.md dentro de esa carpeta
-      - "README.md"
+      #- "README.md"
       # - "subcarpeta/otro.md"   # También puedes usar rutas relativas a la carpeta
 
-  - folder: "docs/Astrologia/Carta_Natal"
-    password: "clave-astral"
-    enabled: false
+  - folder: "docs/acerca_mia/astrologia/carta_natal/casas/"
+    level: "astro"
+    enabled: true
     exclude:
-      - "**/borrador.md"        # Excluye cualquier archivo llamado borrador.md en cualquier subcarpeta
-      - "Casa_12.md"            # Excluye este archivo específico
+      #- "**/borrador.md"        # Excluye cualquier archivo llamado borrador.md en cualquier subcarpeta
+      #- "Casa_12.md"            # Excluye este archivo específico
 
   - folder: "docs/Blog/posts/2026"
     level: "archivo"
