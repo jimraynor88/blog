@@ -1,0 +1,9 @@
+# protect_config.yml
+protections:
+ # - folder: "docs/Seguridad/PGP"
+ #   level: "vip"
+  - folder: "docs/acerca_mia/astrologia"
+    level: "astro"
+  #- folder: "docs/Blog/posts/2026"
+  #  password: "archivo"
+  # Puedes añadir más carpetas y niveles/passwords
