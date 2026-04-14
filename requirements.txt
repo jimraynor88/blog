@@ -16,3 +16,4 @@ mkdocs-encryptcontent-plugin>=3.1.0
 pymdown-extensions
 # mkdocs-document-dates
 mkdocs-wikilinks-plugin
+pyyaml
