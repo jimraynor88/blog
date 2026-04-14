@@ -36,7 +36,7 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
   <button id="copyPubToFormBtn">📋 Pegar clave</button>
   <button id="downloadPubBtn">💾 Bajar clave pública</button>
   <button id="downloadPrivBtn">🔒 Bajar clave privada</button>
-  <p class="warning" style="margin-top: 0.5rem;">⚠️ Guarda tus claves. Impórtalas a tu gestor de claves. (Más info en la sección de  [[../seguridad/pgp|Seguridad - PGP]] Sin la privada, no podrás descifrar mis respuestas.</p>
+  <p class="warning" style="margin-top: 0.5rem;">⚠️ Guarda tus claves. Impórtalas a tu gestor de claves. (Más info en la sección de  <a href="https://jim88.pp.ua/seguridad/pgp">Seguridad - PGP" </a> Sin la clave privada, no podrás descifrar mis respuestas.</p>
 </div>
 
 <div class="form-group">
