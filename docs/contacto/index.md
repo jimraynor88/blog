@@ -29,14 +29,14 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
   <label for="senderPubKey">Tu clave pública (obligatoria):</label>
   <textarea id="senderPubKey" rows="2" placeholder="Pega aquí tu clave pública PGP..."></textarea>
   <small>Debe empezar por <code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code>.</small>
-  <button type="button" id="generateKeyBtn" style="margin-top: 0.5rem;">🔑 Generar nueva clave con mis datos</button>
+  <button type="button" id="generateKeyBtn" style="margin-top: 0.5rem;">🔑 Generar nuevo par de claves con mis datos</button>
 </div>
 
 <div id="keygenArea" style="display: none; margin-top: 1rem; padding: 0.5rem; border: 1px solid var(--md-default-fg-color--lighter); border-radius: 8px;">
   <button id="copyPubToFormBtn">📋 Pegar clave</button>
   <button id="downloadPubBtn">💾 Bajar clave pública</button>
   <button id="downloadPrivBtn">🔒 Bajar clave privada</button>
-  <p class="warning" style="margin-top: 0.5rem;">⚠️ Guarda tus claves. Impórtalas a tu gestor de claves. (Más info en la sección de  <a href="https://jim88.pp.ua/seguridad/pgp">Seguridad - PGP</a><br>Sin la clave privada, no podrás descifrar mis respuestas.</p>
+  <p class="warning" style="margin-top: 0.5rem;">⚠️ Guarda tus claves. Impórtalas a tu gestor de claves.<br>(Más info en la sección de  <a href="https://jim88.pp.ua/seguridad/pgp">Seguridad - PGP</a><br>Sin la clave privada, no podrás descifrar mis respuestas.</p>
 </div>
 
 <div class="form-group">
@@ -51,14 +51,14 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 </div>
 
 <div class="form-group">
-  <label for="encryptedResult">Mensaje cifrado (resultado):</label>
-  <textarea id="encryptedResult" rows="3" readonly style="font-family: monospace;"></textarea>
-  <small>Puedes copiarlo por si acaso.</small>
+  <label for="status">Estado:</label>
+  <div id="status" style="margin-top: 0.5rem;"></div>
 </div>
 
 <div class="form-group">
-  <label for="status">Estado:</label>
-  <div id="status" style="margin-top: 0.5rem;"></div>
+  <label for="encryptedResult">Mensaje cifrado (resultado):</label>
+  <textarea id="encryptedResult" rows="3" readonly style="font-family: monospace;"></textarea>
+  <small>Puedes copiarlo por si acaso.</small>
 </div>
 
 </div>
