@@ -51,7 +51,12 @@ jobs:
         #run: mkdocs build --strict
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+         LEVEL_ADMIN: ${{ secrets.LEVEL_ADMIN }}
+         LEVEL_ASTRO: ${{ secrets.LEVEL_ASTRO }}
+         LEVEL_ASTROTAROT: ${{ secrets.LEVEL_ASTROTAROT }}
+         LEVEL_INVITADOS_USER1: ${{ secrets.LEVEL_INVITADOS_USER1 }}
+         LEVEL_INVITADOS_USER2: ${{ secrets.LEVEL_INVITADOS_USER2 }}
+         LEVEL_INVITADOS_USER3: ${{ secrets.LEVEL_INVITADOS_USER3 }}
          
       - name: Add prev/next links
         run: python add_prev_next.py site   # pasa el directorio de salida
