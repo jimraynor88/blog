@@ -100,7 +100,7 @@ def main():
             print(f"⚠️ Carpeta no existe: {target_dir}")
             continue
 
-        exclude_list = rule.get('exclude', [])
+        exclude_list = rule.get('exclude') or []
         print(f"\n📁 Procesando carpeta: {target_dir}")
         if exclude_list:
             print(f"   Excluyendo: {exclude_list}")
