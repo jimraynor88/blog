@@ -43,6 +43,9 @@ jobs:
       #- name: Standardize frontmatter
       #  run: python scripts/standardize_frontmatter.py
 
+      - name: Proteger archivos de la categoría
+        run: python scripts/add_password_to_folder.py
+
       - name: Build site
         run: mkdocs build
         #run: mkdocs build --strict
