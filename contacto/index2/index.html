@@ -654,8 +654,13 @@ async function sendWithRetry(url, data, retries = 1) {
       clearTimeout(timeoutId);
       if (response.ok) return { ok: true };
       else return { ok: false, error: await response.text() };
-    } catch (err) {
-      if (i === retries) return { ok: false, error: err.message };
+        } catch (err) {
+      // Detectar bloqueo de Brave o problemas de red
+      let errorMsg = err.message;
+      if (err.message.includes('Failed to fetch') || err.name === 'TypeError') {
+        errorMsg = 'El navegador bloqueó la conexión. Si usas Brave, desactiva los escudos (icono del león) para este sitio o prueba con otro navegador.';
+      }
+      if (i === retries) return { ok: false, error: errorMsg };
       await new Promise(resolve => setTimeout(resolve, 1000));
     }
   }
