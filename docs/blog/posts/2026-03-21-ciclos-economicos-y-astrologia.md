@@ -3,7 +3,8 @@ title: "La relación entre ciclos económicos y ciclos planetarios"
 tags:
   - Economía
   - Astrología
-date: "2026-03-21 01:28"
+date: "2026-03-26"
+time: "01:28"
 summary: "La relación entre ciclos económicos y ciclos planetarios pertenece al campo de la astrología financiera"
 ---
 
