@@ -63,11 +63,11 @@ extra_css:
   
 plugins:
   - search
-  - gen-files:
-      scripts:
-        - scripts/generate_navigation.py
-  - literate-nav:
-      nav_file: SUMMARY.md
+  #- gen-files:
+  #    scripts:
+  #      - scripts/generate_navigation.py
+  #- literate-nav:
+  #    nav_file: SUMMARY.md
   - ezlinks
   - encryptcontent:
       password_file: 'passwords.yml'
