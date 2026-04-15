@@ -1,5 +1,7 @@
 ---
 title: 🏠 Bienvenido
+hide:
+  - navigation
 ---
 
 Éste es mi rincón digital. Aquí comparto reflexiones sobre filosofía, economía, desarrollo personal, astrología y, sobre todo, la importancia de la libertad y seguridad digital.
