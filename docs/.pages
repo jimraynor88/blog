@@ -1,0 +1,10 @@
+# docs/.pages
+nav:
+  - index.md
+  - acerca_mia
+  - seguridad
+  - blog
+  - curso
+  - tienda
+  - zona-privada
+  - contacto
