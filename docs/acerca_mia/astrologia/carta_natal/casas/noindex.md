@@ -1,7 +1,6 @@
 ---
 title: "Carta Natal General"
-alias: "cn-general"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 
