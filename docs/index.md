@@ -1,5 +1,5 @@
 ---
-title: :fontawesome-solid-house:
+title: <i class="fa fa-home"></i>
 hide:
   - navigation
 ---
