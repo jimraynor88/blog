@@ -208,8 +208,8 @@ def main():
     if not posts:
         print("No se encontraron posts con fecha válida.")
         return
-    write_index(posts, 'docs/blog/posts/index.md')
-    write_archive(posts, 'docs/blog/archive.md')
+    write_index(posts, 'docs/blog/index.md')
+    write_archive(posts, 'docs/blog/posts/index.md')
     write_tags(posts, 'docs/blog/tags.md')
 
 if __name__ == '__main__':
