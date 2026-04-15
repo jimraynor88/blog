@@ -85,7 +85,7 @@ plugins:
       encrypted_something:
         main: [main, tag]
  # - awesome-pages
-  - section-index
+#  - section-index
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
       date_from_meta:
