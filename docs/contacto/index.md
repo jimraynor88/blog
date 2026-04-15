@@ -1,6 +1,9 @@
 ---
 title: Contacto cifrado
 description: Envíame un mensaje seguro con PGP
+hide:
+  - navigation
+  - toc
 ---
 
 # Contacto cifrado con PGP
