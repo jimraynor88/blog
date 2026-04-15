@@ -1,7 +1,6 @@
 ---
 title: "Casa 2 – Mis recursos, mis valores, mi autoestima"
-alias: "02"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 
