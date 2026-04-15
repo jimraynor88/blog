@@ -31,14 +31,11 @@ jobs:
 
         
       - name: Generate blog index pages
-        run: python generate_blog_index.py
+        run: python scripts/generate_blog_index.py
 
       # NUEVO PASO: Generar la tienda
       - name: Generate shop data
         run: python scripts/generar_tienda.py
-
-      - name: Generate static indexes
-        run: python scripts/generate_indexes.py
 
      # - name: Check links and aliases
       #  run: python scripts/check_links.py
@@ -62,7 +59,7 @@ jobs:
          LEVEL_INVITADOS_USER3: ${{ secrets.LEVEL_INVITADOS_USER3 }}
          
       - name: Add prev/next links
-        run: python add_prev_next.py site   # pasa el directorio de salida
+        run: python scripts/add_prev_next.py site   # pasa el directorio de salida
                
       - name: Add CNAME
         run: echo "jim88.pp.ua" > ./site/CNAME
