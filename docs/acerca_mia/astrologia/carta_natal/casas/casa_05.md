@@ -1,7 +1,6 @@
 ---
 title: "Casa 5 – Mi creatividad, mi amor romántico, mi placer, mis hijos"
-alias: "05"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 # Casa 5 – Mi creatividad, mi amor romántico, mi placer, mis hijos
