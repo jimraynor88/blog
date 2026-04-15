@@ -47,15 +47,15 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
   <textarea id="message" rows="2" placeholder="Escribe aquí tu mensaje..."></textarea>
 </div>
 
+<div class="form-group">
+  <label for="status">Estado:</label>
+  <div id="status" style="margin-top: 0.5rem;"></div>
+</div>
+
 <div class="form-group action-buttons">
   <button id="encryptBtn">1. Cifrar</button>
   <button id="copyBtn" disabled>2. Copiar</button>
   <button id="sendBtn" disabled>3. Enviar</button>
-</div>
-
-<div class="form-group">
-  <label for="status">Estado:</label>
-  <div id="status" style="margin-top: 0.5rem;"></div>
 </div>
 
 <div class="form-group">
