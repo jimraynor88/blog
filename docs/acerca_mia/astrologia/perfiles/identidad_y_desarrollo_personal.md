@@ -1,7 +1,6 @@
 ---
 title: "Identidad y Desarollo Personal"
-alias: "perfil-identidad"
-tags: "Perfiles"
+level: "astro"
 ---
 
 # Identidad y Desarrollo Personal
