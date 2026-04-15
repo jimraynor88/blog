@@ -78,6 +78,7 @@ plugins:
       encrypted_something:
         main: [main, tag]
   - section-index
+  - awesome-pages
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
       date_from_meta:
@@ -128,13 +129,3 @@ markdown_extensions:
   - tables
   - attr_list
   - pymdownx.blocks.html
-
-nav:
-  - Inicio: index.md
-  - Acerca Mía: acerca_mia/
-  - Seguridad: seguridad/
-  - Cursos: cursos/
-  - Blog: blog/
-  - Tienda: tienda/
-  - Zona Privada: zona-privada/
-  - Contacto: contacto/
