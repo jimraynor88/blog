@@ -7,6 +7,7 @@ protections:
       - "perfiles/index.md"             # excluye perfiles/index.md
       - "carta_natal/index.md"          # excluye carta_natal/index.md
       - "categories/index.md"
+      - "cursos/index.md"
       # NO incluyas "carta_natal/casas/index.md" → ese se protegerá
 
   # Elimina esta regla (es redundante y causaba el error):
