@@ -1,8 +1,5 @@
 ---
 title: "PGP - Por qué es importante"
-categories:
-  - Seguridad
-  - PGP
 description: "Todas las comunicaciones son espiadas y analizadas, solo la encriptación permite evadir ese control"
 summary: "Tus mensajes viajan como una postal abierta. Cualquiera puede leerlos y el Chat Control de la UE en especial."
 ---
