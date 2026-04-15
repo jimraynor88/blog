@@ -146,7 +146,7 @@
         </a>
 </li>
 <li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href="../">
+<a class="md-tabs__link" href="../archive/">
         
   
     
@@ -251,7 +251,7 @@
 <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="../">
+<a class="md-nav__link" href="../archive/">
 <span class="md-ellipsis">
     Blog
   </span>
@@ -267,13 +267,6 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../archive/">
-<span class="md-ellipsis">
-    Archivo por años
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="../tags/">
 <span class="md-ellipsis">
     Índice de etiquetas
@@ -281,19 +274,19 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
     Posts
   </span>
 </a>
-<label class="md-nav__link md-nav__link--active" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
+<label class="md-nav__link md-nav__link--active" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="true" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_3_3">
+<nav aria-expanded="true" aria-labelledby="__nav_3_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_2">
 <span class="md-nav__icon md-icon"></span>
             Posts
           </label>
@@ -358,19 +351,6 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Tabla de contenidos" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#posttitle">
-<span class="md-ellipsis">
-      {{ post.title }}
-    </span>
-</a>
-</li>
-</ul>
 </nav>
 </div>
 </div>
@@ -378,25 +358,71 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <div><h1 id="blog">Blog<a class="headerlink" href="#blog" title="Permanent link">¶</a></h1>
-<p _="%" endfor="endfor">{% set posts = [] %}
-{% for f in files %}
-  {% if f.src_path.startswith('blog/posts/') %}
-    {% set post = f.page %}
-    {% if post.meta.date %}
-      {% set _ = posts.append((post.meta.date, post)) %}
-    {% endif %}
-  {% endif %}</p>
-<p>{% for date, post in posts|sort(reverse=true) %}</p>
-<h2 id="posttitle"><a href="{{%20post.url%20}}">{{ post.title }}</a><a class="headerlink" href="#posttitle" title="Permanent link">¶</a></h2>
-<p><em>{{ date }}</em><br/>
-{{ post.meta.description | default('') }}</p>
-<p _="%" endif="endif">{% if post.meta.tags %}
-<strong>Etiquetas:</strong><br/>
-{% for tag in post.meta.tags %}
-  <a href="/blog/tags/{{%20tag%20|%20lower%20|%20replace(" title="', '-">{{ tag }}</a> }}/) 
-{% endfor %}</p>
-<hr/>
-<p>{% endfor %}</p></div>
+<p>Últimos artículos y reflexiones.</p>
+<div class="blog-grid">
+<div class="blog-card">
+<h3><a href="/blog/posts/2026-03-21-ciclos-economicos-y-astrologia/">La relación entre ciclos económicos y ciclos planetarios</a></h3>
+<div class="blog-meta">21 de March de 2026</div>
+<div class="blog-tags"><span class="blog-tag">Economía</span><span class="blog-tag">Astrología</span></div>
+<p class="blog-excerpt">La relación entre ciclos económicos y ciclos planetarios pertenece al campo de la astrología financiera o astroeconomía. Es un enfoque no aceptado por la economía académica, pero históricamente ha intentado correlacionar grandes crisis y expansiones ...</p>
+<a class="blog-readmore" href="/blog/posts/2026-03-21-ciclos-economicos-y-astrologia/">Leer más →</a>
+</div>
+</div>
+<style>
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.blog-card {
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lighter);
+    border-radius: 8px;
+    padding: 1.2rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+.blog-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.blog-meta {
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 0.5rem;
+}
+.blog-tags {
+    margin: 0.5rem 0;
+}
+.blog-tag {
+    display: inline-block;
+    background: var(--md-primary-fg-color--light);
+    color: var(--md-primary-bg-color);
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    margin-right: 0.3rem;
+}
+.blog-excerpt {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+.blog-readmore {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--md-primary-fg-color);
+}
+.blog-readmore:hover {
+    text-decoration: underline;
+}
+</style></div>
 </article>
 <div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../tags/index.html">← Anterior</a><a class="next" href="2026-03-21-ciclos-economicos-y-astrologia/index.html">Siguiente →</a></div></div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
