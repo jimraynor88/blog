@@ -1,7 +1,6 @@
 ---
 title: "Casa 4 – Mi hogar, mis raíces, mi familia, mi mundo interior"
-alias: "04"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 # Casa 4 – Mi hogar, mis raíces, mi familia, mi mundo interior
