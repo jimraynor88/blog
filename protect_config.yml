@@ -1,5 +1,5 @@
 protections:
-  - folder: "docs/acerca_mia/astrologia"
+  - folder: "docs/acerca_mia"
     level: "astro"
     enabled: true
     exclude:
