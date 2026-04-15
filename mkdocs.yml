@@ -97,7 +97,7 @@ plugins:
   #- roamlinks_extra
   - awesome-pages
   - section-index
-  - categories
+ # - categories
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
       date_from_meta:
