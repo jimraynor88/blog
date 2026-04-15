@@ -1,7 +1,6 @@
 ---
 title: "Casa 9 – Mi filosofía, mis viajes, mi educación superior, mi propósito"
-alias: "09"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 
