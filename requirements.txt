@@ -7,10 +7,8 @@ mkdocs-glightbox==0.3.7
 mkdocs-video==1.5.0
 beautifulsoup4
 python-frontmatter
-# mkdocs-categories-plugin
 mkdocs-encryptcontent-plugin>=3.1.0
 pymdown-extensions
-# mkdocs-document-dates
 mkdocs-wikilinks-plugin
 pyyaml
 mkdocs-gen-files
