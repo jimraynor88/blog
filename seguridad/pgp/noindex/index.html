@@ -5,24 +5,24 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Guías, herramientas y reflexiones sobre protección de datos, cifrado y soberanía digital" name="description"/>
+<meta content="Todas las comunicaciones son espiadas y analizadas, solo la encriptación permite evadir ese control" name="description"/>
 <meta content="Jim Raynor" name="author"/>
-<link href="https://jim88.pp.ua/seguridad/" rel="canonical"/>
-<link href="../cursos/" rel="prev"/>
-<link href="osint/" rel="next"/>
-<link href="../feed_rss_created.xml" rel="alternate" title="Fuente RSS" type="application/rss+xml"/>
-<link href="../feed_rss_updated.xml" rel="alternate" title="Fuente RSS de contenido actualizado" type="application/rss+xml"/>
-<link href="../assets/favicon.ico" rel="icon"/>
+<link href="https://jim88.pp.ua/seguridad/pgp/noindex/" rel="canonical"/>
+<link href="../jimraynor-publickey/" rel="prev"/>
+<link href="../para-que-usar-pgp/" rel="next"/>
+<link href="../../../feed_rss_created.xml" rel="alternate" title="Fuente RSS" type="application/rss+xml"/>
+<link href="../../../feed_rss_updated.xml" rel="alternate" title="Fuente RSS de contenido actualizado" type="application/rss+xml"/>
+<link href="../../../assets/favicon.ico" rel="icon"/>
 <meta content="mkdocs-1.5.3, mkdocs-material-9.5.18" name="generator"/>
-<title>Seguridad y Privacidad Digital - Jim Raynor's site</title>
-<link href="../assets/stylesheets/main.66ac8b77.min.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<title>PGP - Por qué es importante - Jim Raynor's site</title>
+<link href="../../../assets/stylesheets/main.66ac8b77.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../assets/stylesheets/kofi.css" rel="stylesheet"/>
-<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><style>
+<link href="../../../assets/stylesheets/kofi.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -31,13 +31,13 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></link></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></link></head>
 <body data-md-color-accent="blue" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#seguridad-y-privacidad-digital">
+<a class="md-skip" href="#pgp-por-que-es-importante">
           Saltar a contenido
         </a>
 </div>
@@ -45,8 +45,8 @@
 </div>
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
 <nav aria-label="Cabecera" class="md-header__inner md-grid">
-<a aria-label="Jim Raynor's site" class="md-header__button md-logo" data-md-component="logo" href=".." title="Jim Raynor's site">
-<img alt="logo" src="../assets/logo.jpg"/>
+<a aria-label="Jim Raynor's site" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Jim Raynor's site">
+<img alt="logo" src="../../../assets/logo.jpg"/>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -61,7 +61,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Seguridad y Privacidad Digital
+              PGP - Por qué es importante
             
           </span>
 </div>
@@ -127,7 +127,7 @@
 <div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../acceso-exclusivo/">
+<a class="md-tabs__link" href="../../../acceso-exclusivo/">
         
   
     
@@ -137,7 +137,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../acerca_mia/">
+<a class="md-tabs__link" href="../../../acerca_mia/noindex/">
         
   
     
@@ -147,7 +147,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../blog/">
+<a class="md-tabs__link" href="../../../blog/">
         
   
     
@@ -157,7 +157,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../contacto/">
+<a class="md-tabs__link" href="../../../contacto/noindex/">
         
   
     
@@ -167,17 +167,17 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../cursos/">
+<a class="md-tabs__link" href="../../../cursos/noindex/">
         
   
     
   
-  [Protected] Cursos
+  Cursos
 
       </a>
 </li>
 <li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href="./">
+<a class="md-tabs__link" href="../../noindex/">
         
   
     
@@ -187,7 +187,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../tienda/">
+<a class="md-tabs__link" href="../../../tienda/">
         
   
     
@@ -197,7 +197,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../zona-privada/admin/">
+<a class="md-tabs__link" href="../../../zona-privada/admin/">
         
   
     
@@ -218,8 +218,8 @@
 <div class="md-sidebar__inner">
 <nav aria-label="Navegación" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Jim Raynor's site" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Jim Raynor's site">
-<img alt="logo" src="../assets/logo.jpg"/>
+<a aria-label="Jim Raynor's site" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Jim Raynor's site">
+<img alt="logo" src="../../../assets/logo.jpg"/>
 </a>
     Jim Raynor's site
   </label>
@@ -235,14 +235,14 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../acceso-exclusivo/">
+<a class="md-nav__link" href="../../../acceso-exclusivo/">
 <span class="md-ellipsis">
     Acceso Exclusivo
   </span>
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../acerca_mia/astrologia/carta_natal/aspectos_natales/">
+<a class="md-nav__link" href="../../../acerca_mia/astrologia/carta_natal/noindex/">
 <span class="md-ellipsis">
     Acerca mia
   </span>
@@ -250,7 +250,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../blog/archive/">
+<a class="md-nav__link" href="../../../blog/archive/">
 <span class="md-ellipsis">
     Blog
   </span>
@@ -258,28 +258,28 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../contacto/">
+<a class="md-nav__link" href="../../../contacto/noindex/">
 <span class="md-ellipsis">
     Contacto
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../cursos/">
+<a class="md-nav__link" href="../../../cursos/noindex/">
 <span class="md-ellipsis">
-    [Protected] Cursos
+    Cursos
   </span>
 </a>
 </li>
 <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link md-nav__link--active" href="./">
+<a class="md-nav__link" href="../../noindex/">
 <span class="md-ellipsis">
     Seguridad
   </span>
 </a>
-<label class="md-nav__link md-nav__link--active" for="__nav_6" id="__nav_6_label" tabindex="">
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
@@ -290,16 +290,16 @@
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="osint/">
+<a class="md-nav__link" href="../../osint/">
 <span class="md-ellipsis">
     OSINT - Open Source Intelligence
   </span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" id="__nav_6_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_6_2" type="checkbox"/>
 <div class="md-nav__link md-nav__container">
-<a class="md-nav__link" href="pgp/">
+<a class="md-nav__link" href="../conceptos-basicos/">
 <span class="md-ellipsis">
     Pgp
   </span>
@@ -308,35 +308,110 @@
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="false" aria-labelledby="__nav_6_2_label" class="md-nav" data-md-level="2">
+<nav aria-expanded="true" aria-labelledby="__nav_6_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_6_2">
 <span class="md-nav__icon md-icon"></span>
             Pgp
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="pgp/conceptos-basicos/">
-<span class="md-ellipsis">
-    PGP - Conceptos Básicos
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="pgp/generar-clave/">
+<a class="md-nav__link" href="../generar-clave/">
 <span class="md-ellipsis">
     PGP - Genera tus claves
   </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="pgp/jimraynor-publickey/">
+<a class="md-nav__link" href="../jimraynor-publickey/">
 <span class="md-ellipsis">
     PGP - Mi clave pública
   </span>
 </a>
 </li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    PGP - Por qué es importante
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    PGP - Por qué es importante
+  </span>
+</a>
+<nav aria-label="Tabla de contenidos" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="pgp/para-que-usar-pgp/">
+<a class="md-nav__link" href="#importante">
+<span class="md-ellipsis">
+      🔑 IMPORTANTE 🔐
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#motivos">
+<span class="md-ellipsis">
+      🎯 Motivos
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#solucion">
+<span class="md-ellipsis">
+      ✅ Solución
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paso-1">
+<span class="md-ellipsis">
+      ▶ Paso 1
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paso-2">
+<span class="md-ellipsis">
+      ▶ Paso 2
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paso-3">
+<span class="md-ellipsis">
+      ▶ Paso 3
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paso-4">
+<span class="md-ellipsis">
+      ▶ Paso 4
+    </span>
+</a>
+<nav aria-label="▶ Paso 4" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#igualmente-puedes-contactarme-de-forma-privada-y-cifrada-desde-aqui">
+<span class="md-ellipsis">
+      Igualmente puedes contactarme de forma privada y cifrada desde aquí
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../para-que-usar-pgp/">
 <span class="md-ellipsis">
     PGP - ¿Para qué usarlo?
   </span>
@@ -349,7 +424,7 @@
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../tienda/asesoria-personalizada/">
+<a class="md-nav__link" href="../../../tienda/asesoria-personalizada/">
 <span class="md-ellipsis">
     Tienda
   </span>
@@ -357,7 +432,7 @@
 </a>
 </li>
 <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-<a class="md-nav__link" href="../zona-privada/astro/">
+<a class="md-nav__link" href="../../../zona-privada/astro/">
 <span class="md-ellipsis">
     Zona privada
   </span>
@@ -379,43 +454,64 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#contenido-actual">
+<a class="md-nav__link" href="#importante">
 <span class="md-ellipsis">
-      📚 Contenido actual
-    </span>
-</a>
-<nav aria-label="📚 Contenido actual" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#pgp-pretty-good-privacy">
-<span class="md-ellipsis">
-      PGP (Pretty Good Privacy)
+      🔑 IMPORTANTE 🔐
     </span>
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#osint-open-source-intelligence">
+<a class="md-nav__link" href="#motivos">
 <span class="md-ellipsis">
-      OSINT (Open Source Intelligence)
+      🎯 Motivos
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#solucion">
+<span class="md-ellipsis">
+      ✅ Solución
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paso-1">
+<span class="md-ellipsis">
+      ▶ Paso 1
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paso-2">
+<span class="md-ellipsis">
+      ▶ Paso 2
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paso-3">
+<span class="md-ellipsis">
+      ▶ Paso 3
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#paso-4">
+<span class="md-ellipsis">
+      ▶ Paso 4
+    </span>
+</a>
+<nav aria-label="▶ Paso 4" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#igualmente-puedes-contactarme-de-forma-privada-y-cifrada-desde-aqui">
+<span class="md-ellipsis">
+      Igualmente puedes contactarme de forma privada y cifrada desde aquí
     </span>
 </a>
 </li>
 </ul>
 </nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#herramientas-y-guias-practicas-proximamente">
-<span class="md-ellipsis">
-      🛠️ Herramientas y guías prácticas (Próximamente)
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#proximas-secciones-en-desarrollo">
-<span class="md-ellipsis">
-      🔮 Próximas secciones (en desarrollo)
-    </span>
-</a>
 </li>
 </ul>
 </nav>
@@ -424,43 +520,41 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<div><h1 id="seguridad-y-privacidad-digital">Seguridad y Privacidad Digital<a class="headerlink" href="#seguridad-y-privacidad-digital" title="Permanent link">¶</a></h1>
-<p>Bienvenido a la sección de seguridad. Aquí encontrarás recursos prácticos para proteger tu información, comunicarte de forma cifrada y navegar con mayor privacidad.</p>
-<hr/>
-<h2 id="contenido-actual">📚 Contenido actual<a class="headerlink" href="#contenido-actual" title="Permanent link">¶</a></h2>
-<h3 id="pgp-pretty-good-privacy"><a href="pgp" title="PGP (Pretty Good Privacy)">PGP (Pretty Good Privacy)</a><a class="headerlink" href="#pgp-pretty-good-privacy" title="Permanent link">¶</a></h3>
-<ul>
-<li><a href="pgp/conceptos-basicos/" title="Conceptos básicos de PGP">Conceptos básicos de PGP</a></li>
-<li><a href="pgp/jimraynor-publickey/" title="Mi clave pública PGP">Mi clave pública PGP</a></li>
-<li><a href="pgp/para-que-usar-pgp/" title="Para qué usar PGP">Para qué usar PGP</a></li>
-<li><a href="pgp/generar-clave/" title="Genera tus propias claves seguras PGP">Genera tus propias claves seguras PGP</a></li>
-</ul>
-<h3 id="osint-open-source-intelligence"><a href="osint/" title="OSINT (Open Source Intelligence)">OSINT (Open Source Intelligence)</a><a class="headerlink" href="#osint-open-source-intelligence" title="Permanent link">¶</a></h3>
-<p><em>Técnicas y herramientas para recopilar información de fuentes abiertas.</em></p>
-<hr/>
-<h2 id="herramientas-y-guias-practicas-proximamente">🛠️ Herramientas y guías prácticas (Próximamente)<a class="headerlink" href="#herramientas-y-guias-practicas-proximamente" title="Permanent link">¶</a></h2>
-<ul>
-<li><a href="../gestores-contrase%C3%B1as" title="Gestión de contraseñas">Gestión de contraseñas</a> (Bitwarden, KeePass)</li>
-<li><a href="../autenticacion-2fa" title="Autenticación de dos factores (2FA)">Autenticación de dos factores (2FA)</a></li>
-<li><a href="../navegacion-segura" title="Navegación segura y privada">Navegación segura y privada</a> (Tor, VPNs, navegadores)</li>
-<li><a href="../proteccion-correo" title="Protección del correo electrónico">Protección del correo electrónico</a> (proveedores cifrados, alias)</li>
-<li><a href="../seguridad-movil" title="Seguridad en dispositivos móviles">Seguridad en dispositivos móviles</a></li>
-</ul>
-<hr/>
-<h2 id="proximas-secciones-en-desarrollo">🔮 Próximas secciones (en desarrollo)<a class="headerlink" href="#proximas-secciones-en-desarrollo" title="Permanent link">¶</a></h2>
-<ul>
-<li><strong>Cifrado de archivos</strong> – Cómo cifrar documentos y discos (VeraCrypt, Cryptomator).</li>
-<li><strong>Seguridad en redes sociales</strong> – Configuración de privacidad y minimización de datos.</li>
-<li><strong>Huella digital</strong> – Cómo reducir tu exposición en internet.</li>
-<li><strong>Derecho a la privacidad</strong> – Legislación, derechos digitales y recursos legales.</li>
-<li><strong>Seguridad para activistas y periodistas</strong> – Comunicación segura en entornos de alto riesgo.</li>
-<li><strong>Auditoría de seguridad personal</strong> – Pasos para evaluar y mejorar tu postura de seguridad.</li>
-</ul>
-<hr/>
-<p><em>La seguridad no es un producto, sino un proceso. Cada paso que das hacia tu soberanía digital cuenta.</em></p>
-<p>Si tienes sugerencias o quieres que profundice en algún tema, no dudes en contactarme.</p></div>
+<div><h1 id="pgp-por-que-es-importante">PGP - Por qué es importante<a class="headerlink" href="#pgp-por-que-es-importante" title="Permanent link">¶</a></h1>
+<h2 id="importante">🔑 IMPORTANTE 🔐<a class="headerlink" href="#importante" title="Permanent link">¶</a></h2>
+<p>Tus mensajes viajan como una postal abierta. Cualquiera puede leerlos y el Chat Control de la UE en especial.</p>
+<h2 id="motivos">🎯 Motivos<a class="headerlink" href="#motivos" title="Permanent link">¶</a></h2>
+<p>No se trata de «no tener nada que ocultar», tienes el derecho y la obligación de proteger tu privacidad, seguridad y libertad. El mundo está lleno de gente malvada que sabe mucho y quiere aprovecharse. Para ellos no eres especial, solo alguien más a quien arruinar la vida.</p>
+<h2 id="solucion">✅ Solución<a class="headerlink" href="#solucion" title="Permanent link">¶</a></h2>
+<p>Usa un "sobre opaco digital" (PGP). Solo tu destinatario podrá leer tu mensaje. Haz esto:</p>
+<h2 id="paso-1">▶ Paso 1<a class="headerlink" href="#paso-1" title="Permanent link">¶</a></h2>
+<p><a href="https://openpgp.org/software">Instala un gestor:</a></p>
+<p>Mailvelope / FlowCrypt (Navegador Web PC) 🌐 │ Kleopatra (Linux) / GPG4win (Windows)  🖥│ OpenKeyChain (Android) / EasyPGP (iOS) 📱</p>
+<h2 id="paso-2">▶ Paso 2<a class="headerlink" href="#paso-2" title="Permanent link">¶</a></h2>
+<p>Descarga e importa <a href="../JimRaynor88_Public.key" title="mi Public Key">mi Public Key</a> en el gestor 🔑 </p>
+<h2 id="paso-3">▶ Paso 3<a class="headerlink" href="#paso-3" title="Permanent link">¶</a></h2>
+<p><a href="../generar-clave/" title="Crea tus claves">Crea tus claves</a>, guardalas en lugar seguro e importa SOLO tu Private Key 🔐 </p>
+<h2 id="paso-4">▶ Paso 4<a class="headerlink" href="#paso-4" title="Permanent link">¶</a></h2>
+<p>Cifra un mensaje, destinatario mi clave, añade tu Public Key (archivo o texto) y envíamelo. 🔐💬 Te guío si quieres 💪</p>
+<h3 id="igualmente-puedes-contactarme-de-forma-privada-y-cifrada-desde-aqui">Igualmente puedes contactarme de forma privada y cifrada <a href="../../contacto" title="desde aquí">desde aquí</a><a class="headerlink" href="#igualmente-puedes-contactarme-de-forma-privada-y-cifrada-desde-aqui" title="Permanent link">¶</a></h3>
+<h1 id="mi-clave-publica-pgp">Mi clave pública PGP<a class="headerlink" href="#mi-clave-publica-pgp" title="Permanent link">¶</a></h1>
+<p>Para copiar a mano o para <a href="../JimRaynor88_Public.key" title="descargar">descargar</a></p>
+<div class="highlight"><pre><span></span><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEad1dZBYJKwYBBAHaRw8BAQdAm/+1BydAgefBb1MyVoz4APWag2UiJRfr
+JKc8X0trBBjNGEppbVBHUCA8cGdwQGppbTg4LnBwLnVhPsKMBBAWCgA+BYJp
+3V1kBAsJBwgJkPENWUIvZM5uAxUICgQWAAIBAhkBApsDAh4BFiEECCPRLlaj
+1OtfSoCf8Q1ZQi9kzm4AAPU3AQDhpBZdKVjWPYgcQ0IZSgKGSba0bTHJ7dGT
+hK73EX/vjAEAsD6lbUoWYnVcX5DQUeiJswwMEOX0Cr1CxxZPKlhbaQfOOARp
+3V1kEgorBgEEAZdVAQUBAQdAIXUE+NXLVgH6MSVQXLuCXukHbeee0p9wBWoK
+56uOIn8DAQgHwngEGBYKACoFgmndXWQJkPENWUIvZM5uApsMFiEECCPRLlaj
+1OtfSoCf8Q1ZQi9kzm4AAI30AP9ZL6iLD+uiKRyyrzsuiVi9khYu7KvWufgo
+gGw34cDmRgEAiXFIopBdM7VeGWh1NYWnCjNU4RXQh7L+8+Y/vLE+Jwg=
+=k1K6
+-----END PGP PUBLIC KEY BLOCK-----
+</code></pre></div></div>
 </article>
-<div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../cursos/index.html">← Anterior</a><a class="next" href="osint/index.html">Siguiente →</a></div></div>
+<div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../jimraynor-publickey/index.html">← Anterior</a><a class="next" href="../para-que-usar-pgp/index.html">Siguiente →</a></div></div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
 </div>
@@ -504,9 +598,9 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "search.highlight", "search.suggest", "search.share", "search.term.highlight", "content.code.copy", "content.code.select", "content.code.scroll", "content.code.line-numbers", "content.code.annotate", "content.tabs.link", "content.tooltips", "content.footnote.tooltips", "navigation.instant", "navigation.path", "navigation.tracking"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
-<script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.tabs.sticky", "navigation.indexes", "navigation.prune", "navigation.top", "search.highlight", "search.suggest", "search.share", "search.term.highlight", "content.code.copy", "content.code.select", "content.code.scroll", "content.code.line-numbers", "content.code.annotate", "content.tabs.link", "content.tooltips", "content.footnote.tooltips", "navigation.instant", "navigation.path", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+<script src="../../../assets/javascripts/bundle.3220b9d7.min.js"></script>
 <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
-<script src="../js/kofi_button.js"></script>
+<script src="../../../js/kofi_button.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>

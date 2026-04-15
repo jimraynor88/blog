@@ -6,17 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/acerca_mia/</loc>
+         <loc>https://jim88.pp.ua/acerca_mia/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/acerca_mia/astrologia/</loc>
-         <lastmod>2026-04-15</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jim88.pp.ua/acerca_mia/astrologia/carta_natal/</loc>
+         <loc>https://jim88.pp.ua/acerca_mia/astrologia/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -26,7 +21,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/acerca_mia/astrologia/carta_natal/casas/</loc>
+         <loc>https://jim88.pp.ua/acerca_mia/astrologia/carta_natal/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -91,7 +86,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/acerca_mia/astrologia/perfiles/</loc>
+         <loc>https://jim88.pp.ua/acerca_mia/astrologia/carta_natal/casas/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -102,6 +97,11 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/acerca_mia/astrologia/perfiles/identidad_y_desarrollo_personal/</loc>
+         <lastmod>2026-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/acerca_mia/astrologia/perfiles/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -121,12 +121,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/acerca_mia/conditio_vitae/</loc>
+         <loc>https://jim88.pp.ua/acerca_mia/conditio_vitae/laboral/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/acerca_mia/conditio_vitae/laboral/</loc>
+         <loc>https://jim88.pp.ua/acerca_mia/conditio_vitae/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -146,12 +146,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/blog/tags/</loc>
+         <loc>https://jim88.pp.ua/blog/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/blog/posts/</loc>
+         <loc>https://jim88.pp.ua/blog/tags/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -161,27 +161,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/contacto/</loc>
+         <loc>https://jim88.pp.ua/blog/posts/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/cursos/</loc>
+         <loc>https://jim88.pp.ua/contacto/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jim88.pp.ua/seguridad/</loc>
+         <loc>https://jim88.pp.ua/cursos/noindex/</loc>
+         <lastmod>2026-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/seguridad/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jim88.pp.ua/seguridad/osint/</loc>
-         <lastmod>2026-04-15</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jim88.pp.ua/seguridad/pgp/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -197,6 +197,11 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/seguridad/pgp/jimraynor-publickey/</loc>
+         <lastmod>2026-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/seguridad/pgp/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -222,6 +227,11 @@
     </url>
     <url>
          <loc>https://jim88.pp.ua/tienda/invitame-a-cafe/</loc>
+         <lastmod>2026-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jim88.pp.ua/tienda/noindex/</loc>
          <lastmod>2026-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
