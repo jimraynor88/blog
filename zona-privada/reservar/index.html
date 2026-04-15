@@ -35,7 +35,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#reservar-una-hora-conmigo">
+<a class="md-skip" href="#reserva-una-hora-conmigo">
           Saltar a contenido
         </a>
 </div>
@@ -338,23 +338,61 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<div><h1 id="reservar-una-hora-conmigo">Reservar una hora conmigo<a class="headerlink" href="#reservar-una-hora-conmigo" title="Permanent link">¶</a></h1>
-<div id="disponibilidad">Cargando...</div>
-<p><a class="kofi-button" href="https://ko-fi.com/s/TU_CODIGO_CITA">Reservar por 50€</a></p>
+<div><h1 id="reserva-una-hora-conmigo">Reserva una hora conmigo<a class="headerlink" href="#reserva-una-hora-conmigo" title="Permanent link">¶</a></h1>
+<div id="app">
+<form id="reserva-form">
+<label>Tu nombre:</label>
+<input id="nombre" required="" type="text"/>
+<label>Tu email:</label>
+<input id="email" required="" type="email"/>
+<label>Fecha:</label>
+<input id="fecha" required="" type="date"/>
+<label>Hora:</label>
+<select id="hora" required="">
+<option value="11:00">11:00</option>
+<option value="12:00">12:00</option>
+<option value="13:00">13:00</option>
+<option value="19:00">19:00</option>
+<option value="20:00">20:00</option>
+<option value="21:00">21:00</option>
+</select>
+<button type="submit">Reservar (pago en Ko‑fi)</button>
+</form>
+<div id="mensaje"></div>
+</div>
 <script>
-  fetch('https://tu-worker.tu-usuario.workers.dev/disponible')
-    .then(r => r.json())
-    .then(data => {
-      const div = document.getElementById('disponibilidad');
-      if (data.disponible) {
-        div.innerHTML = '<p style="color: green;">✅ Hay disponibilidad para hoy. ¡Puedes reservar!</p>';
-      } else {
-        div.innerHTML = '<p style="color: red;">❌ Hoy ya hay una cita reservada. Prueba mañana.</p>';
-      }
-    })
-    .catch(() => {
-      document.getElementById('disponibilidad').innerHTML = '<p>Error al consultar disponibilidad.</p>';
+  const workerUrl = 'https://ko-fi-unified-worker.jimraynor.workers.dev';
+
+  document.getElementById('reserva-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const nombre = document.getElementById('nombre').value;
+    const email = document.getElementById('email').value;
+    const fecha = document.getElementById('fecha').value;
+    const hora = document.getElementById('hora').value;
+
+    // Primero consultar disponibilidad
+    const dispRes = await fetch(`${workerUrl}/disponible-franja?fecha=${fecha}&hora=${hora}`);
+    const disp = await dispRes.json();
+    if (!disp.disponible) {
+      document.getElementById('mensaje').innerHTML = '<p style="color:red">❌ Esta franja ya no está libre.</p>';
+      return;
+    }
+
+    // Crear reserva temporal
+    const tempRes = await fetch(`${workerUrl}/reservar-temporal`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ nombre, email, fecha, hora })
     });
+    if (!tempRes.ok) {
+      const err = await tempRes.json();
+      document.getElementById('mensaje').innerHTML = `<p style="color:red">❌ ${err.error || 'Error al reservar'}</p>`;
+      return;
+    }
+
+    // Redirigir a Ko‑fi para pagar (producto de cita)
+    window.location.href = 'https://ko-fi.com/s/2f998ea3b5';
+  });
 </script></div>
 </article>
 <div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../invitados/index.html">← Anterior</a></div></div>
