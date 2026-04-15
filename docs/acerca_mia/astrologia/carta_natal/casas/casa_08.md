@@ -1,7 +1,6 @@
 ---
 title: "Casa 8 – Mi sexualidad, mi transformación, mis recursos compartidos, mis crisis"
-alias: "08"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 # Casa 8 – Mi sexualidad, mi transformación, mis recursos compartidos, mis crisis
