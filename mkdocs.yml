@@ -1,8 +1,6 @@
 site_name: Jim Raynor's site
 site_url: https://jim88.pp.ua
 site_author: "Jim Raynor"
-#repo_url: https://github.com/jimraynor88/jimraynor88.github.io
-#repo_name: GitHub
 #edit_uri: ""
 repo_url: https://ko-fi.com/summary/0fb45a0d-39eb-4147-bf83-c3e87b4085d7
 repo_name: Invítame al Ko-Fi
@@ -63,11 +61,6 @@ extra_css:
   
 plugins:
   - search
-  #- gen-files:
-  #    scripts:
-  #      - scripts/generate_navigation.py
-  #- literate-nav:
-  #    nav_file: SUMMARY.md
   - ezlinks
   - encryptcontent:
       password_file: 'passwords.yml'
@@ -137,6 +130,6 @@ markdown_extensions:
   - attr_list
   - pymdownx.blocks.html
   
-extra_javascript:
-  - https://storage.ko-fi.com/cdn/widget/Widget_2.js
-  - js/kofi_button.js
+#extra_javascript:
+#  - https://storage.ko-fi.com/cdn/widget/Widget_2.js
+ # - js/kofi_button.js
