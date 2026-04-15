@@ -9,3 +9,4 @@ mkdocs-encryptcontent-plugin>=3.1.0
 pymdown-extensions
 mkdocs-wikilinks-plugin
 pyyaml
+mkdocs-awesome-pages-plugin
