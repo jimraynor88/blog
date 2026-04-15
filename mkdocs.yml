@@ -128,3 +128,13 @@ markdown_extensions:
   - tables
   - attr_list
   - pymdownx.blocks.html
+
+nav:
+  - Inicio: index.md
+  - Acerca Mía: acerca_mia/
+  - Seguridad: seguridad/
+  - Cursos: cursos/
+  - Blog: blog/
+  - Tienda: tienda/
+  - Zona Privada: zona-privada/
+  - Contacto: contacto/
