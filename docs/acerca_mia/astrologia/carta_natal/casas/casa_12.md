@@ -1,7 +1,6 @@
 ---
 title: "Casa 12 – Mi inconsciente, mi espiritualidad, mis procesos de soledad y sanación"
-alias: "12"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 # Casa 12 – Mi inconsciente, mi espiritualidad, mis procesos de soledad y sanación
