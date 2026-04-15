@@ -1,5 +1,5 @@
 ---
-title: Mapa del Curso – Índice de índices de AstroTarot
+title: Mapa del Curso
 description: La estructura completa del curso, organizada jerárquicamente. Desde la raíz hasta cada subcarpeta. Todo lo que aprenderás, ordenado.
 ---
 
