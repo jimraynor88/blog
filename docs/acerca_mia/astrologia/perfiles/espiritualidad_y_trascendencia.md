@@ -1,7 +1,6 @@
 ---
 title: "Espiritualidad y Trascendencia"
-alias: "perfil-espiritual"
-tags: "Perfiles"
+level: "astro"
 ---
 
 # Espiritualidad y Trascendencia
