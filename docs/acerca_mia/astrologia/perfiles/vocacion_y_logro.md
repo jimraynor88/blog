@@ -1,7 +1,6 @@
 ---
 Title: "Vocación y Logro"
-alias: "perfil-vocacion"
-tags: "Perfiles"
+level: "astro"
 ---
 
 # Vocación y Logro
