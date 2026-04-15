@@ -63,6 +63,11 @@ extra_css:
   
 plugins:
   - search
+  - gen-files:
+      scripts:
+        - scripts/generate_navigation.py
+  - literate-nav:
+      nav_file: SUMMARY.md
   - ezlinks
   - encryptcontent:
       password_file: 'passwords.yml'
@@ -81,27 +86,8 @@ plugins:
  #       main: [main, tag]
       encrypted_something:
         main: [main, tag]
-#  - encryptcontent:
- #     password_file: 'passwords.yml'   # Carga las contraseñas desde este archivo externo
-  #    webcrypto: false
-   #   password_button: True
-    #  password_button_text: 'Desbloquear'
-     # placeholder: 'Introduce la contraseña'
-      #placeholder_user: 'Usuario (opcional)'  # Si usas usuario/contraseña
-     # summary: '⚠️ Esta página está protegida.'
-    #  decryption_failure_message: '❌ Credenciales incorrectas.'
-   #   encryption_info_message: '🔒 Necesitas credenciales para ver este contenido.'
-  #    remember_password: False
- #     search_index: 'encrypted'
-
-  #- roamlinks_extra
  # - awesome-pages
-  - gen-files:
-      scripts:
-        - scripts/generate_navigation.py
-  - literate-nav:
-      nav_file: SUMMARY.md
-  - section-index
+    - section-index
  # - categories
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
