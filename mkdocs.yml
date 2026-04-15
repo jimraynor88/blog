@@ -82,13 +82,10 @@ plugins:
       summary: '⚠️ Esta página está protegida.'
       decryption_failure_message: '❌ Credenciales incorrectas. Si el problema persiste, recarga la página e inténtalo de nuevo.'
       encryption_info_message: '🔒 Necesitas credenciales para ver este contenido.'
-#      inject:
- #       main: [main, tag]
       encrypted_something:
         main: [main, tag]
  # - awesome-pages
     - section-index
- # - categories
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
       date_from_meta:
@@ -96,22 +93,7 @@ plugins:
         as_update: false            # ← no usa fecha de actualización
       length: 20                    # número de posts en el feed
       abstract_chars_count: 160     # longitud del resumen
-  #- bettertags
-  #- document-dates:
-   #   show_author: true
-    #  date_format: '%A, %d de %B de %Y'
-     # position: top
-      #type: date
-      #exclude:
-       # - tienda/*
-        #- categories/*
-  #- git-revision-date-localized:
-   #   type: date
-    #  enable_creation_date: true
-     # fallback_to_build_date: true
-      #enable_git_follow: false   # añade esta línea
   - glightbox
-  #- minify
   - mkdocs-video
 
 copyright: "Hecho con 💙 por Jim Raynor - 2026"   # texto que aparecerá en el footer
