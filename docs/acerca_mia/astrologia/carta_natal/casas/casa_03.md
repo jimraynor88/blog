@@ -1,7 +1,6 @@
 ---
 title: "Casa 3 – Mi comunicación, mis hermanos, mi entorno cercano"
-alias: "03"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 # Casa 3 – Mi comunicación, mis hermanos, mi entorno cercano
