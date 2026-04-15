@@ -12,6 +12,23 @@ import frontmatter
 from collections import defaultdict
 from datetime import datetime, date
 
+# Mapeo de números de mes a nombres en español
+MESES = {
+    1: 'enero', 2: 'febrero', 3: 'marzo', 4: 'abril',
+    5: 'mayo', 6: 'junio', 7: 'julio', 8: 'agosto',
+    9: 'septiembre', 10: 'octubre', 11: 'noviembre', 12: 'diciembre'
+}
+
+def formatear_fecha(fecha, incluir_año=True):
+    """Devuelve fecha en formato español: '20 de marzo de 2026' o '20 de marzo'."""
+    dia = fecha.day
+    mes = MESES[fecha.month]
+    if incluir_año:
+        año = fecha.year
+        return f"{dia} de {mes} de {año}"
+    else:
+        return f"{dia} de {mes}"
+
 def get_posts(posts_dir):
     """Lee todos los archivos .md de posts_dir y devuelve lista de diccionarios con metadatos y extracto."""
     posts = []
@@ -79,7 +96,7 @@ def write_index(posts, output_file):
 <div class="blog-grid">
 """
     for p in sorted_posts:
-        date_str = p['date'].strftime('%d de %B de %Y')
+        date_str = formatear_fecha(p['date'], incluir_año=True)
         tags_html = ''
         if p['tags']:
             tags_html = '<div class="blog-tags">' + ''.join(f'<span class="blog-tag">{tag}</span>' for tag in p['tags']) + '</div>'
@@ -169,7 +186,7 @@ def write_archive(posts, output_file):
         content += f"## {year}\n\n"
         sorted_posts = sorted(by_year[year], key=lambda p: p['date'], reverse=True)
         for p in sorted_posts:
-            date_str = p['date'].strftime('%d de %B')
+            date_str = formatear_fecha(p['date'], incluir_año=False)
             content += f"- **{date_str}** – [{p['title']}]({p['url']})\n"
         content += "\n"
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -192,7 +209,7 @@ def write_tags(posts, output_file):
         content += f"## {tag}\n\n"
         sorted_posts = sorted(by_tag[tag], key=lambda p: p['date'], reverse=True)
         for p in sorted_posts:
-            date_str = p['date'].strftime('%Y-%m-%d')
+            date_str = formatear_fecha(p['date'], incluir_año=True)
             content += f"- **{date_str}** – [{p['title']}]({p['url']})\n"
         content += "\n"
     with open(output_file, 'w', encoding='utf-8') as f:
