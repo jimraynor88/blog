@@ -6,7 +6,6 @@ protections:
       - "astrologia/index.md"                      # excluye astrologia/index.md
       - "perfiles/index.md"             # excluye perfiles/index.md
       - "carta_natal/index.md"          # excluye carta_natal/index.md
-      - "categories/index.md"
       - "cursos/index.md"
       - "conditio_vitae/*.md"
       - "index.md"
