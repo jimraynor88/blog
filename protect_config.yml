@@ -8,7 +8,7 @@ protections:
       - "carta_natal/index.md"          # excluye carta_natal/index.md
       - "categories/index.md"
       - "cursos/index.md"
-      - "condition_vitae"
+      - "condition_vitae/*.md"
       - "acerca_mia/index.md"
       # NO incluyas "carta_natal/casas/index.md" → ese se protegerá
 
