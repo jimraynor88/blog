@@ -1,5 +1,5 @@
 ---
-title: 🏠
+title: :fontawesome-solid-house:
 hide:
   - navigation
 ---
