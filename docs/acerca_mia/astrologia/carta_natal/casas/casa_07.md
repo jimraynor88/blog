@@ -1,7 +1,6 @@
 ---
 title: "Casa 7 – Mis relaciones de pareja, mis asociaciones, mis enemigos declarados"
-alias: "07"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 # Casa 7 – Mis relaciones de pareja, mis asociaciones, mis enemigos declarados
