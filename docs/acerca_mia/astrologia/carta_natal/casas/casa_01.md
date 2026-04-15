@@ -1,7 +1,6 @@
 ---
 title: "Casa 1 – Mi identidad, mi presencia, mi forma de iniciar"
-alias: "01"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 
