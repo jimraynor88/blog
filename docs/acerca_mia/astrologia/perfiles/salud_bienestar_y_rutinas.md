@@ -1,7 +1,6 @@
 ---
 title: "Salud, Bienestar y Rutinas"
-alias: "perfil-salud"
-tags: "Perfiles"
+level: "astro"
 ---
 
 # Salud, Bienestar y Rutinas
