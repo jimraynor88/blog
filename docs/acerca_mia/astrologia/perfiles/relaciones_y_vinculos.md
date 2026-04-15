@@ -1,7 +1,6 @@
 ---
 title: "Relaciones y Vínculos"
-alias: "perfil-relaciones"
-tags: "Perfiles"
+level: "astro"
 ---
 
 # Relaciones y Vínculos
