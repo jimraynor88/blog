@@ -14,7 +14,7 @@ Bienvenido a mi rincón astrológico. Aquí encontrarás una interpretación det
 
 ### [[carta_natal|Carta Natal]]
 El análisis completo de mi carta natal, incluyendo:<br>
-- Las **[[casas|12 casas astrológicas]]** con su significado personal.<br>
+- Las **[[carta_natal/casas|12 casas astrológicas]]** con su significado personal.<br>
 - Los **[[aspectos_natales|aspectos planetarios]]** que tejen la trama de mi personalidad.<br>
 - Una **[[carta_natal|visión general]]** integradora.<br>
 
