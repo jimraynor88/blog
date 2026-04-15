@@ -77,8 +77,8 @@ plugins:
       encryption_info_message: '🔒 Necesitas credenciales para ver este contenido.'
       encrypted_something:
         main: [main, tag]
-  - section-index
   - awesome-pages
+  - section-index
   - rss:
       match_path: "blog/posts/.*"   # ← así se filtran los posts (regex)
       date_from_meta:
