@@ -1,10 +1,9 @@
 ---
-title: 
-author: Jim Raynor
-tags:
-  - 
-date: {{date}}
-draft: false
-image: /assets/images/portada.jpg
-description: Breve resumen para el listado
+title: "Titulo"
+date: "2026-12-31"
+draft: "false"
+image: "/assets/images/portada.jpg"
+description: "Breve resumen para el listado"
+summary: "Otro resumen"
+level: "tipo"
 ---
