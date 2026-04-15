@@ -1,7 +1,5 @@
 ---
 title: "Mi Carta Natal - Índice"
-alias: "index"
-tags: "Carta Natal"
 ---
 
 
