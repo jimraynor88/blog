@@ -95,7 +95,12 @@ plugins:
  #     search_index: 'encrypted'
 
   #- roamlinks_extra
-  - awesome-pages
+ # - awesome-pages
+ - gen-files:
+      scripts:
+        - scripts/generate_navigation.py
+  - literate-nav:
+      nav_file: SUMMARY.md
   - section-index
  # - categories
   - rss:
