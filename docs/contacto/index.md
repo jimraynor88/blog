@@ -46,7 +46,7 @@ Si quieres comunicarte conmigo de forma segura, utiliza este formulario. Tu mens
 
 <div class="form-group action-buttons">
   <button id="encryptBtn">1. Cifrar mensaje</button>
-  <button id="copyBtn" disabled>2. Copiar mensaje cifrado</button>
+  <button id="copyBtn" disabled>2. Copiar mensaje</button>
   <button id="sendBtn" disabled>3. Enviar mensaje</button>
 </div>
 
