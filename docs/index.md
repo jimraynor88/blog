@@ -2,6 +2,7 @@
 title: 🏠
 hide:
   - navigation
+  - title
 ---
 
 ## 🏠 Bienvenido
