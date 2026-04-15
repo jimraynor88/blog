@@ -13,10 +13,10 @@ Bienvenido a mi rincón astrológico. Aquí encontrarás una interpretación det
 ## 🌌 Contenido principal
 
 ### [[carta_natal|Carta Natal]]
-El análisis completo de mi carta natal, incluyendo:
-- Las **[[casas/index.html|12 casas astrológicas]]** con su significado personal.
-- Los **[[aspectos_natales|aspectos planetarios]]** que tejen la trama de mi personalidad.
-- Una **[[carta_natal|visión general]]** integradora.
+El análisis completo de mi carta natal, incluyendo:<br>
+- Las **[[casas/index.html|12 casas astrológicas]]** con su significado personal.<br>
+- Los **[[aspectos_natales|aspectos planetarios]]** que tejen la trama de mi personalidad.<br>
+- Una **[[carta_natal|visión general]]** integradora.<br>
 
 ### [[perfiles|Perfiles Astrológicos]]
 Cinco perfiles temáticos que recorren áreas clave de mi vida:<br>
