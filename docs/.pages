@@ -1,7 +1,7 @@
 # docs/.pages
 nav:
   - index.md
-  - acerca_mia
+  - acerca_mia/astrologia
   - seguridad
   - blog
   - cursos
