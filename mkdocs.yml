@@ -96,7 +96,7 @@ plugins:
 
   #- roamlinks_extra
  # - awesome-pages
- - gen-files:
+  - gen-files:
       scripts:
         - scripts/generate_navigation.py
   - literate-nav:
