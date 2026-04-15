@@ -1,7 +1,6 @@
 ---
 title: "Casa 6 – Mi salud, mi trabajo diario, mis rutinas, mi servicio"
-alias: "06"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 # Casa 6 – Mi salud, mi trabajo diario, mis rutinas, mi servicio
