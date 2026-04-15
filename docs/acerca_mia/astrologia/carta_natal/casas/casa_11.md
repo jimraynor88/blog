@@ -1,7 +1,6 @@
 ---
 title: "Casa 11 – Mis amistades, mis grupos, mis ideales, mis proyectos colectivos"
-alias: "11"
-tags: "Carta Natal"
+level: "astro"
 ---
 
 # Casa 11 – Mis amistades, mis grupos, mis ideales, mis proyectos colectivos
