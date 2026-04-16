@@ -5,14 +5,13 @@ description: Agenda una hora en exclusiva con Jim Raynor a través de Telegram
 
 # Reservar una hora conmigo
 
+## ¿Cómo funciona?
 <div class="reserva-container">
 
-## ¿Cómo funciona?
-
-1. **Elige fecha y hora** disponibles en el calendario.
-2. **Rellena tus datos** (nombre y email). Te enviaremos la confirmación.
-3. **Realiza el pago** en Ko‑fi (50€). Una vez confirmado, recibirás un email con el enlace a un grupo privado de Telegram.
-4. **Únete a la videollamada** en la hora acordada. Podrás usar cualquier cliente de Telegram, aunque para Android se recomienda **MoMoGram** (con soporte PGP integrado).
+1. **Elige fecha y hora** disponibles en el calendario.<br>
+2. **Rellena tus datos** (nombre y email). Te enviaremos la confirmación.<br>
+3. **Realiza el pago** en Ko‑fi (50€). Una vez confirmado, recibirás un email con el enlace a un grupo privado de Telegram.<br>
+4. **Únete a la videollamada** en la hora acordada. Podrás usar cualquier cliente de Telegram, aunque para Android se recomienda **MoMoGram** (con soporte PGP integrado).<br>
 
 </div>
 
