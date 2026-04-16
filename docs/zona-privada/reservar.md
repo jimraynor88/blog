@@ -76,7 +76,7 @@ La sesión se realizará a través de un **grupo privado de Telegram**. Allí po
 
 ### Clientes recomendados
 
-- **MoMoGram** (Android): [Descargar en F-Droid](https://f-droid.org/packages/org.telegram.momogram/) | [GitHub](https://github.com/telegrammomogram/momogram)
+- **MoMoGram** (Android): [GitHub](https://github.com/dic1911/Momogram) | [Canal de MoMoGram en Telegram](https://t.me/s/momogram_update)
   *Ventaja: integra OpenKeychain para cifrar mensajes con PGP.*
 - **Telegram oficial**: [Web](https://web.telegram.org), [iOS](https://apps.apple.com/app/telegram-messenger/id686449807), [Android](https://play.google.com/store/apps/details?id=org.telegram.messenger)
 
