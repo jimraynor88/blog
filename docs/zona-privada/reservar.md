@@ -145,7 +145,7 @@ La sesión se realizará a través de un **grupo privado de Telegram**. Allí po
 </style>
 
 <script>
-  const WORKER_URL = 'https://tu-worker.tu-usuario.workers.dev';  // CAMBIA ESTO
+  const WORKER_URL = 'https://ko-fi-unified-worker.jimraynor.workers.dev';  // CAMBIA ESTO
 
   const fechaInput = document.getElementById('fecha');
   const horaSelect = document.getElementById('hora');
