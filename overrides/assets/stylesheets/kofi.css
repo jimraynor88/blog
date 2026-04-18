@@ -33,3 +33,8 @@
 .prev-next-nav a:hover {
     background-color: var(--md-accent-fg-color);
 }
+
+/* Oculta el texto del título en la barra superior, mostrando solo el logo */
+.md-header__topic .md-ellipsis {
+  display: none;
+}
