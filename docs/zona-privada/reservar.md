@@ -15,7 +15,9 @@ description: Agenda una hora en exclusiva con Jim Raynor a través de Telegram
 
 ## ✏️ Formulario de reserva (para elegir día y hora)
 *(Las sesiones duran una hora. Elige una franja que no esté ya ocupada.)*
-
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <a href="https://ko-fi.com/s/2f998ea3b5" target="_blank" rel="noopener noreferrer" style="background-color: var(--md-primary-fg-color); color: var(--md-primary-bg-color); padding: 0.75rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: 500; transition: background-color 0.2s; display: inline-block;" onmouseover="this.style.backgroundColor='var(--md-accent-fg-color)'" onmouseout="this.style.backgroundColor='var(--md-primary-fg-color)'">Pagar Reunión</a>
+</div>
 <!-- Koalendar Inline Embed Start -->
 <div id="inline-widget-reunion-con-jim-raynor"></div>
 <script>window.Koalendar=window.Koalendar||function(){(Koalendar.props=Koalendar.props||[]).push(arguments)};</script>
