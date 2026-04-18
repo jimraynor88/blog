@@ -1,5 +1,5 @@
 ---
-title: <i class="fa fa-home"></i>
+title: ""
 hide:
   - navigation
 ---
