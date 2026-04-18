@@ -8,7 +8,7 @@ description: Agenda una hora en exclusiva con Jim Raynor a través de Telegram
 1. **Elige fecha y hora** disponibles en el calendario.<br>
 2. **Rellena tus datos** (@UsuarioDeTelegram y email). Recibirás confirmación.<br>
 3. **Realiza el pago** en Ko‑fi (28,10€). Una vez confirmado, recibirás un email con la referencia de la compra (ej. `Ref: S-XXXXXXXXXX`).<br>
-4. **Yo confirmaré la cita** y te proporcionaré el enlace del grupo privado de telegram<br>
+4. **Yo confirmaré la cita** y te agregaré al grupo privado de telegram. RECUERDA: debes tener habilitado que te agreguen a grupos privados en la config de Telegram.<br>
 5. **Únete a la llamada** en la hora acordada.<br>
 
 ---
