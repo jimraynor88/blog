@@ -5,15 +5,17 @@ description: Agenda una hora en exclusiva con Jim Raynor a través de Telegram
 
 # Reservar una hora conmigo
 
+<div class="reserva-container">
+
 ## ¿Cómo funciona?
 
-1. **Elige fecha y hora** disponibles en el calendario.<br>
-2. **Rellena tus datos** (nombre y email). Te enviaremos la confirmación.<br>
-3. **Realiza el pago** en Ko‑fi (28,10€). Una vez confirmado, recibirás un email con el enlace a un grupo privado de Telegram.<br>
-4. **Únete a la videollamada** en la hora acordada.<br><br>
-Podrás usar cualquier cliente de Telegram, aunque para Android se recomienda **MoMoGram** (con soporte PGP integrado).<br>
+1. **Elige fecha y hora** disponibles en el calendario.
+2. **Rellena tus datos** (nombre y email). Te enviaremos la confirmación.
+3. **Realiza el pago** en Ko‑fi (28,10€). Una vez confirmado, recibirás un email con la referencia de la compra (ej. `S-XXXXXXXXXX`).
+4. **Vuelve a esta página e introduce la referencia** para obtener el enlace al grupo privado de Telegram.
+5. **Únete a la videollamada** en la hora acordada.
 
-<div class="reserva-container"></div>
+</div>
 
 ---
 
@@ -26,7 +28,7 @@ Podrás usar cualquier cliente de Telegram, aunque para Android se recomienda **
 
 ---
 
-## ✏️ Formulario de reserva
+## ✏️ Formulario de reserva (para elegir día y hora)
 
 <div class="formulario-reserva">
 
@@ -39,7 +41,7 @@ Podrás usar cualquier cliente de Telegram, aunque para Android se recomienda **
   <div class="form-group">
     <label for="email">Correo electrónico:</label>
     <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
-    <small>Te enviaremos la confirmación y el enlace al grupo.</small>
+    <small>Usaremos este email para asociar tu reserva.</small>
   </div>
 
   <div class="form-group">
@@ -69,27 +71,50 @@ Podrás usar cualquier cliente de Telegram, aunque para Android se recomienda **
 
 ---
 
+## 🔐 Validar tu compra (obtener enlace a Telegram)
+
+Si ya has pagado y recibiste la referencia de Ko‑fi, introdúcela aquí junto con tu email para acceder al grupo.
+
+<div class="validacion-container">
+
+<div class="form-group">
+  <label for="ref-email">Tu email (el mismo que usaste en la reserva):</label>
+  <input type="email" id="ref-email" placeholder="tucorreo@ejemplo.com">
+</div>
+
+<div class="form-group">
+  <label for="ref-code">Referencia de Ko‑fi:</label>
+  <input type="text" id="ref-code" placeholder="Ej: S-Y8Y81XWQP3">
+  <small>Es el código que recibiste por email, empieza por <code>S-</code>.</small>
+</div>
+
+<button id="validar-ref-btn" class="validar-btn">Validar y obtener enlace</button>
+
+<div id="resultado-validacion" style="margin-top: 1rem;"></div>
+
+</div>
+
+---
+
 ## 💬 ¿Por qué Telegram?
 
 La sesión se realizará a través de un **grupo privado de Telegram**. Allí podremos hacer videollamada, compartir pantalla, enviar archivos y chatear. Telegram es multiplataforma y gratuito.
 
 ### Clientes recomendados
 
-- **MoMoGram** (Android): [GitHub](https://github.com/dic1911/Momogram) | [Canal de MoMoGram en Telegram](https://t.me/s/momogram_update)
+- **MoMoGram** (Android): [GitHub](https://github.com/dic1911/Momogram) | [Canal de Telegram](https://t.me/s/momogram_update)
   *Ventaja: integra OpenKeychain para cifrar mensajes con PGP.*
 - **Telegram oficial**: [Web](https://web.telegram.org), [iOS](https://apps.apple.com/app/telegram-messenger/id686449807), [Android](https://play.google.com/store/apps/details?id=org.telegram.messenger)
-
-> **Nota:** Si no tienes Telegram, regístrate con tu número de móvil (es rápido y no requiere datos personales).
 
 ---
 
 ## 🔐 Privacidad y seguridad
 
-- Tu email solo se usará para enviarte la confirmación y el enlace.
-- El grupo de Telegram es efímero: se crea una nueva sala para cada reserva (o se reutiliza el mismo grupo, pero con acceso controlado por el enlace de invitación). En cualquier caso, tus datos están protegidos.
+- Tu email solo se usará para asociar la reserva y enviarte el enlace.
+- El grupo de Telegram es privado y el enlace de invitación es fijo (puedes regenerarlo si lo deseas).
 
 <style>
-.reserva-container, .formulario-reserva {
+.reserva-container, .formulario-reserva, .validacion-container {
   background: var(--md-default-bg-color);
   padding: 1rem;
   border-radius: 8px;
@@ -129,7 +154,7 @@ La sesión se realizará a través de un **grupo privado de Telegram**. Allí po
   background: #f8d7da;
   color: #721c24;
 }
-.reservar-btn {
+.reservar-btn, .validar-btn {
   background-color: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
   border: none;
@@ -139,24 +164,26 @@ La sesión se realizará a través de un **grupo privado de Telegram**. Allí po
   cursor: pointer;
   transition: background 0.2s;
 }
-.reservar-btn:hover {
+.reservar-btn:hover, .validar-btn:hover {
   background-color: var(--md-accent-fg-color);
+}
+.validacion-container {
+  border-top: 2px solid var(--md-primary-fg-color);
 }
 </style>
 
 <script>
-  const WORKER_URL = 'https://ko-fi-unified-worker.jimraynor.workers.dev';  // CAMBIA ESTO
+  const WORKER_URL = 'https://ko-fi-unified-worker.jimraynor.workers.dev';  // Ajusta si es diferente
 
+  // --- Lógica del formulario de reserva (ya existente) ---
   const fechaInput = document.getElementById('fecha');
   const horaSelect = document.getElementById('hora');
   const disponibilidadMsg = document.getElementById('disponibilidad-msg');
 
-  // Validar disponibilidad cuando cambia fecha u hora
   async function checkDisponibilidad() {
     const fecha = fechaInput.value;
     const hora = horaSelect.value;
     if (!fecha || !hora) return;
-
     try {
       const res = await fetch(`${WORKER_URL}/disponible-franja?fecha=${fecha}&hora=${hora}`);
       const data = await res.json();
@@ -183,7 +210,7 @@ La sesión se realizará a través de un **grupo privado de Telegram**. Allí po
     const fecha = fechaInput.value;
     const hora = horaSelect.value;
 
-    // Primero comprobar disponibilidad otra vez (por si acaso)
+    // Verificar disponibilidad otra vez
     const dispRes = await fetch(`${WORKER_URL}/disponible-franja?fecha=${fecha}&hora=${hora}`);
     const disp = await dispRes.json();
     if (!disp.disponible) {
@@ -207,5 +234,38 @@ La sesión se realizará a través de un **grupo privado de Telegram**. Allí po
 
     // Redirigir a Ko‑fi para pagar
     window.location.href = 'https://ko-fi.com/s/2f998ea3b5';
+  });
+
+  // --- Lógica de validación de referencia ---
+  document.getElementById('validar-ref-btn').addEventListener('click', async () => {
+    const email = document.getElementById('ref-email').value.trim();
+    const ref = document.getElementById('ref-code').value.trim();
+    const resultadoDiv = document.getElementById('resultado-validacion');
+
+    if (!email || !ref) {
+      resultadoDiv.innerHTML = '<p style="color: red;">❌ Debes introducir tu email y la referencia.</p>';
+      return;
+    }
+
+    resultadoDiv.innerHTML = '<p>🔍 Verificando...</p>';
+    try {
+      const res = await fetch(`${WORKER_URL}/verificar-referencia`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, referencia: ref })
+      });
+      const data = await res.json();
+      if (data.success && data.enlace) {
+        resultadoDiv.innerHTML = `
+          <p style="color: green;">✅ Cita confirmada. Haz clic en el enlace para unirte al grupo de Telegram:</p>
+          <p><a href="${data.enlace}" target="_blank" rel="noopener noreferrer">${data.enlace}</a></p>
+          <small>El enlace es válido para la sesión reservada. Preséntate con tu nombre y la hora acordada.</small>
+        `;
+      } else {
+        resultadoDiv.innerHTML = `<p style="color: red;">❌ ${data.error || 'No se pudo validar la referencia. Comprueba que el email y la referencia son correctos.'}</p>`;
+      }
+    } catch (err) {
+      resultadoDiv.innerHTML = '<p style="color: red;">❌ Error de conexión. Inténtalo de nuevo más tarde.</p>';
+    }
   });
 </script>
