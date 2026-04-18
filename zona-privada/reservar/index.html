@@ -36,7 +36,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#reservar-una-hora-conmigo">
+<a class="md-skip" href="#como-funciona">
           Saltar a contenido
         </a>
 </div>
@@ -340,23 +340,9 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#horarios-disponibles">
-<span class="md-ellipsis">
-      📅 Horarios disponibles
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#formulario-de-reserva-para-elegir-dia-y-hora">
 <span class="md-ellipsis">
       ✏️ Formulario de reserva (para elegir día y hora)
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#validar-tu-compra-obtener-enlace-a-telegram">
-<span class="md-ellipsis">
-      🔐 Validar tu compra (obtener enlace a Telegram)
     </span>
 </a>
 </li>
@@ -413,23 +399,9 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#horarios-disponibles">
-<span class="md-ellipsis">
-      📅 Horarios disponibles
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#formulario-de-reserva-para-elegir-dia-y-hora">
 <span class="md-ellipsis">
       ✏️ Formulario de reserva (para elegir día y hora)
-    </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#validar-tu-compra-obtener-enlace-a-telegram">
-<span class="md-ellipsis">
-      🔐 Validar tu compra (obtener enlace a Telegram)
     </span>
 </a>
 </li>
@@ -465,75 +437,27 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<div><h1 id="reservar-una-hora-conmigo">Reservar una hora conmigo<a class="headerlink" href="#reservar-una-hora-conmigo" title="Permanent link">¶</a></h1>
-<h2 id="como-funciona">¿Cómo funciona?<a class="headerlink" href="#como-funciona" title="Permanent link">¶</a></h2>
+<h1>Reservar una sesión personalizada</h1>
+<div><h2 id="como-funciona">¿Cómo funciona?<a class="headerlink" href="#como-funciona" title="Permanent link">¶</a></h2>
 <ol>
 <li><strong>Elige fecha y hora</strong> disponibles en el calendario.<br/></li>
-<li><strong>Rellena tus datos</strong> (nombre y email). Te enviaremos la confirmación.<br/></li>
-<li><strong>Realiza el pago</strong> en Ko‑fi (28,10€). Una vez confirmado, recibirás un email con la referencia de la compra (ej. <code>S-XXXXXXXXXX</code>).<br/></li>
-<li><strong>Vuelve a esta página e introduce la referencia</strong> para obtener el enlace al grupo privado de Telegram.<br/></li>
-<li><strong>Únete a la videollamada</strong> en la hora acordada.<br/></li>
+<li><strong>Rellena tus datos</strong> (@UsuarioDeTelegram y email). Recibirás confirmación.<br/></li>
+<li><strong>Realiza el pago</strong> en Ko‑fi (28,10€). Una vez confirmado, recibirás un email con la referencia de la compra (ej. <code>Ref: S-XXXXXXXXXX</code>).<br/></li>
+<li><strong>Yo confirmaré la cita</strong> y te proporcionaré el enlace del grupo privado de telegram<br/></li>
+<li><strong>Únete a la llamada</strong> en la hora acordada.<br/></li>
 </ol>
-<div class="reserva-container"></div>
-<hr/>
-<h2 id="horarios-disponibles">📅 Horarios disponibles<a class="headerlink" href="#horarios-disponibles" title="Permanent link">¶</a></h2>
-<ul>
-<li><strong>Mañana:</strong> 11:00, 12:00, 13:00</li>
-<li><strong>Tarde/noche:</strong> 19:00, 20:00, 21:00</li>
-</ul>
-<p><em>(Las sesiones duran una hora. Elige una franja que no esté ya ocupada.)</em></p>
 <hr/>
 <h2 id="formulario-de-reserva-para-elegir-dia-y-hora">✏️ Formulario de reserva (para elegir día y hora)<a class="headerlink" href="#formulario-de-reserva-para-elegir-dia-y-hora" title="Permanent link">¶</a></h2>
-<div class="formulario-reserva">
-<form id="reserva-form">
-<div class="form-group">
-<label for="nombre">Tu nombre o alias:</label>
-<input id="nombre" name="nombre" placeholder="Ej: Jim Raynor" required="" type="text"/>
-</div>
-<div class="form-group">
-<label for="email">Correo electrónico:</label>
-<input id="email" name="email" placeholder="tucorreo@ejemplo.com" required="" type="email"/>
-<small>Usaremos este email para asociar tu reserva.</small>
-</div>
-<div class="form-group">
-<label for="fecha">Fecha:</label>
-<input id="fecha" name="fecha" required="" type="date"/>
-</div>
-<div class="form-group">
-<label for="hora">Hora:</label>
-<select id="hora" name="hora" required="">
-<option value="">-- Selecciona una hora --</option>
-<option value="11:00">11:00</option>
-<option value="12:00">12:00</option>
-<option value="13:00">13:00</option>
-<option value="19:00">19:00</option>
-<option value="20:00">20:00</option>
-<option value="21:00">21:00</option>
-</select>
-</div>
-<div class="info-mensaje" id="disponibilidad-msg"></div>
-<button class="reservar-btn" type="submit">Reservar y pagar en Ko‑fi</button>
-</form>
-</div>
-<hr/>
-<h2 id="validar-tu-compra-obtener-enlace-a-telegram">🔐 Validar tu compra (obtener enlace a Telegram)<a class="headerlink" href="#validar-tu-compra-obtener-enlace-a-telegram" title="Permanent link">¶</a></h2>
-<p>Si ya has pagado y recibiste la referencia de Ko‑fi, introdúcela aquí junto con tu email para acceder al grupo.</p>
-<div class="validacion-container">
-<div class="form-group">
-<label for="ref-email">Tu email (el mismo que usaste en la reserva):</label>
-<input id="ref-email" placeholder="tucorreo@ejemplo.com" type="email"/>
-</div>
-<div class="form-group">
-<label for="ref-code">Referencia de Ko‑fi:</label>
-<input id="ref-code" placeholder="Ej: S-Y8Y81XWQP3" type="text"/>
-<small>Es el código que recibiste por email, empieza por <code>S-</code>.</small>
-</div>
-<button class="validar-btn" id="validar-ref-btn">Validar y obtener enlace</button>
-<div id="resultado-validacion" style="margin-top: 1rem;"></div>
-</div>
+<p><em>(Las sesiones duran una hora. Elige una franja que no esté ya ocupada.)</em></p>
+<!-- Koalendar Inline Embed Start -->
+<div id="inline-widget-reunion-con-jim-raynor"></div>
+<script>window.Koalendar=window.Koalendar||function(){(Koalendar.props=Koalendar.props||[]).push(arguments)};</script>
+<script async="" src="https://koalendar.com/assets/widget.js"></script>
+<script>Koalendar('inline', {"url":"https://koalendar.com/e/reunion-con-jim-raynor","selector":"#inline-widget-reunion-con-jim-raynor"});</script>
+<!-- Koalendar Inline Embed End -->
 <hr/>
 <h2 id="por-que-telegram">💬 ¿Por qué Telegram?<a class="headerlink" href="#por-que-telegram" title="Permanent link">¶</a></h2>
-<p>La sesión se realizará a través de un <strong>grupo privado de Telegram</strong>. Allí podremos hacer videollamada, compartir pantalla, enviar archivos y chatear. Telegram es multiplataforma y gratuito.</p>
+<p>La sesión se realizará a través de un <strong>grupo privado de Telegram</strong>. Allí podremos hacer una llamada, compartir pantalla, enviar archivos y chatear. Telegram es multiplataforma y gratuito.</p>
 <h3 id="clientes-recomendados">Clientes recomendados<a class="headerlink" href="#clientes-recomendados" title="Permanent link">¶</a></h3>
 <ul>
 <li><strong>MoMoGram</strong> (Android): <a href="https://github.com/dic1911/Momogram">GitHub</a> | <a href="https://t.me/s/momogram_update">Canal de Telegram</a>
@@ -544,163 +468,8 @@
 <h2 id="privacidad-y-seguridad">🔐 Privacidad y seguridad<a class="headerlink" href="#privacidad-y-seguridad" title="Permanent link">¶</a></h2>
 <ul>
 <li>Tu email solo se usará para asociar la reserva y enviarte el enlace.</li>
-<li>El grupo de Telegram es privado y el enlace de invitación es fijo (puedes regenerarlo si lo deseas).</li>
-</ul>
-<style>
-.reserva-container, .formulario-reserva, .validacion-container {
-  background: var(--md-default-bg-color);
-  padding: 1rem;
-  border-radius: 8px;
-  margin-bottom: 2rem;
-}
-.form-group {
-  margin-bottom: 1.2rem;
-}
-.form-group label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 0.3rem;
-}
-.form-group input, .form-group select {
-  width: 100%;
-  padding: 0.6rem;
-  border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: 4px;
-  background: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
-}
-.form-group small {
-  display: block;
-  margin-top: 0.2rem;
-  color: var(--md-default-fg-color--light);
-}
-.info-mensaje {
-  margin-top: 1rem;
-  padding: 0.5rem;
-  border-radius: 4px;
-}
-.info-mensaje.success {
-  background: #d4edda;
-  color: #155724;
-}
-.info-mensaje.error {
-  background: #f8d7da;
-  color: #721c24;
-}
-.reservar-btn, .validar-btn {
-  background-color: var(--md-primary-fg-color);
-  color: var(--md-primary-bg-color);
-  border: none;
-  padding: 0.7rem 1.5rem;
-  border-radius: 4px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-.reservar-btn:hover, .validar-btn:hover {
-  background-color: var(--md-accent-fg-color);
-}
-.validacion-container {
-  border-top: 2px solid var(--md-primary-fg-color);
-}
-</style>
-<script>
-  const WORKER_URL = 'https://ko-fi-unified-worker.jimraynor.workers.dev';  // Ajusta si es diferente
-
-  // --- Lógica del formulario de reserva (ya existente) ---
-  const fechaInput = document.getElementById('fecha');
-  const horaSelect = document.getElementById('hora');
-  const disponibilidadMsg = document.getElementById('disponibilidad-msg');
-
-  async function checkDisponibilidad() {
-    const fecha = fechaInput.value;
-    const hora = horaSelect.value;
-    if (!fecha || !hora) return;
-    try {
-      const res = await fetch(`${WORKER_URL}/disponible-franja?fecha=${fecha}&hora=${hora}`);
-      const data = await res.json();
-      if (data.disponible) {
-        disponibilidadMsg.innerHTML = '<span class="success">✅ Horario disponible. Puedes reservar.</span>';
-        disponibilidadMsg.className = 'info-mensaje success';
-      } else {
-        disponibilidadMsg.innerHTML = '<span class="error">❌ Horario no disponible. Elige otro.</span>';
-        disponibilidadMsg.className = 'info-mensaje error';
-      }
-    } catch (err) {
-      disponibilidadMsg.innerHTML = '<span class="error">Error al verificar disponibilidad.</span>';
-      disponibilidadMsg.className = 'info-mensaje error';
-    }
-  }
-
-  fechaInput.addEventListener('change', checkDisponibilidad);
-  horaSelect.addEventListener('change', checkDisponibilidad);
-
-  document.getElementById('reserva-form').addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const nombre = document.getElementById('nombre').value;
-    const email = document.getElementById('email').value;
-    const fecha = fechaInput.value;
-    const hora = horaSelect.value;
-
-    // Verificar disponibilidad otra vez
-    const dispRes = await fetch(`${WORKER_URL}/disponible-franja?fecha=${fecha}&hora=${hora}`);
-    const disp = await dispRes.json();
-    if (!disp.disponible) {
-      disponibilidadMsg.innerHTML = '<span class="error">❌ Horario no disponible. Elige otro.</span>';
-      disponibilidadMsg.className = 'info-mensaje error';
-      return;
-    }
-
-    // Crear reserva temporal
-    const tempRes = await fetch(`${WORKER_URL}/reservar-temporal`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ nombre, email, fecha, hora })
-    });
-    if (!tempRes.ok) {
-      const errorData = await tempRes.json();
-      disponibilidadMsg.innerHTML = `<span class="error">❌ ${errorData.error || 'Error al reservar temporalmente'}</span>`;
-      disponibilidadMsg.className = 'info-mensaje error';
-      return;
-    }
-
-    // Redirigir a Ko‑fi para pagar
-    window.location.href = 'https://ko-fi.com/s/2f998ea3b5';
-  });
-
-  // --- Lógica de validación de referencia ---
-  document.getElementById('validar-ref-btn').addEventListener('click', async () => {
-    const email = document.getElementById('ref-email').value.trim();
-    const ref = document.getElementById('ref-code').value.trim();
-    const resultadoDiv = document.getElementById('resultado-validacion');
-
-    if (!email || !ref) {
-      resultadoDiv.innerHTML = '<p style="color: red;">❌ Debes introducir tu email y la referencia.</p>';
-      return;
-    }
-
-    resultadoDiv.innerHTML = '<p>🔍 Verificando...</p>';
-    try {
-      const res = await fetch(`${WORKER_URL}/verificar-referencia`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, referencia: ref })
-      });
-      const data = await res.json();
-      if (data.success && data.enlace) {
-        resultadoDiv.innerHTML = `
-          <p style="color: green;">✅ Cita confirmada. Haz clic en el enlace para unirte al grupo de Telegram:</p>
-          <p><a href="${data.enlace}" target="_blank" rel="noopener noreferrer">${data.enlace}</a></p>
-          <small>El enlace es válido para la sesión reservada. Preséntate con tu nombre y la hora acordada.</small>
-        `;
-      } else {
-        resultadoDiv.innerHTML = `<p style="color: red;">❌ ${data.error || 'No se pudo validar la referencia. Comprueba que el email y la referencia son correctos.'}</p>`;
-      }
-    } catch (err) {
-      resultadoDiv.innerHTML = '<p style="color: red;">❌ Error de conexión. Inténtalo de nuevo más tarde.</p>';
-    }
-  });
-</script></div>
+<li>El grupo de Telegram es privado y el enlace de invitación es fijo.</li>
+</ul></div>
 </article>
 <div class="prev-next-nav" style="display: flex; justify-content: space-between; margin-top: 2rem;"><a class="prev" href="../invitados/index.html">← Anterior</a></div></div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
