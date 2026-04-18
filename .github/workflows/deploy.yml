@@ -57,6 +57,7 @@ jobs:
          LEVEL_INVITADOS_USER1: ${{ secrets.LEVEL_INVITADOS_USER1 }}
          LEVEL_INVITADOS_USER2: ${{ secrets.LEVEL_INVITADOS_USER2 }}
          LEVEL_INVITADOS_USER3: ${{ secrets.LEVEL_INVITADOS_USER3 }}
+         LEVEL_SEGURIDAD: ${{ secrets.LEVEL_SEGURIDAD }}
          
       - name: Add prev/next links
         run: python scripts/add_prev_next.py site   # pasa el directorio de salida
